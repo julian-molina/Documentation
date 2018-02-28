@@ -8,7 +8,7 @@ If you are interested in coding your own crypto trading bots and eventually part
 
 * [Introduction](https://github.com/AdvancedAlgos/Documentation/wiki)
 * [Getting Started Guide](https://github.com/AdvancedAlgos/Documentation/wiki/Overview)
-* [Bot's README Files](https://github.com/AdvancedAlgos/Documentation/wiki/Bot's-README-Files)
+* [Best Practices](https://github.com/AdvancedAlgos/Documentation/wiki/Bot's-README-Files)
 
 ## About the AA Project
 
