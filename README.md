@@ -6,13 +6,13 @@ The project's documentation wiki is currently disabled. Please refer to this doc
 
 ~~The project's documentation is being handled through this repository's Wiki. The repository itself holds media files and other resources used throughout the Wiki.~~
 
-## Get Involved
+<!--- ## Get Involved
 
 If you are interested in coding your own crypto trading bots and eventually participate in our competitions, this is how you can get started:
 
 * [Introduction](https://github.com/AdvancedAlgos/Documentation/wiki)
 * [Getting Started Guide](https://github.com/AdvancedAlgos/Documentation/wiki/Overview)
-* [Best Practices](https://github.com/AdvancedAlgos/Documentation/wiki/Bot's-README-Files)
+* [Best Practices](https://github.com/AdvancedAlgos/Documentation/wiki/Bot's-README-Files)--->
 
 ## About the AA Project
 
