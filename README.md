@@ -1,6 +1,10 @@
-# Documentation
+# DOCUMENTATION NOTICE
 
-The project's documentation is being handled through this repository's Wiki. The repository itself holds media files and other resources used throughout the Wiki.
+The project's documentation wiki is currently disabled. Please refer to this document instead: [First Closed Doors Competition Documentation](https://github.com/AAArena/First-Closed-Doors-Competition/blob/master/README.md).
+
+# ~~Documentation~~
+
+~~The project's documentation is being handled through this repository's Wiki. The repository itself holds media files and other resources used throughout the Wiki.~~
 
 ## Get Involved
 
