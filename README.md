@@ -2,10 +2,6 @@
 
 The project's documentation wiki is currently disabled. Please refer to this document instead: [First Closed Doors Competition Documentation](https://github.com/AAArena/First-Closed-Doors-Competition/blob/master/README.md).
 
-# ~~Documentation~~
-
-~~The project's documentation is being handled through this repository's Wiki. The repository itself holds media files and other resources used throughout the Wiki.~~
-
 <!--- ## Get Involved
 
 If you are interested in coding your own crypto trading bots and eventually participate in our competitions, this is how you can get started:
@@ -26,7 +22,7 @@ Both the AA Platform and AA Bots are programed in JavaScript.
 
 ## Disclaimer
 
-THE AACLOUD AND ITS ASSOCIATED PRODUCTS AND SERVICES ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, SUITABILITY FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+THE AAPLATFORM AND ITS ASSOCIATED PRODUCTS AND SERVICES ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, SUITABILITY FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
 
 IN NO EVENT WILL ADVANCED ALGOS BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, SPECIAL OR OTHER CONSEQUENTIAL DAMAGES FOR ANY USE OF THE AACLOUD, THE AA ARENA COMPETITION, THE AA MASTERS BOTS, OR ANY OTHER ASSOCIATED SERVICE OR WEB SITE, INCLUDING, WITHOUT LIMITATION, ANY LOST PROFITS, BUSINESS INTERRUPTION, LOSS OF FUNDS, PROGRAMS OR OTHER DATA OR OTHERWISE, EVEN IF WE ARE EXPRESSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
