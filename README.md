@@ -1,6 +1,6 @@
 # DOCUMENTATION NOTICE
 
-The project's documentation wiki is currently disabled. Please refer to this document instead: [First Closed Doors Competition Documentation](https://github.com/AAArena/First-Closed-Doors-Competition/blob/master/README.md).
+The project's documentation is available at [Advanced Algos' Website](https://www.advancedalgos.net/documentation-quick-start.shtml).
 
 <!--- ## Get Involved
 
