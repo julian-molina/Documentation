@@ -2,36 +2,36 @@
 
 ## Introduction
 
-The purpose of this considerations when writing the code for the modules is to align some aspecs that will bring what we call simplicity. Since this is very subjective we explain it by setting the scenario for the code style.
+The purpose of this considerations when writing the code for the modules is to align some aspects that will bring what we call simplicity. Since this is very subjective we explain it by setting the scenario for the code style.
 
 Rapid-evolution and collaboration can only exist if the entry barrier is low and thus we need to make sure we write code that could be followed by all auditors and potential developers that could join the team in the future.
 
-#### Code Considerations should be applied when possible, not meant to be a stricted rule, but to guide common concepts among the team.
+#### Code Considerations should be applied when possible, not meant to be a strict rule, but to guide common concepts among the team.
 
 ## Coding for dummies
 
-The code should be self documented and who is comming after not necesary will know details about other components on the software and dependecies.
+The code should be self documented and who is coming after not necessary will know details about other components on the software and dependencies.
 
 
-## Code formater
+## Code formatter
 
-The code formater used should be: https://standardjs.com
+The code formatter used should be: https://standardjs.com
 The format file will be shared so it could be used as plug and play.
 
 
 ## Async calls with the callback function
 
-There are different approaches to manage asyncronic method calls. We consider it's best to use callback functions.
+There are different approaches to manage synchronic method calls. We consider it's best to use callback functions.
 Avoid nesting callback functions when possible.
 
-## Name variables and functions without abreviations
+## Name variables and functions without abbreviations
 
-Is an opportunity to document what the function or varibale represent, who is reading the code don't necesary know the dependencies. Dont' miss this oportunity.
+Is an opportunity to document what the function or variable represent, who is reading the code don't necessary know the dependencies. Don’t' miss this opportunity.
 
-## Limitate to strictly needed dependencies
+## Limit to strictly needed dependencies
 
 
-## Avoid anonimous functions
+## Avoid anonymous functions
 
 
 ## Project structure and source file name convention
