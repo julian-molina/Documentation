@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The purpose of this considerations when writing the code for the modules is to align some aspects that will bring what we call simplicity. Since this is very subjective we explain it by setting the scenario for the code style.
+The purpose of these considerations when writing the code for the modules is to align some aspects that will bring what we call simplicity. Since this is very subjective we explain it by setting the scenario for the code style.
 
 Rapid-evolution and collaboration can only exist if the entry barrier is low and thus we need to make sure we write code that could be followed by all auditors and potential developers that could join the team in the future.
 
