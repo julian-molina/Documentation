@@ -1,30 +1,14 @@
-# DOCUMENTATION NOTICE
 
-The project's documentation is available at [Advanced Algos' Website](https://www.advancedalgos.net/documentation-quick-start.shtml).
+# Documentation
 
-<!--- ## Get Involved
+This repository holds the latest documentation of the Superalgos Platform including content refering to unreleased functionality and features. For the documentation corresponding to the current release, see the [Users Manual](https://github.com/Superalgos/Platform/wiki) in the Platform repository's wiki.
 
-If you are interested in coding your own crypto trading bots and eventually participate in our competitions, this is how you can get started:
+The ```docs``` folder in this branch features the source files for a new [Jekyll](https://jekyllrb.com/) documentation site to be deployed along with the next release. The new version of the documentation is undergoing a massive restructuring, therefore, it may currently be inconsistent or hard to follow. 
 
-* [Introduction](https://github.com/AdvancedAlgos/Documentation/wiki)
-* [Getting Started Guide](https://github.com/AdvancedAlgos/Documentation/wiki/Overview)
-* [Best Practices](https://github.com/AdvancedAlgos/Documentation/wiki/Bot's-README-Files)--->
+## Contributing
 
-## About the AA Project
+We'd love you to join us in the Dev Team. Please see [CONTRIBUTING.md](CONTRIBUTING.md) for the details on how to engage with it.
 
-The AA Platform is built and maintained by Advanced Algos, the start up behind the AA Project.
+## License
 
-Our mission is to enable the fast-paced evolution of crypto trading bots within the context of trading bots competitions.
-
-The project hosts competitions in which multidisciplinary teams (developers, traders, analysts, etc) create open source bots, a class of which end up competing against each other. Just like with any other open source project, developers are free to fork any bot's source code to add their own innovations. Forked bots then compete with the original ones, sparking a fierce around-the-clock evolutionary competition.
-
-Both the AA Platform and AA Bots are programed in JavaScript.
-
-## Disclaimer
-
-THE AAPLATFORM AND ITS ASSOCIATED PRODUCTS AND SERVICES ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, SUITABILITY FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
-
-IN NO EVENT WILL ADVANCED ALGOS BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, SPECIAL OR OTHER CONSEQUENTIAL DAMAGES FOR ANY USE OF THE AACLOUD, THE AA ARENA COMPETITION, THE AA MASTERS BOTS, OR ANY OTHER ASSOCIATED SERVICE OR WEB SITE, INCLUDING, WITHOUT LIMITATION, ANY LOST PROFITS, BUSINESS INTERRUPTION, LOSS OF FUNDS, PROGRAMS OR OTHER DATA OR OTHERWISE, EVEN IF WE ARE EXPRESSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-
-
-
+The Superalgos Platform is open-source software released under [Apache License 2.0](LICENSE).
