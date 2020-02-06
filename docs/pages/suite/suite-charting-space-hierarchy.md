@@ -1,11 +1,12 @@
 ---
 title:  Charting Space Hierarchy
-summary: "Hover your mouse over a node for a quick definition, and click for the details."
+summary: "The charting space provides the tools to flexibly configure charts with data from different markets, exchanges, and multiple data products."
 sidebar: suite_sidebar
 permalink: suite-charting-space-hierarchy.html
 toc: false
 ---
 
+{% include note.html content="Hover your mouse over a node for a tooltip definition, and click to get all the details." %}
 
 <table class='hierarchyTable'>
     <thead>
@@ -181,6 +182,11 @@ toc: false
 
 
 
+
+
+
+
+
 ## Charting Space
 
 <img src='images/icons/150-charting-space.png' />
@@ -203,7 +209,7 @@ At this point, the system supports one viewport only. When you navigate through 
 
 Think of the viewport as a huge drawing board. You can have lots of information plotted on different parts of the board, so you move the viewport around and zoom in to focus on specific bits of information.
 
-When you zoom out, you are bringing more information in focus. Because information is handled dynamically, reading data from files, interpretting it, and drawing the corresponding visual elements on the screen in real-time, zooming out or&mdash;in general&mdash;bringing lots of information in focus may slow your system down. The information that is out of focus, that is, out of the visible screen, is not processed. 
+When you zoom out, you are bringing more information in focus. Because information is handled dynamically, reading data from files, interpreting it, and drawing the corresponding visual elements on the screen in real-time, zooming out or&mdash;in general&mdash;bringing lots of information in focus may slow your system down. The information that is out of focus, that is, out of the visible screen, is not processed. 
 
 The concept of the viewport allows having multiple charts configured all at once, so that you may consult different exchanges, different markets, or different technical studies on demand, simply by moving around and zooming in or out on the viewport. You may put any of those elements side by side, or even superimpose them to study market flows, search for arbitrage opportunities, or simply keep them in sight when you analyze particular market situations.
 
@@ -217,9 +223,9 @@ The concept of the viewport allows having multiple charts configured all at once
 
 **{{site.data.charting_space.time_machine}}**
 
-Think of a time machine as an aide that helps you keep any number of pieces of information syncronized on the same time scale. Every data structure that you set up within the same time machine, will always be syncronized in relation to time. Put in other words, the open and closing datetime of each dataset will always be aligned on the vertical axis.
+Think of a time machine as an aide that helps you keep any number of pieces of information synchronized on the same time scale. Every data structure that you set up within the same time machine, will always be synchronized in time. Put in other words, the open and closing datetime of each dataset will always be aligned on the vertical axis.
 
-On the other hand, when you arrange charts on different time machines, they are completely independent from one another.
+On the other hand, when you arrange charts on different time machines, they are completely independent of one another.
 
 ### Adding a Time Machine
 
@@ -247,9 +253,9 @@ The time scale is represented by a numerical value between 0 and 100. When the s
 
 You may set a scale value from within the charts by placing the mouse pointer over the corresponding time machine datetime box and scrolling the mouse wheel.
 
-{% include tip.html content="Pressing the mouse wheel while scrolling accelerates de process." %}
+{% include tip.html content="Pressing the mouse wheel while scrolling accelerates the process." %}
 
-[IMAGE]
+
 
 You may also set a scale value from within the designer by selecting *Configure Time Scale* on the time scale node menu and editing the corresponding configuration.
 
@@ -257,7 +263,7 @@ You may also set a scale value from within the designer by selecting *Configure 
 {"scale":"0"}
 ```
 
-{% include note.html content="The values entered via the designer and the charts are syncronized and stored in the node." %}
+{% include note.html content="The values entered via the designer and the charts are synchronized and stored in the node." %}
 
 
 
@@ -271,7 +277,7 @@ You may also set a scale value from within the designer by selecting *Configure 
 
 Rate scales may exist both at the level of a time machine and at the level of a timeline chart, each affecting the corresponding concept.
 
-When set at the level of the time machine, the scale setting affects all charts within the time machine. When set at the level of the timeline chart, the setting overrides the rate scale at the time machine level. This allows having multiple charts in the same time machine, each with a different rate scales.
+When set at the level of the time machine, the scale setting affects all charts within the time machine. When set at the level of the timeline chart, the setting overrides the rate scale at the time machine level. This allows having multiple charts on the same time machine, each with a different rate scales.
 
 ### Adding a Rate Scale
 
@@ -283,19 +289,19 @@ The rate scale is represented by a numerical value between 0 and 100. When the s
 
 ### Rate Scale Minimum and Maximum
 
-The rate scale remains the same at all times, unless you change it. This means that&mdashunlike in other platforms&mdash;the rate scale does not adjust dynamically depending on the information on the screen. This is a design choice so that rates may be easily comparable along the datetime span of the market.
+The rate scale remains the same at all times unless you change it. This means that&mdashunlike in other platforms&mdash;the rate scale does not adjust dynamically depending on the information on the screen. This is a design choice so that rates may be easily comparable along the datetime span of the market.
 
 ### Offset Value
 
-The offset is a property of the rate scale by which the scale may be shifted upwards or downwards. As a result, charts aligned in the vertical axis&mdash;syncronized in datetime by a shared time machinemdash;may be put one above the other. The offset value is a numerical value which may be positive or negative, with no specific minimum or maximum.
+The offset is a property of the rate scale by which the scale may be shifted upwards or downwards. As a result, charts aligned in the vertical axis&mdash;synchronized in datetime by a shared time machine&mdash;may be put one above the other. The offset value is a numerical value which may be positive or negative, with no specific minimum or maximum.
 
 ### Setting Rate Scale and Offset Values
 
 You may set a scale value from within the charts by placing the mouse pointer over the corresponding time machine or timeline chart rate box and scrolling the mouse wheel. Add the <kbd>Shift</kbd> key to affect the offset.
 
-{% include tip.html content="Pressing the mouse wheel while scrolling accelerates de process." %}
+{% include tip.html content="Pressing the mouse wheel while scrolling accelerates the process." %}
 
-[IMAGE]
+
 
 You may also set a scale setting, minimum and maximum values for the scale, and offset value from within the designer by selecting *Configure Rate Scale* on the rate scale node menu and editing the configuration.
 
@@ -303,11 +309,11 @@ You may also set a scale setting, minimum and maximum values for the scale, and 
 {"scale":"50","offset":0,"minValue":0,"maxValue":25000}
 ```
 
-* The ```minValue``` sets the value for the orgin of the y axis, that is, the rate scale. Usually, this value would be zero, but it doesn't need to be zero, as it is configurable.
+* The ```minValue``` sets the value for the origin of the y-axis, that is, the rate scale. Usually, this value would be zero, but it doesn't need to be zero, as it is configurable.
 
 * The ```maxValue``` may be set to any positive number.
 
-{% include note.html content="The values entered via the designer and the charts are syncronized and stored in the node." %}
+{% include note.html content="The values entered via the designer and the charts are synchronized and stored in the node." %}
 
 
 
@@ -319,7 +325,7 @@ You may also set a scale setting, minimum and maximum values for the scale, and 
 
 **{{site.data.charting_space.time_frame_scale}}**
 
-When the time frame scale is set at the level of the time machine, the scale setting affects all charts within the time machine. When set at the level of the timeline chart, the setting overrides the time frame scale at the time machine level. This allows comparing charts in different time frames, but still syncronized at the datetime level.
+When the time frame scale is set at the level of the time machine, the scale setting affects all charts within the time machine. When set at the level of the timeline chart, the setting overrides the time frame scale at the time machine level. This allows comparing charts in different time frames, but still synchronized at the datetime level.
 
 ### Adding a Time Frame Scale
 
@@ -337,7 +343,7 @@ The time frame scale value can be any of the time frames supported by the system
 
 You may set a time frame value from within the charts by placing the mouse pointer over the corresponding time machine or timeline chart time frame box and scrolling the mouse wheel.
 
-[IMAGE]
+
 
 You may also set a time frame from within the designer by selecting *Configure Rate Scale* on the rate scale node menu and editing the configuration.
 
@@ -345,7 +351,7 @@ You may also set a time frame from within the designer by selecting *Configure R
 {"value":"06-hs"}
 ```
 
-{% include note.html content="The values entered via the designer and the charts are syncronized and stored in the node." %}
+{% include note.html content="The values entered via the designer and the charts are synchronized and stored in the node." %}
 
 
 
@@ -359,7 +365,7 @@ You may also set a time frame from within the designer by selecting *Configure R
 
 In other words, a timeline chart is a set of information to be displayed over a timeline. The information may include candles&mdash;the main and foremost resource&mdash;as well as any other indicator, study or&mdash;in general&mdash;data product that may be available.
 
-You may add as many charts as you wish. Charts within the same time machine are syncronized in the y axis, that is, at the datetime level. Charts in different time machines are independent from each other in relation to the datetime. In either case, you may also add rate scales and time frame scales at the timeline charts level.
+You may add as many charts as you wish. Charts within the same time machine are synchronized in the y-axis, that is, at the datetime level. Charts in different time machines are independent of each other concerning the datetime. In either case, you may also add rate scales and time frame scales at the timeline charts level.
 
 The information that each timeline chart makes available on the screen is given by the layers set up in the corresponding layers manager.
 
@@ -412,8 +418,3 @@ Select *Configure Layer* on the menu to access the configuration.
 * ```status``` may be *on* or *off* and refers to the layer being visible or not on the charts.
 
 * ```showPanels``` may be *true* or *false*; *true* shows the plotter panel that may be associated with the data product as per the plotter module definitions; *false* makes panels invisible.
-
-
-
-
-

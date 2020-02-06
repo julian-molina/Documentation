@@ -9,7 +9,7 @@ permalink: suite-hierarchies.html
 
 On the designer, the head or parent node of each hierarchy is represented by the corresponding icon surrounded by an ever-present white ring, so that they are easier to locate within the workspace.
 
-IMAGE
+
 
 ## Charting Space
 
