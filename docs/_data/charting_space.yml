@@ -1,4 +1,4 @@
-charting_system: "The Charting System is the hierarchy that governs the configuration of the charts."
+charting_space: "The Charting Space is the hierarchy that governs the configuration of the charts."
 
 viewport: "A viewport represents the bidimensional space on which the charts are drawn."
 

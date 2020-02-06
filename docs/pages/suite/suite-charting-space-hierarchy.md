@@ -1,8 +1,8 @@
 ---
-title:  Charting System Hierarchy
+title:  Charting Space Hierarchy
 summary: "Hover your mouse over a node for a quick definition, and click for the details."
 sidebar: suite_sidebar
-permalink: suite-charting-system-hierarchy.html
+permalink: suite-charting-space-hierarchy.html
 toc: false
 ---
 
@@ -11,7 +11,7 @@ toc: false
     <thead>
         <tr>
             <th>
-                <a href='#charting-system' data-toggle='tooltip' data-original-title='{{site.data.charting_system.charting_system}}'><img src='images/icons/charting-system.png' /><br />Charting System</a>
+                <a href='#charting-space' data-toggle='tooltip' data-original-title='{{site.data.charting_space.charting_space}}'><img src='images/icons/charting-space.png' /><br />Charting Space</a>
             </th>
             <th></th>
             <th></th>
@@ -29,7 +29,7 @@ toc: false
                 <img src='images/icons/tree-connector-fork.png' />
             </td>
             <td>
-                <a href='#viewport' data-toggle='tooltip' data-original-title='{{site.data.charting_system.viewport}}'><img src='images/icons/viewport.png' /><br />Viewport</a>
+                <a href='#viewport' data-toggle='tooltip' data-original-title='{{site.data.charting_space.viewport}}'><img src='images/icons/viewport.png' /><br />Viewport</a>
             </td>
             <td></td>
             <td></td>
@@ -44,7 +44,7 @@ toc: false
                 <img src='images/icons/tree-connector-elbow.png' />
             </td>
             <td>
-                <a href='#time-machine' data-toggle='tooltip' data-original-title='{{site.data.charting_system.time_machine}}'><img src='images/icons/time-machine.png' /><br />Time Machine</a>
+                <a href='#time-machine' data-toggle='tooltip' data-original-title='{{site.data.charting_space.time_machine}}'><img src='images/icons/time-machine.png' /><br />Time Machine</a>
             </td>
             <td></td>
             <td></td>
@@ -60,7 +60,7 @@ toc: false
                 <img src='images/icons/tree-connector-fork.png' />
             </td>
             <td>
-                <a href='#time-scale' data-toggle='tooltip' data-original-title='{{site.data.charting_system.time_scale}}'><img src='images/icons/time-scale.png' /><br />Time Scale</a>
+                <a href='#time-scale' data-toggle='tooltip' data-original-title='{{site.data.charting_space.time_scale}}'><img src='images/icons/time-scale.png' /><br />Time Scale</a>
             </td>
             <td></td>
             <td></td>
@@ -75,7 +75,7 @@ toc: false
                 <img src='images/icons/tree-connector-fork.png' />
             </td>
             <td>
-                <a href='#rate-scale' data-toggle='tooltip' data-original-title='{{site.data.charting_system.rate_scale}}'><img src='images/icons/rate-scale.png' /><br />Rate Scale</a>
+                <a href='#rate-scale' data-toggle='tooltip' data-original-title='{{site.data.charting_space.rate_scale}}'><img src='images/icons/rate-scale.png' /><br />Rate Scale</a>
             </td>
             <td></td>
             <td></td>
@@ -90,7 +90,7 @@ toc: false
                 <img src='images/icons/tree-connector-fork.png' />
             </td>
             <td>
-                <a href='#time-frame-scale' data-toggle='tooltip' data-original-title='{{site.data.charting_system.time_frame_scale}}'><img src='images/icons/time-frame-scale.png' /><br />Time Frame Scale</a>
+                <a href='#time-frame-scale' data-toggle='tooltip' data-original-title='{{site.data.charting_space.time_frame_scale}}'><img src='images/icons/time-frame-scale.png' /><br />Time Frame Scale</a>
             </td>
             <td></td>
             <td></td>
@@ -105,7 +105,7 @@ toc: false
                 <img src='images/icons/tree-connector-elbow.png' />
             </td>
             <td>
-                <a href='#timeline-chart' data-toggle='tooltip' data-original-title='{{site.data.charting_system.timeline_chart}}'><img src='images/icons/timeline-chart.png' /><br />Timeline Chart</a>
+                <a href='#timeline-chart' data-toggle='tooltip' data-original-title='{{site.data.charting_space.timeline_chart}}'><img src='images/icons/timeline-chart.png' /><br />Timeline Chart</a>
             </td>
             <td></td>
             <td></td>
@@ -121,7 +121,7 @@ toc: false
                 <img src='images/icons/tree-connector-fork.png' />
             </td>
             <td>
-                <a href='#rate-scale' data-toggle='tooltip' data-original-title='{{site.data.charting_system.rate_scale}}'><img src='images/icons/rate-scale.png' /><br />Rate Scale</a>
+                <a href='#rate-scale' data-toggle='tooltip' data-original-title='{{site.data.charting_space.rate_scale}}'><img src='images/icons/rate-scale.png' /><br />Rate Scale</a>
             </td>
             <td></td>
             <td></td>
@@ -136,7 +136,7 @@ toc: false
                 <img src='images/icons/tree-connector-fork.png' />
             </td>
             <td>
-                <a href='#time-frame-scale' data-toggle='tooltip' data-original-title='{{site.data.charting_system.time_frame_scale}}'><img src='images/icons/time-frame-scale.png' /><br />Time Frame Scale</a>
+                <a href='#time-frame-scale' data-toggle='tooltip' data-original-title='{{site.data.charting_space.time_frame_scale}}'><img src='images/icons/time-frame-scale.png' /><br />Time Frame Scale</a>
             </td>
             <td></td>
             <td></td>
@@ -151,7 +151,7 @@ toc: false
                 <img src='images/icons/tree-connector-elbow.png' />
             </td>
             <td>
-                <a href='#layers-manager' data-toggle='tooltip' data-original-title='{{site.data.charting_system.layers_manager}}'><img src='images/icons/layers-manager.png' /><br />Layers Manager</a>
+                <a href='#layers-manager' data-toggle='tooltip' data-original-title='{{site.data.charting_space.layers_manager}}'><img src='images/icons/layers-manager.png' /><br />Layers Manager</a>
             </td>
             <td></td>
             <td></td>
@@ -167,7 +167,7 @@ toc: false
                 <img src='images/icons/tree-connector-elbow.png' />
             </td>
             <td>
-                <a href='#layer' data-toggle='tooltip' data-original-title='{{site.data.charting_system.layer}}'><img src='images/icons/layer.png' /><br />Layer</a>
+                <a href='#layer' data-toggle='tooltip' data-original-title='{{site.data.charting_space.layer}}'><img src='images/icons/layer.png' /><br />Layer</a>
             </td>
             <td></td>
             <td></td>
@@ -181,13 +181,13 @@ toc: false
 
 
 
-## Charting System
+## Charting Space
 
-<img src='images/icons/150-charting-system.png' />
+<img src='images/icons/150-charting-space.png' />
 
-**{{site.data.charting_system.charting_system}}**
+**{{site.data.charting_space.charting_space}}**
 
-There is only one charting system hierarchy, thus all charts are configured here. As is common throughout the system, different concepts and elements of the charts such as the scales, data layers and so on, are represented by nodes in the hierarchy. The system allows great flexibility on how to visualize information over the charts by adding, configuring, and arranging these nodes.
+There is only one Charting Space hierarchy, thus all charts are configured here. As is common throughout the system, different concepts and elements of the charts such as the scales, data layers and so on, are represented by nodes in the hierarchy. The system allows great flexibility on how to visualize information over the charts by adding, configuring, and arranging these nodes.
 
 
 
@@ -197,7 +197,7 @@ There is only one charting system hierarchy, thus all charts are configured here
 
 <img src='images/icons/150-viewport.png' />
 
-**{{site.data.charting_system.viewport}}**
+**{{site.data.charting_space.viewport}}**
 
 At this point, the system supports one viewport only. When you navigate through the charts, panning, zooming or moving elements around, what you are doing is panning and zooming on the viewport. That is, you are not moving the charts, but the space that contains them.
 
@@ -215,7 +215,7 @@ The concept of the viewport allows having multiple charts configured all at once
 
 <img src='images/icons/150-time-machine.png' />
 
-**{{site.data.charting_system.time_machine}}**
+**{{site.data.charting_space.time_machine}}**
 
 Think of a time machine as an aide that helps you keep any number of pieces of information syncronized on the same time scale. Every data structure that you set up within the same time machine, will always be syncronized in relation to time. Put in other words, the open and closing datetime of each dataset will always be aligned on the vertical axis.
 
@@ -223,7 +223,7 @@ On the other hand, when you arrange charts on different time machines, they are 
 
 ### Adding a Time Machine
 
-To add a time machine, select *Add Time Machine* on the charting system node menu.
+To add a time machine, select *Add Time Machine* on the Charting Space node menu.
 
 
 
@@ -233,7 +233,7 @@ To add a time machine, select *Add Time Machine* on the charting system node men
 
 <img src='images/icons/150-time-scale.png' />
 
-**{{site.data.charting_system.time_scale}}**
+**{{site.data.charting_space.time_scale}}**
 
 ### Adding a Time Scale
 
@@ -267,7 +267,7 @@ You may also set a scale value from within the designer by selecting *Configure 
 
 <img src='images/icons/150-rate-scale.png' />
 
-**{{site.data.charting_system.rate_scale}}**
+**{{site.data.charting_space.rate_scale}}**
 
 Rate scales may exist both at the level of a time machine and at the level of a timeline chart, each affecting the corresponding concept.
 
@@ -317,7 +317,7 @@ You may also set a scale setting, minimum and maximum values for the scale, and 
 
 <img src='images/icons/150-time-frame-scale.png' />
 
-**{{site.data.charting_system.time_frame_scale}}**
+**{{site.data.charting_space.time_frame_scale}}**
 
 When the time frame scale is set at the level of the time machine, the scale setting affects all charts within the time machine. When set at the level of the timeline chart, the setting overrides the time frame scale at the time machine level. This allows comparing charts in different time frames, but still syncronized at the datetime level.
 
@@ -355,7 +355,7 @@ You may also set a time frame from within the designer by selecting *Configure R
 
 <img src='images/icons/150-timeline-chart.png' />
 
-**{{site.data.charting_system.timeline_chart}}**
+**{{site.data.charting_space.timeline_chart}}**
 
 In other words, a timeline chart is a set of information to be displayed over a timeline. The information may include candles&mdash;the main and foremost resource&mdash;as well as any other indicator, study or&mdash;in general&mdash;data product that may be available.
 
@@ -375,7 +375,7 @@ To add a timeline chart, select *Add Timeline Chart* on the preferred time machi
 
 <img src='images/icons/150-layers-manager.png' />
 
-**{{site.data.charting_system.layers_manager}}**
+**{{site.data.charting_space.layers_manager}}**
 
 In other words, you use the layers manager node to configure which data products you wish to be made available for visualization purposes on the charts, in particular, on a specific timeline chart to which the layers manager node is attached to.
 
@@ -391,7 +391,7 @@ To add a layers manager, select *Add Layers Manager* on the preferred timeline c
 
 <img src='images/icons/150-layer.png' />
 
-**{{site.data.charting_system.layer}}**
+**{{site.data.charting_space.layer}}**
 
 ### Adding Layers
 

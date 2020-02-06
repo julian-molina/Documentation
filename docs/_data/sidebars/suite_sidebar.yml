@@ -281,8 +281,8 @@ entries:
       url: /suite-crypto-ecosystem-hierarchy.html
       output: web
 
-    - title: Charting system
-      url: /suite-charting-system-hierarchy.html
+    - title: Charting Space
+      url: /suite-charting-space-hierarchy.html
       output: web
 
     - title: Trading system

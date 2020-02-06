@@ -1,6 +1,6 @@
 ---
 title:  "Hierarchies"
-summary: "There are five different types of hierarchies: Charting System, Crypto Ecosystem, Trading Systems, Network, and Data Mines."
+summary: "There are five different types of hierarchies: Charting Space, Crypto Ecosystem, Trading Systems, Network, and Data Mines."
 sidebar: suite_sidebar
 permalink: suite-hierarchies.html
 ---
@@ -11,9 +11,9 @@ On the designer, the head or parent node of each hierarchy is represented by the
 
 IMAGE
 
-## Charting System
+## Charting Space
 
-{{site.data.charting_system.charting_system}}
+{{site.data.charting_space.charting_space}}
 
 ## Crypto Ecosystem
 
