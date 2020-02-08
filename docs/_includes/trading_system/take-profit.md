@@ -1,9 +1,9 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "XXXXXXXXXXXXXXXX" %}
-{% assign definition = site.data.network.XXXXXXXXXXXXXXXX %}
-{% assign preposition = "XXXXXXXXXXXXXXXX" %}
-{% assign plural = "s" %}
+{% assign title = "Take Profit" %}
+{% assign definition = site.data.trading_system.take_profit %}
+{% assign preposition = "a" %}
+{% assign plural = "" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
@@ -65,7 +65,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To add a take profit node, select *Add Missing Items* on the manage stage node menu. All items that may be missing are created along with the rest of the basic structure of nodes required to define each of them.
 
 <!--------------------------------------------- ADDING ends -->
 
