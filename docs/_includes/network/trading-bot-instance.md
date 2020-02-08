@@ -1,8 +1,8 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "XXXXXXXXXXXXXXXX" %}
-{% assign definition = site.data.trading_system.XXXXXXXXXXXXXXXX %}
-{% assign preposition = "XXXXXXXXXXXXXXXX" %}
+{% assign title = "Trading Bot Instance" %}
+{% assign definition = site.data.network.trading_bot_instance %}
+{% assign preposition = "a" %}
 {% assign plural = "s" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
@@ -48,7 +48,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+{{site.data.concepts.trading_bot}}
+
+The trading bot instance holds no definitions as to what the bot does. Instead, its process instance references the process definition in the Masters data mine. That is how the indicator bot instance obtains the information of what it needs to do once it is run.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -65,7 +67,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To add a trading bot instance, select *Add Trading Bot Instance* on the task node menu. When a trading bot instance is added, it is created with one trading process instance, and a market reference.
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -89,7 +91,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- STARTING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+You do not start or stop a trading bot instance directly. Instead, you start or stop the corresponding task.
 
 <!--------------------------------------------- STARTING ends -->
 
