@@ -99,6 +99,18 @@ In a more distant future, you will also be able to connect to and consume servic
 
 
 
+
+## Data Mining
+
+<img src='images/icons/150-data-mining.png' />
+
+**{{site.data.network.data_mining}}**
+
+Users may have access to several data mines. For organizational purposes, it is recommended each data mine has its task manager. However, the system allows any form of organization.
+
+
+
+
 ## Task Manager
 
 <img src='images/icons/150-task-manager.png' />
@@ -287,6 +299,19 @@ To add a key instance, select *Add Key Instance* on the market reference node me
 
 
 
+
+
+## Testing Environment
+
+<img src='images/icons/150-testing-environment.png' />
+
+**{{site.data.network.testing_environment}}**
+
+Depending on how you use the system, how many markets and exchanges you work with, the number of trading systems you use, or the way you choose to test your strategies, you may find yourself with a large number of testing sessions. It is recommended you organize all of your testing sessions below the testing environment node.
+
+
+
+
 ## Trading Bot Instance
 
 <img src='images/icons/150-trading-bot-instance.png' />
@@ -334,6 +359,18 @@ You do not start or stop a trading process instance directly. Instead, you start
 {% include /network/backtesting-session.md heading="##" icon="150-" adding="####" configuring="####" starting="####" content="yes" definition="bold" table="yes" more="no"%}
 
 {% include /network/paper-trading-session.md heading="##" icon="150-" adding="####" configuring="####" starting="####" content="yes" definition="bold" table="yes" more="no"%}
+
+
+
+## Production Environment
+
+<img src='images/icons/150-production-environment.png' />
+
+**{{site.data.network.production_environment}}**
+
+If you work with multiple markets, multiple exchanges of multiple trading systems, it is recommended to organize your live trading sessions below the production environment node.
+
+
 
 {% include /network/forward-testing-session.md heading="##" icon="150-" adding="####" configuring="####" starting="####" content="yes" definition="bold" table="yes" more="no"%}
 
@@ -460,4 +497,13 @@ To add a data product, select *Add Data Product* on the network node menu.
 To add a session-independent data node, select *Add Session-independent Data* on the network node menu. 
 
 {% include note.html content="Only one session-independent data node may exist on each data storage node." %}
+
+
+
+
+
+
+
+
+
 
