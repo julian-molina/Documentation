@@ -48,7 +48,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Each testing session has its own set of parameters. This allows you to configure different trading sessions with different parameters, and go back and forth between them as required. For instance, you may have different backtesting sessions with different date ranges, different exchange fees or different slippage settings.
+The behavior of parameters may vary depending on the type of session.
+
+Each testing session has its own set of parameters. This allows you to configure different trading sessions with different parameters, and go back and forth between them as required. For instance, you may have different backtesting sessions with different date ranges, different exchange fees or different slippage settings to account for different possible scenarios.
 
 <!--------------------------------------------- CONTENT ends -->
 
