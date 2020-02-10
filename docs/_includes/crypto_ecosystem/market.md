@@ -1,8 +1,8 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "XXXXXXXXXXXXXXXX" %}
-{% assign definition = site.data.network.XXXXXXXXXXXXXXXX %}
-{% assign preposition = "XXXXXXXXXXXXXXXX" %}
+{% assign title = "Market" %}
+{% assign definition = site.data.crypto_ecosystem.market %}
+{% assign preposition = "a" %}
 {% assign plural = "s" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
@@ -48,7 +48,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+{% include important.html content="Only markets that are effectively listed on the exchange may be configured and used with the system. Check with the exchange and make sure you understand what tickers they are using, which is the base asset and which the quoted asset on the listed markets." %}
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -65,7 +65,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To add a market, select *Add Market* on the crypto exchange node menu. The market node is created along with the basic structure of nodes used to define the market.
 
 <!--------------------------------------------- ADDING ends -->
 
