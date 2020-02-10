@@ -65,7 +65,7 @@ The concept of describing strategies in phases is fundamental to the methodical 
 
 {% if include.adding != "" %}
 
-{{include.adding}} Adding {{preposition}} {{title}}
+{{include.adding}} Adding {{preposition}} {{title}} Node
 
 <!--------------------------------------------- ADDING starts -->
 

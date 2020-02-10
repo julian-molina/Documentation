@@ -67,7 +67,7 @@ You will use the network hierarchy for three main purposes:
 
 {% if include.adding != "" %}
 
-{{include.adding}} Adding {{preposition}} {{title}}
+{{include.adding}} Adding {{preposition}} {{title}} Node
 
 <!--------------------------------------------- ADDING starts -->
 

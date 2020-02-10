@@ -75,7 +75,7 @@ You may set a scale value from within the charts by placing the mouse pointer ov
 
 {% if include.adding != "" %}
 
-{{include.adding}} Adding {{preposition}} {{title}}
+{{include.adding}} Adding {{preposition}} {{title}} Node
 
 <!--------------------------------------------- ADDING starts -->
 

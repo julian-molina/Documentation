@@ -73,7 +73,7 @@ You may set a time frame value from within the charts by placing the mouse point
 
 {% if include.adding != "" %}
 
-{{include.adding}} Adding {{preposition}} {{title}}
+{{include.adding}} Adding {{preposition}} {{title}} Node
 
 <!--------------------------------------------- ADDING starts -->
 

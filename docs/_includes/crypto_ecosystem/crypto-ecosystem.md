@@ -2,7 +2,7 @@
 
 {% assign title = "Crypto Ecosystem" %}
 {% assign definition = site.data.crypto_ecosystem.crypto_ecosystem %}
-{% assign preposition = "" %}
+{% assign preposition = "a" %}
 {% assign plural = "s" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
@@ -63,7 +63,7 @@ There is only one crypto ecosystem hierarchy. You will use it to define which ex
 
 {% if include.adding != "" %}
 
-{{include.adding}} Adding {{preposition}} {{title}}
+{{include.adding}} Adding {{preposition}} {{title}} Node
 
 <!--------------------------------------------- ADDING starts -->
 

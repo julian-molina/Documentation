@@ -61,7 +61,7 @@ There is only one Charting Space hierarchy, thus all charts are configured here.
 
 {% if include.adding != "" %}
 
-{{include.adding}} Adding {{preposition}} {{title}}
+{{include.adding}} Adding {{preposition}} {{title}} Node
 
 <!--------------------------------------------- ADDING starts -->
 
