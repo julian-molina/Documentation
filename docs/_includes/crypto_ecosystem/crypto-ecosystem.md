@@ -48,8 +48,6 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The crypto ecosystem is a hierarchy that contains definitions regarding information obtained from third-parties, including exchanges and their markets, as well as accounts of users with those third parties.
-
 There is only one crypto ecosystem hierarchy. You will use it to define which exchanges and which markets you wish to work with, as well as the details of your accounts with those exchanges. 
 
 <!--------------------------------------------- CONTENT ends -->

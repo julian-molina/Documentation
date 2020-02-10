@@ -85,37 +85,29 @@ entries:
 #      url: /suite-layers-panel.html
 #      output: web
 
-#  - title: Designer
-#    output: web
-#    folderitems:
-
-#    - title: Intro, workspace and data structures
-#      url: /suite-designer-workspace-and-data-structures.html
-#      output: web
-
-#    - title: Hierarchies
-#      url: /suite-hierarchies.html
-#      output: web
-
-#    - title: Interface
-#      url: /suite-designer-interface.html
-#      output: web
-
-#    - title: Atachment and detachment of nodes
-#      url: /suite-detachment-and-attachment-of-nodes.html
-#      output: web
-
-#    - title: References
-#      url: /suite-references.html
-#      output: web
-      
-  - title: Trading Concepts
+  - title: Designer
     output: web
     folderitems:
 
-    - title: Defining a Trading System
-      url: /suite-defining-a-trading-system.html
+    - title: Designer, workspace, and nodes
+      url: /suite-designer-workspace-and-data-structures.html
       output: web
+
+    - title: Hierarchies
+      url: /suite-hierarchies.html
+      output: web
+
+    - title: References
+      url: /suite-references.html
+      output: web
+
+    - title: Interface
+      url: /suite-designer-interface.html
+      output: web
+    
+  - title: Trading Concepts
+    output: web
+    folderitems:
 
     - title: Defining a Strategy
       url: /suite-defining-a-trading-strategy.html
