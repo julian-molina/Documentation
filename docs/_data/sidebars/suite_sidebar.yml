@@ -141,13 +141,13 @@ entries:
       url: /suite-internal-variables.html
       output: web
 
-#    - title: Indicators included in the data release
-#      url: /suite-indicators-included-in-the-data-release.html
-#      output: web
+    - title: Masters indicators
+      url: /suite-masters-indicators.html
+      output: web
 
-#    - title: Indicators not included in the release
-#      url: /suite-indicators-not-included-in-the-data-release.html
-#      output: web
+    - title: Sparta indicators
+      url: /suite-sparta-indicators.html
+      output: web
 
 #    - title: Using non-included indicators
 #      url: /suite-using-non-included-indicators.html
