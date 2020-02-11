@@ -2,7 +2,7 @@
 
 entries:
 - title: sidebar
-  product: Superalgos Suite
+  product: Superalgos
   version: 0.0.6
   folders:
 
@@ -85,12 +85,12 @@ entries:
 #      url: /suite-layers-panel.html
 #      output: web
 
-  - title: Designer
+  - title: Design space
     output: web
     folderitems:
 
-    - title: Designer, workspace, and nodes
-      url: /suite-designer-workspace-and-data-structures.html
+    - title: Design space, workspace, and nodes
+      url: /suite-design-space-workspace-and-data-structures.html
       output: web
 
     - title: Hierarchies
@@ -102,18 +102,18 @@ entries:
       output: web
 
     - title: Interface
-      url: /suite-designer-interface.html
+      url: /suite-design-space-interface.html
       output: web
     
-  - title: Trading Concepts
+  - title: Trading concepts
     output: web
     folderitems:
 
-    - title: Defining a Strategy
-      url: /suite-defining-a-trading-strategy.html
+    - title: Strategies
+      url: /suite-strategies.html
       output: web
 
-    - title: Trading Sessions
+    - title: Trading sessions
       url: /suite-trading-sessions.html
       output: web
 
@@ -265,7 +265,7 @@ entries:
 #      url: /suite-telegram-announcements.html
 #      output: web
 
-  - title: Hierarchies Directory
+  - title: Hierarchies directory
     output: web
     folderitems:
 

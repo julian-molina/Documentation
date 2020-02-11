@@ -1,6 +1,6 @@
-designer: "The designer is the portion of the system the controls all the information available and that enables users to exert control over the whole system."
+design_space: "The design space is the visual environment that features all the information available and that enables users to exert control over the whole system. You may think of the design space as your desktop."
 
-workspace: "The workspace refers to the visual environment that contains all information managed by the system. You may think of the workspace as your desktop."
+workspace: "The workspace refers to the body of information managed by the system. Every data structure in the form of strategies, the configuration of different parts of the system, operational settings, and the relationships among them live within the workspace."
 
 node: "A node is a small data structure containing information which may be related to market information, trading intelligence, the operation of the system or other concepts. They are visually represented by icons on the workspace."
 
@@ -24,4 +24,7 @@ trading_bot: "Based on datasets exposed as products by other bots (counting sens
 
 superalgos_protocol: "In conceptual terms, the Superalgos Protocol determines the structure in which the information describing a trading system is stored and guides how traders shall create and automate strategies. In practical terms, the protocol results in a file with a specific format capable of holding all the information concerning any number and variety of strategies. In its current early version, the protocol is the description of a JSON object which defines the desired automation."
 
+hierarchies_directory: "The hierarchies directory is the part of the documentation that features a description of the complete catalog of nodes of each hierachy"
+
 pending: "balanceAssetA, balanceAssetB, overfitting, supported assets, supported exchanges, supported markets"
+

@@ -1,8 +1,8 @@
 ---
-title:  Defining a Trading Strategy
+title:  Strategies
 summary: "Strategies are defined as a sequence of stages."
 sidebar: suite_sidebar
-permalink: suite-defining-a-trading-strategy.html
+permalink: suite-strategies.html
 ---
 
 {% include /trading_system/strategy.md heading="" icon="150-" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}

@@ -15,7 +15,7 @@ To run your first backtest you will need a functional strategy.
 
 ## Import a Workspace
 
-Go to the ```Superalgos Platform/Quick-Start-Examples``` folder, drag ```Share - Workspace - Combined Bull-run rider and Weak-hands buster.json``` and drop it on the _Designer_ to start with a workspace with functioning strategies.
+Go to the ```Superalgos Platform/Quick-Start-Examples``` folder, drag ```Share - Workspace - Combined Bull-run rider and Weak-hands buster.json``` and drop it on the _design space_ to start with a workspace with functioning strategies.
 
 [![Getting-Started-Guide-02-Drop-Workspace](https://user-images.githubusercontent.com/13994516/67231208-2907ba00-f43f-11e9-82b4-d78c0ace4d0a.gif)](https://user-images.githubusercontent.com/13994516/67231208-2907ba00-f43f-11e9-82b4-d78c0ace4d0a.gif)
 
@@ -25,9 +25,9 @@ Go to the ```Superalgos Platform/Quick-Start-Examples``` folder, drag ```Share -
 | :---: | :---: | :---: | :---: | :---: |
 |![task](https://user-images.githubusercontent.com/13994516/66308205-ca9eef80-e906-11e9-8864-f7dba886bc7d.png) | ![timeline](https://user-images.githubusercontent.com/13994516/67079956-73b1d980-f194-11e9-89e0-9c8d1ea2ad1d.png) | ![trading-engine](https://user-images.githubusercontent.com/13994516/69948042-2f358f80-14ef-11ea-9193-f49eeb67b51c.png) | ![process](https://user-images.githubusercontent.com/13994516/67079738-00a86300-f194-11e9-9f59-a4cc4ce6d56c.png) | ![session-backtesting](https://user-images.githubusercontent.com/13994516/66318052-e7452280-e91a-11e9-94a7-90ebe6ee6e62.png) |
 
-Once on the Designer, hit <kbd>Ctrl or &#8984;</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> (*T* for *Testing*). This shortcut will take you to the *Network* hierachy of the Designer, where you will start the process to run a backtesting session. More precisely, it takes you to *Testing Sessions*, the *task manager* that controls testing sessions.
+Once on the design space, hit <kbd>Ctrl or &#8984;</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> (*T* for *Testing*). This shortcut will take you to the *Network* hierachy of the design space, where you will start the process to run a backtesting session. More precisely, it takes you to *Testing Sessions*, the *task manager* that controls testing sessions.
 
-Look around the task manager by clicking and dragging the black background of the Designer. You may also use the following keyboard key combinations to move around:
+Look around the task manager by clicking and dragging the black background of the design space. You may also use the following keyboard key combinations to move around:
 
 1. <kbd>Ctrl or &#8984;</kbd> + <kbd>&#8592;</kbd> to pan to the left.
 1. <kbd>Ctrl or &#8984;</kbd> + <kbd>&#8594;</kbd> to pan to the right.
@@ -50,7 +50,7 @@ Notice the date progress notification displayed below the backtesting session no
 
 It may take anything between 2 to 10 minutes (depending on your machine's processing power) to finish. You can tell the process finished calculating the backtesting session once the progress date stops, and—eventually—disappears.
 
-To see the backtest simulation on the charts, you first need to make sure that the *Layers Manager* for the corresponding session is visible in the Designer. This is what enables the corresponding simulation layers on the Layers Panel. 
+To see the backtest simulation on the charts, you first need to make sure that the *Layers Manager* for the corresponding session is visible in the design space. This is what enables the corresponding simulation layers on the Layers Panel. 
 
 To do that, go back to the backtesting session and click ![plus](https://user-images.githubusercontent.com/13994516/70042962-121cc180-15c0-11ea-8322-018f78524f39.PNG) on the left-hand side.
 

@@ -118,7 +118,7 @@ Select *Configure Rate Scale* on the menu to access the configuration.
 
 * ```offset``` is a numerical value which may be positive or negative, with no specific minimum or maximum. 
 
-{% include note.html content="The values for scale and offset may be entered via the designer and the charts. Both input methods are synchronized and the resulting values are stored in the node." %}
+{% include note.html content="The values for scale and offset may be entered via the design space and the charts. Both input methods are synchronized and the resulting values are stored in the node." %}
 
 <!--------------------------------------------- CONFIGURING ends -->
 

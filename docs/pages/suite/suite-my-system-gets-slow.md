@@ -17,7 +17,7 @@ You may also want to switch off the layers you may not be using. Remember, every
 
 ## Close Unused Hierarchies
 
-The physics that govern nodes in the Designer help the hierarchical structure of information to self-organize. This comes at a cost in terms of processing power.
+The physics that govern nodes in the design space help the hierarchical structure of information to self-organize. This comes at a cost in terms of processing power.
 
 Make sure the two exiting team hierarchies are closed:
 

@@ -1,8 +1,8 @@
 ---
-title:  "Interface"
+title:  "Design Space Interface"
 summary: "Navigation allows the use of mouse and keyboard. You may also create shortcuts. Node's menu allows controlling the physics of the environment and provides backup, share and clone functions."
 sidebar: suite_sidebar
-permalink: suite-designer-interface.html
+permalink: suite-design-space-interface.html
 ---
 
 ## Navigation
@@ -18,9 +18,9 @@ You may also use the following key combinations on your keyboard:
 
 You may also use your keyboard as follows:
 
-1. <kbd>Alt</kbd> + <kbd>&#8593;</kbd> to close the charts and open the designer.
-1. <kbd>Alt</kbd> + <kbd>&#8595;</kbd> to close the designer and open the charts.
-1. <kbd>Alt</kbd> + <kbd>&#8594;</kbd> to open both the designer and the charts, assigning each one-half of the screen.
+1. <kbd>Alt</kbd> + <kbd>&#8593;</kbd> to close the charts and open the design space.
+1. <kbd>Alt</kbd> + <kbd>&#8595;</kbd> to close the design space and open the charts.
+1. <kbd>Alt</kbd> + <kbd>&#8594;</kbd> to open both the design space and the charts, assigning each one-half of the screen.
 1. <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>&#8593;</kbd> to pull the separation bar up incrementally.
 1. <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>&#8595;</kbd> to pull the separation bar down incrementally.
 
@@ -44,7 +44,7 @@ Hovering the mouse pointer over nodes causes a menu to pop up. In this situation
 
 ### Arrangement Features
 
-The designer functions under the paradigm of a *self-organizing workspace* in which nodes tend to find their place guided by certain laws of physics, and constrained by their chain relationships.
+The design space functions under the paradigm of a *self-organizing workspace* in which nodes tend to find their place guided by certain laws of physics, and constrained by their chain relationships.
 
 This self-organizing paradigm saves users the effort of maintaining the arrangement of nodes in a logical manner, in particular when manipulating or creating new nodes.
 
@@ -52,38 +52,36 @@ However, there will be times in which you will want to override this self-organi
 
 | Icon | Pinned / Unpinned |
 | --- | --- |
-| ![fix-pinned](https://user-images.githubusercontent.com/13994516/63041034-2df04080-bec7-11e9-88d3-8b7c1d42a666.png) | The node is pinned to the workspace on a specific ```[x, y]``` coordinate. This status overrides any other setting affecting the node's mobility. Only direct user action by clicking and dragging may move a pinned node. |
-| ![menu-fix-unpinned](https://user-images.githubusercontent.com/13994516/63041045-35afe500-bec7-11e9-8f21-c8b3b66d3a0b.png) | When a node is unpinned, it is free to be affected by other settings, or find its place floating on the workspace. |
+| ![pinned](images/icons/pinned.png) | The node is pinned to the workspace on a specific ```[x, y]``` coordinate. This status overrides any other setting affecting the node's mobility. Only direct user action by clicking and dragging may move a pinned node. |
+| ![unpinned](images/icons/unpinned.png) | When a node is unpinned, it is free to be affected by other settings, or find its place floating on the workspace. |
 
 
 | Icon | Freeze / Unfreeze |
 | --- | --- |
-| ![menu-mobility-freeze](https://user-images.githubusercontent.com/13994516/63041051-39436c00-bec7-11e9-8194-7cdd113147e4.png) | Clicking the *freeze* option freezes the node's chain connections with its parent and offspring. Connecting lines turn blue. If you freeze the head node of a hierarchy, then the whole hierarchy is frozen. Freezing node structures is effective only when nodes are loose, that is, when they are not affected by angle or distance settings and are unpinned. In such cases, freezing releases CPU resources, as the platform stops calculating node's positions and status. | 
-| ![menu-mobility-unfreeze](https://user-images.githubusercontent.com/13994516/63041053-3b0d2f80-bec7-11e9-8b6f-ebe50dcb4d25.png) |  Clicking the *unfreeze* option unfreezes connections. If you click the option to unfreeze a node and the node does not change its status, it may be because a higher node in the hierarchy is still frozen. | 
+| ![freeze](images/icons/freeze.png) | Clicking the *freeze* option freezes the node's chain connections with its parent and offspring. Connecting lines turn blue. If you freeze the head node of a hierarchy, then the whole hierarchy is frozen. Freezing node structures is effective only when nodes are loose, that is, when they are not affected by angle or distance settings and are unpinned. In such cases, freezing releases CPU resources, as the platform stops calculating node's positions and status. | 
+| ![unfreeze](images/icons/unfreeze.png) |  Clicking the *unfreeze* option unfreezes connections. If you click the option to unfreeze a node and the node does not change its status, it may be because a higher node in the hierarchy is still frozen. | 
 
 | Icon | Collapse / Expand |
 | --- | --- |
-| ![menu-tree-minus](https://user-images.githubusercontent.com/13994516/63041070-44969780-bec7-11e9-9a42-3f13264b3ed2.png) | Clicking the _minus_ button collapses the structure, hiding offspring nodes. This also has the effect of releasing CPU resources as the platform stops calculating their position and status. In general, it is good practice to keep hierarchies closed when not being actively worked on. | 
-| ![menu-tree-plus](https://user-images.githubusercontent.com/13994516/63041077-45c7c480-bec7-11e9-965c-38e4fd706c38.png) | Clicking the _plus_ button expands the structure of offspring nodes. | 
-
-<img src='images/icons/crypto-ecosystem.png' />
+| ![collapse](images/icons/collapse.png) | Clicking the _minus_ button collapses the structure, hiding offspring nodes. This also has the effect of releasing CPU resources as the platform stops calculating their position and status. In general, it is good practice to keep hierarchies closed when not being actively worked on. | 
+| ![expand](images/icons/expand.png) | Clicking the _plus_ button expands the structure of offspring nodes. | 
 
 | Icon | Angle to Parent &mdash; Click to cycle through the different options. |
 | --- | --- |
-| <img src="images/icons/angle-to-parent-360.png" /> | The node is locked to a *rotational symmetry* around its parent node, with sibling nodes using the same setting. The symmetry spans **360 degrees**, and the connection line with the parent node is orange.| 
-| ![180](/images/icons/angle-to-parent-180.png) | The slot of the symmetry around its parent node is limited to **180 degrees**, and the connection line remains orange.| 
-| ![90](/images/icons/angle-to-parent-090.png) | The slot of the symmetry around its parent node is limited to **90 degrees**, and the connection line remains orange.| 
-| ![45](/images/icons/angle-to-parent-045.png) | The slot of the symmetry around its parent node is limited to **45 degrees**, and the connection line remains orange.| 
-| ![00](/images/icons/angle-to-parent-000.png) | The *rotational symmetry* is disabled and the node may take any position. The connection line with its parent turns yellow.| 
+| ![00](images/icons/angle-to-parent-000.png) | The *rotational symmetry* is disabled and the node may take any position. The connection line with its parent is yellow.| 
+| ![36](images/icons/angle-to-parent-360.png) | The node is locked to a *rotational symmetry* around its parent node, with sibling nodes using the same setting. The symmetry spans **360 degrees**, and the connection line with the parent node turns orange.| 
+| ![180](images/icons/angle-to-parent-180.png) | The slot of the symmetry around its parent node is limited to **180 degrees**, and the connection line remains orange.| 
+| ![90](images/icons/angle-to-parent-090.png) | The slot of the symmetry around its parent node is limited to **90 degrees**, and the connection line remains orange.| 
+| ![45](images/icons/angle-to-parent-045.png) | The slot of the symmetry around its parent node is limited to **45 degrees**, and the connection line remains orange.| 
 
 | Icon | Distance to Parent &mdash; Click to cycle through the different options. |
 | --- | --- |
-| ![025](/images/icons/distance-to-parent-025.png) | The node is locked to a distance from its parent node that is **0.25X** of the distance from the parent to its parent. | 
-| ![050](/images/icons/distance-to-parent-050.png) | The node is locked to **0.5X** of the distance. | 
-| ![100](/images/icons/distance-to-parent-100.png) | The node is locked to **1X** of the distance. | 
-| ![150](/images/icons/distance-to-parent-150.png) | The node is locked to **1.5X** of the distance. | 
-| ![200](/images/icons/distance-to-parent-200.png) | The node is locked to **2X** of the distance. | 
-| ![000](/images/icons/distance-to-parent-000.png) | The distance setting is dissabled and the node may assume any distance to its parent. | 
+| ![000](images/icons/distance-to-parent-000.png) | The distance setting is dissabled and the node may assume any distance to its parent. | 
+| ![025](images/icons/distance-to-parent-025.png) | The node is locked to a distance from its parent node that is **0.25X** of the distance from the parent to its parent. | 
+| ![050](images/icons/distance-to-parent-050.png) | The node is locked to **0.5X** of the distance. | 
+| ![100](images/icons/distance-to-parent-100.png) | The node is locked to **1X** of the distance. | 
+| ![150](images/icons/distance-to-parent-150.png) | The node is locked to **1.5X** of the distance. | 
+| ![200](images/icons/distance-to-parent-200.png) | The node is locked to **2X** of the distance. | 
 
 ### Productivity Features
 
