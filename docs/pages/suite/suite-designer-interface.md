@@ -68,7 +68,7 @@ However, there will be times in which you will want to override this self-organi
 
 | Icon | Angle to Parent &mdash; Click to cycle through the different options. |
 | --- | --- |
-| ![360](/images/icons/angle-to-parent-360.png) | The node is locked to a *rotational symmetry* around its parent node, with sibling nodes using the same setting. The symmetry spans **360 degrees**, and the connection line with the parent node is orange.| 
+| <img src="/images/icons/angle-to-parent-360.png" /> | The node is locked to a *rotational symmetry* around its parent node, with sibling nodes using the same setting. The symmetry spans **360 degrees**, and the connection line with the parent node is orange.| 
 | ![180](/images/icons/angle-to-parent-180.png) | The slot of the symmetry around its parent node is limited to **180 degrees**, and the connection line remains orange.| 
 | ![90](/images/icons/angle-to-parent-090.png) | The slot of the symmetry around its parent node is limited to **90 degrees**, and the connection line remains orange.| 
 | ![45](/images/icons/angle-to-parent-045.png) | The slot of the symmetry around its parent node is limited to **45 degrees**, and the connection line remains orange.| 
