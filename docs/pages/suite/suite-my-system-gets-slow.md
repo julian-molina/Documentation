@@ -11,7 +11,7 @@ If you experience such symptoms, there are several workarounds you may implement
 
 ## Display Less Data on the Charts
 
-If you are zooming out too far in the horizontal time scale with too many candles on the screen, try zooming-in a bit or changing time periods so that candle density decreases.
+If you are zooming out too far in the horizontal time scale with too many candles on the screen, try zooming-in a bit or changing time frames so that candle density decreases.
 
 You may also want to switch off the layers you may not be using. Remember, every piece of graphical information you see on screen represents data your system is reading from your disk and processing to display in a visual environment.
 

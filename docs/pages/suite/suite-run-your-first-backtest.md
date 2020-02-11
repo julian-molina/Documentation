@@ -56,11 +56,11 @@ To do that, go back to the backtesting session and click ![plus](https://user-im
 
 [![Backtesting-03-Layers](https://user-images.githubusercontent.com/13994516/70341075-65a63e00-1852-11ea-9ae4-3b58a26b3c8c.gif)](https://user-images.githubusercontent.com/13994516/70341075-65a63e00-1852-11ea-9ae4-3b58a26b3c8c.gif)
 
-Then, you may pull down the horizontal bar to go to the charts and see the simulation. Make sure you are standing on the 1-hour time period. Notice the time box at the bottom of the charts:
+Then, you may pull down the horizontal bar to go to the charts and see the simulation. Make sure you are standing on the 1-hour time frame. Notice the time box at the bottom of the charts:
 
 [![Getting-Started-Guide-06-Go-to-Charts](https://user-images.githubusercontent.com/13994516/67237146-fc599f80-f44a-11e9-8da4-c95fc6295d52.gif)](https://user-images.githubusercontent.com/13994516/67237146-fc599f80-f44a-11e9-8da4-c95fc6295d52.gif)
 
-If you are not at the 1-hour time period use the wheel of your mouse while pointing at the charts to zoom in until you reach the 1-hour time period. You do this so that you may see the results of the backtesting session, which in the case of the example strategies, are calculated and plotted over the 1-hour charts.
+If you are not at the 1-hour time frame use the wheel of your mouse while pointing at the charts to zoom in until you reach the 1-hour time frame. You do this so that you may see the results of the backtesting session, which in the case of the example strategies, are calculated and plotted over the 1-hour charts.
 
 [![Getting-Started-Guide-07-Zoom-In](https://user-images.githubusercontent.com/13994516/67237088-d7fdc300-f44a-11e9-8ae5-d3fd394ffc22.gif)](https://user-images.githubusercontent.com/13994516/67237088-d7fdc300-f44a-11e9-8ae5-d3fd394ffc22.gif)
 
@@ -68,7 +68,7 @@ Now go the *Layers Panel* on the left-hand side of the screen and use the wheel 
 
 [![Getting-Started-Guide-08-Turn-on-Layers](https://user-images.githubusercontent.com/13994516/67237090-d8965980-f44a-11e9-86ba-3eb1e6980ae2.gif)](https://user-images.githubusercontent.com/13994516/67237090-d8965980-f44a-11e9-86ba-3eb1e6980ae2.gif)
 
-You may now navigate the charts by clicking and dragging, or by zooming in and out with the wheel of your mouse. If you change the time period, you will not see the simulated data, as each time period may hold its own set of simulations.
+You may now navigate the charts by clicking and dragging, or by zooming in and out with the wheel of your mouse. If you change the time frame, you will not see the simulated data, as each time frame may hold its own set of simulations.
 
 [![Getting-Started-Guide-09-Navigate](https://user-images.githubusercontent.com/13994516/67237276-3e82e100-f44b-11e9-977f-a02da0857b38.gif)](https://user-images.githubusercontent.com/13994516/67237276-3e82e100-f44b-11e9-977f-a02da0857b38.gif)
 

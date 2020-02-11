@@ -109,8 +109,16 @@ entries:
     output: web
     folderitems:
 
+    - title: Trading systems
+      url: /suite-trading-systems.html
+      output: web
+
     - title: Strategies
       url: /suite-strategies.html
+      output: web
+
+    - title: Situations, conditions and formulas
+      url: /suite-situations-conditions-formulas.html
       output: web
 
     - title: Trading sessions
@@ -121,17 +129,17 @@ entries:
       url: /suite-parameters.html
       output: web
 
-#  - title: Conditions & Formulas
-#    output: web
-#    folderitems:
+  - title: Writing conditions & formulas
+    output: web
+    folderitems:
 
-#    - title: Syntax Overview
-#      url: /suite-sysntax-overview.html
-#      output: web
+    - title: Syntax overview
+      url: /suite-sysntax-overview.html
+      output: web
 
-#    - title: Internal variables
-#      url: /suite-internal-variables.html
-#      output: web
+    - title: Internal variables
+      url: /suite-internal-variables.html
+      output: web
 
 #    - title: Indicators included in the data release
 #      url: /suite-indicators-included-in-the-data-release.html

@@ -1,7 +1,7 @@
-<!-- TITLE AND DEFINITION starts -->
+<!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Situation" %}
-{% assign definition = site.data.trading_system.situation %}
+{% assign title = "JavaScript Code" %}
+{% assign definition = site.data.data_mine.javascript_code %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
@@ -48,11 +48,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-In other words, you define situations in which you wish a certain event to happen (*i.e.:* trigger on the strategy, take a position, etc.) and each situation is described as a set of conditions that need to be met for the event to be triggered.
+The platform allows developers great flexibility as all valid JavaScript code is allowed. 
 
-A situation gets validated when all conditions under it are true. 
-
-An event may have more than one situation attached to it. In such a case, when any of the situations gets validated, the event gets triggered. That is, events may be triggered in different circumstances, meaning that you are free to define different situations upon which the same event would be triggered. In such a case, when any of the situations evaluate true, then the event is triggered.
+{% include important.html content="Until a robust JavaScript editor is implemented on the UI, it is recommended to write code on an external editor and paste it in the UI code bubble to ensure consistency." %}
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -69,9 +67,9 @@ An event may have more than one situation attached to it. In such a case, when a
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a situation, select *Add Situation* on the corresponding event node menu. A situation is added along with a condition and JavaScript code node.
+To add a JavaScript code node, select *Add Code* on the corresponding parent node menu. 
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -79,7 +77,7 @@ To add a situation, select *Add Situation* on the corresponding event node menu.
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
