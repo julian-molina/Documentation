@@ -21,10 +21,17 @@ p {
 
 .nobr {
     color: #0295aa;
+    font-size: 80%;
 }
 
 .nobr p {
-    margin: -25px 0 0 20px;
+    margin: -19px 0 0 15px;
+}
+
+.detailsCollapsible {
+    margin-left: 0px;
+    border-left: 1px solid #f0f0f0;
+    padding-left: 30px;
 }
 
 .bs-callout {

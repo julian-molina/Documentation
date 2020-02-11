@@ -1,21 +1,27 @@
 ---
 title:  Network Overview
-summary: ""
+summary: "The network hierarchy organizes the infrastructure to run bots and store data."
 sidebar: suite_sidebar
 permalink: suite-network-overview.html
+toc: false
 ---
 
-| Network | Network Node |
-| :---: | :---: |
-| ![network](https://user-images.githubusercontent.com/13994516/66855353-59ed7800-ef83-11e9-8de9-db40971faa7b.png) | ![network-node](https://user-images.githubusercontent.com/13994516/66855357-5a860e80-ef83-11e9-917d-95cd8394588b.png) |
+{% include /network/network.md heading="" icon="150-" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
-The network hierarchy represents the Superalgos Network. 
+<table class='hierarchyTable'><thead><tr><th><a href='#network' data-toggle='tooltip' data-original-title='{{site.data.network.network}}'><img src='images/icons/network.png' /><br />Network</a></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
+<tr><td><img src='images/icons/tree-connector-elbow.png' /></td><td><a href='#network-node' data-toggle='tooltip' data-original-title='{{site.data.network.network_node}}'><img src='images/icons/network-node.png' /><br />Network Node</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td><img src='images/icons/tree-connector-fork.png' /></td><td><a href='#data-storage' data-toggle='tooltip' data-original-title='{{site.data.network.data_storage}}'><img src='images/icons/data-storage.png' /><br />Data Storage</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td><img src='images/icons/tree-connector-fork.png' /></td><td><a href='#data-mining' data-toggle='tooltip' data-original-title='{{site.data.network.data_mining}}'><img src='images/icons/data-mining.png' /><br />Data Mining</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td><img src='images/icons/tree-connector-fork.png' /></td><td><a href='#testing-environment' data-toggle='tooltip' data-original-title='{{site.data.network.testing_environment}}'><img src='images/icons/testing-environment.png' /><br />Testing Environment</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td><img src='images/icons/tree-connector-elbow.png' /></td><td><a href='#production-environment' data-toggle='tooltip' data-original-title='{{site.data.network.production_environment}}'><img src='images/icons/production-environment.png' /><br />Production Environment</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
-The hierarchy describes the physical location in which bots and their processes run, as well as the location in which data is stored. 
+{% include /network/network-node.md heading="##" icon="150-" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
-It is through this hierarchy that you will control the instances of bots that run in your machine sourcing data from exchanges (sensor bots), processing data in the form of indicators (indicator bots), and running trading sessions (trading bot).
+{% include /network/data-storage.md heading="###" icon="" adding="" configuring="" starting="" content="no" definition="yes" table="yes" more="no"%}
 
-At the moment, the platform runs bots and their processes locally, in a *network node* representing your computer. In the future, you will also be able to deploy other nodes, such as virtual machines in the cloud, and control execution in those remote computers from within your local instance of the platform.
+{% include /network/data-mining.md heading="###" icon="" adding="" configuring="" starting="" content="no" definition="yes" table="yes" more="no"%}
 
-In a more distant future, you will also be able to connect and consume services from other people's nodes.
+{% include /network/testing-environment.md heading="###" icon="" adding="" configuring="" starting="" content="no" definition="yes" table="yes" more="no"%}
 
+{% include /network/production-environment.md heading="###" icon="" adding="" configuring="" starting="" content="no" definition="yes" table="yes" more="no"%}

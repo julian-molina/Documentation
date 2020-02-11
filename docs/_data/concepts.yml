@@ -16,9 +16,9 @@ reference: "A reference is a mechanism by which information in a node is related
 
 session: "A session refers to a backtesting, paper trading, forward testing or live trading session. When the term is used without specifying the type of session, then it refers to the overall concept by which a trading bot instance&mdash;based on datasets exposed as products by other bots&mdash;applies the trading logic defined on a trading system in any of the aforementioned modes."
 
-sensor_bot: "A sensor bot extracts raw data from external sources (*i.e.: exchanges, Twitter, etc.*)."
+sensor_bot: "A sensor bot is an algorithm that extracts raw data from external sources (i.e.: exchanges, Twitter, etc.) and stores it in a dataset that other bots may consume."
 
-indicator_bot: "An indicator bot processes data to produce more elaborate datasets."
+indicator_bot: "An indicator bot is an algorithm that processes information that other bots have generated, and produces elaborate datasets for others to consume."
 
 trading_bot: "Based on datasets exposed as products by other bots (counting sensors, indicators and even other trading bots), a trading bot applies the trading logic defined on a trading system to, on one side, generate a complete trading simulation (outputting datasets that include trades, the action of strategies, validation of conditions, etc.), and on the other side, manage the execution of orders when on a forward testing or live trading session."
 

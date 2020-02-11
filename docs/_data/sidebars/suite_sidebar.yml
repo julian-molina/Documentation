@@ -153,13 +153,21 @@ entries:
 #      url: /suite-using-non-included-indicators.html
 #      output: web
 
-#  - title: Network
-#    output: web
-#    folderitems:
+  - title: Infrastructure concepts
+    output: web
+    folderitems:
 
-#    - title: Overview
-#      url: /suite-network-overview.html
+    - title: Network overview
+      url: /suite-network-overview.html
+      output: web
+
+#    - title: Types of bots
+#      url: /suite-types-of-bots.html
 #      output: web
+
+    - title: Data mining
+      url: /suite-data-mining.html
+      output: web
 
 #    - title: Managing processes
 #      url: /suite-managing-processes.html
