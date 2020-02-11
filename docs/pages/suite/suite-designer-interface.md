@@ -66,9 +66,11 @@ However, there will be times in which you will want to override this self-organi
 | ![menu-tree-minus](https://user-images.githubusercontent.com/13994516/63041070-44969780-bec7-11e9-9a42-3f13264b3ed2.png) | Clicking the _minus_ button collapses the structure, hiding offspring nodes. This also has the effect of releasing CPU resources as the platform stops calculating their position and status. In general, it is good practice to keep hierarchies closed when not being actively worked on. | 
 | ![menu-tree-plus](https://user-images.githubusercontent.com/13994516/63041077-45c7c480-bec7-11e9-965c-38e4fd706c38.png) | Clicking the _plus_ button expands the structure of offspring nodes. | 
 
+<img src='images/icons/crypto-ecosystem.png' />
+
 | Icon | Angle to Parent &mdash; Click to cycle through the different options. |
 | --- | --- |
-| <img src="/images/icons/angle-to-parent-360.png" /> | The node is locked to a *rotational symmetry* around its parent node, with sibling nodes using the same setting. The symmetry spans **360 degrees**, and the connection line with the parent node is orange.| 
+| <img src="images/icons/angle-to-parent-360.png" /> | The node is locked to a *rotational symmetry* around its parent node, with sibling nodes using the same setting. The symmetry spans **360 degrees**, and the connection line with the parent node is orange.| 
 | ![180](/images/icons/angle-to-parent-180.png) | The slot of the symmetry around its parent node is limited to **180 degrees**, and the connection line remains orange.| 
 | ![90](/images/icons/angle-to-parent-090.png) | The slot of the symmetry around its parent node is limited to **90 degrees**, and the connection line remains orange.| 
 | ![45](/images/icons/angle-to-parent-045.png) | The slot of the symmetry around its parent node is limited to **45 degrees**, and the connection line remains orange.| 
