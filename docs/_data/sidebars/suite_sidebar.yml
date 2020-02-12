@@ -121,6 +121,26 @@ entries:
       url: /suite-situations-conditions-formulas.html
       output: web
 
+    - title: "&#8594; Syntax overview"
+      url: /suite-sysntax-overview.html
+      output: web
+
+    - title: "&#8594; Internal variables"
+      url: /suite-internal-variables.html
+      output: web
+
+    - title: "&#8594; Masters indicators"
+      url: /suite-masters-indicators.html
+      output: web
+
+    - title: "&#8594; Sparta indicators"
+      url: /suite-sparta-indicators.html
+      output: web
+
+#    - title: Using non-included indicators
+#      url: /suite-using-non-included-indicators.html
+#      output: web
+
     - title: Trading sessions
       url: /suite-trading-sessions.html
       output: web
@@ -128,30 +148,6 @@ entries:
     - title: Parameters
       url: /suite-parameters.html
       output: web
-
-  - title: Writing conditions & formulas
-    output: web
-    folderitems:
-
-    - title: Syntax overview
-      url: /suite-sysntax-overview.html
-      output: web
-
-    - title: Internal variables
-      url: /suite-internal-variables.html
-      output: web
-
-    - title: Masters indicators
-      url: /suite-masters-indicators.html
-      output: web
-
-    - title: Sparta indicators
-      url: /suite-sparta-indicators.html
-      output: web
-
-#    - title: Using non-included indicators
-#      url: /suite-using-non-included-indicators.html
-#      output: web
 
   - title: Infrastructure concepts
     output: web
@@ -165,19 +161,19 @@ entries:
       url: /suite-network.html
       output: web
 
-    - title: Data storage
+    - title: "&#8594; Data storage"
       url: /suite-data-storage.html
       output: web
 
-    - title: Data mining
+    - title: "&#8594; Data mining"
       url: /suite-data-mining.html
       output: web
 
-    - title: Testing environment
+    - title: "&#8594; Testing environment"
       url: /suite-testing-environment.html
       output: web
 
-    - title: Production environment
+    - title: "&#8594; Production environment"
       url: /suite-production-environment.html
       output: web
 
