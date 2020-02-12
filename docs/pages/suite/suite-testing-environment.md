@@ -1,6 +1,6 @@
 ---
 title:  Testing Environment
-summary: "The testing environment organizes your strategy-testing resources, grouping tasks, and associated backtesting and paper trading sessions."
+summary: "The testing environment within the network hierarchy organizes your strategy-testing resources, grouping tasks, and associated backtesting and paper trading sessions."
 sidebar: suite_sidebar
 permalink: suite-testing-environment.html
 toc: false

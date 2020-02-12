@@ -1,6 +1,6 @@
 ---
 title:  Production Environment
-summary: "The production environment organizes your strategy-deployment resources, grouping tasks, and associated forward testing and live trading sessions."
+summary: "The production environment within the network hierarchy organizes your strategy-deployment resources, grouping tasks, and associated forward testing and live trading sessions."
 sidebar: suite_sidebar
 permalink: suite-production-environment.html
 toc: false

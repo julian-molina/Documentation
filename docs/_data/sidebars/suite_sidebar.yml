@@ -157,13 +157,13 @@ entries:
     output: web
     folderitems:
 
+    - title: Types of bots
+      url: /suite-types-of-bots.html
+      output: web
+
     - title: Network
       url: /suite-network.html
       output: web
-
-#    - title: Types of bots
-#      url: /suite-types-of-bots.html
-#      output: web
 
     - title: Data storage
       url: /suite-data-storage.html
