@@ -93,9 +93,10 @@ entries:
       url: /suite-design-space-workspace-and-data-structures.html
       output: web
 
-    - title: "&#8594; Interface"
+    - title: Interface
       url: /suite-design-space-interface.html
       output: web
+      class: childItem
 
     - title: Hierarchies
       url: /suite-hierarchies.html
@@ -121,21 +122,25 @@ entries:
       url: /suite-situations-conditions-formulas.html
       output: web
 
-    - title: "&#8594; Syntax overview"
+    - title: Syntax overview
       url: /suite-sysntax-overview.html
       output: web
+      class: childItem
 
-    - title: "&#8594; Internal variables"
+    - title: Internal variables
       url: /suite-internal-variables.html
       output: web
+      class: childItem
 
-    - title: "&#8594; Masters indicators"
+    - title: Masters indicators
       url: /suite-masters-indicators.html
       output: web
+      class: childItem
 
-    - title: "&#8594; Sparta indicators"
+    - title: Sparta indicators
       url: /suite-sparta-indicators.html
       output: web
+      class: childItem
 
 #    - title: Using non-included indicators
 #      url: /suite-using-non-included-indicators.html
@@ -148,6 +153,7 @@ entries:
     - title: Parameters
       url: /suite-parameters.html
       output: web
+      class: childItem
 
   - title: Infrastructure concepts
     output: web
@@ -161,21 +167,25 @@ entries:
       url: /suite-network.html
       output: web
 
-    - title: "&#8594; Data storage"
+    - title: Data storage
       url: /suite-data-storage.html
       output: web
+      class: childItem
 
-    - title: "&#8594; Data mining"
+    - title: Data mining
       url: /suite-data-mining.html
       output: web
+      class: childItem
 
-    - title: "&#8594; Testing environment"
+    - title: Testing environment
       url: /suite-testing-environment.html
       output: web
+      class: childItem
 
-    - title: "&#8594; Production environment"
+    - title: Production environment
       url: /suite-production-environment.html
       output: web
+      class: childItem
 
 #    - title: Managing processes
 #      url: /suite-managing-processes.html
