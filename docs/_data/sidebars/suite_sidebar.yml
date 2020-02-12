@@ -169,6 +169,10 @@ entries:
       url: /suite-data-mining.html
       output: web
 
+    - title: Testing environment
+      url: /suite-testing-environment.html
+      output: web
+
 #    - title: Managing processes
 #      url: /suite-managing-processes.html
 #      output: web
