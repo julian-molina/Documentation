@@ -48,7 +48,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-If you work with multiple markets, multiple exchanges, or multiple trading systems, it is recommended to organize your live trading sessions below the production environment node.
+Superalgos aims to provide a flexible and robust strategy-deployment toolbox.
+
+If you work with multiple markets, multiple exchanges, or multiple trading systems, it is recommended to organize your forward testing and live trading sessions below the production environment node.
 
 <!--------------------------------------------- CONTENT ends -->
 

@@ -157,8 +157,8 @@ entries:
     output: web
     folderitems:
 
-    - title: Network overview
-      url: /suite-network-overview.html
+    - title: Network
+      url: /suite-network.html
       output: web
 
 #    - title: Types of bots
@@ -171,6 +171,10 @@ entries:
 
     - title: Testing environment
       url: /suite-testing-environment.html
+      output: web
+
+    - title: Production environment
+      url: /suite-production-environment.html
       output: web
 
 #    - title: Managing processes

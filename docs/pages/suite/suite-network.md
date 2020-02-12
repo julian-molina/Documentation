@@ -1,8 +1,8 @@
 ---
-title:  Network Overview
+title:  Network
 summary: "The network hierarchy organizes the infrastructure to run bots and store data."
 sidebar: suite_sidebar
-permalink: suite-network-overview.html
+permalink: suite-network.html
 toc: false
 ---
 
