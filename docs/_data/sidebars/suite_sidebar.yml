@@ -165,6 +165,10 @@ entries:
 #      url: /suite-types-of-bots.html
 #      output: web
 
+    - title: Data storage
+      url: /suite-data-storage.html
+      output: web
+
     - title: Data mining
       url: /suite-data-mining.html
       output: web
