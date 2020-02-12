@@ -1,4 +1,4 @@
-design_space: "The design space is the visual environment that features all the information available and that enables users to exert control over the whole system. You may think of the design space as your desktop."
+design_space: "The design space is the visual environment that features all the information available to the system and the user, and that enables users to exert control over the whole system. You may think of the design space as your desktop."
 
 workspace: "The workspace refers to the body of information managed by the system. Every data structure in the form of strategies, the configuration of different parts of the system, operational settings, and the relationships among them live within the workspace."
 

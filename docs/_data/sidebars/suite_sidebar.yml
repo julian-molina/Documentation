@@ -85,12 +85,16 @@ entries:
 #      url: /suite-layers-panel.html
 #      output: web
 
-  - title: Design space
+  - title: General concepts
     output: web
     folderitems:
 
     - title: Design space, workspace, and nodes
       url: /suite-design-space-workspace-and-data-structures.html
+      output: web
+
+    - title: "&#8594; Interface"
+      url: /suite-design-space-interface.html
       output: web
 
     - title: Hierarchies
@@ -101,10 +105,6 @@ entries:
       url: /suite-references.html
       output: web
 
-    - title: Interface
-      url: /suite-design-space-interface.html
-      output: web
-    
   - title: Trading concepts
     output: web
     folderitems:
