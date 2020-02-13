@@ -48,7 +48,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+This node is not fully implemented yet.
 
 <!--------------------------------------------- CONTENT ends -->
 
