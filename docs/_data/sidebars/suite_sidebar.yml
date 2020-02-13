@@ -159,6 +159,10 @@ entries:
     output: web
     folderitems:
 
+    - title: Crypto ecosystem
+      url: /suite-crypto-ecosystem.html
+      output: web
+
     - title: Types of bots
       url: /suite-types-of-bots.html
       output: web
