@@ -26,5 +26,11 @@ superalgos_protocol: "In conceptual terms, the Superalgos Protocol determines th
 
 hierarchies_directory: "The hierarchies directory is the part of the documentation that features a description of the complete catalog of nodes of each hierachy"
 
+data_product: "A data product is a collection of datasets that bots output for others to consume."
+
+dataset: "A dataset is a collection of plain-text files storing information in the form of arrays of records in the standard JSON format, although not as objects with named properties, but as arrays."
+
+process: "A process is an algorithm defined in the process definition structure of nodes of the corresponding bot and data mine."
+
 pending: "balanceAssetA, balanceAssetB, overfitting, supported assets, supported exchanges, supported markets"
 

@@ -50,7 +50,7 @@
 
 In a way, data mines are catalogs of bots that anyone may create. This hierarchy provides all the tools required to create sensors, indicators, and plotters, with minimal coding required.
 
-Because the hierarchy provides definitions, it does not intervene in the execution of bots. Instead, the definitions in data mines are instantiated from the Network hierarchy by bot instances. Bot instances and process instances are the ones running the code according to the definitions in the corresponding data mine.
+Because the hierarchy provides definitions, it does not intervene in the execution of bots. Instead, the definitions in data mines are instantiated from the network hierarchy by bot instances. Bot instances and process instances are the ones running the code according to the definitions in the corresponding data mine.
 
 <!--------------------------------------------- CONTENT ends -->
 
