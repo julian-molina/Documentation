@@ -262,18 +262,14 @@ entries:
       url: /suite-data-mines.html
       output: web
 
-#    - title: Bots
-#      url: /suite-bots.html
-#      output: web
+    - title: Indicator bots
+      url: /suite-indicator-bots.html
+      output: web
 
-#    - title: Anatomy of an indicator
-#      url: /suite-anatomy-of-an-indicator.html
-#      output: web
-
-#    - title: Process definition
-#      url: /suite-process-definition.html
-#      output: web
-#      class: childItem
+    - title: Process definition
+      url: /suite-process-definition.html
+      output: web
+      class: childItem
 
 #    - title: Product definition
 #      url: /suite-product-definition.html

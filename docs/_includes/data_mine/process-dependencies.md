@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
 {% assign title = "Process Dependencies" %}
-{% assign definition = site.data.data_mine.process_depedencies %}
+{% assign definition = site.data.data_mine.process_dependencies %}
 {% assign preposition = "a" %}
 {% assign plural = "" %}
 
