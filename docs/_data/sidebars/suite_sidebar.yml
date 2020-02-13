@@ -163,6 +163,11 @@ entries:
       url: /suite-crypto-ecosystem.html
       output: web
 
+    - title: Exchange assets
+      url: /suite-exchange-assets.html
+      output: web
+      class: childItem
+
     - title: Types of bots
       url: /suite-types-of-bots.html
       output: web
