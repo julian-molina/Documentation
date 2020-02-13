@@ -168,6 +168,16 @@ entries:
       output: web
       class: childItem
 
+    - title: Exchange markets
+      url: /suite-exchange-markets.html
+      output: web
+      class: childItem
+
+    - title: Exchange accounts
+      url: /suite-exchange-accounts.html
+      output: web
+      class: childItem
+
     - title: Types of bots
       url: /suite-types-of-bots.html
       output: web
