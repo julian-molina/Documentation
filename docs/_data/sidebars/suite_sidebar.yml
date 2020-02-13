@@ -271,6 +271,11 @@ entries:
       output: web
       class: childItem
 
+    - title: Product definition
+      url: /suite-product-definition.html
+      output: web
+      class: childItem
+
 #    - title: Product definition
 #      url: /suite-product-definition.html
 #      output: web
