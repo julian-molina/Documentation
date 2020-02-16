@@ -60,7 +60,9 @@ To set up a layer, you need to establish a <a href="suite-references.html" data-
 
 <!--------------------------------------------- CHARTS starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To turn layers on and off, simply click on the layer in the corresponding products panel.
+
+To turn on and off a layer panel, click the panel button on the bottom-left corner of the layer.
 
 <!--------------------------------------------- CHARTS ends -->
 
