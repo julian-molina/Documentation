@@ -50,11 +50,9 @@
 
 At this point, the system supports one viewport only. Think of the viewport as a huge drawing board. You may have lots of information plotted on different parts of the viewport. You may move the viewport around and zoom in to focus on specific charts.
 
-When you zoom out, you may be bringing more information in focus. Because information is handled dynamically reading data from files, interpreting it, and drawing the corresponding visual elements on the screen in real-time, zooming out or&mdash;in general, bringing lots of information in focus&mdash;may slow your system down. For that reason, when you zoom far out of a chart, the charts shift to the 24-hs time frame automatically. This helps keeping the amount of information in focus in check.
+The information that is out of focus, that is, out of the visible screen, is not read nor rendered graphically, thus, does not consume resources. 
 
-The information that is out of focus, that is, out of the visible screen, is not rendered, thus, does not consume resources. 
-
-The concept of the viewport allows having multiple charts configured all at once, so that you may consult different exchanges, different markets, or different technical studies on demand, simply by moving around and zooming in or out. You may put charts side by side, or even superimpose them to study market flows, search for arbitrage opportunities, or simply keep them in sight when you analyze particular market situations.
+The concept of the viewport allows having multiple charts configured all at once, so that you may consult different exchanges, different markets, different time frames, or different technical studies on demand, simply by moving around and zooming in or out. You may put charts side by side, or even superimpose them to study market flows, search for arbitrage opportunities, or simply keep them in sight when you analyze particular market situations.
 
 <!--------------------------------------------- CONTENT ends -->
 

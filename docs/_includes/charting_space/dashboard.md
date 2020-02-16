@@ -48,7 +48,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+At the moment, the functionality of a dashboard is trivial: grouping time machines. However, in the future, it will offer various features to enhance the user experience while setting up complex and ellaborate dashboards.
 
 <!--------------------------------------------- CONTENT ends -->
 
