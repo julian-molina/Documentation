@@ -48,9 +48,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-In other words, a timeline chart is a set of information to be displayed over a timeline. The information may include candles&mdash;the main and foremost resource&mdash;as well as any other indicator, study or&mdash;in general&mdash;data product that may be available.
+In other words, a timeline chart&mdash;often referred simply as *chart*&mdash;is a set of information to be displayed over a timeline. The information may include candles&mdash;the main and foremost resource&mdash;as well as any other indicator, study or&mdash;in general&mdash;data products that may be available.
 
-You may add as many charts as you wish. Charts within the same time machine are synchronized in the y-axis, that is, at the datetime level. Charts in different time machines are independent of each other concerning the datetime. In either case, you may also add rate scales and time frame scales at the timeline charts level.
+You may add as many charts as you wish. Charts within the same time machine are synchronized in the y-axis, that is, in the datetime dimension. Charts in different time machines are independent of each other concerning the datetime. In either case, you may also add rate scales and time frame scales at the timeline charts level.
 
 The information that each timeline chart makes available on the screen is given by the layers set up in the corresponding layers manager.
 

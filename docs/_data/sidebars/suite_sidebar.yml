@@ -106,6 +106,28 @@ entries:
       url: /suite-references.html
       output: web
 
+  - title: Charting concepts
+    output: web
+    folderitems:
+
+    - title: Interface
+      url: /suite-charting-space-interface.html
+      output: web
+
+    - title: Charting Space
+      url: /suite-charting-space.html
+      output: web
+
+    - title: Scales
+      url: /suite-scales.html
+      output: web
+      class: childItem
+
+    - title: Timeline Charts
+      url: /suite-timeline-charts.html
+      output: web
+      class: childItem
+
   - title: Trading concepts
     output: web
     folderitems:

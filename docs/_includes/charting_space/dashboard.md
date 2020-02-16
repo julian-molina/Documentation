@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Time Machine" %}
-{% assign definition = site.data.charting_space.time_machine %}
+{% assign title = "Dashboard" %}
+{% assign definition = site.data.charting_space.dashboard %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
@@ -48,9 +48,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Think of a time machine as an aide that helps you keep any number of pieces of information synchronized on the same time scale. Every data structure that you set up within the same time machine, will always be synchronized in time. Put in other words, the open and closing datetime of each dataset will always be aligned on the vertical axis.
-
-On the other hand, when you arrange charts on different time machines, they are completely independent of one another.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -67,7 +65,7 @@ On the other hand, when you arrange charts on different time machines, they are 
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a time machine, select *Add Time Machine* on the Dashboard node menu.
+To add a dashboard, select *Add Dashboard* on the Charting Space node menu.
 
 <!--------------------------------------------- ADDING ends -->
 
