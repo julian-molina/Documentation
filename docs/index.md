@@ -8,7 +8,17 @@ permalink: index.html
 
 This documentation is currently work in progress and corresponds to an unreleased version of the Superalgos Suite, still in development. The system has experienced a major shift on multiple fronts, and changes are currently being documented.
 
-The <a href="" data-toggle="tooltip" data-original-title="{{site.data.concepts.hierarchies_directory}}">hierarchies directory</a> features extensive information about all the data structures handled by the design space, including the new, unreleased ones.
+The current pages cover all the basic aspects of the concepts entailed in the system. That is, most concepts native to Superalgos and technical details of the system are covered already.
+
+Pending work includes:
+
+* A complete description of the charts interface. The underlying concepts are already covered in the Charting Space pages.
+
+* A *getting started guide*.
+
+* Documentation-wide illustrations.
+
+* *How to* pages and specific *use cases*.
 
 ## Beta Stage Notice
 

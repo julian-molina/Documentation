@@ -19,22 +19,22 @@ entries:
 #      output: pdf
 #      type: frontmatter
 
-#  - title: Before you Begin
-#    output: web
-#    folderitems:
+  - title: Before you begin
+    output: web
+    folderitems:
 
-#    - title: Welcome!
-#      url: /index.html
-#      output: web
-#      type: homepage
+    - title: Welcome!
+      url: /index.html
+      output: web
+      type: homepage
 
 #    - title: What to expect
 #      url: /suite-what-to-expect.html
 #      output: web
 
-#    - title: System requirements
-#      url: /suite-system-requirements.html
-#      output: web
+    - title: System requirements
+      url: /suite-system-requirements.html
+      output: web
 
 #  - title: Getting Started
 #    output: web
