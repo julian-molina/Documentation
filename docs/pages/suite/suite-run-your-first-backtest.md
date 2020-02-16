@@ -25,7 +25,7 @@ Go to the ```Superalgos Platform/Quick-Start-Examples``` folder, drag ```Share -
 | :---: | :---: | :---: | :---: | :---: |
 |![task](https://user-images.githubusercontent.com/13994516/66308205-ca9eef80-e906-11e9-8864-f7dba886bc7d.png) | ![timeline](https://user-images.githubusercontent.com/13994516/67079956-73b1d980-f194-11e9-89e0-9c8d1ea2ad1d.png) | ![trading-engine](https://user-images.githubusercontent.com/13994516/69948042-2f358f80-14ef-11ea-9193-f49eeb67b51c.png) | ![process](https://user-images.githubusercontent.com/13994516/67079738-00a86300-f194-11e9-9f59-a4cc4ce6d56c.png) | ![session-backtesting](https://user-images.githubusercontent.com/13994516/66318052-e7452280-e91a-11e9-94a7-90ebe6ee6e62.png) |
 
-Once on the design space, hit <kbd>Ctrl or &#8984;</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> (*T* for *Testing*). This shortcut will take you to the *Network* hierachy of the design space, where you will start the process to run a backtesting session. More precisely, it takes you to *Testing Sessions*, the *task manager* that controls testing sessions.
+Once in the design space, hit <kbd>Ctrl or &#8984;</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> (*T* for *Testing*). This shortcut will take you to the *Network* hierachy of the design space, where you will start the process to run a backtesting session. More precisely, it takes you to *Testing Sessions*, the *task manager* that controls testing sessions.
 
 Look around the task manager by clicking and dragging the black background of the design space. You may also use the following keyboard key combinations to move around:
 

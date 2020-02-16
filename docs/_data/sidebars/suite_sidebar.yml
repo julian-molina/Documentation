@@ -85,7 +85,7 @@ entries:
 #      url: /suite-layers-panel.html
 #      output: web
 
-  - title: General concepts
+  - title: Design space concepts
     output: web
     folderitems:
 
@@ -96,7 +96,6 @@ entries:
     - title: Interface
       url: /suite-design-space-interface.html
       output: web
-      class: childItem
 
     - title: Hierarchies
       url: /suite-hierarchies.html
@@ -110,9 +109,9 @@ entries:
     output: web
     folderitems:
 
-    - title: Interface
-      url: /suite-charting-space-interface.html
-      output: web
+#    - title: Interface
+#      url: /suite-charting-space-interface.html
+#      output: web
 
     - title: Charting Space
       url: /suite-charting-space.html
