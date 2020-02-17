@@ -68,7 +68,6 @@ entries:
 #      url: /suite-what-is-next.html
 #      output: web
 
-
 #  - title: Charts
 #    output: web
 #    folderitems:
@@ -85,7 +84,7 @@ entries:
 #      url: /suite-layers-panel.html
 #      output: web
 
-  - title: Design space concepts
+  - title: Design space
     output: web
     folderitems:
 
@@ -105,7 +104,7 @@ entries:
       url: /suite-references.html
       output: web
 
-  - title: Charting concepts
+  - title: Charting space
     output: web
     folderitems:
 
@@ -127,7 +126,7 @@ entries:
       output: web
       class: childItem
 
-  - title: Trading concepts
+  - title: Trading system
     output: web
     folderitems:
 
@@ -176,7 +175,7 @@ entries:
       output: web
       class: childItem
 
-  - title: Infrastructure concepts
+  - title: Infrastructure
     output: web
     folderitems:
 
@@ -275,7 +274,7 @@ entries:
 #      url: /suite-multiple-forward-testing-and-live-trading-sessions.html
 #      output: web
 
-  - title: Data mining concepts
+  - title: Data mines
     output: web
     folderitems:
 

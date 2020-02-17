@@ -29,7 +29,7 @@ Bots need to know which <a href="" data-toggle="tooltip" data-original-title="{{
 
 In the case of the trading bot, it also needs to know which type of <a href="" data-toggle="tooltip" data-original-title="{{site.data.concepts.session}}">trading session</a> it should run, and what <a href="" data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading system's</a> rules it should follow. For those reasons, trading bots are paired with a specific session, which in turn, references a trading system.
 
-{% include note.html content="The information covered *en passant* in this page is explained in detail throughout these *infrastructure concepts* pages." %}
+{% include note.html content="The information covered *en passant* in this page is explained in detail throughout these * infrastructure* pages." %}
 
 
 

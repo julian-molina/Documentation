@@ -1,10 +1,13 @@
 ---
-title: "Welcome to the Superalgos Documentation"
+title: "Welcome to the Superalgos Documentation Site"
+summary: "This is the documentation for the Superalgos Project, a crypto-intelligence suite enabling the automation of complex trading strategies and robust market data processing."
 sidebar: suite_sidebar
 permalink: index.html
 ---
 
 ## About this Documentation
+
+This is the documentation site for the Superalgos Project, as described [on the website](https://superalgos.org/).
 
 This documentation is currently work in progress and corresponds to an unreleased version of the Superalgos Suite, still in development. The system has experienced a major shift on multiple fronts, and changes are currently being documented.
 
