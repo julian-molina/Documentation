@@ -7,7 +7,12 @@
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
-{% if include.heading != "" %}
+{% if include.more == "yes" and include.heading == "more" %}
+<details class="detailsCollapsible"><summary class="nobr">Click to learn more about {{ title | downcase }}{{plural}}
+</summary>
+{% endif %}
+
+{% if include.heading != "" and include.heading != "more" %}
 {{include.heading}} {{title}}
 {% endif %}
 
@@ -39,7 +44,7 @@
 </td></tr></table>
 {% endif %}
 
-{% if include.more == "yes" and include.content == "more" %}
+{% if include.more == "yes" and include.content == "more" and include.heading != "more" %}
 <details class="detailsCollapsible"><summary class="nobr">Click to learn more about status dependencies
 </summary>
 {% endif %}
@@ -66,7 +71,7 @@ The image above shows a case of a self-reference status dependency as well as a 
 
 {% endif %}
 
-{% if include.more == "yes" and include.content != "more" %}
+{% if include.more == "yes" and include.content != "more" and include.heading != "more" %}
 <details class="detailsCollapsible"><summary class="nobr">Click to learn more about status dependencies
 </summary>
 {% endif %}

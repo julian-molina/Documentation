@@ -5,19 +5,28 @@ sidebar: suite_sidebar
 permalink: suite-viewport-interface.html
 ---
 
-Conceptually, the Superalgos Platform places the focus on the visual experience. Not just because it's *nice* to see data in graphical representations, but because humans excel when our senses take part in the analysis. Human's capacity to think abstractly may be more or less developed across individuals, but one thing is clear: our thought process benefits from being able to see.
+## Navigating the Viewport
 
-The Charts offer a visual environment in which you will be able to see, analyze and go over every piece of data involved in the process of trading cryptocurrencies:
+When you open the charting space's <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.viewport}}">viewport</a>, you may see several charts, depending on the setup of your current <a data-toggle="tooltip" data-original-title="{{site.data.concepts.workspace}}">workspace</a>.
 
-* Live and historic market data;
-* Data crunched in the form of indicators;
-* The specific effects of the rules you will program into your strategies, and how strategies behave during testing and live trading sessions.
+To move around the viewport, right-click and drag. You may also use the wheel of the mouse to zoom in and out.
 
-[![Overview-03-Charts](https://user-images.githubusercontent.com/13994516/67267949-a79e3f00-f4b3-11e9-9c0b-0c4aecf2d37d.gif)](https://user-images.githubusercontent.com/13994516/67267949-a79e3f00-f4b3-11e9-9c0b-0c4aecf2d37d.gif)
+{% include note.html content="Notice how the viewport navigation resembles the navigation in *Google Maps*. You zoom out for the big picture. You zoom in for a closer view of any particular chart to get the details. Keep zooming in and you get the immersive experience... the *street view* of the market." %}
 
-## Main Nodes
+{% include /charting_space/viewport.md heading="more" icon="150-" adding="" configuring="" charts="" content="yes" definition="bold" table="yes" more="yes"%}
 
-Notice the following three nodes relative to the position of the mouse pointer:
+
+## Timeline Charts and Time Machines
+
+Each of these charts is actually a <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.time_machine}}">time machine</a>. Time machines are represented by rectangular elements with dark-turquoise boundaries.
+
+Time machines may feature one or mote <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.timeline_chart}}">timeline charts</a>.
+
+
+
+## Scale Boxes
+
+Notice the three boxes that move along the borders of the relative to the position of the mouse pointer:
 
 **1.** Above, the current datetime. This is the date and time at the mouse pointer position.
 
