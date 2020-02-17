@@ -31,13 +31,11 @@
 {% endif %}
 
 {% if include.definition == "bold" %}
-
 <strong>{{ definition }}</strong>
-
 {% else %}
-
+{% if include.definition != "no" %}
 {{ definition }}
-
+{% endif %}
 {% endif %}
 
 {% if include.table == "yes" and include.icon != "no" %}
@@ -87,7 +85,7 @@ The scale features a manual mode. When in manual mode the scale does not change,
 
 {{include.charts}}# Automatic Scale
 
-**To change the automatic scale settings**, place the mouse pointer over the corresponding time box, press the <kbd>Shift</kbd> key and slowly scroll the wheel of the mouse. The action cycles through the different possible scale automation settings. Notice a tiny green triangle below and/or above the rate scale icon. 
+**1. To change the automatic scale settings**, place the mouse pointer over the corresponding time box, press the <kbd>Shift</kbd> key and slowly scroll the wheel of the mouse. The action cycles through different possible scale automation settings. Notice a tiny green triangle below and/or above the rate scale icon. 
 
 * A triangle pointing right means that the maximum value of the scale is automatic. 
 
@@ -99,7 +97,7 @@ The scale features a manual mode. When in manual mode the scale does not change,
 
 {{include.charts}}# Manual Scale
 
-**To adjust the scale**, make sure either or both minimum and maximum values are in manual mode. Place the mouse pointer over the time box and scroll the wheel of the mouse. The scale will increase or decrease accordingly, depending on which values are set to manual.
+**2. To adjust the scale**, make sure either or both minimum and maximum values are in manual mode. Place the mouse pointer over the time box and scroll the wheel of the mouse. The scale will increase or decrease accordingly, depending on which values are set to manual.
 
 Notice that, while changing the scale, a number is displayed replacing the actual datetime. This is a reference value of the scale, that may serve for comparison purposes, with scales in other charts.
 

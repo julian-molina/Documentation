@@ -26,7 +26,7 @@ toc: false
 
 {% include /charting_space/viewport.md heading="##" icon="150-" adding="" configuring="" charts="" content="yes" definition="bold" table="yes" more="no"%}
 
-{% include /charting_space/dashboard.md heading="##" icon="150-" adding="####" configuring="" charts="" content="no" definition="bold" table="yes" more="no"%}
+{% include /charting_space/dashboard.md heading="##" icon="150-" adding="####" configuring="" charts="" content="yes" definition="bold" table="yes" more="no"%}
 
 {% include /charting_space/time-machine.md heading="##" icon="150-" adding="####" configuring="" charts="" content="yes" definition="bold" table="yes" more="no"%}
 

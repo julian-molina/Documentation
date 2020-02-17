@@ -31,13 +31,11 @@
 {% endif %}
 
 {% if include.definition == "bold" %}
-
 <strong>{{ definition }}</strong>
-
 {% else %}
-
+{% if include.definition != "no" %}
 {{ definition }}
-
+{% endif %}
 {% endif %}
 
 {% if include.table == "yes" and include.icon != "no" %}
@@ -85,6 +83,8 @@ To turn on and off a layer panel, click the panel button on the bottom-left corn
 <!--------------------------------------------- ADDING starts -->
 
 To add a layer, select *Add Layer* on the layer manager node menu. 
+
+{% include note.html content="After adding a layer node, make sure you establish a reference to the corresponding data product in the data storage node of the network hierarchy." %}
 
 <!--------------------------------------------- ADDING ends -->
 

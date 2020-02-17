@@ -63,7 +63,7 @@ When the time frame scale is set at the level of the time machine, the scale set
 
 <!--------------------------------------------- CHARTS starts -->
 
-**To set a time frame value**, place the mouse pointer over the corresponding time machine or timeline chart time frame box and scroll the mouse wheel.
+**1. To set a time frame value**, place the mouse pointer over the corresponding time machine or timeline chart time frame box and scroll the mouse wheel.
 
 <!--------------------------------------------- CHARTS ends -->
 

@@ -110,6 +110,26 @@ entries:
       url: /suite-viewport-interface.html
       output: web
 
+    - title: Arranging a dashboard
+      url: /suite-arranging-dashboard.html
+      output: web
+      class: childItem
+
+    - title: "Navigating time machines & charts"
+      url: /suite-navigating-time-machines.html
+      output: web
+      class: childItem
+
+    - title: Scale boxes
+      url: /suite-scale-boxes.html
+      output: web
+      class: childItem
+
+    - title: Layer managers
+      url: /suite-layer-managers.html
+      output: web
+      class: childItem
+
     - title: Charting space
       url: /suite-charting-space.html
       output: web

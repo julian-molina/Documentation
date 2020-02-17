@@ -32,13 +32,11 @@
 {% endif %}
 
 {% if include.definition == "bold" %}
-
 <strong>{{ definition }}</strong>
-
 {% else %}
-
+{% if include.definition != "no" %}
 {{ definition }}
-
+{% endif %}
 {% endif %}
 
 {% if include.table == "yes" and include.icon != "no" %}
