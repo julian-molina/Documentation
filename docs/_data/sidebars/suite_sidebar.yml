@@ -106,11 +106,11 @@ entries:
     output: web
     folderitems:
 
-    - title: Interface
-      url: /suite-charting-space-interface.html
+    - title: Viewport interface
+      url: /suite-viewport-interface.html
       output: web
 
-    - title: Charting Space
+    - title: Charting space
       url: /suite-charting-space.html
       output: web
 
@@ -119,7 +119,7 @@ entries:
       output: web
       class: childItem
 
-    - title: Timeline Charts
+    - title: Timeline charts
       url: /suite-timeline-charts.html
       output: web
       class: childItem

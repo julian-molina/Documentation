@@ -21,7 +21,7 @@ In practical terms, the design space is the portion of the system you access whe
 
 It contains:
  
-* All <a href="" data-toggle="tooltip" data-original-title="{{site.data.concepts.hierarchy}}">hierarchies</a> with all of their <a href="" data-toggle="tooltip" data-original-title="{{site.data.concepts.node}}">nodes</a>.
+* All <a data-toggle="tooltip" data-original-title="{{site.data.concepts.hierarchy}}">hierarchies</a> with all of their <a data-toggle="tooltip" data-original-title="{{site.data.concepts.node}}">nodes</a>.
 
 * Nodes that may be floating around detached from hierarchies.
 
