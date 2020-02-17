@@ -15,7 +15,7 @@ If you don't consider yourself an early adopter and usually go to your 10-year-o
 
 What you will get is a client application that runs entirely on users' machines. This is to fulfill the design principle of a trustless deployment: you don't need to trust any third party with your strategies, exchange API keys, personal information, or funds.
 
-There is a thorough description of the system [on the website](https://superalgos.org/).
+There is a thorough description of system features and functionality [on the website](https://superalgos.org/).
 
 ## Data in Your Machine
 
