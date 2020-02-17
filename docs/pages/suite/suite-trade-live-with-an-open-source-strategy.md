@@ -84,7 +84,7 @@ Simply make sure that you have enough funds at the exchange. The system will han
 
 Go back to the task controlling the Live Trading Session, select *Run* on the menu. Then go to the *Live Trading* session and do the same. You are now trading live!
 
-> **WARNING:** The Superalgos Platform is at a very early stage of development. As such, errors may occur at any point, including errors that can cause you to lose money. Make sure you test with small amounts of money, the kind you can afford losing. Also, make sure you understand the [Execution Limitations](Execution-Limitations). You are responsible for taking all precautions before starting trading live, but even if you do errors may occur. Trade at your own risk.
+> **WARNING:** Superalgos is at a very early stage of development. As such, errors may occur at any point, including errors that can cause you to lose money. Make sure you test with small amounts of money, the kind you can afford losing. Also, make sure you understand the [Execution Limitations](Execution-Limitations). You are responsible for taking all precautions before starting trading live, but even if you do errors may occur. Trade at your own risk.
 
 > **DISCLAIMER:** THIS IS NOT FINANCIAL ADVICE. ALTHOUGH THE STRATEGIES DISTRIBUTED WITH THE SUPERALGOS DESKTOP APP MAY BE FULLY FUNCTIONAL, WE DO NOT MAKE ANY EXPRESS OR IMPLIED RECOMMENDATION AS OF HOW YOU SHOULD USE THEM. WE SHARE STRATEGIES FOR EDUCATIONAL PURPOSES ONLY. TRADE AT YOUR OWN RISK.
 

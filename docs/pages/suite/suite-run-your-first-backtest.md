@@ -15,7 +15,7 @@ To run your first backtest you will need a functional strategy.
 
 ## Import a Workspace
 
-Go to the ```Superalgos Platform/Quick-Start-Examples``` folder, drag ```Share - Workspace - Combined Bull-run rider and Weak-hands buster.json``` and drop it on the _design space_ to start with a workspace with functioning strategies.
+Go to the ```Superalgos/Quick-Start-Examples``` folder, drag ```Share - Workspace - Combined Bull-run rider and Weak-hands buster.json``` and drop it on the _design space_ to start with a workspace with functioning strategies.
 
 [![Getting-Started-Guide-02-Drop-Workspace](https://user-images.githubusercontent.com/13994516/67231208-2907ba00-f43f-11e9-82b4-d78c0ace4d0a.gif)](https://user-images.githubusercontent.com/13994516/67231208-2907ba00-f43f-11e9-82b4-d78c0ace4d0a.gif)
 

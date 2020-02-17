@@ -23,9 +23,9 @@ Always back up your existing workspace before switching versions. You may always
 
 Stop the system by closing your browser. Allow a minute or two until all activity stops before closing the Console/Command Line running the programs.
 
-Make sure you are not storing any personal files, such as your workspace backups and so on in your ```Superalgos Platform``` folders. Move them to a different location if you are.
+Make sure you are not storing any personal files, such as your workspace backups and so on in your ```Superalgos``` folders. Move them to a different location if you are.
 
-You will keep the ```Data-Storage``` folder intact and delete all the remaining folders within the ```Superalgos Platform``` folder. You do not need to get rid of the historic market data every time you upgrade your system. **Do not delete your ```Data-Storage``` folder**.
+You will keep the ```Data-Storage``` folder intact and delete all the remaining folders within the ```Superalgos``` folder. You do not need to get rid of the historic market data every time you upgrade your system. **Do not delete your ```Data-Storage``` folder**.
 
 ## 4. Download and Install the New Version
 

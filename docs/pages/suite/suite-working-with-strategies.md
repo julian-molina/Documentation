@@ -54,7 +54,7 @@ Put in other words, events may be triggered in different circumstances, meaning 
 
 ## Using an Existing Strategy
 
-Thanks to the implementation of the Superalgos Trading Protocol, all strategies built within the Superalgos Platform are portable. This means that people may use strategies built by other people or groups of people.
+Thanks to the implementation of the Superalgos Trading Protocol, all strategies built within Superalgos are portable. This means that people may use strategies built by other people or groups of people.
 
 You may import any node—formulas, conditions, situations, phases, stages, complete strategies, complete trading systems, and even complete workspaces—simply by dragging and dropping them on the workspace.
 

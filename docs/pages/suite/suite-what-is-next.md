@@ -5,7 +5,7 @@ sidebar: suite_sidebar
 permalink: suite-what-is-next.html
 ---
 
-The Superalgos Platform is a comprehensive data processing and trading automation system that enables users to control every aspect of the *intelligence* required to be successful at trading.
+Superalgos is a comprehensive data processing and trading automation system that enables users to control every aspect of the *intelligence* required to be successful at trading.
 
 We don't think of intelligence as the outcome of a good trading strategy. Instead, intelligence is the effective use of every resource available, including but not limited to:
 

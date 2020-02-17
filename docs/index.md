@@ -27,6 +27,6 @@ Pending work includes:
 
 This is a pre-release in beta stage. The system is under heavy development. We appreciate your help in testing the system and reporting any errors you may experience. We will keep improving user experience with your feedback.
 
-{% include important.html content="The Superalgos Platform is at a very early stage of development. As such, errors may occur at any point, including errors that may cause you to lose money. You are responsible for taking all precautions before starting trading live. Make sure you forward-test with small amounts of money, the kind you can afford losing. Trade live at your own risk." %}
+{% include important.html content="Superalgos is at a very early stage of development. As such, errors may occur at any point, including errors that may cause you to lose money. You are responsible for taking all precautions before starting trading live. Make sure you forward-test with small amounts of money, the kind you can afford losing. Trade live at your own risk." %}
 
 

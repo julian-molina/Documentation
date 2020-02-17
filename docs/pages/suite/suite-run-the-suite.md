@@ -8,9 +8,9 @@ permalink: suite-run-the-suite.html
 
 Use the executable file to run the system:
 
-Go to the ```Superalgos Platform``` folder and double click on ```Superalgos.exe```. Now, skip the *other systems* instructions and go directly to the title [What to Expect After Running the Platform](#what-to-expect-after-running-the-platform).
+Go to the ```Superalgos``` folder and double click on ```Superalgos.exe```. Now, skip the *other systems* instructions and go directly to the title [What to Expect After Running the Platform](#what-to-expect-after-running-the-platform).
 
-> **NOTE FOR DEVELOPERS:** Instead of using the executable file to run the system, you may want to use ```node run``` from within the root ```Superalgos Platform``` folder, to run on your full Node Js installation.
+> **NOTE FOR DEVELOPERS:** Instead of using the executable file to run the system, you may want to use ```node run``` from within the root ```Superalgos``` folder, to run on your full Node Js installation.
 
 ## On All Systems (Mac OS, Linux, etc., and Windows too)
 
@@ -18,9 +18,9 @@ Download and install Node JS:
 
 Node.js is an open-source server environment required for the system to run. Go to the [Node Js downloads page](https://nodejs.org/en/download/) and download your system's installer (the *LTS Recommended for Most Users* version is enough). Run the installer and go through the process until Node Js is installed.
 
-If you are on Mac, use the Finder system to go to the ```Superalgos Platform``` folder and do a *secondary click* (tap the touchpad with two fingers) to open up the menu. Select *New Terminal Tab at Folder*. Once in the Terminal, type ```node run``` and hit *Enter*.
+If you are on Mac, use the Finder system to go to the ```Superalgos``` folder and do a *secondary click* (tap the touchpad with two fingers) to open up the menu. Select *New Terminal Tab at Folder*. Once in the Terminal, type ```node run``` and hit *Enter*.
 
-If you are on Linux, open a Terminal / Console, go to the ```Superalgos Platform``` folder, type ```node run``` and hit *Enter*.
+If you are on Linux, open a Terminal / Console, go to the ```Superalgos``` folder, type ```node run``` and hit *Enter*.
 
 ## What to Expect After Running the Platform 
 

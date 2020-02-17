@@ -5,7 +5,7 @@ sidebar: suite_sidebar
 permalink: suite-quick-overview.html
 ---
 
-> **Start here:** Watch the [Superalgos Platform Quick Getting Started Guide](https://www.youtube.com/watch?v=_apiM49udL0) video for a quick intro. The video is slightly outdated in that the Superalgos Platform (the client version of the Platform) does not require a login and does not feature a menu on top. Otherwise, the content is still valid.
+> **Start here:** Watch the [Superalgos Quick Getting Started Guide](https://www.youtube.com/watch?v=_apiM49udL0) video for a quick intro. The video is slightly outdated in that Superalgos (the client version of the Platform) does not require a login and does not feature a menu on top. Otherwise, the content is still valid.
 
 The first time you run the system, you will see a screen split in half. The top half features the space used by the _Charts_ and the bottom half features the _design space_.
 
