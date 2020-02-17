@@ -57,13 +57,13 @@ Rate scales may exist both at the level of a time machine and at the level of a 
 
 When set at the level of the time machine, the scale settings affect all charts within the time machine. When set at the level of the timeline chart, the settings override the rate scale at the time machine level. This allows having multiple charts on the same time machine, each with a different rate scale.
 
-{{include.heading}}### Scale Minimum and Maximum Values
+{% if include.heading == "more" %}##{% else %}{{include.heading}}{% endif %}### Scale Minimum and Maximum Values
 
 A rate scale has a minimum and a maximum value. The minimum value is the value at bottom of the chart. The maximum, is the value at the top of the chart.
 
 In technical terms, the minimum and maximum scale values are constantly changing as, whenever you pan across the charts, you are directly affecting the minimum and maximum scale values. That said, the actual scale may change dynamically or not, depending on the scale-automation settings.
 
-{{include.heading}}### Automatic Scale
+{% if include.heading == "more" %}##{% else %}{{include.heading}}{% endif %}### Automatic Scale
 
 The system features an automatic adjustment of the scale, which is turned on by default in our shared workspaces. The scale may be automatic in its minimum value, in its maximum value, or both. 
 
@@ -73,13 +73,13 @@ When the scale is automatic in the maximum value, the scale is adjusted so that 
 
 The scale may be automated on either, or both minimum and maximum values at the same time. In the later case, no data point in the span of the chart ever remains out of the visible area of the chart, as the lowest data point aligns with the bottom of the chart and the highest aligns with the top.
 
-{{include.heading}}### Manual Scale
+{% if include.heading == "more" %}##{% else %}{{include.heading}}{% endif %}### Manual Scale
 
 The system also features a manual mode. When in manual mode the scale does not change, even if the minimum and maximum values change while panning across a chart. This design feature allows comparing different periods using the same scale, which may be valuable in many cases. 
 
-{{include.heading}}### Scale Offset
+{% if include.heading == "more" %}##{% else %}{{include.heading}}{% endif %}### Scale Offset
 
-The offset is a feature of the rate scale by which the scale may be shifted upwards or downwards. As a result, charts aligned in the vertical axis&mdash;synchronized in datetime by a shared time machine&mdash;may be put one above the other. In technical terms, what happens is that the scale is shifted upwards or downwards.
+The offset is a feature of the rate scale by which the scale may be shifted upwards or downwards. As a result, charts aligned on the vertical axis&mdash;synchronized in datetime by a shared time machine&mdash;may be put one above the other. In technical terms, what happens is that the scale is shifted upwards or downwards.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -93,7 +93,7 @@ The offset is a feature of the rate scale by which the scale may be shifted upwa
 
 {{include.charts}}# Automatic Scale
 
-To change the automatic scale settings, place the mouse pointer over the corresponding time machine or timeline chart rate box, press the <kbd>Shift</kbd> key and slowly scroll the wheel of the mouse. The action cycles through the different possible scale automation settings. Notice a tiny green triangle below and/or above the rate scale icon. 
+**To change the automatic scale settings**, place the mouse pointer over the corresponding time machine or timeline chart rate box, press the <kbd>Shift</kbd> key and slowly scroll the wheel of the mouse. The action cycles through the different possible scale automation settings. Notice a tiny green triangle below and/or above the rate scale icon. 
 
 * A triangle pointing up means that the maximum value of the scale is automatic. 
 
@@ -105,7 +105,7 @@ To change the automatic scale settings, place the mouse pointer over the corresp
 
 {{include.charts}}# Manual Scale
 
-When either or both minimum and maximum values are in manual mode, you may adjust the scale to your liking. Place the mouse pointer over the corresponding time machine or timeline chart rate box and scroll the wheel of the mouse. The scale will increase or decrease accordingly, depending on which values are set to manual.
+**To adjust the scale**, make sure either or both minimum and maximum values are in manual mode. Place the mouse pointer over the corresponding time machine or timeline chart rate box and scroll the wheel of the mouse. The scale will increase or decrease accordingly, depending on which values are set to manual.
 
 Notice that, while changing the scale, a number is displayed replacing the actual rate. This is a reference value of the scale, that may serve for comparison purposes, with scales in other charts.
 
@@ -113,7 +113,7 @@ Notice that, while changing the scale, a number is displayed replacing the actua
 
 {{include.charts}}# Scale Offset
 
-To shift or offset a timeline chart in the vertical axis, place the mouse pointer on the rate box, left-click and drag upwards or downwards, as desired. The timeline chart will shift in the specified direction while the remaining charts stay in the same position.
+**To shift or offset a timeline chart on the vertical axis**, place the mouse pointer on the rate box, left-click and drag upwards or downwards, as desired. The timeline chart will shift in the specified direction while the remaining charts stay in the same position.
 
 {% include note.html content="Setting an offset in a timeline chart only makes sense in the context of a time machine with multiple charts. That is, if you are browsing a single chart, an offset behaves the same as moving the single chart up or down." %}
 

@@ -53,27 +53,27 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-{{include.heading}}### Scale Minimum and Maximum Values
+{% if include.heading == "more" %}##{% else %}{{include.heading}}{% endif %}### Scale Minimum and Maximum Values
 
 A time scale has a minimum and a maximum value. The minimum value is the value at the left border of the chart. The maximum, is the value at the right border of the chart.
 
 In technical terms, the minimum and maximum scale values are constantly changing as, whenever you pan across the charts, you are directly affecting the minimum and maximum scale values. That said, the actual scale doesn't change when panning across a chart.
 
-{{include.heading}}### Automatic Scale
+{% if include.heading == "more" %}##{% else %}{{include.heading}}{% endif %}### Automatic Scale
 
 The system features an automatic adjustment of the scale, which is turned on by default in our shared workspaces. The scale may be automatic in its minimum value, in its maximum value, or both. 
 
 When the scale is automatic in the minimum value, the scale is adjusted so that the chart shows all data from the beginning of the market. Panning the charts under such setting has the effect of compressing and decompressing the data against the left border of the chart.
 
-When the scale is automatic in the maximum value, the scale is adjusted so that the chart shows all data until the end of the market. In such case, panning the charts has the effect of compresssing and decompressing the data against the right border of the chart.
+When the scale is automatic in the maximum value, the scale is adjusted so that the chart shows all data until the end of the market. In such case, panning the charts has the effect of compressing and decompressing the data against the right border of the chart.
 
 When the scale is automatic in both the minimum and maximum value, the scale is adjusted so that the chart shows the whole market. In such case, when you click and drag to pan the charts, the settings turns back to manual on both ends of the chart.
 
 {% include note.html content="Having the time scale set to automatic by default helps finding the data as soon as it starts being processed the first time you run the Masters bot instances." %}
 
-{{include.heading}}### Manual Scale
+{% if include.heading == "more" %}##{% else %}{{include.heading}}{% endif %}### Manual Scale
 
-The system features a manual mode. When in manual mode the scale does not change, even if the minimum and maximum values change while panning through a chart. This is the natural state of the time scale. 
+The scale features a manual mode. When in manual mode the scale does not change, even if the minimum and maximum values change while panning through a chart. This is the natural state of the time scale. 
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -87,7 +87,7 @@ The system features a manual mode. When in manual mode the scale does not change
 
 {{include.charts}}# Automatic Scale
 
-To change the automatic scale settings, place the mouse pointer over the corresponding time box, press the <kbd>Shift</kbd> key and slowly scroll the wheel of the mouse. The action cycles through the different possible scale automation settings. Notice a tiny green triangle below and/or above the rate scale icon. 
+**To change the automatic scale settings**, place the mouse pointer over the corresponding time box, press the <kbd>Shift</kbd> key and slowly scroll the wheel of the mouse. The action cycles through the different possible scale automation settings. Notice a tiny green triangle below and/or above the rate scale icon. 
 
 * A triangle pointing right means that the maximum value of the scale is automatic. 
 
@@ -99,7 +99,7 @@ To change the automatic scale settings, place the mouse pointer over the corresp
 
 {{include.charts}}# Manual Scale
 
-When either or both minimum and maximum values are in manual mode, you may adjust the scale to your liking. Place the mouse pointer over the time box and scroll the wheel of the mouse. The scale will increase or decrease accordingly, depending on which values are set to manual.
+**To adjust the scale**, make sure either or both minimum and maximum values are in manual mode. Place the mouse pointer over the time box and scroll the wheel of the mouse. The scale will increase or decrease accordingly, depending on which values are set to manual.
 
 Notice that, while changing the scale, a number is displayed replacing the actual datetime. This is a reference value of the scale, that may serve for comparison purposes, with scales in other charts.
 

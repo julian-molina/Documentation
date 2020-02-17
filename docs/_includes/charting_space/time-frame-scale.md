@@ -31,13 +31,11 @@
 {% endif %}
 
 {% if include.definition == "bold" %}
-
 <strong>{{ definition }}</strong>
-
 {% else %}
-
+{% if include.definition != "no" %}
 {{ definition }}
-
+{% endif %}
 {% endif %}
 
 {% if include.table == "yes" and include.icon != "no" %}
@@ -65,7 +63,7 @@ When the time frame scale is set at the level of the time machine, the scale set
 
 <!--------------------------------------------- CHARTS starts -->
 
-You may set a time frame value from within the charts by placing the mouse pointer over the corresponding time machine or timeline chart time frame box and scrolling the mouse wheel.
+**To set a time frame value**, place the mouse pointer over the corresponding time machine or timeline chart time frame box and scroll the mouse wheel.
 
 <!--------------------------------------------- CHARTS ends -->
 

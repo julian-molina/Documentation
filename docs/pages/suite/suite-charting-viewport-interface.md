@@ -9,70 +9,84 @@ permalink: suite-viewport-interface.html
 
 When you open the charting space's <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.viewport}}">viewport</a>, you may see several charts, depending on the setup of your current <a data-toggle="tooltip" data-original-title="{{site.data.concepts.workspace}}">workspace</a>.
 
-To move around the viewport, right-click and drag. You may also use the wheel of the mouse to zoom in and out.
+**To move around the viewport**, right-click and drag. You may also use the wheel of the mouse to zoom in and out.
 
 {% include note.html content="Notice how the viewport navigation resembles the navigation in *Google Maps*. You zoom out for the big picture. You zoom in for a closer view of any particular chart to get the details. Keep zooming in and you get the immersive experience... the *street view* of the market." %}
 
 {% include /charting_space/viewport.md heading="more" icon="150-" adding="" configuring="" charts="" content="yes" definition="bold" table="yes" more="yes"%}
 
+## Navigating Time Machines and Embeded Timeline Charts
 
-## Timeline Charts and Time Machines
+Each of the charts you see in the <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.viewport}}">viewport</a> are actually <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.time_machine}}">time machines</a>. Time machines are represented by rectangular elements with dark-turquoise boundaries.
 
-Each of these charts is actually a <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.time_machine}}">time machine</a>. Time machines are represented by rectangular elements with dark-turquoise boundaries.
+Time machines may feature one or more <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.timeline_chart}}">timeline charts</a>, right inside them. In other words, timeline charts live within time machines.
 
-Time machines may feature one or mote <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.timeline_chart}}">timeline charts</a>.
+All time machines that are visible at any point are said to be *in focus*.
 
-
-
-## Scale Boxes
-
-Notice the three boxes that move along the borders of the relative to the position of the mouse pointer:
-
-**1.** Above, the current datetime. This is the date and time at the mouse pointer position.
-
-**2.** To the right, the current rate. This is the rate (in this case USDT per BTC) at the mouse pointer position.
-
-**3.** Below, the current time frame (time frame or candle size if you wish). This is the currently displayed time frame—not only for candles but for any other object plotted across available layers.
-
-[![Charts-01-Main-Nodes](https://user-images.githubusercontent.com/13994516/67268983-141a3d80-f4b6-11e9-96cc-c0dc3d9188f7.gif)](https://user-images.githubusercontent.com/13994516/67268983-141a3d80-f4b6-11e9-96cc-c0dc3d9188f7.gif)
-
-## Mouse Navigation
-
-Left-click on the charts and drag to move across the charts.
-
-There are many things you can do with your mouse wheel: 
-
-1. Scroll over the Layers Panel to access layers that may be out of reach downwards.
-1. Scroll on top of or next to the datetime to produce a horizontal scaling.
-1. Scroll on top of or next to the displayed rate to produce a vertical scaling.
-1. Scroll on top of or next to the time frame to change the time frame to available values. 
-1. Scroll elsewhere over the chart to zoom in and out. The Platform will not only zoom in and out of the chart, but also automatically adjust the time frame to the most convenient one (for the current zoom level).
-
-[![Overview-05-Mouse-Use](https://user-images.githubusercontent.com/13994516/67268341-7a9e5c00-f4b4-11e9-848d-c520b4a8f1ff.gif)](https://user-images.githubusercontent.com/13994516/67268341-7a9e5c00-f4b4-11e9-848d-c520b4a8f1ff.gif)
-
-## Keyboard Navigation
-
-When on the charts, you may use the following key combinations:
+**To pan the data within a time machine**, left-click within the time machine and drag. You may also use the keyboard as follows:
 
 1. <kbd>Shift</kbd> + <kbd>&#8592;</kbd> to pan to the left.
 1. <kbd>Shift</kbd> + <kbd>&#8594;</kbd> to pan to the right.
 1. <kbd>Shift</kbd> + <kbd>&#8593;</kbd> to pan upwards.
 1. <kbd>Shift</kbd> + <kbd>&#8595;</kbd> to pan downwards.
 
-[![Overview-06-Keyboard-Navigation](https://user-images.githubusercontent.com/13994516/67268342-7b36f280-f4b4-11e9-956d-109c65fdd5ba.gif)](https://user-images.githubusercontent.com/13994516/67268342-7b36f280-f4b4-11e9-956d-109c65fdd5ba.gif)
+{% include note.html content="When using the keyboard, all time machines that are in focus are affected by the commands." %}
 
-## Layers Panel
+**To pan the viewport instead of the data of a time machine**, right click and drag. This may be useful when zoomed deep into a time machine and you wish to reach one of it's borders.
 
-This panel includes different layers you may visualize by toggling them on and off with a single mouse click.
-The layer title bar can have 3 possible background colors:
+{% include /charting_space/time-machine.md heading="more" icon="150-" adding="" configuring="" charts="" content="yes" definition="bold" table="yes" more="yes"%}
 
-**1. Red**: the layer is off.
+{% include /charting_space/timeline-chart.md heading="more" icon="150-" adding="" configuring="" charts="" content="yes" definition="bold" table="yes" more="yes"%}
 
-**2. Green**: the layer is on.
+## Scale Boxes
 
-**3. Yellow**: the layer is loading; if it stays yellow, it means it can't load fully.
+Zoom in closer or into a time machine and notice the three boxes that move relative to the position of the mouse pointer along the top, right, and bottom borders. These are the *scale boxes*.
 
-[![Overview-04-Layers](https://user-images.githubusercontent.com/13994516/67267950-a836d580-f4b3-11e9-931b-81c8dff088ac.gif)](https://user-images.githubusercontent.com/13994516/67267950-a836d580-f4b3-11e9-931b-81c8dff088ac.gif)
+**1. At the top** is the <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.time_scale}}">time scale</a> box displaying the current datetime; this is the date and time at the position of the mouse pointer.
+
+**2. To the right** is the <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.rate_scale}}">rate scale</a> box displaying the current rate; this is the rate, denominated in the <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.quoted_asset}}">quoted asset</a>, at the position of the mouse pointer.
+
+**3. At the bottom** is the <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.time_frame_scale}}">time frame scale</a> box displaying the current time frame, or candle size, if you wish.
+
+Both the time scale and the rate scale may be set to several automatic modes, or to manual mode.
+
+{% include /charting_space/time-scale.md heading="" icon="no" adding="" configuring="" charts="###" content="no" definition="no" table="no" more="no"%}
+
+{% include /charting_space/time-scale.md heading="more" icon="150-" adding="####" configuring="####" charts="" content="yes" definition="bold" table="yes" more="yes"%}
+
+{% include /charting_space/rate-scale.md heading="" icon="no" adding="" configuring="" charts="###" content="no" definition="no" table="no" more="no"%}
+
+{% include /charting_space/rate-scale.md heading="more" icon="150-" adding="####" configuring="####" charts="" content="yes" definition="bold" table="yes" more="yes"%}
+
+{% include /charting_space/time-frame-scale.md heading="" icon="no" adding="" configuring="" charts="###" content="no" definition="no" table="no" more="no"%}
+
+{% include /charting_space/time-frame-scale.md heading="more" icon="150-" adding="####" configuring="####" charts="" content="yes" definition="bold" table="yes" more="yes"%}
+
+## Layer Managers
+
+When you zoom into a <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.time_machine}}">time machine</a> deep enough, one or more <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.layer_manager}}">layer managers</a> pop up, usually on the top-left corner of the screen. A time machine may have more than one <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.timeline_chart}}">timeline charts</a> embeded and each timeline chart features a layer manager.
+
+**To move a layer manager to the opposite, top-right corner**, left-clicking on the header and dragging it away. Layer managers tend to self-arrange at either of these corners, so you may drop it somewhere next its destination and let it find its place.
+
+{% include note.html content="The order in which layer managers self-arrange is given by the order of precedence of the embeded timeline charts around the time machine node in the designer." %}
+
+**To roll a layer manager up or down**, place the mouse pointer on top of the header and turn the wheel. When the layer manager cannot accommodate all layers in its current lenght, a scrolling bar appears on the right-hand side. To scroll through the layers, place the mouse pointer on top of any of the visible layers and scroll the wheel of the mouse.
+
+**To turn layers *on* and *off***, left-click on the layer. 
+
+* When a layer is *loading*, the layer slot in the layers managers shows the progress with an orange dotted line on top of the layer's name.
+
+* When a layer is *on*, the dotted line turns green.
+
+* When a layer is *off*, there is no line.
+
+* When the layer can't load, the dotted line turns red.
+
+Certain layers may feature a <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.plotter_panel}}">panel</a>. Those which do feature a panel button on the bottom-left corner of the layer slot in the manager.
+
+**To turn panels *on* and *off***, left-click on the panel button. 
+
+Panels t
 
 ## Floating Panels
 
