@@ -62,13 +62,13 @@ When the scale is automatic in the minimum value, the scale is adjusted so that 
 
 When the scale is automatic in the maximum value, the scale is adjusted so that the chart shows all data until the end of the market. In such case, panning the charts has the effect of compresssing and decompressing the data against the right border of the chart.
 
-The scale may be automated on either, or both minimum and maximum values at the same time. In the later case, the chart is locked showing the complete market, and panning has no effect.
+When the scale is automatic in both the minimum and maximum value, the scale is adjusted so that the chart shows the whole market. In such case, when you click and drag to pan the charts, the settings turns back to manual on both ends of the chart.
 
-{% include note.html content="Having the time scale set to automatic by default helps finding the data as soon as it starts being processed the first time you run the Masters bot instances. It is expected that you dissable the automatic time scale feature, as otherwise, it is not possible to pan the charts." %}
+{% include note.html content="Having the time scale set to automatic by default helps finding the data as soon as it starts being processed the first time you run the Masters bot instances." %}
 
 {{include.heading}}### Manual Scale
 
-The system features a manual mode. When in manual mode the scale does not change, even if the minimum and maximum values change while panning through a chart. This the natural state of the time scale, as, otherwise, the natural action of panning the chart to go backwards and forwards in time is blocked. 
+The system features a manual mode. When in manual mode the scale does not change, even if the minimum and maximum values change while panning through a chart. This is the natural state of the time scale. 
 
 <!--------------------------------------------- CONTENT ends -->
 

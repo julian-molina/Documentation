@@ -7,7 +7,7 @@ permalink: suite-advanced-backtesting.html
 
 ## Adding New Sessions
 
-The platform allows for having multiple testing sessions. You may add and work with multiple sessions in two different ways:
+The system allows for having multiple testing sessions. You may add and work with multiple sessions in two different ways:
 
 **1. Independent Task**
 

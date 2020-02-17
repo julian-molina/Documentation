@@ -28,9 +28,9 @@ entries:
       output: web
       type: homepage
 
-#    - title: What to expect
-#      url: /suite-what-to-expect.html
-#      output: web
+    - title: What to expect
+      url: /suite-what-to-expect.html
+      output: web
 
     - title: System requirements
       url: /suite-system-requirements.html

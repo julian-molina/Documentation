@@ -7,7 +7,7 @@ permalink: suite-bots.html
 
 There are three different kinds of bots, sometimes called *algorithms* interchangeably:
 
-* **Sensor Bots:** they extract raw data from external sources (*i.e.: exchanges, Twitter, etc.*) and store it in the platform's standardized format for others to consume;
+* **Sensor Bots:** they extract raw data from external sources (*i.e.: exchanges, Twitter, etc.*) and store it in the system's standardized format for others to consume;
 
 * **Indicator Bots:** they process available information that other bots may have generated to produce elaborate datasets for others to consume;
 

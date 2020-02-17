@@ -7,7 +7,7 @@ permalink: suite-trade-live-with-an-open-source-strategy.html
 
 Running a strategy as a fully automated bot to trade live is quite simple. Truth be told, your strategy running as a simulation is pretty much a trading bot already—only that orders don't go to the exchange.
 
-If you are a crypto-holder, you are probably looking to trade live with an open-source strategy. If you are a trader, you are probably interested in seeing the platform in action before you spend time learning it to build your own strategies.
+If you are a crypto-holder, you are probably looking to trade live with an open-source strategy. If you are a trader, you are probably interested in seeing the system in action before you spend time learning it to build your own strategies.
 
 Either way, to start trading live, follow these steps:
 
@@ -78,7 +78,7 @@ Select *Confirgure Key Value* on the menu and replace the value of  *name* with 
 
 ## Check Funds at the Exchange
 
-Simply make sure that you have enough funds at the exchange. The platform will handle the error gracefully if there are no funds, but you will miss the trading opportunity.
+Simply make sure that you have enough funds at the exchange. The system will handle the error gracefully if there are no funds, but you will miss the trading opportunity.
 
 ## Run the Task and Session
 
@@ -104,4 +104,4 @@ Once you are set up, run the tasks corresponding to the two live trading session
 
 ## Following Live Trading on the Charts
 
-To follow the live trading sessions on the charts, please refer to the [Live trading history layer](Live-Trading-History-Layer) page of this User Manual. We encourage you to keep learning about the platform so that you may get the most out of it.
+To follow the live trading sessions on the charts, please refer to the [Live trading history layer](Live-Trading-History-Layer) page of this User Manual. We encourage you to keep learning about the system so that you may get the most out of it.

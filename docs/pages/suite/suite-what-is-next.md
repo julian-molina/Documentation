@@ -14,9 +14,9 @@ We don't think of intelligence as the outcome of a good trading strategy. Instea
 * elaborate datasets (indicators, studies, etc.);
 * infrastructure (trading bot, processes, workflows, etc.).
 
-You've gone through the very basic operation of the platform that allows you to use existing strategies.
+You've gone through the very basic operation of the system that allows you to use existing strategies.
 
-The rest of this User Manual covers the power use of the platform, which involves modifying existing strategies and building your own, going through a thorough testing process and trading live.
+The rest of this User Manual covers the power use of the system, which involves modifying existing strategies and building your own, going through a thorough testing process and trading live.
 
 You will also learn to take control of what happens under the hood, so that you may decide *how* you are going to do your job.
 

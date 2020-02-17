@@ -48,7 +48,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The platform allows developers great flexibility as all valid JavaScript code is allowed. 
+The system allows developers great flexibility as all valid JavaScript code is allowed. 
 
 {% include important.html content="Until a robust JavaScript editor is implemented on the UI, it is recommended to write code on an external editor and paste it in the UI code bubble to ensure consistency." %}
 
