@@ -36,17 +36,25 @@ entries:
       url: /suite-system-requirements.html
       output: web
 
-#  - title: Getting Started
-#    output: web
-#    folderitems:
+  - title: Getting Started
+    output: web
+    folderitems:
 
-#    - title: Download and set up
-#      url: /suite-download-and-set-up.html
-#      output: web
+    - title: "Step 0: Get ready"
+      url: /suite-step-0.html
+      output: web
 
-#    - title: Run the suite
-#      url: /suite-run-the-suite.html
-#      output: web
+    - title: "Step 1: Download and set up"
+      url: /suite-step-1.html
+      output: web
+
+    - title: "Step 2: Run the system"
+      url: /suite-step-2.html
+      output: web
+
+    - title: "Step 3: First impression"
+      url: /suite-step-3.html
+      output: web
 
 #    - title: Quick overview
 #      url: /suite-quick-overview.html
