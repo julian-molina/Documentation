@@ -1,8 +1,8 @@
 ---
-title:  "Design Space, Workspace, and Data Structures"
-summary: "The workspace, nodes, structures of nodes and their parent-offspring relationships are the overarching concepts arranging all information handled by the system."
+title:  "Fundamental Concepts"
+summary: "The design space controlling the workspace, nodes, structures of nodes, and their parent-offspring relationships are the overarching concepts arranging all information handled by the system."
 sidebar: suite_sidebar
-permalink: suite-design-space-workspace-and-data-structures.html
+permalink: suite-fundamental-concepts.html
 ---
 
 Superalgos handles numerous concepts encompassing fields such as market information, trading strategies, visualization features, workflows, infrastructure, technical resources, and many more. Superalgos structures these concepts in an attempt to make their use intuitive. 

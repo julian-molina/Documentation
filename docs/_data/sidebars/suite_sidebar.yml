@@ -94,8 +94,8 @@ entries:
     output: web
     folderitems:
 
-    - title: Design space, workspace, and nodes
-      url: /suite-design-space-workspace-and-data-structures.html
+    - title: Fundamental concepts
+      url: /suite-fundamental-concepts.html
       output: web
 
     - title: Interface
