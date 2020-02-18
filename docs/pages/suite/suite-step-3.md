@@ -20,7 +20,7 @@ This is what you should see in your console:
 
 The system opens your default browser and loads the web application functioning as a user interface. 
 
-{% include note.html content="You should either <a href='https://support.google.com/chrome/answer/95417?co=GENIE.Platform%3DDesktop&hl=en' rel='nofollow' rel='noopener' target='_blank'>set Chrome as your default browser</a> before firing up the system, or simply close the non-Chrome browser, open Chrome, and go to http://localhost:9999/." %}
+{% include tip.html content="You should either <a href='https://support.google.com/chrome/answer/95417?co=GENIE.Platform%3DDesktop&hl=en' rel='nofollow' rel='noopener' target='_blank'>set Chrome as your default browser</a> before firing up the system, or simply close the non-Chrome browser, open Chrome, and go to http://localhost:9999/." %}
 
 This is what you should see on your browser:
 

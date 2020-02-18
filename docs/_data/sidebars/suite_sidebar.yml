@@ -56,9 +56,9 @@ entries:
       url: /suite-step-3.html
       output: web
 
-#    - title: Quick overview
-#      url: /suite-quick-overview.html
-#      output: web
+    - title: "Step 4: Quick overview"
+      url: /suite-step-4.html
+      output: web
 
 #    - title: Run your first backtest
 #      url: /suite-run-your-first-backtest.html
