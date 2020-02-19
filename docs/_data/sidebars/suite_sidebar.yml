@@ -153,6 +153,11 @@ entries:
       output: web
       class: childItem
 
+    - title: Lice trading history layer
+      url: /suite-live-trading-history-layer.html
+      output: web
+      class: childItem
+
     - title: Charting space
       url: /suite-charting-space.html
       output: web
