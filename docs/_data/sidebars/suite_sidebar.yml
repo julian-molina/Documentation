@@ -248,10 +248,6 @@ entries:
       output: web
       class: childItem
 
-#    - title: Managing processes
-#      url: /suite-managing-processes.html
-#      output: web
-
 #  - title: Backtests & Paper Trading
 #    output: web
 #    folderitems:
@@ -348,21 +344,21 @@ entries:
 #      url: /suite-build-a-plotter.html
 #      output: web
 
-#  - title: Productivity Tools
-#    output: web
-#    folderitems:
+  - title: Productivity Tools
+    output: web
+    folderitems:
 
-#    - title: Backups
-#      url: /suite-backups.html
-#      output: web
+    - title: Backups
+      url: /suite-backups.html
+      output: web
 
-#    - title: Clones
-#      url: /suite-clones.html
-#      output: web
+    - title: Clones
+      url: /suite-clones.html
+      output: web
 
-#    - title: Shares
-#      url: /suite-shares.html
-#      output: web
+    - title: Shares
+      url: /suite-shares.html
+      output: web
 
 #    - title: Telegram Announcements
 #      url: /suite-telegram-announcements.html
