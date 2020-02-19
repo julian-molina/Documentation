@@ -148,6 +148,11 @@ entries:
       output: web
       class: childItem
 
+    - title: Simulation layers
+      url: /suite-simulation-layers.html
+      output: web
+      class: childItem
+
     - title: Charting space
       url: /suite-charting-space.html
       output: web
