@@ -153,7 +153,7 @@ entries:
       output: web
       class: childItem
 
-    - title: Lice trading history layer
+    - title: Live trading history layer
       url: /suite-live-trading-history-layer.html
       output: web
       class: childItem
@@ -412,13 +412,13 @@ entries:
       url: /suite-data-mine-hierarchy.html
       output: web
 
-#  - title: Troubleshooting
-#    output: web
-#    folderitems:
+  - title: Troubleshooting
+    output: web
+    folderitems:
 
-#    - title: Upgrading your existing installation
-#      url: /suite-upgrading-your-existing-instalation.html
-#      output: web
+    - title: Upgrading your existing installation
+      url: /suite-upgrading-your-existing-instalation.html
+      output: web
 
 #    - title: My system gets slow
 #      url: /suite-my-system-gets-slow.html
