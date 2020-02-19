@@ -134,6 +134,20 @@ entries:
       output: web
       class: childItem
 
+    - title: Available layers
+      url: /suite-available-layers.html
+      output: web
+
+    - title: Masters bots layers
+      url: /suite-masters-bots-layers.html
+      output: web
+      class: childItem
+
+    - title: Sparta bots layers
+      url: /suite-sparta-bots-layers.html
+      output: web
+      class: childItem
+
     - title: Charting space
       url: /suite-charting-space.html
       output: web
@@ -165,7 +179,7 @@ entries:
       output: web
 
     - title: Syntax overview
-      url: /suite-sysntax-overview.html
+      url: /suite-syntax-overview.html
       output: web
       class: childItem
 

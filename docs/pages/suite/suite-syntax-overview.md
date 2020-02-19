@@ -2,7 +2,7 @@
 title:  Syntax Overview
 summary: "The syntax for writing conditions and formulas combine references to the data product name, the name of the property, and the time frame."
 sidebar: suite_sidebar
-permalink: suite-sysntax-overview.html
+permalink: suite-syntax-overview.html
 ---
 
 ## Introduction
