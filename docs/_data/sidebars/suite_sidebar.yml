@@ -106,10 +106,6 @@ entries:
       url: /suite-hierarchies.html
       output: web
 
-    - title: References
-      url: /suite-references.html
-      output: web
-
   - title: Charting space
     output: web
     folderitems:
