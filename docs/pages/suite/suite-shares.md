@@ -1,6 +1,6 @@
 ---
 title:  Shares
-summary: ""
+summary: "The share feature works almost the same as the back up feature, but discarding personal information like exchange keys."
 sidebar: suite_sidebar
 permalink: suite-shares.html
 ---

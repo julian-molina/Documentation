@@ -1,6 +1,6 @@
 ---
 title:  Clones
-summary: ""
+summary: "The clone feature is designed to produce copies of data structures when you need to replicate nodes and expect the copies to behave similarly to the original."
 sidebar: suite_sidebar
 permalink: suite-clones.html
 ---

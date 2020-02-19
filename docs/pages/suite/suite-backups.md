@@ -1,6 +1,6 @@
 ---
 title:  Backups
-summary: ""
+summary: "The backup feature is designed to preserve the integrity of references as you would expect when you wish to restore a data structure to a previous state of affairs."
 sidebar: suite_sidebar
 permalink: suite-backups.html
 ---

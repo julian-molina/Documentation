@@ -110,8 +110,8 @@ entries:
     output: web
     folderitems:
 
-    - title: Viewport interface
-      url: /suite-viewport-interface.html
+    - title: Interface
+      url: /suite-charting-space-interface.html
       output: web
 
     - title: Arranging a dashboard
