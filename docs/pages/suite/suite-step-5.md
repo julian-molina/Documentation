@@ -9,7 +9,7 @@ The <a data-toggle="tooltip" data-original-title="{{site.data.concepts.design_sp
 
 For your convenience, the system ships with a default workspace containing a ready-to-use set-up.
 
-**1. Locate the file ```Share - Default Workspace.json```** in the root of the ```Superalgos-master``` folder.
+**1. Locate the file ```Share - My Workspace.json```** in the root of the ```Superalgos-master``` folder.
 
 **2. Left-click on the file and drag it over the browser** where the system is running. You will notice the system recognizes your intent and pulls de slider up, showing the designer.
 
