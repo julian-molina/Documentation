@@ -60,6 +60,10 @@ entries:
       url: /suite-step-4.html
       output: web
 
+    - title: "Step 5: Import a workspace"
+      url: /suite-step-5.html
+      output: web
+
 #    - title: Run your first backtest
 #      url: /suite-run-your-first-backtest.html
 #      output: web
