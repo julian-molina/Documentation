@@ -64,3 +64,4 @@ Notice how the hierarchy continues with several <a data-toggle="tooltip" data-or
 </details>
 
 **9. Go back to the task manager and click *Run All Tasks* on the menu**. This actions puts the sensor bot to run along with all Masters indicators.
+
