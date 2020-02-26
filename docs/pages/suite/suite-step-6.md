@@ -6,7 +6,7 @@ permalink: suite-step-6.html
 toc: false
 ---
 
-Superalgos puts you in control of the market data you will work with. To do that, the system uses a <a data-toggle="tooltip" data-original-title="{{site.data.concepts.sensor_bot}}">sensor bot</a> to pull raw trades data from exchanges and store it in your machine. As the data starts flowing in, the system uses <a data-toggle="tooltip" data-original-title="{{site.data.concepts.indicator_bot}}">indicator bots</a> to add value to the raw data by producing more ellaborate <a data-toggle="tooltip" data-original-title="{{site.data.concepts.dataset}}">datasets</a> in the form of candles, and all sorts of indicators.
+Superalgos puts you in control of the market data you will work with. To do that, the system uses a <a data-toggle="tooltip" data-original-title="{{site.data.concepts.sensor_bot}}">sensor bot</a> to pull raw trades data from exchanges and store it in your machine. As the data starts building up, the system uses <a data-toggle="tooltip" data-original-title="{{site.data.concepts.indicator_bot}}">indicator bots</a> to add value to the raw data by producing more ellaborate <a data-toggle="tooltip" data-original-title="{{site.data.concepts.dataset}}">datasets</a> in the form of candles, and all sorts of indicators.
 
 The sensor bot fetches data starting from a configurable date. Once it reaches the present time, it continues connecting to the exchange once per minute, pulling data in a live stream. Indicators process data in a similar fashion, and keep all your data up to date.
 
@@ -26,7 +26,7 @@ On the other hand, if your interest lies in monitoring markets starting from the
 
 {% include /how_to/find-a-hierarchy.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
 
-**3. Hover the mouse over the network <a data-toggle="tooltip" data-original-title="{{site.data.concepts.node}}">node</a>**. This action expands the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.hierarchy}}">hierarchy</a>.and click the {% include inline_image.html file="icons/12-expand.png" %} button on the menu.
+**3. Hover the mouse over the network <a data-toggle="tooltip" data-original-title="{{site.data.concepts.node}}">node</a>** and click the {% include inline_image.html file="icons/12-expand.png" %} button on the menu. This action expands the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.hierarchy}}">hierarchy</a>.
 
 **4. Follow the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.structure_of_nodes}}">structure of nodes</a> until you find the <a data-toggle="tooltip" data-original-title="{{site.data.network.data_mining}}">data mining</a> node**. This is where <a data-toggle="tooltip" data-original-title="{{site.data.network.sensor_bot_instance}}">sensor bot instances</a> and <a data-toggle="tooltip" data-original-title="{{site.data.network.indicator_bot_instance}}">indicator bot instances</a> live and function. 
 
