@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Go to the Workspace Node" %}
-{% assign definition = site.data.how_to.go_to_the_workspace_node %}
+{% assign title = "Change Directories in the Console" %}
+{% assign definition = site.data.how_to.change_directories_in_the_console %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
@@ -39,10 +39,18 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Regardless of where you are in the design space, click <kbd>Ctrl or &#8984;</kbd> key and make a one-step turn of the wheel of the mouse forwards, followed by a one-step turn backwards.
+These are a few useful commands to navigate through a directory structure in the context of a console/terminal/command line application:
 
+| Command | Effect |
+| :---: | :--- |
+| ```cd..``` | Goes down to the parent directory |
+| ```cd...``` | Goes down two directories |
+| ```cd\``` | Goes down to the root directory |
+| ```cd directory-name``` | Enters a specific directory in the current level |
+| ```cd \[path]``` | Goes to a specific path |
+| ```c:``` or ```d:``` | Switches drives |
 
-{% include image.html file='how-to/go-to-the-workspace-node-00.gif' url='yes' max-width='100' caption='Flick the mouse wheel while pressing the Ctrl or Command key.' %}
+{% include image.html file='how-to/change-directories-in-the-console-00.gif' url='yes' max-width='100' caption='Use the ```cd``` command to change and enter directories.' %}
 
 <!--------------------------------------------- CONTENT ends -->
 

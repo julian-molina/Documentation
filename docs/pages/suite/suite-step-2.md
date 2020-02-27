@@ -10,8 +10,10 @@ toc: false
 
 **1. Go to the ```Superalgos-master``` folder** you extracted from the ZIP file on the prior step.
 
-**2. On Windows systems, double click on ```Superalgos.exe```** and skip points 3 and 4.
+**3. Open a console/command line/terminal** inside the ```Superalgos-master``` folder. If you are on Windows, your console may open in a different directory.
 
-**3. On other systems, open a console/command line/terminal** inside the ```Superalgos-master``` folder.
+{% include /how_to/change-directories-in-the-console.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
 
 **4. Type ```node run```** and hit *Enter* to launch the system.
+
+{% include image.html file='how-to/run-the-system-00.gif' url='yes' max-width='100' caption='Type the ```node run``` command and hit Enter.' %}

@@ -19,10 +19,10 @@
 {% endif %}
 
 {% if include.definition == "bold" %}
-<strong>{{ definition }}</strong>
+<strong><i>In brief: </i>{{ definition }}</strong>
 {% else %}
 {% if include.definition != "no" %}
-{{ definition }}
+<strong><i>In brief: </i></strong> {{ definition }}
 {% endif %}
 {% endif %}
 
@@ -41,7 +41,7 @@
 
 **1. Go to the workspace node.**
 
-{% include /how_to/go-to-the-workspace-node.md heading="more" definition="yes" content="yes" extended="no" table="no" more="yes"%}
+{% include /how_to/go-to-the-workspace-node.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
 
 **2. Pan the design space in the desired direction.**
 

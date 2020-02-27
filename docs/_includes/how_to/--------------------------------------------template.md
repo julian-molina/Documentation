@@ -19,10 +19,10 @@
 {% endif %}
 
 {% if include.definition == "bold" %}
-<strong>{{ definition }}</strong>
+<strong><i>In brief: </i>{{ definition }}</strong>
 {% else %}
 {% if include.definition != "no" %}
-{{ definition }}
+<strong><i>In brief: </i></strong> {{ definition }}
 {% endif %}
 {% endif %}
 

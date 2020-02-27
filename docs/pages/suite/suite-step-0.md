@@ -26,6 +26,10 @@ Please install Node JS, an open-source server environment required to run Supera
 
 {% include note.html content="Windows users may choose to install Node JS and run the system in the full version of the server too." %}
 
+## Console/Terminal/Command Line
+
+You launch the software from your console/terminal/command line application. Also, processes started from within the system log their activity on the console/terminal/command line application used to fire up the system. **Windows Command Prompt is particularly bad.** If you are on Windows, it is recommended to install and use a decent application, such as <a href="https://cmder.net/" rel="nofollow" rel="noopener" target="_blank">Console Emulator Cmder<a/>. This will save you time and hassle. 
+
 ## Are You Upgrading to a New Version of Superalgos?
 
 If you have run Superalgos before, read the best practices for [upgrading the system](suite-upgrading-your-existing-instalation.html) as a reminder, and take your time before you commit to the upgrade.
