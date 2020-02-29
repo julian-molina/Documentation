@@ -6,13 +6,13 @@ permalink: suite-step-3.html
 toc: false
 ---
 
-Once you fire up the system, *things* start happening on the console and on the browser...
+Once you fire up the system, *things* start happening on the console and the browser...
 
 ## On the Console
 
-Node JS runs several servers&mdash;the server side of the system&mdash;on the same console window.
+Node JS runs several servers&mdash;the server-side of the system&mdash;on the same console window. A few seconds later, several bots are started to start fetching data from exchanges, as well as processing candles and a few basic indicators.
 
-{% include image.html file='how-to/run-the-system-00.gif' url='yes' max-width='100' caption='Several servers are started after running the ```node run``` command.' %}
+{% include image.html file='how-to/run-the-system-01.gif' url='yes' max-width='100' caption='Several servers are started after running the ```node run``` command. Moments later, bots start logging their activity.' %}
 
 {% include note.html content="The console must be open for as long as the system is running. Feel free to minimize it, but keep in mind it will later display valuable information." %}
 
@@ -24,8 +24,8 @@ The system opens your default browser and loads the web application functioning 
 
 This is what you should see on your browser:
 
-[IMAGE]
+{% include image.html file='how-to/run-the-system-02.gif' url='yes' max-width='100' caption='The dark side of the web application is the design space. Pull the slider up and you will find the charting space. In the beginning, all charts are empty.' %}
 
-Congratulations! You are up and running!
+## Congratulations! 
 
-Now you are ready to learn the basic operation of the system so that you may fetch some data from your preferred exchanges, browse markets on the charts, run your first backtest, or try a live trading session.
+You are up and running! Now you are ready to learn the basic operation of the system while you wait for data to start appearing on the charts. You will learn how to browse markets, run a first backtest, and try a live trading session, to get the feel for how things work.
