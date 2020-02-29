@@ -31,3 +31,5 @@ The system opens your default browser and loads the web application that functio
 You are up and running!
 
 Now you are ready to learn the basic operation of the system while you wait for data to start appearing on the charts. You will learn how to browse markets, run a first backtest, and try a live trading session, to get the feel for how things work.
+
+{% include note.html content="How much time it takes for historic data to be retrieved from exchanges, processed, and rendered on the charts depends on several things, including your machines' [processing power](suite-system-requirements.html#processing-power). However, you should start to see the first few candles populating the charts as soon as 5 to 10 minutes after firing up the system." %}
