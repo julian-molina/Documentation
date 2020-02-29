@@ -20,4 +20,4 @@ toc: false
 
 {% include image.html file='how-to/download-the-software-02.gif' url='yes' max-width='100' caption='Extract in an accessible location.' %}
 
-{% include note.html content="If you extract the file with default options,the resulting name of the foler is ```Superalgos-master```. This is how we will refer to the folder from now on. If you are cloning the repository instead of downloading a ZIP file, the folder name will likely be ```Superalgos```." %}
+{% include note.html content="If you extract the file with default options, the resulting name of the folder is ```Superalgos-master```. This is how we will refer to the folder from now on. If you are cloning the repository instead of downloading a ZIP file, the folder name will likely be ```Superalgos```." %}

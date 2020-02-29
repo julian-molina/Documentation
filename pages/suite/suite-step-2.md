@@ -10,7 +10,7 @@ toc: false
 
 **1. Go to the ```Superalgos-master``` folder** you extracted from the ZIP file on the prior step.
 
-**3. Open a console/command line/terminal** inside the ```Superalgos-master``` folder. If you are on Windows, your console may open in a different directory.
+**3. Open a console/terminal/command line** inside the ```Superalgos-master``` folder. If you are on Windows, your console may open in a different directory.
 
 {% include /how_to/change-directories-in-the-console.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
 

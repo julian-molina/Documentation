@@ -42,12 +42,11 @@
 These are a few useful commands to navigate through a directory structure in the context of a console/terminal/command line application:
 
 | Command | Effect |
-| :---: | :--- |
+| :--- | :--- |
 | ```cd..``` | Goes down to the parent directory |
 | ```cd...``` | Goes down two directories |
 | ```cd\``` | Goes down to the root directory |
 | ```cd directory-name``` | Enters a specific directory in the current level |
-| ```cd \[path]``` | Goes to a specific path |
 | ```c:``` or ```d:``` | Switches drives |
 
 {% include image.html file='how-to/change-directories-in-the-console-00.gif' url='yes' max-width='100' caption='Use the ```cd``` command to change and enter directories.' %}
