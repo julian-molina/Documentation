@@ -12,7 +12,7 @@ This *Getting Started Guide* will quickly show you the very basics of Superalgos
 
 Before you begin, it is highly recommended that you <a href="https://www.google.com/chrome/" rel="nofollow" rel="noopener" target="_blank">install Chrome</a> and set it up as your default browser.
 
-{% include note.html content="Use Chrome so that you have a similar environment as the dev team in case you need help. We are not testing on any other browsers, and it is a well-known fact that browsers behave differently." %}
+{% include important.html content="Use Chrome so that you have a similar environment as the dev team in case you need help. We are not testing on any other browsers, and it is a well-known fact that browsers behave differently." %}
 
 ## Node JS is Required
 
@@ -24,11 +24,9 @@ Please install Node JS, an open-source server environment required to run Supera
 
 **3. Run the installer** and go through the process until Node JS is fully installed.
 
-{% include note.html content="Windows users may choose to install Node JS and run the system in the full version of the server too." %}
-
 ## Console/Terminal/Command Line
 
-You launch the software from your console/terminal/command line application. Also, processes started from within the system log their activity on the console/terminal/command line application used to fire up the system. **Windows Command Prompt is particularly bad.** If you are on Windows, it is recommended to install and use a decent application, such as <a href="https://cmder.net/" rel="nofollow" rel="noopener" target="_blank">Console Emulator Cmder<a/>. This will save you time and hassle. 
+You launch the software from your console/terminal/command line application. Also, processes started from within the system log their activity on the console used to fire up the system. Therefore, the console is a fundamental piece of software to operate the system. Windows Command Prompt is particularly bad as a console. If you are on Windows, it is recommended to install and use a decent application, such as <a href="https://cmder.net/" rel="nofollow" rel="noopener" target="_blank">Console Emulator Cmder<a/>. This will save you time and hassle, and make operation of the system more enjoyable. 
 
 ## Are You Upgrading to a New Version of Superalgos?
 
