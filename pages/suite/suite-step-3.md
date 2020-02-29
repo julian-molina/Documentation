@@ -28,4 +28,6 @@ The system opens your default browser and loads the web application that functio
 
 ## Congratulations! 
 
-You are up and running! Now you are ready to learn the basic operation of the system while you wait for data to start appearing on the charts. You will learn how to browse markets, run a first backtest, and try a live trading session, to get the feel for how things work.
+You are up and running!
+
+Now you are ready to learn the basic operation of the system while you wait for data to start appearing on the charts. You will learn how to browse markets, run a first backtest, and try a live trading session, to get the feel for how things work.
