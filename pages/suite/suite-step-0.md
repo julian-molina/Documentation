@@ -1,6 +1,6 @@
 ---
-title:  "Step 0: Get ready"
-summary: Before you begin, please install Chrome and Node JS.
+title:  "Step 0: Get Ready"
+summary: Before you begin, please install Chrome and Node JS, and make sure you have a decent console application.
 sidebar: suite_sidebar
 permalink: suite-step-0.html
 toc: false
@@ -26,7 +26,7 @@ Please install Node JS, an open-source server environment required to run Supera
 
 ## Console/Terminal/Command Line
 
-You launch the software from your console/terminal/command line application. Also, processes started from within the system log their activity on the console used to fire up the system. Therefore, the console is a fundamental piece of software to operate the system. Windows Command Prompt is particularly bad as a console. If you are on Windows, it is recommended to install and use a decent application, such as <a href="https://cmder.net/" rel="nofollow" rel="noopener" target="_blank">Console Emulator Cmder<a/>. This will save you time and hassle, and make operation of the system more enjoyable. 
+You launch the software from your console/terminal/command line application. Also, processes started from within the system log their activity on the console used to fire up the system. Therefore, the console is a fundamental piece of software to operate the system. Windows Command Prompt is particularly bad as a console. If you are on Windows, it is recommended to install and use a decent application, such as <a href="https://cmder.net/" rel="nofollow" rel="noopener" target="_blank">Console Emulator Cmder<a/>. This will save you time and hassle, and make the operation of the system more enjoyable. 
 
 ## Are You Upgrading to a New Version of Superalgos?
 
