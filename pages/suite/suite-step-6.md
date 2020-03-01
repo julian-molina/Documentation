@@ -1,6 +1,6 @@
 ---
 title:  Pull Data from Exchanges and Process Indicators
-summary: To pull data from exchanges, start the corresponding sensor bot tasks. To process indicators, start the associated indicator bot tasks.
+summary: The system started pulling data from exchanges the minute you ran it the first time. Read on to learn the details.
 sidebar: suite_sidebar
 permalink: suite-step-6.html
 toc: false
@@ -14,7 +14,7 @@ Depending on how you intend to use Superalgos, you may want to pull data from as
 
 On the other hand, if your interest lies in monitoring markets starting from the present time, then you most likely do not need historical data stretching that far in the past.
 
-{% include important.html content="As hinted earlier, for your convenience, the system starts pulling data from exchanges as soon as you start it the first time. The current default is pulling the complete BTC/USDT and ETH/USDT markets from Binance, and one-year worth of the same markets from Bitfinex (limited by the exchange). At the same time, several basic indicators are fired up. These processes put a load on the CPU of your machine. If your hardware is basic, your machine may get slow. In that case, you may want to stop some of the processes. On the other hand, if your hardware handles the default process fine, you may want to start calculating other indicators right away. The instructions below will teach you how to do both operations." %}
+{% include important.html content="As mentioned earlier, for your convenience, the system starts pulling data from exchanges as soon as you start it the first time. The current default is pulling the complete BTC/USDT and ETH/USDT markets from Binance, and one-year worth of the same markets from Bitfinex (limited by the exchange). At the same time, several basic indicators are fired up. These processes put a load on the CPU of your machine. If your hardware is basic, your machine may get slow. In that case, you may want to stop some of the processes. On the other hand, if your hardware handles the default processes fine, you may want to start calculating other indicators right away. The instructions below will teach you how to do both operations. You may also decide the default settings are fine and move on to the next steps without making any changes." %}
 
 ## Start Here
 
