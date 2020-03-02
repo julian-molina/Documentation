@@ -64,8 +64,12 @@ entries:
       url: /suite-step-5.html
       output: web
 
-    - title: "Step 6: Pull and process data"
+    - title: "Step 6: Monitor data mining progress"
       url: /suite-step-6.html
+      output: web
+
+    - title: "Step 7: Control data mining operation"
+      url: /suite-step-7.html
       output: web
 
 #    - title: Run your first backtest
