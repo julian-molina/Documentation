@@ -65,6 +65,8 @@ When the time frame scale is set at the level of the time machine, the scale set
 
 **1. To set a time frame value**, place the mouse pointer over the corresponding time machine or timeline chart time frame box and scroll the mouse wheel.
 
+{% include image.html file='interface/time-frame-scale-00.gif' url='yes' max-width='100' caption='To set a time frame, scroll the wheel of the mouse over the time frame scale box.' %}
+
 <!--------------------------------------------- CHARTS ends -->
 
 {% endif %}

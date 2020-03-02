@@ -101,9 +101,13 @@ The offset is a feature of the rate scale by which the scale may be shifted upwa
 
 * No triangle means that both minimum and maximum values are in manual mode.
 
+{% include image.html file='interface/rate-scale-00.gif' url='yes' max-width='100' caption='Pay attention to the effects of the different setting for the automatic and manual time scales.' %}
+
 {{include.charts}}# Manual Scale
 
 **2. To adjust the scale**, make sure either or both minimum and maximum values are in manual mode. Place the mouse pointer over the corresponding time machine or timeline chart rate box and scroll the wheel of the mouse. The scale will increase or decrease accordingly, depending on which values are set to manual.
+
+{% include image.html file='interface/rate-scale-01.gif' url='yes' max-width='100' caption='When the scale is set to manual, scrolling the mouse wheel on top of the rate scale box changes the scale.' %}
 
 Notice that, while changing the scale, a number is displayed replacing the actual rate. This is a reference value of the scale, that may serve for comparison purposes, with scales in other charts.
 
@@ -112,6 +116,8 @@ Notice that, while changing the scale, a number is displayed replacing the actua
 {{include.charts}}# Scale Offset
 
 **3. To shift or offset a timeline chart on the vertical axis**, place the mouse pointer on the rate box, left-click and drag upwards or downwards, as desired. The timeline chart will shift in the specified direction while the remaining charts stay in the same position.
+
+{% include image.html file='interface/rate-scale-02.gif' url='yes' max-width='100' caption='To control the offset between timeline charts, right-click on the rate box and drag upwards or downwards.' %}
 
 {% include note.html content="Setting an offset in a timeline chart only makes sense in the context of a time machine with multiple charts. That is, if you are browsing a single chart, an offset behaves the same as moving the single chart up or down." %}
 

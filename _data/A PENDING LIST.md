@@ -23,3 +23,7 @@ Include How To:
 
 {% include /how_to/go-to-the-workspace-node.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
 
+Include Reuse:
+
+{% include /reuse/charting-space-interface.md content="yes" extended="yes" %}
+

@@ -95,9 +95,13 @@ The scale features a manual mode. When in manual mode the scale does not change,
 
 * No triangle means that both minimum and maximum values are in manual mode.
 
+{% include image.html file='interface/time-scale-00.gif' url='yes' max-width='100' caption='Pay attention to the effects of the different setting for the automatic and manual time scales.' %}
+
 {{include.charts}}# Manual Scale
 
 **2. To adjust the scale**, make sure either or both minimum and maximum values are in manual mode. Place the mouse pointer over the time box and scroll the wheel of the mouse. The scale will increase or decrease accordingly, depending on which values are set to manual.
+
+{% include image.html file='interface/time-scale-01.gif' url='yes' max-width='100' caption='When the scale is set to manual, scrolling the mouse wheel on top of the time scale box changes the scale.' %}
 
 Notice that, while changing the scale, a number is displayed replacing the actual datetime. This is a reference value of the scale, that may serve for comparison purposes, with scales in other charts.
 

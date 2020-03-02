@@ -13,6 +13,8 @@ Zoom in closer or into a <a data-toggle="tooltip" data-original-title="{{site.da
 
 * **At the bottom** is the <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.time_frame_scale}}">time frame scale</a> box displaying the current time frame, or candle size, if you wish.
 
+{% include image.html file='interface/scale-boxes-00.gif' url='yes' max-width='100' caption='Right-click and drag to move the viewport and zoom in and out using the whell of the mouse.' %}
+
 Both the time scale and the rate scale may be set to different automatic modes or manual mode.
 
 {% include /charting_space/time-scale.md heading="" icon="no" adding="" configuring="" charts="###" content="no" definition="no" table="no" more="no"%}
