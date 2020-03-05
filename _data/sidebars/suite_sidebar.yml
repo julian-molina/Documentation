@@ -72,6 +72,10 @@ entries:
       url: /suite-step-7.html
       output: web
 
+    - title: "Step 8: Learn the charting space"
+      url: /suite-step-8.html
+      output: web
+
 #    - title: Run your first backtest
 #      url: /suite-run-your-first-backtest.html
 #      output: web
