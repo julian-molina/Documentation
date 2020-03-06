@@ -76,6 +76,10 @@ entries:
       url: /suite-step-8.html
       output: web
 
+    - title: "Step 9: Run a backtesting session"
+      url: /suite-step-9.html
+      output: web
+
 #    - title: Run your first backtest
 #      url: /suite-run-your-first-backtest.html
 #      output: web
