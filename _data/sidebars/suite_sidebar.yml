@@ -80,6 +80,10 @@ entries:
       url: /suite-step-9.html
       output: web
 
+    - title: "Step 10: Run a live trading session"
+      url: /suite-step-10.html
+      output: web
+
 #    - title: Run your first backtest
 #      url: /suite-run-your-first-backtest.html
 #      output: web

@@ -15,8 +15,6 @@ The current pages cover all the basic aspects of the concepts entailed in the sy
 
 Pending work includes:
 
-* Completing the last few steps of the *Getting started guide*.
-
 * Documentation-wide illustrations.
 
 * *How to* pages and specific *use cases*.
@@ -25,6 +23,6 @@ Pending work includes:
 
 This is a pre-release in beta stage. The system is under heavy development. We appreciate your help in testing the system and reporting any errors you may experience. We will keep improving user experience with your feedback.
 
-{% include important.html content="Superalgos is at an early stage of development. As such, errors may occur at any point, including errors that may cause you to lose money. You are responsible for taking all precautions before starting trading live. Make sure you forward-test with small amounts of money, the kind you can afford losing. Trade live at your own risk." %}
+{% include live-trading-warning.html %}
 
 

@@ -28,7 +28,7 @@ The testing of strategies and ideas is at the core of successful trading, and Su
 
 **7. Change the ```initialDatetime``` year for 2019** instead of 2020, to backtest the strategy all through 2019 and up to the present time. You may edit the configuration right there in the configuration bubble, or copy and paste the following configuration snippet. Once the edit is made, it is saved automatically when you exit the bubble.
 
-```
+```json
 {
 "initialDatetime": "2019-01-01T00:00:00.000Z",
 "finalDatetime": "2020-12-31T23:59:59.999Z"
