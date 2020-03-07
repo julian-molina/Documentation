@@ -7,17 +7,11 @@ permalink: index.html
 
 ## About this Documentation
 
-This is the documentation site for the Superalgos Project, as described [on the website](https://superalgos.org/).
+This is the documentation site for the Superalgos Project, as described [on the website](https://superalgos.org/), and it's in a permanent state of work-in-progress, pretty much like the system itself.
 
-This documentation is currently work in progress and corresponds to the latest stable version of Superalgos Suite. The system has experienced a major shift on multiple fronts, and changes are still being documented.
+Reading this documentation in a linear manner starting with these *Before you begin* pages and the *Getting started* guide is ideal.
 
-The current pages cover all the basic aspects of the concepts entailed in the system. That is, most concepts native to Superalgos and technical details of the system are covered already.
-
-Pending work includes:
-
-* Documentation-wide illustrations.
-
-* *How to* pages and specific *use cases*.
+The rest of the documentation covers all concepts managed by the system. However, we acknowledge that a *How to* section is required and is the current focus. Also pending are documentation-wide illustrations.
 
 ## Beta Stage Notice
 

@@ -36,7 +36,7 @@ entries:
       url: /suite-system-requirements.html
       output: web
 
-  - title: Getting Started
+  - title: Getting started
     output: web
     folderitems:
 
@@ -107,8 +107,6 @@ entries:
 #    - title: Overview
 #      url: /suite-charts-overview.html
 #      output: web
-
-
 
 #    - title: Layers panel
 #      url: /suite-layers-panel.html
@@ -396,7 +394,7 @@ entries:
 #      url: /suite-build-a-plotter.html
 #      output: web
 
-  - title: Productivity Tools
+  - title: Productivity tools
     output: web
     folderitems:
 
