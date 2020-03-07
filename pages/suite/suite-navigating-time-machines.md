@@ -9,10 +9,10 @@ permalink: suite-navigating-time-machines.html
 
 **1. To pan the data within a time machine**, left-click within the time machine and drag. You may also use the keyboard as follows:
 
-1. <kbd>Shift</kbd> + <kbd>&#8592;</kbd> to pan to the left.
-1. <kbd>Shift</kbd> + <kbd>&#8594;</kbd> to pan to the right.
-1. <kbd>Shift</kbd> + <kbd>&#8593;</kbd> to pan upwards.
-1. <kbd>Shift</kbd> + <kbd>&#8595;</kbd> to pan downwards.
+1. <kbd>&#8592;</kbd> to pan to the left.
+1. <kbd>&#8594;</kbd> to pan to the right.
+1. <kbd>&#8593;</kbd> to pan upwards.
+1. <kbd>&#8595;</kbd> to pan downwards.
 
 {% include note.html content="When using the keyboard, every time machine in focus is affected by the commands." %}
 

@@ -84,34 +84,6 @@ entries:
       url: /suite-step-10.html
       output: web
 
-#    - title: Run your first backtest
-#      url: /suite-run-your-first-backtest.html
-#      output: web
-
-#    - title: Update datasets
-#      url: /suite-update-datasets.html
-#      output: web
-
-#    - title: Trade with an open-source strategy
-#      url: /suite-trade-live-with-an-open-source-strategy.html
-#      output: web
-
-#    - title: What's next?
-#      url: /suite-what-is-next.html
-#      output: web
-
-#  - title: Charts
-#    output: web
-#    folderitems:
-
-#    - title: Overview
-#      url: /suite-charts-overview.html
-#      output: web
-
-#    - title: Layers panel
-#      url: /suite-layers-panel.html
-#      output: web
-
   - title: Design space
     output: web
     folderitems:
@@ -234,10 +206,6 @@ entries:
       output: web
       class: childItem
 
-#    - title: Using non-included indicators
-#      url: /suite-using-non-included-indicators.html
-#      output: web
-
     - title: Trading sessions
       url: /suite-trading-sessions.html
       output: web
@@ -298,50 +266,6 @@ entries:
       output: web
       class: childItem
 
-#  - title: Backtests & Paper Trading
-#    output: web
-#    folderitems:
-
-#    - title: Overview
-#      url: /suite-testing-overview.html
-#      output: web
-
-#    - title: Session parameters
-#      url: /suite-session-parameters.html
-#      output: web
-
-#    - title: Simulation layers
-#      url: /suite-simulation-layers.html
-#      output: web
-
-#    - title: Advanced backtesting
-#      url: /suite-advanced-backtesting.html
-#      output: web
-
-#  - title: Forward Tests & Live Trading
-#    output: web
-#    folderitems:
-
-#    - title: Overview
-#      url: /suite-live-trading-overview.html
-#      output: web
-
-#    - title: Getting ready to trade live
-#      url: /suite-getting-ready-to-trade-live.html
-#      output: web
-
-#    - title: Live trading history layer
-#      url: /suite-live-trading-history-layer.html
-#      output: web
-
-#    - title: Execution limitations
-#      url: /suite-execution-limitations.html
-#      output: web
-
-#    - title: Multiple sessions
-#      url: /suite-multiple-forward-testing-and-live-trading-sessions.html
-#      output: web
-
   - title: Data mines
     output: web
     folderitems:
@@ -377,22 +301,6 @@ entries:
       url: /suite-shapes.html
       output: web
       class: childItem
-
-#    - title: Datasets
-#      url: /suite-datasets.html
-#      output: web
-
-#    - title: Dependencies
-#      url: /suite-dependencies.html
-#      output: web
-
-#    - title: Build an indicator
-#      url: /suite-build-an-indicator.html
-#      output: web
-
-#    - title: Build a plotter
-#      url: /suite-build-a-plotter.html
-#      output: web
 
   - title: Productivity tools
     output: web
@@ -465,7 +373,3 @@ entries:
     - title: Consulting logs
       url: /suite-consulting-logs.html
       output: web
-
-
-
-

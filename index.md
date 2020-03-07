@@ -3,6 +3,7 @@ title: "Superalgos Documentation Site"
 summary: "This is the documentation for the Superalgos Project, a crypto-intelligence suite enabling the automation of complex trading strategies and robust market data processing."
 sidebar: suite_sidebar
 permalink: index.html
+toc: false
 ---
 
 ## About this Documentation
