@@ -57,9 +57,9 @@ The direction of the relationship is determined, in most cases, by the ability o
 
 This feature is useful when testing different configurations, rules or parameters, as it allows to keep alternatives handy in the workspace.
 
-[![Design-Space-Attach-Detach](https://user-images.githubusercontent.com/13994516/63227849-6d7e9b80-c1eb-11e9-9a02-6f760f383751.gif)](https://user-images.githubusercontent.com/13994516/63227849-6d7e9b80-c1eb-11e9-9a02-6f760f383751.gif)
-
 To detach a node, right-click on it and drag it away from the parent node. To attach a node, right-click on it and move it closer to the node you wish to attach it to. 
+
+{% include image.html file='design-space/fundamental-design-space-concepts-01.gif' url='yes' max-width='100' caption='You may also use the *detach* option on the menu to break a relationship.' %}
 
 Nodes may be attached only to potential parents. The system limits the way in which nodes may be attached, according to the logic of the information they contain.
 

@@ -57,9 +57,9 @@ To establish a reference, right-click on the first node and drag it close to the
 
 The reference is visually represented by a faint grey dotted line. Such line is visible only when both ends of the reference are visible.
 
-To remove a reference or *delink* two nodes, simply right-click the node where the reference originates and make a dentle swipping motion away from the target node.
+To remove a reference or *delink* two nodes, simply right-click the node where the reference originates and make a gentle swipping motion away from the target node.
 
-[![Link-01-link-and-delink](https://user-images.githubusercontent.com/13994516/71175267-7057ce80-2267-11ea-8e97-4cffaa14b993.gif)](https://user-images.githubusercontent.com/13994516/71175267-7057ce80-2267-11ea-8e97-4cffaa14b993.gif)
+{% include image.html file='design-space/fundamental-design-space-concepts-02.gif' url='yes' max-width='100' caption='You may also use the *delink* option on the menu to break a reference.' %}
 
 {% include note.html content="Throughout this documentation we may use the verbs *to link*, *to reference* or *to establish a reference* interchangeably, as synonyms." %}
 
