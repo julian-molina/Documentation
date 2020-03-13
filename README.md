@@ -1,13 +1,12 @@
 
 # Documentation
 
-This repository holds the latest documentation of Superalgos including content refering to unreleased functionality and features. For the documentation corresponding to the current release, see the [Official Documentation Site](https://docs.superalgos.org).
-
-The documentation in development is available [here](https://superalgos.github.io/Documentation/).
+This repository holds the source code for the latest [documentation of the Superalgos Project](https://docs.superalgos.org). 
+To run the site in your local machine, set up Jekyll and run it on the root folder of this respository.
 
 ## Contributing
 
-We'd love you to join us in the Dev Team. Please see [CONTRIBUTING.md](CONTRIBUTING.md) for the details on how to engage with it.
+Contributing to this documentation is appreciated. Please see [CONTRIBUTING.md](CONTRIBUTING.md) for the details on how to engage with it.
 
 ## License
 
