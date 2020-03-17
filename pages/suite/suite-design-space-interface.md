@@ -32,7 +32,7 @@ You may define shortcuts for frequently-used nodes with the following procedure:
 1. Click <kbd>Ctrl or &#8984;</kbd> + <kbd>Alt</kbd> + your preferred key to assign the shortcut.
 1. A sign will appear below the node confirming the assignation of the shortcut.
 
-[![Shortcuts](https://user-images.githubusercontent.com/13994516/70344838-f123cd00-185a-11ea-819f-92c4cf1e93ea.gif)](https://user-images.githubusercontent.com/13994516/70344838-f123cd00-185a-11ea-819f-92c4cf1e93ea.gif)
+{% include image.html file='design-space/design-space-interface-00-shortcuts.gif' url='yes' max-width='100' caption='Custom shortcuts help you personalize your navigation.' %}
 
 Repeat the same procedure to remove a shortcut.
 

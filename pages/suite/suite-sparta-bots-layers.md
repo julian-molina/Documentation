@@ -11,7 +11,7 @@ permalink: suite-sparta-bots-layers.html
 
 <a href="https://www.investopedia.com/terms/r/rsi.asp" rel="nofollow" rel="noopener" target="_blank">According to Investopedia</a>, "The relative strength index (RSI) is a momentum indicator that measures the magnitude of recent price changes to evaluate overbought or oversold conditions in the price of a stock or other asset. The RSI is displayed as an oscillator (a line graph that moves between two extremes) and can have a reading from 0 to 100."
 
-[![Layers-04-RSI](https://user-images.githubusercontent.com/13994516/71260426-2213ff80-233b-11ea-8a1f-447e00da3ec7.gif)](https://user-images.githubusercontent.com/13994516/71260426-2213ff80-233b-11ea-8a1f-447e00da3ec7.gif)
+{% include image.html file='interface/sparta-bots-layers-00-RSI.gif' url='yes' max-width='100' caption='Relative Strenght Index, standard settings.' %}
 
 The chart for this indicator shows the RSI oscillating in a scale ranging from 0 at the bottom to 100 at the top. The bottom section of the chart shows a blue background covering the range from 0 to 20, also marked by a dotted line. When the RSI value falls below the 20 mark, the RSI line turns red, for easier viasualization. Also in the bottom section, there is a second dotted line signaling the 30 mark.
 
@@ -25,7 +25,7 @@ For the time being, the chart is fixed on the screen and the user may not move i
 
 <a href="https://www.investopedia.com/terms/e/ema.asp" rel="nofollow" rel="noopener" target="_blank">According to Investopedia</a>, "A simple moving average (SMA) is an arithmetic moving average calculated by adding recent closing prices and then dividing that by the number of time frames in the calculation average. Short-term averages respond quickly to changes in the price of the underlying asset, while long-term averages are slow to react."
 
-[![Layers-01-SMA](https://user-images.githubusercontent.com/13994516/71260423-217b6900-233b-11ea-9229-d838f8a071da.gif)](https://user-images.githubusercontent.com/13994516/71260423-217b6900-233b-11ea-9229-d838f8a071da.gif)
+{% include image.html file='interface/sparta-bots-layers-01-SMA.gif' url='yes' max-width='100' caption='Simple Moving Average, in particular, the Base11 SMA product.' %}
 
 You will find several layers with different settings for SMAs, calculated on different periods. Each layer corresponds to a *product* made available by the indicator.
 
@@ -35,6 +35,6 @@ The information panel shows the numeric value for each SMA in the layer, in asce
 
 <a href="https://www.investopedia.com/terms/e/ema.asp" rel="nofollow" rel="noopener" target="_blank">According to Investopedia</a>, "An exponential moving average (EMA) is a type of moving average (MA) that places a greater weight and significance on the most recent data points. The exponential moving average is also referred to as the exponentially weighted moving average. An exponentially weighted moving average reacts more significantly to recent price changes than a simple moving average (SMA), which applies an equal weight to all observations in the period."
 
-[![Layers-02-EMA](https://user-images.githubusercontent.com/13994516/71260424-217b6900-233b-11ea-830d-e445a01aca65.gif)](https://user-images.githubusercontent.com/13994516/71260424-217b6900-233b-11ea-830d-e445a01aca65.gif)
+{% include image.html file='interface/sparta-bots-layers-02-EMA.gif' url='yes' max-width='100' caption='Simple Moving Average, in particular, the Base11 EMA product.' %}
 
 The same explanations offered for SMAs apply to EMAs.
