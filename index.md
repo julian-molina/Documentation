@@ -8,9 +8,9 @@ toc: false
 
 ## About this Documentation
 
-This is the documentation site for the Superalgos Project, as described [on the website](https://superalgos.org/), and it's in a permanent state of work-in-progress, pretty much like the system itself.
+This is the documentation site for the Superalgos Project, as described [on the website](https://superalgos.org/), and it's in a permanent work-in-progress state, pretty much like the Superalgos software itself.
 
-Reading this documentation in a linear manner starting with these *Before you begin* pages and the *Getting started* guide is ideal.
+Reading this documentation in a linear manner starting with these *Before you begin* pages is ideal. However, if you are short on time, feel free to go straight to the *[Getting started](suite-step-0.html)* guide.
 
 The rest of the documentation covers all concepts managed by the system. However, we acknowledge that a *How to* section is required and is the current focus. Also pending are documentation-wide illustrations.
 

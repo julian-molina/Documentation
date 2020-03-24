@@ -22,17 +22,19 @@ Running a live trading session is very similar to running a backtesting session.
 
 ### Set Up Your Exchange Account Key
 
-{% include image.html file='how-to/run-a-live-session-00.gif' url='yes' max-width='100' caption='The image illustrates points 1 to 4 below.' %}
-
-**1. Go to the <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_ecosystem}}">crypto ecosystem</a> hierarchy**.
+**1. Go to the <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_ecosystem}}">crypto ecosystem</a> hierarchy and expand it**.
 
 {% include /how_to/find-a-hierarchy.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
 
-**2. Find and expand the Binance exchange node** under <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_exchanges}}">crypto exchanges</a>
+{% include image.html file='how-to/run-a-live-session-00.gif' url='yes' max-width='100' caption='The image illustrates points 1 to 5 below.' %}
 
-**3. Find the exchange account key node** under <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.exchange_accounts}}">exchange accounts</a> &#8594; <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.user_account}}">user account</a> &#8594; <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.user_keys}}">user keys</a>.
+**2. Find the *Tested*  <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_exchanges}}">crypto exchanges</a> node** on the right-hand side.
 
-**4. Select *Configure Key* on the menu** and carefully enter your API Key and Key Secret as instructed on the message featured on the configuration bubble. Make sure you don't leave any character foreign to your keys between the double quote marks&mdash;only the exact sequence of characters in the key should go there.
+**3. Find the Binance <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_exchange}}">crypto exchange</a> node**.
+
+**4. Find the exchange account key node** under <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.exchange_accounts}}">exchange accounts</a> &#8594; <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.user_account}}">user account</a> &#8594; <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.user_keys}}">user keys</a>.
+
+**5. Select *Configure Key* on the menu** and carefully enter your API Key and Key Secret as instructed on the message featured on the configuration bubble. Make sure you don't leave any character foreign to your keys between the double quote marks&mdash;only the exact sequence of characters in the key should go there.
 
 ```json
 { 
@@ -41,29 +43,33 @@ Running a live trading session is very similar to running a backtesting session.
 }
 ```
 
+{% include image.html file='how-to/run-a-live-session-01.png' url='yes' max-width='100' caption='Enter your keys carefully.' %}
+
 ### Start Data Mining
 
-{% include image.html file='how-to/run-a-live-session-01.gif' url='yes' max-width='100' caption='The image illustrates points 1 to 3 below.' %}
+**1. Go to the network hierarchy and find the *Masters Binance BTC/USDT* task manager** under Network Node &#8594; Data Mining &#8594; Binance.
 
-**1. Go to the network hierarchy**.
+**2. Select *Run All Tasks* on the menu**.
 
-**2. Find and expand the data mining node**.
+**3. Wait until all indicators are at 100%**.
 
-**3. Find the *Masters Binance BTC/USDT* task manager** and select *Run All Tasks* on the menu.
+{% include important.html content="Remember that a live trading session requires having a live data feed from the exchange and all indicators up to date." %}
 
 ### Run the Live Trading Task and Session
 
-{% include image.html file='how-to/run-a-live-session-02.gif' url='yes' max-width='100' caption='The image illustrates points 1 to 9 below.' %}
+**1. Find the <a data-toggle="tooltip" data-original-title="{{site.data.network.production_environment}}">production environment</a> node**.
 
-**1. Find and expand the <a data-toggle="tooltip" data-original-title="{{site.data.network.production_environment}}">production environment</a> node**.
+{% include image.html file='how-to/run-a-live-session-02.gif' url='yes' max-width='100' caption='The image illustrates points 1 to 5 below.' %}
 
-**2. Find and expand the *Fwd & Live Sessions Binance BTC/USDT*** task manager.
+**2. Find the *Fwd & Live Sessions Binance BTC/USDT*** task manager under the Binance exchange tasks node.
 
-**3. Find and expand the *Live Trading WHB*** task.
+**3. Find the *Live Trading WHB*** task.
 
 **4. Find the *Live Trading WHB* live trading session** and its <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.parameters}}">parameters</a>.
 
 **5. Go to the <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.base_asset}}">base asset</a>** parameter and select *Configure Base Asset* on the menu.
+
+{% include image.html file='how-to/run-a-live-session-02.png' url='yes' max-width='100' caption='Base asset configuration.' %}
 
 **6. Decide if the default setting for the ```initialBalance``` is correct** and change it if you wish.
 
@@ -75,6 +81,8 @@ Running a live trading session is very similar to running a backtesting session.
 }
 ```
 
+{% include /trading_system/base-asset.md heading="more" icon="150-" adding="###" configuring="###" starting="" content="yes" definition="bold" table="yes" more="yes"%}
+
 **7. Click *Run* on the *Live Trading WHB* task menu**.
 
 **8. Click *Run* on the *Live Trading WHB* session menu**.
@@ -82,3 +90,5 @@ Running a live trading session is very similar to running a backtesting session.
 ### Monitor the Live Session on the Charts
 
 Live trading sessions feature the same visualization capabilities as backtesting sessions. Make sure you use the Live Trading layer manager instead of the Backtesting layer manager.
+
+{% include /network/live-trading-session.md heading="more" icon="150-" adding="###" configuring="###" starting="" content="yes" definition="bold" table="yes" more="yes"%}

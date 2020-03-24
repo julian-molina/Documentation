@@ -8,6 +8,8 @@ testing_environment: "The testing environment node organizes trading sessions in
 
 production_environment: "The production environment node organizes trading sessions involving live trading."
 
+exchange_tasks: "The exchange tasks node organizes task managers by exchange. That is, each exchange installed in the system has an exchange tasks node grouping all tasks corresponding to the said exchange."
+
 task_manager: "A task manager is a device used to organize and control any number of tasks, which, in turn, control bot instances. You use a task manager to start or stop several tasks at the same time."
 
 task: "A task is the device used to control bot instances, that is, to start and stop bots, including sensors, indicators and the trading bot."

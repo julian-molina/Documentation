@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: Superalgos
-  version: 0.0.6
+  version: Beta
   folders:
 
 #  - title:
@@ -56,7 +56,7 @@ entries:
       url: /suite-step-3.html
       output: web
 
-    - title: "Step 4: Import a workspace"
+    - title: "Step 4: Upgrading?"
       url: /suite-step-4.html
       output: web
 

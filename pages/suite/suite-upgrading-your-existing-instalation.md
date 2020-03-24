@@ -11,13 +11,13 @@ This is what you should do if you wish to upgrade to a new version:
 
 ## 1. Read the Announcement Carefully
 
-Read and understand the announcement explaining the changes and how they may impact your workflow. Find out if the new version requires upgrading your workspace. 
+Read and understand the announcement explaining the changes and how they may impact your workflow. Most importantly, find out if the new version requires upgrading your workspace. 
 
-Decide which parts of your workspace you wish to backup in order to be able to restore them on the upgraded workspace if there is one (*e.g.: you may want to backup your strategies, trading system, indicators you may have created, and so on*). If there is no need to upgrade the workspace, that means that the new version of the system should work well with your existing workspace (provided that you are only one version behind).
-
-## 2. Back Up Your Workspace
+## 2. Back Up Your Work
 
 Always back up your existing workspace before switching versions. You may always go back to a working version in case something goes wrong with the new one, by installing the previous version of the system and restoring your old workspace from a backup file.
+
+If the new version requires upgrading to a new workspace, you must decide which parts of your work you wish to backup so that you may restore them on the upgraded workspace (*e.g.: you may want to backup your strategies, trading systems, indicators you may have created, and so on*). If there is no need to upgrade the workspace, that means that the new version of the system should work well with your existing workspace (provided that you are only one version behind).
 
 ## 3. Put the House in Order
 

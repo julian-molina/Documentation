@@ -1,6 +1,6 @@
 ---
-title:  Import a Workspace
-summary: If you are upgrading to a new version of Superalgos, you need to import a new workspace.
+title:  Upgrading?
+summary: If you are upgrading to a new version of Superalgos, you may now restore your previous work to the new workspace.
 sidebar: suite_sidebar
 permalink: suite-step-4.html
 toc: false
@@ -8,14 +8,9 @@ toc: false
 
 The <a data-toggle="tooltip" data-original-title="{{site.data.concepts.workspace}}">workspace</a> is an important concept within Superalgos. It is the entity that holds all the information handled by the system. In practical terms, it is a file that can be backed up, shared, and restored in the system.
 
-{% include important.html content="For your convenience, the system ships with a default workspace that is restored automatically the first time you fire up the system. If this is the first time you are running the system, the workspace has already been loaded and you do not need to restore it manually. If that is the case, skip the following instructions and go straight to the next step." %}
+{% include important.html content="For your convenience, the system ships with a default workspace that is restored automatically the first time you fire up the system. If this is the first time you are running the system, you may skip the following notes and go straight to the next step." %}
 
 ## If You Are Upgrading to a New Version of Superalgos
 
-**1. Locate the file ```Workspace.json```** in the root of the ```Superalgos-master``` folder.
+Once you run the new version of Superalgos for the first time, the system loads a new workspace. If you wish to restore previous work you may have backed up, you may proceed to do so now.
 
-**2. Left-click on the file and drag it over the browser** where the system is running. You will notice the system recognizes your intent and pulls the slider up, showing the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.design_space}}">design space</a>.
-
-**3. Drop the workspace file on the design space** and wait for a few seconds. You should see a ring around the workspace icon, indicating the progress of the import action. Once the ring disappears, the import operation is over and you are free to start using the system.
-
-{% include image.html file='how-to/import-the-workspace-00.gif' url='yes' max-width='100' caption='Drag and drop the workspace on the design space, and wait for a few seconds until the progress ring disappears.' %}

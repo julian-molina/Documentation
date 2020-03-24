@@ -1,6 +1,6 @@
 ---
 title:  "Step 2: Run the System"
-summary: Windows users launch the system using an EXE file. Other users launch the system via Node JS.
+summary: Launch Superalgos via Node JS.
 sidebar: suite_sidebar
 permalink: suite-step-2.html
 toc: false

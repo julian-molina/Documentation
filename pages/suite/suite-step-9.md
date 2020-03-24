@@ -6,63 +6,42 @@ permalink: suite-step-9.html
 toc: false
 ---
 
-The testing of strategies and ideas is at the core of successful trading, and Superalgos provides a powerful infrastructure for that matter. The instructions below will take you through the operational aspects of running a backtesting session, using an existing open-source strategy, the <a href="https://github.com/Superalgos/Strategy-BTC-WeakHandsBuster" rel="nofollow" rel="noopener" target="_blank">Weak Hands Buster</a> as an example. The rest of this documentation provides valuable insights on the full potential behind the set of testing tools available.
+The testing of strategies and trading ideas is at the core of successful trading, and Superalgos provides a powerful infrastructure for that matter. The instructions below will take you through the operational aspects of running a backtesting session, using an existing open-source strategy, the <a href="https://github.com/Superalgos/Strategy-BTC-WeakHandsBuster" rel="nofollow" rel="noopener" target="_blank">Weak Hands Buster</a> as an example. The rest of this documentation provides valuable insights on the full potential behind the set of testing tools available.
 
-{% include important.html content="Weak Hands Buster uses several Masters indicators. Before running the backtesting session, make sure the indicators have been calculated until the present time&mdash;simply check the charts and see if, for instance, Bollinger Bands are available for the last few days. Bear in mind that backtesting sessions do not require the data mining bots to be running. Feel free to stop your data mining operation as soon as the Masters indicators get to the present time." %}
+{% include important.html content="Weak Hands Buster uses several Masters indicators. Before running the backtesting session, make sure all Masters indicators have been calculated until the present time. To do this, refer to the tools you learnt about in previous steps. If all Masters indicators are up to 100%, then you may completely stop the data mining operation and continue with the following instructions." %}
 
 ## Start Here
 
-{% include image.html file='how-to/run-a-backtesting-session-00.gif' url='yes' max-width='100' caption='The image illustrates points 1 to 9 below.' %}
-
 **1. Go to the network hierarchy**.
 
-**2. Find and expand the <a data-toggle="tooltip" data-original-title="{{site.data.network.testing_environment}}">testing environment</a> node**.
+{% include image.html file='how-to/run-a-backtesting-session-00.gif' url='yes' max-width='100' caption='The image illustrates points 1 to 5 below.' %}
 
-**3. Find and expand the *Paper & Backtesting Sessions Binance BTC/USDT*** task manager.
+**2. Find the <a data-toggle="tooltip" data-original-title="{{site.data.network.testing_environment}}">testing environment</a> node along with the *Binance* exchange tasks node**.
 
-**4. Find and expand the *Backtesting WHB*** task.
+**3. Find the *Paper & Backtesting Sessions Binance BTC/USDT* task manager**.
 
-**5. Find the *Back WHB* backtesting session** and its <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.parameters}}">parameters</a>.
+**4. Find the *Backtesting WHB* task and click *Run* on the menu**.
 
-**6. Go to the <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.time_range}}">time range</a>** parameter and select *Configure Time Range* on the menu.
+**5. Find the *Backtesting WHB* session and click *Run* on the menu**.
 
-**7. Change the ```initialDatetime``` year for 2019** instead of 2020, to backtest the strategy all through 2019 and up to the present time. You may edit the configuration right there in the configuration bubble, or copy and paste the following configuration snippet. Once the edit is made, it is saved automatically when you exit the bubble.
+Wait a few seconds and notice the progress indication below the backtesting session node. 
 
-```json
-{
-"initialDatetime": "2019-01-01T00:00:00.000Z",
-"finalDatetime": "2020-12-31T23:59:59.999Z"
-}
-```
+{% include note.html content="When the progress date reaches the present time and eventually disappears, then the session becomes available to visualize on the charts. Wait until that happens to follow the next set of instructions." %}
 
-**8. Click *Run* on the *Backtesting WHB* task menu**.
+**6. Stop the *Backtesting WHB* task**. Make sure the session finished calculating first.
 
-**9. Click *Run* on the *Back WHB* session menu**. Wait a few seconds and notice the progress notice below the backtesting session node. When the progress date reaches the present time and eventually disappears, then the session becomes available to visualize on the charts. Wait until that happens to follow the next few instructions.
+{% include image.html file='how-to/run-a-backtesting-session-01.gif' url='yes' max-width='100' caption='The indication of progress reaches the present time, stops, and eventually disappears. When that happens, stop the corresponding task.' %}
 
-{% include image.html file='how-to/run-a-backtesting-session-01.gif' url='yes' max-width='100' caption='The image illustrates points 10 to 12 below.' %}
+**7. Open the charting space** and pan the viewport to the left-hand side.
 
-**10. Stop the *Backtesting WHB* task and open the charting space**.
+We have set up a chart for each of the trades performed by the strategy from January 2019 and on, so that you may find them quickly.
 
-**11. Zoom into the *Binance BTC/USDT* time machine**.
+{% include image.html file='how-to/run-a-backtesting-session-02.gif' url='yes' max-width='100' caption='Notice the charts on the left-hand side of the charting space.' %}
 
-**12. Disable the automatic setting** on the <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.time_scale}}">time scale</a> and <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.rate_scale}}">rate scale</a>.
+{% include note.html content="If any of the charts is not showing the simulation, you may zoom in and restart the corresponding layers." %}
 
-{% include /charting_space/time-scale.md heading="more" icon="no" adding="" configuring="" charts="###" content="no" definition="no" table="no" more="yes"%}
-
-{% include /charting_space/rate-scale.md heading="more" icon="no" adding="" configuring="" charts="###" content="no" definition="no" table="no" more="yes"%}
-
-{% include image.html file='how-to/run-a-backtesting-session-02.gif' url='yes' max-width='100' caption='The image illustrates points 13 to 17 below.' %}
-
-**13. Find the Backtesting layer manager** somewhere on the top of the screen. If no layer managers show up when you slide the mouse pointer on the upper side of the screen, then go a bit further inside with the level of zoom.
-
-**14. Turn on all the layers**.
-
-**15. Adjust the time scale** to focus on the period of time starting in January 2019.
-
-**16. Change the time frame for the backtesting timeline chart to *01-hs***. Only then will the simulation layers become visible. This is due to the fact the backtesting session was run using that time frame. You did so because the Weak Hands Buster strategy is designed to make decisions upon the closing of the one-hour candle.
-
-**17. Change the time frame of the time machine to *01-hs***. This will give you more detail as to how the strategy behaves and makes decisions.
-
-**18. Explore each trade** and imagine the potential for improving and fine-tuning strategies granted by the ability to analyze every single trade&mdash;and even their events&mdash;directly over the charts.
+**8. Take some time to explore each trade by zooming into the charts**.
 
 {% include image.html file='how-to/run-a-backtesting-session-03.gif' url='yes' max-width='100' caption='Every trade is graphically represented over the charts, with all the details including take position rate, initial stop and take profit targets, dynamic targets changing in phases, exit rate, trade results, and plenty more information on the trading simulation panel.' %}
+
+

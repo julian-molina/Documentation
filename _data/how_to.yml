@@ -1,5 +1,5 @@
-find_a_hierarchy: "To find a hierarchy, locate the workspace node and pan the design space in the appropriate cardinal direction: N for the Sparta Data Mine, NE for the WHB Trading System, E for the BRR Trading System, SE for Super Scripts, S for Network, SW for Crypto Ecosystem, W for Charting System, and NE for Masters Data Mine."
+find_a_hierarchy: "To find a hierarchy, access the design space map with a right-click of the mouse, and left-click on your desired destination."
 
-go_to_the_workspace_node: "To go the workspace node, use the browser's zoom feature. This coincidentally takes you to the center of the design space, exactly where the workspace node is located by default."
+go_to_the_workspace_node: "To go the workspace node, access the design space map with a right-click of the mouse and left-click on the workspace node, which is usually located in the center on the design space."
 
 change_directories_in_the_console: "To change directories, use the cd (change directory) command."

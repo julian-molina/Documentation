@@ -23,13 +23,13 @@ Traders rely on datasets for backtesting. The system retrieves raw trades data d
 
 The volume of trades data generated at exchanges is significant. Exchanges APIs impose limits on the bandwidth of data you may retrieve from your machine per unit of time. Different exchanges have different transaction volumes, and imposse different limits.
 
-For those reasons, retrieving historic data takes considerably different times on each exchange. For example, retrieving the USDT-BTC market for the whole of 2019 from Bitfinex may take three to four hours. The same period for Bitmex may take several days.
+For those reasons, retrieving historic data takes considerably different times on each exchange. For example, retrieving Binance's complete USDT-BTC market (since September 2017) may take anything from 20 to 40 minutes.
 
 A third factor affecting data-retrieval times and initial candles-processing is the computational power of your machine. Check the [system requirements](suite-system-requirements.html) for more details in this regard.
 
 ## Supported Exchanges
 
-For a list of supported exchanges, please refer to the <a href="https://github.com/Superalgos/Superalgos/blob/develop/README.md" rel="nofollow" rel="noopener" target="_blank">develop branch README file</a>. 
+For a list of supported exchanges, please refer to the <a href="https://github.com/Superalgos/Superalgos/blob/master/README.md" rel="nofollow" rel="noopener" target="_blank">README file</a>. 
 
 The system implements the <a href="https://github.com/ccxt/ccxt/" rel="nofollow" rel="noopener" target="_blank">CCXT library</a>, which allows connecting to a <a href="https://github.com/ccxt/ccxt/wiki/Exchange-Markets" rel="nofollow" rel="noopener" target="_blank">vast list of exchanges</a>. 
 
