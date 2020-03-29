@@ -1,6 +1,6 @@
 ---
 title: "Superalgos Documentation"
-summary: "This is the documentation for the Superalgos Project, a crypto-intelligence suite enabling the automation of complex trading strategies and robust market data processing. Getting started with Superalgos is really easy: you may choose to follow a series of video tutorials, or follow written instructions instead. The video series is richer in explanations, while the written series is more concise and to-the-point. Using both is probably the smartest thing to do!"
+summary: "Superalgos enables the automation of simple and complex crypto-trading strategies and robust market data processing. Getting started with Superalgos is really easy: you may choose to follow a series of video tutorials, or follow written instructions instead. The video series is richer in explanations, while the written series is more concise and to-the-point. Using both is probably the smartest thing to do!"
 sidebar: suite_sidebar
 permalink: index.html
 toc: false
