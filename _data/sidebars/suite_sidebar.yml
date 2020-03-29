@@ -56,7 +56,7 @@ entries:
       url: /suite-step-3.html
       output: web
 
-    - title: "Step 4: Upgrading?"
+    - title: "Step 4: Workspace"
       url: /suite-step-4.html
       output: web
 

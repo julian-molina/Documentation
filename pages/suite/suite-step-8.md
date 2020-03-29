@@ -6,7 +6,9 @@ permalink: suite-step-8.html
 toc: false
 ---
 
-## Watch this Video for a Quick Intro to the Charting Space
+The charting space is mostly visual in nature, thus, we recommend watching the corresponding video in the series to get acquainted with it quickly. If you prefer to engage illustrated written content, the [charting space pages](suite-fundamental-charting-space-concepts.html) provide plenty.
+
+## Step 8 in a Video Tutorial
 
 <div style="background-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin-bottom: 35px; max-width: 850px; max-height: 476px;">
 <iframe width="848" height="476" src="https://www.youtube.com/embed/oyiXLoRhWPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

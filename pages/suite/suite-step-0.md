@@ -8,14 +8,6 @@ toc: false
 
 This *Getting Started Guide* will quickly show you the very basics of Superalgos so that you may rapidly grasp the system's potential. The guide will take you through a sequence of instructions to download and install the system, run it for the first time, fetch some data from exchanges, browse markets on the charts, run a first backtest with an existing strategy, and even try a live trading session, for demonstration purposes.
 
-## Steps 0 to 3 in a Video Tutorial
-
-If you prefer watching videos to reading instructions, this tutorial will take you through steps 0 to 3 in five minutes. Otherwise, just keep reading!
-
-<div style="background-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin-bottom: 35px; max-width: 850px; max-height: 476px;">
-<iframe width="848" height="476" src="https://www.youtube.com/embed/ac6QMxfigs8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 ## Use Chrome, the Only Tested Browser
 
 Before you begin, it is highly recommended that you <a href="https://www.google.com/chrome/" rel="nofollow" rel="noopener" target="_blank">install Chrome</a> and set it up as your default browser.

@@ -1,5 +1,5 @@
 ---
-title:  Upgrading?
+title:  The Workspace
 summary: If you are upgrading to a new version of Superalgos, you may now restore your previous work to the new workspace.
 sidebar: suite_sidebar
 permalink: suite-step-4.html
