@@ -84,6 +84,22 @@ entries:
       url: /suite-step-10.html
       output: web
 
+  - title: How to...
+    output: web
+    folderitems:
+
+    - title: "... find a hierarchy"
+      url: /suite-how-to-find-a-hierarchy.html
+      output: web
+
+    - title: "... go to the workspace node"
+      url: /suite-how-to-go-to-the-workspace-node.html
+      output: web
+
+    - title: "... restore a workspace"
+      url: /suite-how-to-restore-a-workspace.html
+      output: web
+
   - title: Design space
     output: web
     folderitems:

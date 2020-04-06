@@ -39,8 +39,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Regardless of where you are in the design space, click <kbd>Ctrl or &#8984;</kbd> key and make a one-step turn of the wheel of the mouse forwards, followed by a one-step turn backwards.
-
+Alternatively, you may also use a trick provided by the built-in zoom feature of the browser: regardless of where you are in the design space, click <kbd>Ctrl or &#8984;</kbd> key and make a one-step turn of the wheel of the mouse forwards, followed by a one-step turn backwards. The action activates the browser's zoom feature, which has the side-effect of centering the design space, which, in turn, takes you to the workspace.
 
 {% include image.html file='how-to/go-to-the-workspace-node-00.gif' url='yes' max-width='100' caption='Flick the mouse wheel while pressing the Ctrl or Command key.' %}
 
