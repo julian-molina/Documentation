@@ -256,7 +256,7 @@ toc: false
 
 {% include /crypto_ecosystem/crypto-exchange.md heading="##" icon="150-" adding="####" configuring="####" starting="" content="no" definition="bold" table="yes" more="no"%}
 
-{% include /crypto_ecosystem/exchange-assets.md heading="##" icon="150-" adding="####" configuring="" starting="" content="no" definition="bold" table="yes" more="no"%}
+{% include /crypto_ecosystem/exchange-assets.md heading="##" icon="150-" adding="####" configuring="####" starting="" content="no" definition="bold" table="yes" more="no"%}
 
 {% include /crypto_ecosystem/asset.md heading="##" icon="150-" adding="####" configuring="####" starting="" content="no" definition="bold" table="yes" more="no"%}
 

@@ -68,7 +68,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-To add an asset, select *Add Asset* on the crypto exchange assets node menu. 
+To add an asset, select *Add Asset* on the exchange assets node menu. 
+
+To add assets in bulk, select *Add Missing Assets* on the exchange assets node menu. Beware that the exchange may handle hundreds of assets. Before using this option you may want to implement a filter using the exchange assets configuration.
 
 <!--------------------------------------------- ADDING ends -->
 

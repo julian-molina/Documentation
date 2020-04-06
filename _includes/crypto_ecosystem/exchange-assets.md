@@ -78,11 +78,19 @@ To add an exchange assets node, select *Add Exchange Assets* on the crypto excha
 
 {% if include.configuring != "" %}
 
-{{include.configuring}} Configuring the {{title}}
+{{include.configuring}} Configuring the {{title}} Node
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Select *Configure Exchange Assets* on the menu to access the configuration.
+
+```json
+{ 
+"addMissingAssets": { "quotedAsset": "BTC"} 
+}
+```
+
+* ```addMissingAssets``` acts as a filter to determine which assets of a (potentially long) list of assets listed at the exchange will be added when the *Add Missing Assets* option in the menu is used. Because many exchanges do not offer a list of assets, the system fetches assets from actual markets (pairs) listed at the exchange. You may add missing assets filtered by the ```quotedAsset``` or by the ```baseAsset```. For example, the above configuration would add all assets listed in markets in which BTC is the quoted asset.
 
 <!--------------------------------------------- CONFIGURING ends -->
 

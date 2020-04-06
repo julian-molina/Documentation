@@ -68,7 +68,11 @@
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a market, select *Add Market* on the crypto exchange node menu. The market node is created along with the basic structure of nodes used to define the market.
+To add a market, select *Add Market* on the exchange markets node menu. The market node is created along with the basic structure of nodes used to define the market.
+
+To add markets in bulk, select *Add Missing Markets* on the exchange markets node menu. This option adds all markets listed at the exchange that may result from the combination of assets listed under the exchange assets node.
+
+
 
 <!--------------------------------------------- ADDING ends -->
 
