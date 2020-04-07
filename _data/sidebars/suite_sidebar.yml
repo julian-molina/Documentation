@@ -100,6 +100,10 @@ entries:
       url: /suite-how-to-restore-a-workspace.html
       output: web
 
+    - title: "... install a new market"
+      url: /suite-how-to-install-a-new-market.html
+      output: web
+
   - title: Design space
     output: web
     folderitems:

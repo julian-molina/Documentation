@@ -6,4 +6,4 @@ change_directories_in_the_console: "To change directories, use the cd (change di
 
 restore_a_workspace: "To restore a workspace, drag the workspace file and drop it on top of the workspace icon in the design space."
 
-install_a_new_market: "To install a new market, click *Run* on the install market super action corresponding to the market you wish to install. If the market is not set up, then follow the istructions below."
+install_a_new_market: "To install a new market, click *Run* on the install market super action corresponding to the market you wish to install. If the market is not set up, then you must set it up first."
