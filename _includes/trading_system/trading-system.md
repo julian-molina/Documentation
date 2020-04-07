@@ -57,6 +57,8 @@ You use a trading system to define strategies following the <a data-toggle="tool
 
 The concept of describing strategies in phases is fundamental to the methodical aspect of the trading system, as it provides a framework to run every strategy with the same logic, which contributes to developing scalable trading systems that may grow to any number of strategies.
 
+{% include important.html content="Changes made to trading systems shipping with the system may not be saved at the workspace level. If you wish to modify those hierarchies and use them in such modified versions, you need to clone them and modify the clone instead. To do this successfully, you need to learn more about [backups](suite-backups.html) and [clones](suite-clones.html)." %}
+
 <!--------------------------------------------- CONTENT ends -->
 
 {% endif %}

@@ -13,10 +13,10 @@ permalink: suite-working-with-strategies.html
 
 As the Superalgos Trading Protocol indicates, the definition of strategies is done in stages:
 
-* <a href="suite-trading-system-hierarchy.html#trigger-stage" data-toggle="tooltip" data-original-title="{{site.data.trading_system.trigger_stage}}">Trigger Stage</a>
-* <a href="suite-trading-system-hierarchy.html#open-stage" data-toggle="tooltip" data-original-title="{{site.data.trading_system.open_stage}}">Open Stage</a>
-* <a href="suite-trading-system-hierarchy.html#manage-stage" data-toggle="tooltip" data-original-title="{{site.data.trading_system.manage_stage}}">Manage Stage</a>
-* <a href="suite-trading-system-hierarchy.html#close-stage" data-toggle="tooltip" data-original-title="{{site.data.trading_system.close_stage}}">Close Stage</a>
+* <a href="suite-hierarchy-trading-system.html#trigger-stage" data-toggle="tooltip" data-original-title="{{site.data.trading_system.trigger_stage}}">Trigger Stage</a>
+* <a href="suite-hierarchy-trading-system.html#open-stage" data-toggle="tooltip" data-original-title="{{site.data.trading_system.open_stage}}">Open Stage</a>
+* <a href="suite-hierarchy-trading-system.html#manage-stage" data-toggle="tooltip" data-original-title="{{site.data.trading_system.manage_stage}}">Manage Stage</a>
+* <a href="suite-hierarchy-trading-system.html#close-stage" data-toggle="tooltip" data-original-title="{{site.data.trading_system.close_stage}}">Close Stage</a>
 
 We will review each stage, one by one, but let's first discuss the common nodes among them.
 

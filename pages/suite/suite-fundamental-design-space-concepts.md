@@ -23,7 +23,9 @@ In practical terms, the design space is the portion of the system you access whe
 
 It contains:
  
-* All <a data-toggle="tooltip" data-original-title="{{site.data.concepts.hierarchy}}">hierarchies</a> with all of their <a data-toggle="tooltip" data-original-title="{{site.data.concepts.node}}">nodes</a>.
+* The aforementioned <a data-toggle="tooltip" data-original-title="{{site.data.concepts.hierarchy}}">hierarchies</a> with all of their <a data-toggle="tooltip" data-original-title="{{site.data.concepts.node}}">nodes</a>.
+
+* <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mine}}">Data mines</a>, <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading systems</a>, and <a data-toggle="tooltip" data-original-title="{{site.data.super_scripts.super_scripts}}">super scripts</a> created by the user, including clones of those types of hierarchies that may ship with the system. 
 
 * Nodes that may be floating around detached from hierarchies.
 
@@ -33,7 +35,9 @@ The workspace is not part of any of the hierarchies; instead, it contains them.
 
 {% include note.html content="Users may manage multiple workspaces, but only one workspace may be loaded in the system at any point." %}
 
-{% include tip.html content="Backing up your workspace is the best way to store all the information within the design space, ready to be deployed. Your workspace is saved at the browser level every time you make a change, but still, you should back up your workspace once in a while so that you can go back to past versions or recover from the occasional crash. Also, backups allow you to switch seamlessly from one workspace to another workspace." %}
+{% include tip.html content="Backing up your workspace is the best way to store this information and have it ready to be restored should you ever need to go back to a previous version. Your workspace is saved at the browser level every 60 seconds, but still, you should back up your workspace once in a while so that you can go back to past versions or recover from the occasional crash. Also, backups allow you to switch seamlessly from one workspace to another workspace." %}
+
+{% include important.html content="Changes made to data mines, trading systems and super scripts shipping with the system may not be saved at the workspace level. If you wish to modify those hierarchies and use them in such modified versions, you need to clone them and modify the clone instead. To do this successfully, you need to learn more about [backups](suite-backups.html) and [clones](suite-clones.html)." %}
 
 ## Nodes
 

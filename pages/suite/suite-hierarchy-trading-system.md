@@ -2,7 +2,7 @@
 title:  Trading System Hierarchy
 summary: "A trading system provides the tools to build, test and depoy trading strategies from within a visual environment, with no coding requirements."
 sidebar: suite_sidebar
-permalink: suite-trading-system-hierarchy.html
+permalink: suite-hierarchy-trading-system.html
 toc: false
 ---
 

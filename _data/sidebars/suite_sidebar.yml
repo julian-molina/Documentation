@@ -343,23 +343,27 @@ entries:
     folderitems:
 
     - title: Crypto ecosystem
-      url: /suite-crypto-ecosystem-hierarchy.html
+      url: /suite-hierarchy-crypto-ecosystem.html
       output: web
 
     - title: Charting space
-      url: /suite-charting-space-hierarchy.html
+      url: /suite-hierarchy-charting-space.html
       output: web
 
     - title: Trading system
-      url: /suite-trading-system-hierarchy.html
+      url: /suite-hierarchy-trading-system.html
       output: web
 
     - title: Network
-      url: /suite-network-hierarchy.html
+      url: /suite-hierarchy-network.html
       output: web
 
     - title: Data mine
-      url: /suite-data-mine-hierarchy.html
+      url: /suite-hierarchy-data-mine.html
+      output: web
+
+    - title: Super Scripts
+      url: /suite-hierarchy-super-scripts.html
       output: web
 
   - title: Troubleshooting

@@ -57,10 +57,10 @@ The definition of a strategy may be analyzed in three sections:
 
 Strategies are defined in the following steps:
 
-* <a href="suite-trading-system-hierarchy.html#trigger-stage" data-toggle="tooltip" data-original-title="{{site.data.trading_system.trigger_stage}}">Trigger Stage</a>
-* <a href="suite-trading-system-hierarchy.html#open-stage" data-toggle="tooltip" data-original-title="{{site.data.trading_system.open_stage}}">Open Stage</a>
-* <a href="suite-trading-system-hierarchy.html#manage-stage" data-toggle="tooltip" data-original-title="{{site.data.trading_system.manage_stage}}">Manage Stage</a>
-* <a href="suite-trading-system-hierarchy.html#close-stage" data-toggle="tooltip" data-original-title="{{site.data.trading_system.close_stage}}">Close Stage</a>
+* <a href="suite-hierarchy-trading-system.html#trigger-stage" data-toggle="tooltip" data-original-title="{{site.data.trading_system.trigger_stage}}">Trigger Stage</a>
+* <a href="suite-hierarchy-trading-system.html#open-stage" data-toggle="tooltip" data-original-title="{{site.data.trading_system.open_stage}}">Open Stage</a>
+* <a href="suite-hierarchy-trading-system.html#manage-stage" data-toggle="tooltip" data-original-title="{{site.data.trading_system.manage_stage}}">Manage Stage</a>
+* <a href="suite-hierarchy-trading-system.html#close-stage" data-toggle="tooltip" data-original-title="{{site.data.trading_system.close_stage}}">Close Stage</a>
 
 These stages are played in a sequence: once a strategy is *triggered* it looks to *open* a position; once a position is open, it is time to *manage* it as the trade develops; and once a stop or take profit target is hit, it is time to *close* the position.
 

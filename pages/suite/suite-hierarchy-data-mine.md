@@ -2,7 +2,7 @@
 title:  Data Mine Hierarchy
 summary: "A data mine provides the tools to build indicators, produce data visualization plotters, and process markets data, with minimal coding requirements."
 sidebar: suite_sidebar
-permalink: suite-data-mine-hierarchy.html
+permalink: suite-hierarchy-data-mine.html
 toc: false
 ---
 

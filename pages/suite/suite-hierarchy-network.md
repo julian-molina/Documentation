@@ -2,7 +2,7 @@
 title:  Network Hierarchy
 summary: "The network provides the tools to set up your testing and live-trading environments, as well as the definitions on where on the network processes run, and where data is stored."
 sidebar: suite_sidebar
-permalink: suite-network-hierarchy.html
+permalink: suite-hierarchy-network.html
 toc: false
 ---
 

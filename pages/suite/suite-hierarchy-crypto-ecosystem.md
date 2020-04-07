@@ -2,7 +2,7 @@
 title:  Crypto Ecosystem Hierarchy
 summary: "The crypto ecosystem provides the tools to define which exchanges, which assets and which markets you wish to work with."
 sidebar: suite_sidebar
-permalink: suite-crypto-ecosystem-hierarchy.html
+permalink: suite-hierarchy-crypto-ecosystem.html
 toc: false
 ---
 

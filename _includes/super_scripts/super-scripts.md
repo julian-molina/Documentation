@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Layer" %}
-{% assign definition = site.data.charting_space.layer %}
+{% assign title = "Super Scripts" %}
+{% assign definition = site.data.super_scripts.super_scripts %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
@@ -51,23 +51,13 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-To set up a layer, you need to establish a <a href="suite-references.html" data-toggle="tooltip" data-original-title="{{site.data.concepts.reference}}">reference</a> with the <a href="suite-hierarchy-network.html#data-product" data-toggle="tooltip" data-original-title="{{site.data.network.data_product}}">data product</a> of your choice.
+The super scripts hierarchy may be used by developers who wish to create their own scripts for automating the deployment or manitenance of all sorts of structures of nodes across any of the hierarchies in the design space.
+
+Regular users will find little to do with this hierarchy, even though they may use it indirectly, for instance, when installing or uninstalling markets.
+
+{% include important.html content="Changes made to super scripts shipping with the system may not be saved at the workspace level. If you wish to modify those hierarchies and use them in such modified versions, you need to clone them and modify the clone instead. To do this successfully, you need to learn more about [backups](suite-backups.html) and [clones](suite-clones.html)." %}
 
 <!--------------------------------------------- CONTENT ends -->
-
-{% endif %}
-
-{% if include.charts != "" %}
-
-{{include.charts}} Controlling the {{title}} from the Charts
-
-<!--------------------------------------------- CHARTS starts -->
-
-To turn layers on and off, simply click on the layer in the corresponding products panel.
-
-To turn on and off a layer panel, click the panel button on the bottom-left corner of the layer.
-
-<!--------------------------------------------- CHARTS ends -->
 
 {% endif %}
 
@@ -82,9 +72,7 @@ To turn on and off a layer panel, click the panel button on the bottom-left corn
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a layer, select *Add Layer* on the layer manager node menu. 
-
-{% include note.html content="After adding a layer node, make sure you establish a reference to the corresponding data product in the data storage node of the network hierarchy." %}
+To add a super scripts hierarchy, select *Add Super Scripts* on the workspace node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -96,20 +84,29 @@ To add a layer, select *Add Layer* on the layer manager node menu.
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-Select *Configure Layer* on the menu to access the configuration.
+Select *Configure Super Scripts* on the menu to access the configuration.
 
-```json
-{
-    "status":"on", 
-    "showPanels":true
+```
+{ 
+"codeName": "Masters"
 }
 ```
 
-* ```status``` may be *on* or *off* and refers to the layer being visible or not on the charts.
-
-* ```showPanels``` may be *true* or *false*; *true* shows the plotter panel that may be associated with the data product as per the plotter module definitions; *false* makes panels invisible.
+* ```codeName``` is the name of the hierarchy as is used in the system's code.
 
 <!--------------------------------------------- CONFIGURING ends -->
+
+{% endif %}
+
+{% if include.starting != "" %}
+
+{{include.starting}} Starting {{preposition}} {{title}}
+
+<!--------------------------------------------- STARTING starts -->
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+<!--------------------------------------------- STARTING ends -->
 
 {% endif %}
 

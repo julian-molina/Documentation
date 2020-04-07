@@ -2,7 +2,7 @@
 title:  Charting Space Hierarchy
 summary: "The charting space provides the tools to flexibly configure charts with data from different markets, exchanges, and multiple data products."
 sidebar: suite_sidebar
-permalink: suite-charting-space-hierarchy.html
+permalink: suite-hierarchy-charting-space.html
 toc: false
 ---
 
