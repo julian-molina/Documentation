@@ -10,14 +10,14 @@ These are properties managed internally by the system that are made available fo
 | Variable | Description |
 |:---|:---| 
 | ```strategyStage``` | Possible values are ```"No Stage"```, ```"Trigger Stage"```, ```"Open Stage"```, ```"Manage Stage"```, and ```"Close Stage"```. |
-| ```stopLoss``` | The value of your Stop in the active phase. |
-| ```stopLossPhase``` | The number of the active Stop phase (0, 1, 2, ...). |
-| ```takeProfit``` | The value of the Take Profit in the active phase. |
-| ```takeProfitPhase``` | The number of the active Stop phase (0, 1, 2, ...). |
+| ```stopLoss``` | The value of your stop in the active phase. |
+| ```stopLossPhase``` | The number of the active stop phase (0, 1, 2, ...). |
+| ```takeProfit``` | The value of the take profit in the active phase. |
+| ```takeProfitPhase``` | The number of the active take profit phase (0, 1, 2, ...). |
 | ```positionRate``` | The price at which the position was taken. |
 | ```positionSize``` | The size of the position. |
-| ```balanceAssetA``` | Your BTC balance. |
-| ```balanceAssetB``` | Your USDT balance. |
+| ```balanceAssetA``` | Your base asset balance. |
+| ```balanceAssetB``` | Your quoted asset balance. |
 | ```lastTradeProfitLoss``` | The P&L value for the latest completed trade (roundtrip). |
 | ```lastTradeROI``` | The ROI of your latest trade. |
 | ```profit``` | The total P&L during the current execution period. |
@@ -27,7 +27,7 @@ These are properties managed internally by the system that are made available fo
 | ```periods``` | The number of candles evaluated in the current execution. |
 | ```positionPeriods``` | The number of candles in the current open position. |
 | ```positionDays``` | The number of days in the current open position. |
-| ```distanceToLast.triggerOn``` | The number of periods between the last Trigger On and the current candle. |
-| ```distanceToLast.triggerOff``` | The number of periods between the last Trigger Off and the current candle. |
-| ```distanceToLast.takePosition``` | The number of periods between the last Take Position and the current candle. |
-| ```distanceToLast.closePosition``` | The number of periods between the last Close Position and the current candle. |
+| ```distanceToLast.triggerOn``` | The number of periods between the last trigger on and the current candle. |
+| ```distanceToLast.triggerOff``` | The number of periods between the last trigger off and the current candle. |
+| ```distanceToLast.takePosition``` | The number of periods between the last take position and the current candle. |
+| ```distanceToLast.closePosition``` | The number of periods between the last close position and the current candle. |
