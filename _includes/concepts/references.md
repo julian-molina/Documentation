@@ -76,6 +76,10 @@ To remove a reference or *delink* two nodes, simply right-click the node where t
 
 <!--------------------------------------------- EXTENDED starts -->
 
+{{include.heading}}## Visibility
+
+To switch on and off the visibility of references across the design space, use the following hot-keys combination: <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>.
+
 {{include.heading}}## Direction
 
 References have a *direction* property relative to each of the nodes involved in the reference: the node establishing the reference sets an *outgoing* reference, while the one accepting the reference sets an *incoming* reference.
