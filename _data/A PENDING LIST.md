@@ -1,3 +1,43 @@
+IMAGES:
+
+{% include image.html file='how-to/go-to-the-workspace-node-00.gif' url='yes' max-width='100' caption='Flick the mouse wheel while pressing the Ctrl or Command key.' %}
+
+INCLUDES:
+
+{% include /how_to/go-to-the-workspace-node.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
+
+{% include /reuse/charting-space-interface.md content="yes" extended="yes" %}
+
+{% include /concepts/references.md heading="##" icon="no" extended="more" content="yes" definition="bold" table="no" more="yes"%}
+
+EXTERNAL LINKS:
+
+<a href="" rel="nofollow" rel="noopener" target="_blank"></a>
+
+TOOLTIPS:
+
+<a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.XXXXXXXXXXX}}"></a>
+
+<a data-toggle="tooltip" data-original-title="{{site.data.charting_space.XXXXXXXXXXX}}"></a>
+
+<a data-toggle="tooltip" data-original-title="{{site.data.data_mine.XXXXXXXXXXX}}"></a>
+
+<a data-toggle="tooltip" data-original-title="{{site.data.trading_system.XXXXXXXXXXX}}"></a>
+
+<a data-toggle="tooltip" data-original-title="{{site.data.network.XXXXXXXXXXX}}"></a>
+
+<a data-toggle="tooltip" data-original-title="{{site.data.super_scripts.XXXXXXXXXXX}}"></a>
+
+<a data-toggle="tooltip" data-original-title="{{site.data.concepts.XXXXXXXXXXX}}"></a>
+
+HOT KEYS:
+
+<kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>
+
+
+****************************************************************************************************************************************************************
+
+
 ATOMIZE:
 
 Hierarchies tables, by segment.
@@ -12,29 +52,10 @@ WORKFLOW PAGES:
 
 I a worflow a sequence of how to pages?
 
-REFERENCES FOR FUTHER USE:
-
-IMAGES:
-
-{% include image.html file='how-to/go-to-the-workspace-node-00.gif' url='yes' max-width='100' caption='Flick the mouse wheel while pressing the Ctrl or Command key.' %}
-
-INCLUDE HOW TO:
-
-{% include /how_to/go-to-the-workspace-node.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
-
-INCLUDE REUSE:
-
-{% include /reuse/charting-space-interface.md content="yes" extended="yes" %}
-
-EXTERNAL LINKS:
-
-<a href="" rel="nofollow" rel="noopener" target="_blank"></a>
-
 PENDING:
 
 Screen Capture features
 Announcements
 
-HOT KEYS:
 
-<kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>
+

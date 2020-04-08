@@ -17,63 +17,11 @@ Therefore, it is necessary to acquire a basic level of understanding of the Supe
 
 In practical terms, the design space is the portion of the system you access when you pull up the sliding panel, hiding the charts in the process.
 
-## Workspace
+{% include /concepts/workspace.md heading="##" icon="no" extended="more" content="yes" definition="bold" table="no" more="yes"%}
 
-**{{site.data.concepts.workspace}}**
+{% include /concepts/nodes.md heading="##" icon="no" extended="more" content="yes" definition="bold" table="no" more="yes"%}
 
-It contains:
- 
-* The aforementioned <a data-toggle="tooltip" data-original-title="{{site.data.concepts.hierarchy}}">hierarchies</a> with all of their <a data-toggle="tooltip" data-original-title="{{site.data.concepts.node}}">nodes</a>.
-
-* <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mine}}">Data mines</a>, <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading systems</a>, and <a data-toggle="tooltip" data-original-title="{{site.data.super_scripts.super_scripts}}">super scripts</a> created by the user, including clones of those types of hierarchies that may ship with the system. 
-
-* Nodes that may be floating around detached from hierarchies.
-
-* Information regarding the physical position and status of all nodes within the design space, even those detached from the hierarchies.
- 
-The workspace is not part of any of the hierarchies; instead, it contains them. 
-
-The workspace is saved at the browser level automatically every 60 seconds. You may save it manually using the following hot-key combination: <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>.
-
-{% include note.html content="Users may manage multiple workspaces, but only one workspace may be loaded in the system at any point." %}
-
-{% include tip.html content="Backing up your workspace is the best way to store this information on disk and have it ready to be restored should you ever need to go back to a previous version. You should back up your workspace once in a while so that you can go back to past versions or recover from the occasional crash too. Also, backups allow you to switch seamlessly from one workspace to another workspace." %}
-
-{% include important.html content="Changes made to data mines, trading systems and super scripts shipping with the system may not be saved at the workspace level. If you wish to modify those hierarchies and use them in such modified versions, you need to clone them and modify the clone instead. To do this successfully, you need to learn more about [backups](suite-backups.html) and [clones](suite-clones.html)." %}
-
-## Nodes
-
-**{{site.data.concepts.node}}**
-
-### Structure of Nodes
-
-{{site.data.concepts.structure_of_nodes}}
-
-As a consequence, structures of nodes are hierarchical structures, and a logical representation of how the concepts embodied by each node relate to each other.
-
-### Parent-Offspring Relationships
-
-{{site.data.concepts.parent-offspring_relationships}}
-
-The direction of the relationship is determined, in most cases, by the ability of a node to produce the offspring node. That is, the parent node is the one which, by software design, may produce the offspring node.
-
-### Attaching and Detaching Nodes
-
-{{site.data.concepts.chain}}
-
-This feature is useful when testing different configurations, rules or parameters, as it allows to keep alternatives handy in the workspace.
-
-To detach a node, right-click on it and drag it away from the parent node. To attach a node, right-click on it and move it closer to the node you wish to attach it to. 
-
-{% include image.html file='design-space/fundamental-design-space-concepts-01.gif' url='yes' max-width='100' caption='You may also use the *detach* option on the menu to break a relationship.' %}
-
-Nodes may be attached only to potential parents. The system limits the way in which nodes may be attached, according to the logic of the information they contain.
-
-{% include note.html content="Nodes may not be detached or attached to frozen nodes. You need to unfreeze them before attaching or detaching." %}
-
-{% include note.html content="The verbs *to chain* and *to attach* may be used interchangeably, as synonyms. Similarly, *to unchain* and *to detach* are both valid." %}
-
-{% include /concepts/references.md heading="##" icon="no" extended="more" content="yes" definition="bold" table="no" more="yes"%}
+{% include /concepts/references.md heading="##" icon="no" extended="yes" content="more" definition="bold" table="no" more="yes"%}
 
 
 
