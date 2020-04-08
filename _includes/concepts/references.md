@@ -78,7 +78,7 @@ To remove a reference or *delink* two nodes, simply right-click the node where t
 
 {{include.heading}}## Visibility
 
-To switch on and off the visibility of references across the design space, use the following hot-keys combination: <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>.
+To switch on and off the visibility of references across the design space, use the following hot-key combination: <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>.
 
 {{include.heading}}## Direction
 

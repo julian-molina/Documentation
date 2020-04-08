@@ -34,3 +34,7 @@ PENDING:
 
 Screen Capture features
 Announcements
+
+HOT KEYS:
+
+<kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>

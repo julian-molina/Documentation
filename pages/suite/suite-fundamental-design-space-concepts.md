@@ -31,11 +31,13 @@ It contains:
 
 * Information regarding the physical position and status of all nodes within the design space, even those detached from the hierarchies.
  
-The workspace is not part of any of the hierarchies; instead, it contains them.
+The workspace is not part of any of the hierarchies; instead, it contains them. 
+
+The workspace is saved at the browser level automatically every 60 seconds. You may save it manually using the following hot-key combination: <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>.
 
 {% include note.html content="Users may manage multiple workspaces, but only one workspace may be loaded in the system at any point." %}
 
-{% include tip.html content="Backing up your workspace is the best way to store this information and have it ready to be restored should you ever need to go back to a previous version. Your workspace is saved at the browser level every 60 seconds, but still, you should back up your workspace once in a while so that you can go back to past versions or recover from the occasional crash. Also, backups allow you to switch seamlessly from one workspace to another workspace." %}
+{% include tip.html content="Backing up your workspace is the best way to store this information on disk and have it ready to be restored should you ever need to go back to a previous version. You should back up your workspace once in a while so that you can go back to past versions or recover from the occasional crash too. Also, backups allow you to switch seamlessly from one workspace to another workspace." %}
 
 {% include important.html content="Changes made to data mines, trading systems and super scripts shipping with the system may not be saved at the workspace level. If you wish to modify those hierarchies and use them in such modified versions, you need to clone them and modify the clone instead. To do this successfully, you need to learn more about [backups](suite-backups.html) and [clones](suite-clones.html)." %}
 
