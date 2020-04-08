@@ -34,9 +34,7 @@ If you prefer following illustrated written instructions, you may go straight to
 
 ## About this Documentation
 
-This is the documentation site for the Superalgos Project, as described [on the website](https://superalgos.org/), and it's in a permanent work-in-progress state, pretty much like the Superalgos software itself.
-
-Once you are up and running with Superalgos, the documentation covers all concepts managed by the system. However, we acknowledge that a *How to* section is required. We will deliver it as soon as possible. The current focus, however, is placed in the video tutorial series.
+This is the documentation site for the Superalgos Project, as described [on the website](https://superalgos.org/), and it's in a permanent work-in-progress state, pretty much like the Superalgos software itself. Once you are up and running with Superalgos, the documentation covers all concepts managed by the system.
 
 ## Beta Stage Notice
 
