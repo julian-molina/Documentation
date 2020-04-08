@@ -2,7 +2,7 @@
 title:  On-Screen Errors and Warnings
 summary: "When working on a strategy, errors in the syntax of conditions and formulas are signaled at the offending node."
 sidebar: suite_sidebar
-permalink: suite-on-screen-errors-and-warnings.html
+permalink: suite-troubleshooting-on-screen-errors-and-warnings.html
 ---
 
 It may happen that your simulation, live trading, or anything else you may be doing is not working as expected. The first thing to do in such a case is to turn on the *Formulas & Conditions* layer of the corresponding session and look around within your workspace. Errors are signaled with a red circle surrounding the relevant node of the workspace. Hover the mouse pointer over the node and you should get a description of what is that is causing the unexpected behavior.

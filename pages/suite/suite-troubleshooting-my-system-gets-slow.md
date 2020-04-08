@@ -2,7 +2,7 @@
 title:  My System Gets Slow
 summary: "Understand how the system uses the available hardware so that you may implement workarounds and best practices."
 sidebar: suite_sidebar
-permalink: suite-my-system-gets-slow.html
+permalink: suite-troubleshooting-my-system-gets-slow.html
 ---
 
 Dynamically rendering all the visual features in the system puts a significant load on the machine's graphics processing unit (GPU). Running multiple tasks at the same time is demanding on the central processing unit (CPU). Depending on your machine's capacity, this may result in the system getting slow and sometimes even unresponsive.

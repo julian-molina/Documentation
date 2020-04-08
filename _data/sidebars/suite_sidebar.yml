@@ -374,23 +374,23 @@ entries:
       output: web
 
     - title: My system gets slow
-      url: /suite-my-system-gets-slow.html
+      url: /suite-troubleshooting-my-system-gets-slow.html
       output: web
 
     - title: On-screen errors and warnings
-      url: /suite-on-screen-errors-and-warnings.html
+      url: /suite-troubleshooting-on-screen-errors-and-warnings.html
       output: web
 
     - title: Market data seems to be outdated
-      url: /suite-market-data-indicators-seem-to-be-outdated.html
+      url: /suite-troubleshooting-market-data-indicators-seem-to-be-outdated.html
       output: web
 
     - title: Reporting bugs
-      url: /suite-reporting-bugs.html
+      url: /suite-troubleshooting-reporting-bugs.html
       output: web
 
     - title: Consulting logs
-      url: /suite-consulting-logs.html
+      url: /suite-troubleshooting-consulting-logs.html
       output: web
 
     - title: Debugging a New Indicator

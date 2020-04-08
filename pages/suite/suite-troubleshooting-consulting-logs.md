@@ -2,7 +2,7 @@
 title:  Consulting Logs
 summary: "Log files are available in a format that should be understandable to most technically-oriented people."
 sidebar: suite_sidebar
-permalink: suite-consulting-logs.html
+permalink: suite-troubleshooting-consulting-logs.html
 ---
 
 If you are a technical person, you may be interested in consulting the logs of the different bots that run in the system.

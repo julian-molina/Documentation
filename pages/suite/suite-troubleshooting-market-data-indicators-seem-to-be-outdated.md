@@ -2,7 +2,7 @@
 title:  Market Data or Indicators Seem to be Outdated
 summary: "For data to be up to date, the Masters Datasets and Sparta Indicators tasks need to be running."
 sidebar: suite_sidebar
-permalink: suite-market-data-indicators-seem-to-be-outdated.html
+permalink: suite-troubleshooting-market-data-indicators-seem-to-be-outdated.html
 ---
 
 If you are running the system for the first time or you stopped running the system for some time, data will not be up to date. Every time you start the system, it will take some time for data to catch up with the present time. 

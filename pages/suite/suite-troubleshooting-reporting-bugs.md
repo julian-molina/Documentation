@@ -2,7 +2,7 @@
 title:  Reporting Bugs
 summary: "It is of the utmost importance for developers to understand how to reproduce the issue."
 sidebar: suite_sidebar
-permalink: suite-reporting-bugs.html
+permalink: suite-troubleshooting-reporting-bugs.html
 ---
 
 We highly appreciate bug reports. This is what you need to do:
