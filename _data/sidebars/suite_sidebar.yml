@@ -88,6 +88,14 @@ entries:
     output: web
     folderitems:
 
+    - title: "... upgrade your installation"
+      url: /suite-upgrading-your-existing-instalation.html
+      output: web
+
+    - title: "... report a bug"
+      url: /suite-how-to-report-a-bug.html
+      output: web
+
     - title: "... find a hierarchy"
       url: /suite-how-to-find-a-hierarchy.html
       output: web
@@ -373,30 +381,30 @@ entries:
     output: web
     folderitems:
 
-    - title: Upgrading your existing installation
-      url: /suite-upgrading-your-existing-instalation.html
-      output: web
-
     - title: My system gets slow
       url: /suite-troubleshooting-my-system-gets-slow.html
       output: web
 
     - title: On-screen errors and warnings
-      url: /suite-troubleshooting-on-screen-errors-and-warnings.html
+      url: /suite-how-to-report-a-bug.html
       output: web
 
     - title: Market data seems to be outdated
       url: /suite-troubleshooting-market-data-indicators-seem-to-be-outdated.html
       output: web
 
-    - title: Reporting bugs
-      url: /suite-troubleshooting-reporting-bugs.html
-      output: web
-
     - title: Consulting logs
       url: /suite-troubleshooting-consulting-logs.html
       output: web
 
-    - title: Debugging a New Indicator
-      url: /suite-troubleshooting-debugging-a-new-indicator.html
+  - title: Developers
+    output: web
+    folderitems:
+
+    - title: Codebase and environment
+      url: /suite-developers-codebase-and-development-environment.html
+      output: web
+
+    - title: Debugging a new indicator
+      url: /suite-developers-debugging-a-new-indicator.html
       output: web

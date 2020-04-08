@@ -2,7 +2,7 @@
 title:  Debbuging a New Indicator
 summary: "A case study for developers on how to debug an indicator-in-the-making. These are a few notes taken during a real issue when building the RSI indicator."
 sidebar: suite_sidebar
-permalink: suite-troubleshooting-debugging-a-new-indicator.html
+permalink: suite-developers-debugging-a-new-indicator.html
 toc: false
 ---
 
