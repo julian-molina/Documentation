@@ -5,6 +5,10 @@ sidebar: suite_sidebar
 permalink: suite-design-space-interface.html
 ---
 
+## Accessing the Design Space
+
+{% include /reuse/switch-from-charting-space-to-design-space.md content="yes" extended="no" %}
+
 ## Navigation
 
 Left-click on the black background and drag to move around the workspace.
@@ -15,14 +19,6 @@ You may also use the following key combinations on your keyboard:
 1. <kbd>Ctrl or &#8984;</kbd> + <kbd>&#8594;</kbd> to pan to the right.
 1. <kbd>Ctrl or &#8984;</kbd> + <kbd>&#8593;</kbd> to pan upwards.
 1. <kbd>Ctrl or &#8984;</kbd> + <kbd>&#8595;</kbd> to pan downwards.
-
-You may also use your keyboard as follows:
-
-1. <kbd>Alt</kbd> + <kbd>&#8593;</kbd> to close the charts and open the design space.
-1. <kbd>Alt</kbd> + <kbd>&#8595;</kbd> to close the design space and open the charts.
-1. <kbd>Alt</kbd> + <kbd>&#8594;</kbd> to open both the design space and the charts, assigning each one-half of the screen.
-1. <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>&#8593;</kbd> to pull the separation bar up incrementally.
-1. <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>&#8595;</kbd> to pull the separation bar down incrementally.
 
 ## Node Shortcuts
 

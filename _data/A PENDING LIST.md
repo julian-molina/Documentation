@@ -22,3 +22,7 @@ INCLUDE REUSE:
 
 {% include /reuse/charting-space-interface.md content="yes" extended="yes" %}
 
+PENDING:
+
+Screen Capture features
+Announcements

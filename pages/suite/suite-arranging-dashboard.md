@@ -15,4 +15,6 @@ Time machines may feature one or more <a data-toggle="tooltip" data-original-tit
 
 **3. To adjust the size of a time machine keeping the same data in view** right-click and drag a border. The operation affects the size of the time machine and, at the same time, adjusts the scale so that the same data remains in view.
 
+**4. To adjust the aspect ratio of a time machine to fit your screen** use the following hot-key combination when the mouse pointer is over the chart: <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>.
+
 {% include /charting_space/dashboard.md heading="more" icon="150-" adding="####" configuring="" charts="" content="yes" definition="bold" table="yes" more="yes"%}

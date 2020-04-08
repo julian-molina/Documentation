@@ -7,18 +7,7 @@ permalink: suite-step-5.html
 
 The first time you run the system, you see a screen split in half. The top half features the <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.charting_space}}">charting space</a> and the bottom half features the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.design_space}}">design space</a>.
 
-Use the control in the center of the turquoise bar to pull the slider up and down to make more room for either space.
-
-{% include image.html file='how-to/quick-overview-00.gif' url='yes' max-width='100' caption='The dark side of the web application is the design space. Pull the slider up to find the charting space.' %}
-
-You may also use the keyboard as follows:
-
-1. <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>&#8593;</kbd> to close the charting space and open the design space.
-1. <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>&#8595;</kbd> to close the design space and open the charting space.
-1. <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>&#8594;</kbd> to incrementally lower the slider.
-1. <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>&#8592;</kbd> to incrementally raise the slider.
-
-{% include image.html file='how-to/quick-overview-01.gif' url='yes' max-width='100' caption='The keyboard is your friend.' %}
+{% include /reuse/switch-from-charting-space-to-design-space.md content="yes" extended="no" %}
 
 {% include important.html content="In the beginning, all charts are empty, but as time passes, candles start showing up on the charts, like in the image. If you still don't see data on the charts, do not worry, and keep learning the basics, following the next few steps." %}
 

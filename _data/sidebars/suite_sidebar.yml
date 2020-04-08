@@ -230,6 +230,10 @@ entries:
       output: web
       class: childItem
 
+    - title: Execution limitations
+      url: /suite-execution-limitations.html
+      output: web
+
   - title: Infrastructure
     output: web
     folderitems:

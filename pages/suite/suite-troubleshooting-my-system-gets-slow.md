@@ -21,15 +21,9 @@ You may also want to switch off the layers you may not be using. Remember, every
 
 The physics that govern nodes in the design space help structures of nodes to self-organize. This comes at a cost in terms of GPU processing power.
 
-Make sure the two exiting data mine hierarchies are closed:
+Make sure all hierarchies you are not using are collapsed.
 
-* Hit <kbd>Ctrl or &#8984;</kbd> + <kbd>Alt</kbd> + <kbd>M</kbd> (*M* for *Masters*) to go the the Masters team hierarchy and click ![minus](https://user-images.githubusercontent.com/13994516/70234850-d7528f00-1761-11ea-8a0b-d77ac483a0ea.png) if the hierarchy is open.
-
-* Hit <kbd>Ctrl or &#8984;</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> (*S* for *Sparta*) to go the the Sparta team hierarchy and click ![minus](https://user-images.githubusercontent.com/13994516/70234850-d7528f00-1761-11ea-8a0b-d77ac483a0ea.png) if the hierarchy is open.
-
-* Hit <kbd>Ctrl or &#8984;</kbd> + <kbd>Alt</kbd> + <kbd>M</kbd> (*N* for *Network*) to go the the Network hierarchy and click ![minus](https://user-images.githubusercontent.com/13994516/70234850-d7528f00-1761-11ea-8a0b-d77ac483a0ea.png) if the hierarchy is open.
-
-You may also want to close any of the structures of nodes that you may not be using in the trading system.
+You may also want to close any of the structures of nodes that you may not be using within the hierarchy that you may need to expand.
 
 ## Freeze the Nodes You Need to Remain Visible
 
