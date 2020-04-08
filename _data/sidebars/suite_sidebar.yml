@@ -386,7 +386,7 @@ entries:
       output: web
 
     - title: On-screen errors and warnings
-      url: /suite-how-to-report-a-bug.html
+      url: /suite-troubleshooting-on-screen-errors-and-warnings.html
       output: web
 
     - title: Market data seems to be outdated
