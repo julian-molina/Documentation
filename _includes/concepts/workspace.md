@@ -96,11 +96,11 @@ Select *Configure Workspace* on the menu to access the configuration.
  }
  ```
 
- * ```includeDataMines``` determines which data mines shall be included in the design space, other than those you may have created.
+ * ```includeDataMines``` determines which data mines shall be included in the design space, other than those you may have created. Data mines may be loaded from the ```Data-Mines``` folder in the root of the Superalgos installation.
 
- * ```includeTradingSystems``` determines which trading systems shall be included in the design space, other than those you may have created.
+ * ```includeTradingSystems``` determines which trading systems shall be included in the design space, other than those you may have created. Trading systems may be loaded from the ```Trading-Systems``` folder in the root of the Superalgos installation.
 
- * ```includeSuperScripts``` determines which super scripts shall be included in the design space, other than those you may have created.
+ * ```includeSuperScripts``` determines which super scripts shall be included in the design space, other than those you may have created. Super scripts may be loaded from the ```Super-Scripts``` folder in the root of the Superalgos installation.
 
 <!--------------------------------------------- EXTENDED ends -->
 

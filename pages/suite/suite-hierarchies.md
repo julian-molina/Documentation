@@ -1,6 +1,6 @@
 ---
 title:  "Hierarchies"
-summary: "There are five different types of hierarchies: Charting Space, Crypto Ecosystem, Trading Systems, Network, and Data Mines."
+summary: "There are six different types of hierarchies: Charting Space, Crypto Ecosystem, Trading Systems, Network, Data Mines, and Super Scripts."
 sidebar: suite_sidebar
 permalink: suite-hierarchies.html
 ---
@@ -18,3 +18,5 @@ permalink: suite-hierarchies.html
 {% include /network/network.md heading="##" icon="150-" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
 {% include /data_mine/data-mine.md heading="##" icon="150-" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="yes"%}
+
+{% include /super_scripts/super-scripts.md heading="##" icon="150-" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="yes"%}
