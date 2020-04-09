@@ -1,7 +1,7 @@
 <!-- TITLE AND DEFINITION starts -->
 
 {% assign title = "Base Asset" %}
-{% assign definition = site.data.trading_system.base_asset %}
+{% assign definition = site.data.network.base_asset %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 

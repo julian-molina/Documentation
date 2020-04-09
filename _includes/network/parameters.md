@@ -1,7 +1,7 @@
 <!-- TITLE AND DEFINITION starts -->
 
-{% assign title = "Slippage" %}
-{% assign definition = site.data.trading_system.slippage %}
+{% assign title = "Parameters" %}
+{% assign definition = site.data.network.parameters %}
 {% assign preposition = "a" %}
 {% assign plural = "" %}
 
@@ -51,9 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-In the context of forward testing and live trading sessions, slippage does not affect the actual transactions. However, the parameter is taken into account when creating simulation layers, which are also available during forward testing and live trading.
+The behavior of parameters may vary depending on the type of session.
 
-Slippage is factored both in the session reports and in the graphic representation of each trade provided by the simulation trades product of the trading bot.
+Each testing session has its own set of parameters. This allows you to configure different trading sessions with different parameters, and go back and forth between them as required. For instance, you may have different backtesting sessions with different date ranges, different exchange fees or different slippage settings to account for different possible scenarios.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -70,7 +70,9 @@ Slippage is factored both in the session reports and in the graphic representati
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a parameter that may be missing, select *Add Missing Params* on the parameters node menu. 
+To add a parameters node, select *Add Parameters* on the session or the trading system menu, depending on the context. When a parameters node is added, the full set of parameters are created with it.
+
+If you already have a parameters node but are missing some of the parameters, then select *Add Missing Params* on the menu.
 
 <!-- ADDING ends -->
 
@@ -82,25 +84,7 @@ To add a parameter that may be missing, select *Add Missing Params* on the param
 
 <!-- CONFIGURING starts -->
 
-Select *Configure Slippage* on the menu to access the configuration.
-
-```json
-{
-"positionRate": 0.1,
-"stopLoss": 0.2,
-"takeProfit": 0.3
-}
-```
-
-* ```positionRate``` is the slippage value to be applied to the rate of the take position order, expressed as a percentage (*i.e.:* 0.1 means 0.1%).
-
-* ```stopLoss``` is the slippage value to be applied to the rate of the stop order, expressed as a percentage (*i.e.:* 0.2 means 0.2%).
-
-* ```takeProfit``` is the slippage value to be applied to the rate of the take profit order, expressed as a percentage (*i.e.:* 0.3 means 0.3%).
-
-The number you enter is applied as a percentage of the price of the order and added or subtracted from the price depending on the circumstances, always working against you. For instance, ```"positionRate": 0.1``` means the position will be set at a price 0.1% higher or lower depending on which of the assets in the pair is your base asset. 
-
-{% include note.html content="If the slippage parameter is left empty or detached both from your session and your trading system, slippage is not computed during simulations."%}
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONFIGURING ends -->
 
@@ -121,3 +105,4 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 {% if include.more == "yes" %}
 </details>
 {% endif %}
+

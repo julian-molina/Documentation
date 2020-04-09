@@ -1,9 +1,9 @@
 <!-- TITLE AND DEFINITION starts -->
 
-{% assign title = "Time Frame" %}
-{% assign definition = site.data.trading_system.time_frame %}
+{% assign title = "Slippage" %}
+{% assign definition = site.data.network.slippage %}
 {% assign preposition = "a" %}
-{% assign plural = "s" %}
+{% assign plural = "" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
@@ -51,9 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-In the context of backtesting sessions, what time frame you decide to run the session on depends on the strategies being tested. If strategies make decisions based on the 1 hour candle and above, then ```01-hs``` may be the best choice. However, if decisions are influenced by sub-hour candles then you should match the time frame accordingly.
+In the context of forward testing and live trading sessions, slippage does not affect the actual transactions. However, the parameter is taken into account when creating simulation layers, which are also available during forward testing and live trading.
 
-In the context of live sessions, that is, paper trading, forward testing and live trading, you should run the session on the ```01-min``` time frame so that the trading bot reacts fast when the price tags the take profit or stop loss targets.
+Slippage is factored both in the session reports and in the graphic representation of each trade provided by the simulation trades product of the trading bot.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -82,43 +82,25 @@ To add a parameter that may be missing, select *Add Missing Params* on the param
 
 <!-- CONFIGURING starts -->
 
-Select *Configure Time Frame* on the menu to access the configuration.
+Select *Configure Slippage* on the menu to access the configuration.
 
-```js
+```json
 {
-"value": "01-min"
+"positionRate": 0.1,
+"stopLoss": 0.2,
+"takeProfit": 0.3
 }
 ```
 
-* ```value``` is the setting for the time frame. You may use any of the values below.
+* ```positionRate``` is the slippage value to be applied to the rate of the take position order, expressed as a percentage (*i.e.:* 0.1 means 0.1%).
 
-Available options at the sub-hour level are:
+* ```stopLoss``` is the slippage value to be applied to the rate of the stop order, expressed as a percentage (*i.e.:* 0.2 means 0.2%).
 
-```json
-01-min
-02-min
-03-min
-04-min
-05-min
-10-min
-15-min
-20-min
-30-min
-45-min
-```
+* ```takeProfit``` is the slippage value to be applied to the rate of the take profit order, expressed as a percentage (*i.e.:* 0.3 means 0.3%).
 
-Available options at larger time frames are:
+The number you enter is applied as a percentage of the price of the order and added or subtracted from the price depending on the circumstances, always working against you. For instance, ```"positionRate": 0.1``` means the position will be set at a price 0.1% higher or lower depending on which of the assets in the pair is your base asset. 
 
-```json
-01-hs
-02-hs
-03-hs
-04-hs
-06-hs
-08-hs
-12-hs
-24-hs
-```
+{% include note.html content="If the slippage parameter is left empty or detached both from your session and your trading system, slippage is not computed during simulations."%}
 
 <!--------------------------------------------- CONFIGURING ends -->
 
@@ -139,4 +121,3 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 {% if include.more == "yes" %}
 </details>
 {% endif %}
-

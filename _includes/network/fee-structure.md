@@ -1,7 +1,7 @@
 <!-- TITLE AND DEFINITION starts -->
 
 {% assign title = "Fee Structure" %}
-{% assign definition = site.data.trading_system.fee_structure %}
+{% assign definition = site.data.network.fee_structure %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 

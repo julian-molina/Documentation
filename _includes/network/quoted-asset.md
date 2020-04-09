@@ -1,9 +1,9 @@
 <!-- TITLE AND DEFINITION starts -->
 
-{% assign title = "Parameters" %}
-{% assign definition = site.data.trading_system.parameters %}
+{% assign title = "Quoted Asset" %}
+{% assign definition = site.data.network.quoted_asset %}
 {% assign preposition = "a" %}
-{% assign plural = "" %}
+{% assign plural = "s" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
@@ -51,9 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The behavior of parameters may vary depending on the type of session.
-
-Each testing session has its own set of parameters. This allows you to configure different trading sessions with different parameters, and go back and forth between them as required. For instance, you may have different backtesting sessions with different date ranges, different exchange fees or different slippage settings to account for different possible scenarios.
+The quoted asset must reference the second asset in the same market of the same exchange as the reference established with the base asset.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -70,9 +68,9 @@ Each testing session has its own set of parameters. This allows you to configure
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a parameters node, select *Add Parameters* on the session or the trading system menu, depending on the context. When a parameters node is added, the full set of parameters are created with it.
+To add a parameter that may be missing, select *Add Missing Params* on the parameters node menu. 
 
-If you already have a parameters node but are missing some of the parameters, then select *Add Missing Params* on the menu.
+{% include note.html content="After adding a quoted asset node, make sure you establish a reference to the second asset in the same market of the same exchange as the reference established with the base asset." %}
 
 <!-- ADDING ends -->
 
@@ -105,4 +103,3 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 {% if include.more == "yes" %}
 </details>
 {% endif %}
-

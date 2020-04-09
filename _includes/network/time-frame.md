@@ -1,7 +1,7 @@
 <!-- TITLE AND DEFINITION starts -->
 
-{% assign title = "Time Range" %}
-{% assign definition = site.data.trading_system.time_range %}
+{% assign title = "Time Frame" %}
+{% assign definition = site.data.network.time_frame %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
+In the context of backtesting sessions, what time frame you decide to run the session on depends on the strategies being tested. If strategies make decisions based on the 1 hour candle and above, then ```01-hs``` may be the best choice. However, if decisions are influenced by sub-hour candles then you should match the time frame accordingly.
 
+In the context of live sessions, that is, paper trading, forward testing and live trading, you should run the session on the ```01-min``` time frame so that the trading bot reacts fast when the price tags the take profit or stop loss targets.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -80,32 +82,43 @@ To add a parameter that may be missing, select *Add Missing Params* on the param
 
 <!-- CONFIGURING starts -->
 
-Select *Configure Time Range* on the menu to access the configuration. The configuration varies slightly depending on the type of session you are running.
+Select *Configure Time Frame* on the menu to access the configuration.
 
-{{include.configuring}}# On Backtesting Sessions
-
-```json
+```js
 {
-"initialDatetime": "2019-09-01T00:00:00.000Z",
-"finalDatetime": "2019-09-25T00:00:00.000Z"
+"value": "01-min"
 }
 ```
 
-* ```initialDatetime``` is the datetime the session starts at. If you don't set an *initialDatetime* the system's fallback mechanism will try to get it from the parameters defined at the level of the trading system.
+* ```value``` is the setting for the time frame. You may use any of the values below.
 
-* ```finalDatetime``` is the datetime the session finishes at. If you don't set a *finalDatetime* at the level of the testing session or the trading system, then calculations will run until the date there is data available.
-
-{{include.configuring}}# On Paper Trading, Forward Testing and Live Trading Sessions
-
-These sessions always start at the datetime the session is run, therefore, there is no configuration of an initial datetime.
+Available options at the sub-hour level are:
 
 ```json
-{
-"finalDatetime": "2019-09-25T00:00:00.000Z"
-}
+01-min
+02-min
+03-min
+04-min
+05-min
+10-min
+15-min
+20-min
+30-min
+45-min
 ```
 
-* ```finalDatetime``` is the datetime the session finishes at. If you don't set a *finalDatetime* at the level of the testing session or the trading system, then the session runs for one year.
+Available options at larger time frames are:
+
+```json
+01-hs
+02-hs
+03-hs
+04-hs
+06-hs
+08-hs
+12-hs
+24-hs
+```
 
 <!--------------------------------------------- CONFIGURING ends -->
 
@@ -126,3 +139,4 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 {% if include.more == "yes" %}
 </details>
 {% endif %}
+

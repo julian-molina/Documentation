@@ -40,6 +40,6 @@ toc: false
 
 {% include /network/live-trading-session.md heading="#####" icon="" adding="#####" configuring="#####" starting="#####" content="yes" definition="yes" table="yes" more="yes"%}
 
-{% include /trading_system/parameters.md heading="######" icon="" adding="######" configuring="" starting="" content="yes" definition="yes" table="yes" more="yes"%}
+{% include /network/parameters.md heading="######" icon="" adding="######" configuring="" starting="" content="yes" definition="yes" table="yes" more="yes"%}
 
 {% include note.html content="To learn about parameters, please see the <a href='suite-parameters.html'>parameters</a> page." %}

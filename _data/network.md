@@ -36,6 +36,20 @@ forward_testing_session: "A forward testing session is a trading mode by which t
 
 live_trading_session: "A live trading session is a trading mode by which the trading bot instance reads a live market data feed, applies the rules as defined in the associated trading system, places the corresponding orders at the associated exchange, and stores the defined data products."
 
+parameters: "Parameters are properties of trading sessions, defined by users, to determine their behavior and improve the quality of simulations."
+
+base_asset: "The base asset is the asset in the pair on which capital stands when out of a trade."
+
+quoted_asset: "The quoted asset is the asset in the pair for which capital is traded."
+
+time_frame: "The time frame is the frequency on which the session runs, meaning that the associated process instance runs once per unit of the time frame."
+
+time_range: "The time range is the specific period between a starting and an ending date on which the session runs."
+
+slippage: "The slippage is an assumption on the difference between the simulated rate and the actual fill rate of an order, most relevant in the context of backtesting and paper-trading sessions. The parameter is a tool to make simulations more realistic."
+
+fee_structure: "The fee structure is a parameter enabling users to enter assumptions on fees, to be computed on backtesting and paper trading sessions to make simulations more realistic."
+
 key_instance: "The key instance is a reference to an exchange account key as defined in a specific user account, in a specific exchange, on the Crypto Ecosystem hierarchy."
 
 data_storage: "The data storage node controls aspects of what data is to be stored in the corresponding network node."

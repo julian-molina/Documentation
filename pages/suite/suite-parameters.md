@@ -6,7 +6,7 @@ permalink: suite-parameters.html
 toc: false
 ---
 
-{% include /trading_system/parameters.md heading="" icon="150-" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/parameters.md heading="" icon="150-" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
 <table class='hierarchyTable'><thead><tr><th><a href='#parameters' data-toggle='tooltip' data-original-title='{{site.data.trading_system.parameters}}'><img src='images/icons/parameters.png' /><br />Parameters</a></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
 <tr><td><img src='images/icons/tree-connector-fork.png' /></td><td><a href='#base-asset' data-toggle='tooltip' data-original-title='{{site.data.trading_system.base_asset}}'><img src='images/icons/base-asset.png' /><br />Base Asset</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -16,12 +16,12 @@ toc: false
 <tr><td><img src='images/icons/tree-connector-elbow.png' /></td><td><a href='#fee-structure' data-toggle='tooltip' data-original-title='{{site.data.trading_system.fee_structure}}'><img src='images/icons/fee-structure.png' /><br />Fee Structure</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 
-{% include /trading_system/base-asset.md heading="##" icon="" adding="####" configuring="####" starting="" content="yes" definition="" table="yes" more="yes"%}
+{% include /network/base-asset.md heading="##" icon="" adding="####" configuring="####" starting="" content="yes" definition="" table="yes" more="yes"%}
 
-{% include /trading_system/quoted-asset.md heading="##" icon="" adding="####" configuring="" starting="" content="yes" definition="" table="yes" more="yes"%}
+{% include /network/quoted-asset.md heading="##" icon="" adding="####" configuring="" starting="" content="yes" definition="" table="yes" more="yes"%}
 
-{% include /trading_system/time-frame.md heading="##" icon="" adding="" configuring="####" starting="" content="yes" definition="" table="yes" more="yes"%}
+{% include /network/time-frame.md heading="##" icon="" adding="" configuring="####" starting="" content="yes" definition="" table="yes" more="yes"%}
 
-{% include /trading_system/slippage.md heading="##" icon="" adding="" configuring="####" starting="" content="yes" definition="" table="yes" more="yes"%}
+{% include /network/slippage.md heading="##" icon="" adding="" configuring="####" starting="" content="yes" definition="" table="yes" more="yes"%}
 
-{% include /trading_system/fee-structure.md heading="##" icon="" adding="" configuring="####" starting="" content="yes" definition="" table="yes" more="yes"%}
+{% include /network/fee-structure.md heading="##" icon="" adding="" configuring="####" starting="" content="yes" definition="" table="yes" more="yes"%}

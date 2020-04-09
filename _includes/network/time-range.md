@@ -1,7 +1,7 @@
 <!-- TITLE AND DEFINITION starts -->
 
-{% assign title = "Quoted Asset" %}
-{% assign definition = site.data.trading_system.quoted_asset %}
+{% assign title = "Time Range" %}
+{% assign definition = site.data.network.time_range %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The quoted asset must reference the second asset in the same market of the same exchange as the reference established with the base asset.
+
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -70,8 +70,6 @@ The quoted asset must reference the second asset in the same market of the same 
 
 To add a parameter that may be missing, select *Add Missing Params* on the parameters node menu. 
 
-{% include note.html content="After adding a quoted asset node, make sure you establish a reference to the second asset in the same market of the same exchange as the reference established with the base asset." %}
-
 <!-- ADDING ends -->
 
 {% endif %}
@@ -82,7 +80,32 @@ To add a parameter that may be missing, select *Add Missing Params* on the param
 
 <!-- CONFIGURING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Select *Configure Time Range* on the menu to access the configuration. The configuration varies slightly depending on the type of session you are running.
+
+{{include.configuring}}# On Backtesting Sessions
+
+```json
+{
+"initialDatetime": "2019-09-01T00:00:00.000Z",
+"finalDatetime": "2019-09-25T00:00:00.000Z"
+}
+```
+
+* ```initialDatetime``` is the datetime the session starts at. If you don't set an *initialDatetime* the system's fallback mechanism will try to get it from the parameters defined at the level of the trading system.
+
+* ```finalDatetime``` is the datetime the session finishes at. If you don't set a *finalDatetime* at the level of the testing session or the trading system, then calculations will run until the date there is data available.
+
+{{include.configuring}}# On Paper Trading, Forward Testing and Live Trading Sessions
+
+These sessions always start at the datetime the session is run, therefore, there is no configuration of an initial datetime.
+
+```json
+{
+"finalDatetime": "2019-09-25T00:00:00.000Z"
+}
+```
+
+* ```finalDatetime``` is the datetime the session finishes at. If you don't set a *finalDatetime* at the level of the testing session or the trading system, then the session runs for one year.
 
 <!--------------------------------------------- CONFIGURING ends -->
 
