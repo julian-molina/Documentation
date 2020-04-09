@@ -345,9 +345,9 @@ entries:
       url: /suite-shares.html
       output: web
 
-#    - title: Telegram Announcements
-#      url: /suite-telegram-announcements.html
-#      output: web
+    - title: Telegram Announcements
+      url: /suite-telegram-announcements.html
+      output: web
 
   - title: Hierarchies directory
     output: web
