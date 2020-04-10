@@ -5,11 +5,11 @@ sidebar: suite_sidebar
 permalink: suite-layer-managers.html
 ---
 
-When you zoom into a <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.time_machine}}">time machine</a> deep enough, one or more <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.layer_manager}}">layer managers</a> pop up, usually on the top-left corner of the screen. A time machine may have more than one <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.timeline_chart}}">timeline chart</a> embedded and each timeline chart features a layer manager.
+{% include /reuse/zoom-levels.md content="yes" extended="no" %}
 
-Layer managers are hidden by default, to avoid blocking the view of the data in the time machine. You may make them visible simply by pointing your mouse to the top-left or top-right corner of the screen, where they usually sit. If you stop using them, they will go back to being invisible in a matter of seconds.
+Layer managers are usually found on the top-left and top-right corners of the screen. A time machine may have more than one timeline chart embedded and each timeline chart features a layer manager.
 
-{% include image.html file='interface/layer-managers-00.gif' url='yes' max-width='100' caption='Find layer managers by pointing the mouse to the top-left or top-right corner of the screen.' %}
+Layer managers are hidden when the zoom is partially out, to avoid blocking the view of the data in the time machine.
 
 **1. To move a layer manager** to the opposite, top-right corner, left-click on the header and drag it away. Layer managers tend to self-arrange at either of these corners, so you may drop it somewhere next to its destination and let it find its place.
 

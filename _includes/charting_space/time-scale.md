@@ -85,7 +85,7 @@ The scale features a manual mode. When in manual mode the scale does not change,
 
 {{include.charts}}# Automatic Scale
 
-**1. To change the automatic scale settings**, place the mouse pointer over the corresponding time box, press the <kbd>Shift</kbd> key and slowly scroll the wheel of the mouse. The action cycles through different possible scale automation settings. Notice a tiny green triangle below and/or above the rate scale icon. 
+**1. To change the automatic scale settings**, place the mouse pointer over the corresponding time box, press the <kbd>Shift</kbd> key and slowly scroll the wheel of the mouse. The action cycles through different possible scale automation settings. Notice a tiny green triangle to the sides of the time scale icon. 
 
 * A triangle pointing right means that the maximum value of the scale is automatic. 
 

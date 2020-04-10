@@ -31,7 +31,7 @@ If the issue seems to happen under specific conditions, you may want to share a 
  
 If the issue happens while using the system at the browser, then please include a screen capture of Chrome's Console. Open DevTools with the <kbd>F12</kbd> key (when the browser is in focus) and click the Console tab, then go back and reproduce the issue. Take a screen capture of the Console and paste it along with your report.
  
-{% include image.html file='how-to/report-a-bug-01.gif' url='yes' max-width='100' caption='Open Developer Tools and check the console tab for potential errors.' %}
+{% include image.html file='how-to/report-a-bug-01.png' url='yes' max-width='100' caption='Open Developer Tools and check the console tab for potential errors.' %}
 
 Feel free to also include screen captures of the frontend if there is anything relevant you wish to show developers.
 

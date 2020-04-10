@@ -46,18 +46,18 @@ This self-organizing paradigm saves users the effort of maintaining the arrangem
 
 However, there will be times in which you will want to override this self-organizing nature. The following menu options are tools that will help you manipulate the arrangement of nodes, overriding the physics that affect their floating nature.
 
-| Icon | Pinned / Unpinned |
+| Icon | Pinned / Unpinned &mdash; Click to cycle through the different options. |
 | --- | --- |
 | ![pinned](images/icons/pinned.png) | The node is pinned to the workspace on a specific ```[x, y]``` coordinate. This status overrides any other setting affecting the node's mobility. Only direct user action by clicking and dragging may move a pinned node. |
 | ![unpinned](images/icons/unpinned.png) | When a node is unpinned, it is free to be affected by other settings, or find its place floating on the workspace. |
 
 
-| Icon | Freeze / Unfreeze |
+| Icon | Freeze / Unfreeze &mdash; Click to cycle through the different options. |
 | --- | --- |
 | ![freeze](images/icons/freeze.png) | Clicking the *freeze* option freezes the node's chain connections with its parent and offspring. Connecting lines turn blue. If you freeze the head node of a hierarchy, then the whole hierarchy is frozen. Freezing node structures is effective only when nodes are loose, that is, when they are not affected by angle or distance settings and are unpinned. In such cases, freezing releases CPU resources, as the system stops calculating node's positions and status. | 
 | ![unfreeze](images/icons/unfreeze.png) |  Clicking the *unfreeze* option unfreezes connections. If you click the option to unfreeze a node and the node does not change its status, it may be because a higher node in the hierarchy is still frozen. | 
 
-| Icon | Collapse / Expand |
+| Icon | Collapse / Expand &mdash; Click to cycle through the different options. |
 | --- | --- |
 | ![collapse](images/icons/collapse.png) | Clicking the _minus_ button collapses the structure, hiding offspring nodes. This also has the effect of releasing CPU resources as the system stops calculating their position and status. In general, it is good practice to keep hierarchies closed when not being actively worked on. | 
 | ![expand](images/icons/expand.png) | Clicking the _plus_ button expands the structure of offspring nodes. | 
@@ -78,6 +78,18 @@ However, there will be times in which you will want to override this self-organi
 | ![100](images/icons/distance-to-parent-100.png) | The node is locked to **1X** of the distance. | 
 | ![150](images/icons/distance-to-parent-150.png) | The node is locked to **1.5X** of the distance. | 
 | ![200](images/icons/distance-to-parent-200.png) | The node is locked to **2X** of the distance. | 
+
+
+| Icon | Arrangement Style &mdash; Click to cycle through the different options. |
+| --- | --- |
+| ![concave](images/icons/arrangement-concave.png) | The node adopts a slot on a circumsference around its parent node. In the icon's graphic, the orange dot represents the parent node, and the blue dots represent the node adopting the specific arrangement style. | 
+| ![convex](images/icons/arrangement-convex.png) | The node adopts a slot on a convex curve away from its parent node . | 
+| ![vertical-right](images/icons/arrangement-vertical-right.png) | The node adopts a slot on a vertical line to the right of its parent node. | 
+| ![vertical-left](images/icons/arrangement-vertical-left.png) | The node adopts a slot on a vertical line to the left of its parent node.  | 
+| ![horizontal-bottom](images/icons/arrangement-horizontal-bottom.png) | The node adopts a slot on a horizontal line below its parent node.  | 
+| ![horizontal-top](images/icons/arrangement-horizontal-top.png) | The node adopts a slot on a vertical line below its parent node. | 
+
+
 
 ### Productivity Features
 

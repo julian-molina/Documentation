@@ -1,6 +1,6 @@
 ---
 title:  Navigating Time Machines and Timeline Charts
-summary: "While inside a time machine, you may navigate the data by panning with the mouse or teh keyboard."
+summary: "While inside a time machine, you may navigate the data by panning with the mouse or keyboard."
 sidebar: suite_sidebar
 permalink: suite-navigating-time-machines.html
 ---
@@ -23,9 +23,9 @@ permalink: suite-navigating-time-machines.html
 1. <kbd>Shift</kbd> + <kbd>&#8593;</kbd> to pan upwards.
 1. <kbd>Shift</kbd> + <kbd>&#8595;</kbd> to pan downwards.
 
-**3. To zoom square into a time machine**, double click on the chart. This action sets the chart on the middle of the screen and zooms in the viewport to the point in which the scale boxes become active. Double click on the chart again to go further in with the zoom, to the point in which layer managers become active.
+**3. To zoom square into a time machine**, double click on the chart.
 
-{% include note.html content="This last feature is available only when the current zoom is at the furthest point, that is, when the viewport is completely zoomed-out." %}
+{% include /reuse/zoom-levels.md content="yes" extended="no" %}
 
 {% include /charting_space/time-machine.md heading="more" icon="150-" adding="" configuring="" charts="" content="yes" definition="bold" table="yes" more="yes"%}
 
