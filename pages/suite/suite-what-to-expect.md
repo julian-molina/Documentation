@@ -19,9 +19,9 @@ There is a thorough description of system features and functionality [on the web
 
 ## Data in Your Machine
 
-Traders rely on datasets for backtesting. The system retrieves raw trades data directly from exchanges and processes data to produce candles and  indicators, which are stored in your local machine.
+Traders rely on datasets for backtesting. The system retrieves raw market data directly from exchanges and processes data to produce candles and indicators, which are stored in your local machine.
 
-The volume of trades data generated at exchanges is significant. Exchanges APIs impose limits on the bandwidth of data you may retrieve from your machine per unit of time. Different exchanges have different transaction volumes, and imposse different limits.
+The volume of data generated at exchanges is significant. Exchanges APIs impose limits on the bandwidth of data you may retrieve from your machine per unit of time. Different exchanges have different transaction volumes, and imposse different limits.
 
 For those reasons, retrieving historic data takes considerably different times on each exchange. For example, retrieving Binance's complete USDT-BTC market (since September 2017) may take anything from 20 to 40 minutes.
 

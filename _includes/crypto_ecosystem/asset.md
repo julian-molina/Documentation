@@ -72,13 +72,15 @@ To add an asset, select *Add Asset* on the exchange assets node menu.
 
 To add assets in bulk, select *Add Missing Assets* on the exchange assets node menu. Beware that the exchange may handle hundreds of assets. Before using this option you may want to implement a filter using the exchange assets configuration.
 
+{% include /crypto_ecosystem/exchange-assets.md heading="" icon="no" adding="" configuring="#####" starting="" content="no" definition="no" table="" more="yes"%}
+
 <!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
 {% if include.configuring != "" %}
 
-{{include.configuring}} Configuring the {{title}}
+{{include.configuring}} Configuring {{preposition}} Asset Node
 
 <!--------------------------------------------- CONFIGURING starts -->
 

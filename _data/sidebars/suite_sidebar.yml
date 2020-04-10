@@ -88,29 +88,48 @@ entries:
     output: web
     folderitems:
 
-    - title: "... upgrade your installation"
-      url: /suite-upgrading-your-existing-instalation.html
-      output: web
-
-    - title: "... report a bug"
-      url: /suite-how-to-report-a-bug.html
+    - title: "Basic use"
+      url: /suite-how-to-find-a-hierarchy.html
       output: web
 
     - title: "... find a hierarchy"
       url: /suite-how-to-find-a-hierarchy.html
       output: web
+      class: childItem
 
     - title: "... go to the workspace node"
       url: /suite-how-to-go-to-the-workspace-node.html
       output: web
+      class: childItem
 
     - title: "... restore a workspace"
       url: /suite-how-to-restore-a-workspace.html
+      output: web
+      class: childItem
+
+    - title: "Advanced use"
+      url: /suite-how-to-install-a-new-market.html
       output: web
 
     - title: "... install a new market"
       url: /suite-how-to-install-a-new-market.html
       output: web
+      class: childItem
+
+    - title: "... set up a new exchange"
+      url: /suite-how-to-set-up-a-new-exchange.html
+      output: web
+      class: childItem
+
+    - title: "... upgrade your installation"
+      url: /suite-upgrading-your-existing-instalation.html
+      output: web
+      class: childItem
+
+    - title: "... report a bug"
+      url: /suite-how-to-report-a-bug.html
+      output: web
+      class: childItem
 
   - title: Design space
     output: web

@@ -54,8 +54,8 @@ For your information, the design space is organized over a square perimeter arou
 | Hierarchy | Cardinal Direction | Direction | Keyboard Shortcut (Windows only) |
 | :--- | :---: | :---: | :--- |
 | **Sparta Data Mine** | North | &#8593; | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> (*S for Sparta*) |
-| **WHB Trading System** | North East | &#8599; | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>W</kbd> (*W for Weak Hands Buster*) |
-| **BRR trading System** | East | &#8594; | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd> (*B for Bull Run Rider*) |
+| **BRR trading System** | North East | &#8599; | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>W</kbd> (*W for Weak Hands Buster*) |
+| **WHB Trading System** | East | &#8594; | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd> (*B for Bull Run Rider*) |
 | **Super Scripts** | South East | &#8600; | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Z</kbd> (*Z for, well...*) |
 | **Network** | South | &#8595; | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>N</kbd> (*N for Network*) |
 | **Crypto Ecosystem** | South West | &#8601; | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>E</kbd> (*E for Ecosystem*) |

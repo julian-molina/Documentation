@@ -61,7 +61,7 @@ Once the system loads in your browser window and before you start working, you n
 
 {% include image.html file='how-to/empty-cache-hard-reload-00.gif' url='yes' max-width='100' caption='F12 to open Developer Tools, then right-click on the refresh icon.' %}
 
-### Final Tunning and Testing
+## Final Tunning and Testing
 
 Occasionally, the new version of the system may introduce changes that may require you to update your existing trading systems or some other parts of your workspace. If that is the case, an official announcement should explain how to proceed.
 

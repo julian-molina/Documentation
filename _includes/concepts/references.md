@@ -12,7 +12,7 @@
 </summary>
 {% endif %}
 
-{% if include.heading != "" and include.heading != "more" %}
+{% if include.heading != "" and include.heading != "more" and include.heading != "no" %}
 {{include.heading}} {{title}}
 {% endif %}
 
@@ -50,8 +50,11 @@
 {% if include.content != "no" %}
 
 <!--------------------------------------------- CONTENT starts -->
-
+{% if include.heading != "" and include.heading != "more" and include.heading != "no" %}
 {{include.heading}}## Establishing and Removing References
+{% else %}
+##### Establishing and Removing References
+{% endif %}
 
 To establish a reference, right-click on the first node and drag it close to the target node. Grey rings show which nodes you may establish a reference with. In case there are multiple nodes that would accept the reference, the one closer to the node where the reference originates will have its ring highlighted. Releasing the mouse button establishes the reference, or *links* both nodes. 
 

@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-This node is not fully implemented yet.
+The exchange account asset is a reference to an asset defined under the exchange assets node.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +68,9 @@ This node is not fully implemented yet.
 
 <!--------------------------------------------- ADDING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To add an exchange account asset node, select *Add Asset* on the user assets node menu. 
+
+{% include note.html content="Remember to establish a reference with an asset defined under the exchange assets node." %}
 
 <!--------------------------------------------- ADDING ends -->
 

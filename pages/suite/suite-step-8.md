@@ -1,6 +1,6 @@
 ---
 title:  Learn the Charting Space
-summary: Navigate the charting space as maps in Google Maps. Use time, rate and time frame scales to manipulate charts, and layer managers to access indicators. Combine multiple charts on time machines to syncronize charts relative to the time scale.
+summary: Navigate the charting space like maps in Google Maps. Use time, rate and time frame scales to manipulate charts, and layer managers to access indicators. Combine multiple charts on time machines to syncronize charts relative to the time scale.
 sidebar: suite_sidebar
 permalink: suite-step-8.html
 toc: false

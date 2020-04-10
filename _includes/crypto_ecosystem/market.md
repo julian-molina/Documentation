@@ -68,10 +68,9 @@
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a market, select *Add Market* on the exchange markets node menu. The market node is created along with the basic structure of nodes used to define the market.
+To add a market, select *Add Market* on the exchange markets node menu. The market node is created along with the basic structure of nodes used to define the market. This option does not generate the super actions required to install and uninstall markets.
 
-To add markets in bulk, select *Add Missing Markets* on the exchange markets node menu. This option adds all markets listed at the exchange that may result from the combination of assets listed under the exchange assets node.
-
+To add markets in bulk, select *Add Missing Markets* on the exchange markets node menu. This option adds all markets listed at the exchange that may result from the combination of assets listed under the exchange assets node, along with the required super actions to intall those markets.
 
 
 <!--------------------------------------------- ADDING ends -->

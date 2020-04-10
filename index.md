@@ -10,7 +10,7 @@ toc: false
 
 ## Video Tutorial Series
 
-If you prefer watching videos to reading instructions, this tutorial series takes you through steps 0 to 8. The last two steps are available on the written series only, for the time being.
+If you prefer watching videos to reading instructions, this tutorial series takes you through the whole *getting started* guide and gets you up and running with minimum effort.
 
 <div style="background-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin-bottom: 35px; max-width: 850px; max-height: 476px;">
 <iframe width="848" height="476" src="https://www.youtube.com/embed/ac6QMxfigs8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -30,7 +30,7 @@ If you prefer watching videos to reading instructions, this tutorial series take
 
 ## Written Series
 
-If you prefer following illustrated written instructions, you may go straight to the *[Getting started](suite-step-0.html)* guide.
+If you prefer following illustrated written instructions, you may go straight to the written *[getting started](suite-step-0.html)* guide.
 
 ## About this Documentation
 
@@ -38,6 +38,6 @@ This is the documentation site for the Superalgos Project, as described [on the 
 
 ## Beta Stage Notice
 
-This is a pre-release in beta stage. The system is under heavy development. We appreciate your help in testing the system and [reporting issues](suite-reporting-bugs.html) you may experience. We will keep improving user experience with your feedback.
+This is a pre-release in beta stage. The system is under heavy development. We appreciate your help in testing the system and [reporting issues](suite-how-to-report-a-bug.html) you may experience. We will keep improving user experience with your feedback.
 
 

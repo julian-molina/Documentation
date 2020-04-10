@@ -8,7 +8,7 @@ toc: false
 
 Running a live trading session is very similar to running a backtesting session. The two main operational differences are:
 
-* Live sessions&mdash;this includes paper trading and forward testing sessions&mdash;require all of the trading system's dependencies to be up to date and running. In this context, *dependencies* are the bots that provide information to the trading system for strategies to make decisions. In the case of <a href="https://github.com/Superalgos/Strategy-BTC-WeakHandsBuster" rel="nofollow" rel="noopener" target="_blank">Weak Hands Buster</a>, this means that all Masters bots must be running and up to date.
+* Live sessions&mdash;this includes paper trading and forward testing sessions&mdash;require all of the trading system's dependencies to be up to date and running. In this context, *dependencies* are the bots that provide information to the trading system for strategies to make decisions. In the case of <a href="https://github.com/Superalgos/Strategy-BTC-WeakHandsBuster" rel="nofollow" rel="noopener" target="_blank">Weak Hands Buster</a>, this means that all Masters and Sparta bots must be running and up to date.
 
 * An <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.exchange_account_key}}">exchange account key</a> must be set up to log into your account at the corresponding exchange.
 

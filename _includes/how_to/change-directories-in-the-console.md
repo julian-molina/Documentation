@@ -43,9 +43,10 @@ These are a few useful commands to navigate through a directory structure in the
 
 | Command | Effect |
 | :--- | :--- |
-| ```cd..``` | Goes down to the parent directory |
-| ```cd...``` | Goes down two directories |
-| ```cd\``` | Goes down to the root directory |
+| ```cd \Superalgos-master``` | Goes to the ```Superalgos-master``` folder, assuming it exists at the root of the current drive. If your ```Superalgos-master``` folder is not at the root of the drive, use the whole path instead. For example: ```cd \my-files\crypto-trading\Superalgos-master``` |
+| ```cd ..``` | Goes down to the parent directory |
+| ```cd ...``` | Goes down two directories |
+| ```cd \``` | Goes down to the root directory |
 | ```cd directory-name``` | Enters a specific directory in the current level |
 | ```c:``` or ```d:``` | Switches drives |
 
