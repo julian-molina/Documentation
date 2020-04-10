@@ -3,7 +3,7 @@
 {% assign title = "Nodes" %}
 {% assign definition = site.data.concepts.node %}
 {% assign preposition = "a" %}
-{% assign plural = "s" %}
+{% assign plural = "" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
@@ -76,21 +76,7 @@ As a consequence, structures of nodes are hierarchical structures, and a logical
 
 The direction of the relationship is determined, in most cases, by the ability of a node to produce the offspring node. That is, the parent node is the one which, by software design, may produce the offspring node.
 
-{{include.heading}}## Attaching and Detaching Nodes
-
-{{site.data.concepts.chain}}
-
-This feature is useful when testing different configurations, rules or parameters, as it allows to keep alternatives handy in the workspace.
-
-To detach a node, right-click on it and drag it away from the parent node. To attach a node, right-click on it and move it closer to the node you wish to attach it to. 
-
-{% include image.html file='design-space/fundamental-design-space-concepts-01.gif' url='yes' max-width='100' caption='You may also use the *detach* option on the menu to break a relationship.' %}
-
-Nodes may be attached only to potential parents. The system limits the way in which nodes may be attached, according to the logic of the information they contain.
-
-{% include note.html content="Nodes may not be detached or attached to frozen nodes. You need to unfreeze them before attaching or detaching." %}
-
-{% include note.html content="The verbs *to chain* and *to attach* may be used interchangeably, as synonyms. Similarly, *to unchain* and *to detach* are both valid." %}
+{% include /reuse/attaching-and-detaching-nodes.md heading="##" icon="no" extended="no" content="yes" definition="bold" table="no" more="no"%}
 
 <!--------------------------------------------- EXTENDED ends -->
 

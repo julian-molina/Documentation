@@ -8,6 +8,8 @@ INCLUDES:
 
 {% include /reuse/charting-space-interface.md content="yes" extended="yes" %}
 
+{% include /reuse/attaching-and-detaching-nodes.md heading="##" icon="no" extended="no" content="yes" definition="bold" table="no" more="no"%}
+
 {% include /concepts/references.md heading="##" icon="no" extended="more" content="yes" definition="bold" table="no" more="yes"%}
 
 EXTERNAL LINKS:

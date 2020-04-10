@@ -76,7 +76,7 @@ The workspace is not part of any of the hierarchies; instead, it contains them.
 
 <!--------------------------------------------- EXTENDED starts -->
 
-The workspace is saved at the browser level automatically every 60 seconds. You may save it manually using the following hot-key combination: <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>.
+The workspace is saved at the browser level automatically every 60 seconds, and is saved also at the moment the browser is closed. You may save it manually using the following hot-key combination: <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>.
 
 {% include note.html content="Users may manage multiple workspaces, but only one workspace may be loaded in the system at any point." %}
 

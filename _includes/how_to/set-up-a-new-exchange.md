@@ -49,6 +49,8 @@ A list of tested exchanges is maintained in the Superalgos repository <a href="h
 
 **2. Locate the desired <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_exchange}}">crypto exchange</a>**, detach it from its parent, and attach it to the *Testing Queue* crypto exchanges node. You may choose to attach your select exchange node to any other crypto exchanges node, or even add a new one. This is merely for organizational purposes and to keep the workspace tidy.
 
+{% include /reuse/attaching-and-detaching-nodes.md heading="##" icon="no" extended="no" content="more" definition="bold" table="no" more="yes"%}
+
 {% include note.html content="If the exchange you are looking for is not available there, it means it can not be setup in Superalgos at this point, likely for either or both of the following reasons: 1. The exchange does not provide one-minute candles; 2. The exchange does not provide a list of markets. Not all exchanges supported by the CCXT library comply in full with the standards proposed." %}
 
 **3. Find the <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.exchange_assets}}">exchange assets</a> node** and add the assets you wish to work with.

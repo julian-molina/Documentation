@@ -9,3 +9,4 @@ restore_a_workspace: "To restore a workspace, drag the workspace file and drop i
 install_a_new_market: "To install a new market, click Run on the install market super action corresponding to the market you wish to install. If the market is not set up, then you must set it up first."
 
 set_up_a_new_exchange: "To set up a new exchange, find it in the Untested crypto exchanges node and bring it to a less crowded crypto exchanges node to make room for the new setup. Then add the assets and the markets you wish to work with, and finally, install the markets."
+

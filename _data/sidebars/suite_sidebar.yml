@@ -368,6 +368,10 @@ entries:
       url: /suite-telegram-announcements.html
       output: web
 
+    - title: Screen Capture and Sharing
+      url: /suite-screen-capture-and-sharing.html
+      output: web
+
   - title: Hierarchies directory
     output: web
     folderitems:
