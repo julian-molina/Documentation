@@ -14,7 +14,11 @@ Depending on how you intend to use Superalgos, you may want to pull data from as
 
 On the other hand, if your interest lies in monitoring markets starting from the present time, then you most likely do not need historical data stretching that far in the past.
 
-{% include important.html content="As mentioned earlier, for your convenience, the system starts pulling data from exchanges as soon as you start it the first time. The current default is pulling the BTC/USDT markets from Binance, Bitfinex, and Bittrex, along with the ETH/USDT and DASH/USDT markets from Bittrex. At the same time, several basic indicators are fired up. You may use up to 10GB of disk space to process these markerts. The following instructions teach you how to monitor the progress of the data mining operation. At a later time, you will learn how to work with other exchanges." %}
+As mentioned earlier, for your convenience, the system starts pulling data from exchanges as soon as you start it the first time.
+
+{% include default-markets-note.html %}
+
+The following instructions teach you how to monitor the progress of the data mining operation. At a later time, you will learn how to work with other exchanges.
 
 ## Start Here
 

@@ -37,6 +37,20 @@ These are a few examples of use cases demanding significant processing power:
 
 The system is not RAM-intensive. One dedicated gigabyte should be enough for intensive use, and two gigabytes may be required for extreme charting. Those are ball-park, non-scientific figures.
 
+## Storage
+
+The fresh system installation folder may take up to 50 MB of disk space. 
+
+However, you will need plenty of storage space to store data downloaded from exchanges and processed by indicators. How much disk space you will need depends entirely on what data you chose to download and process. For example, if you intend to backtest strategies, you may want to download and process the entire history for the select market. For you reference, two-and-a-half years of the BTC/USDT Binance market, processed with currently available indicators weights around 6 GB.
+
+The system requires only 48-hours of processed data to run a live trading session. However, the strategy may require a longer history to properly calculate the lagging indicators, such as moving averages. The Weak-hands Buster strategy requires at least one month of data, for example. 
+
+Bear in mind that live trading sessions require a live data feed, therefore, the storage space increments as the session runs, on a daily basis.
+
+{% include default-markets-note.html %}
+
+That said, you are free to stop the default data mining operation and work with the markets you wish, and with as little or as much historic data as best suits your needs.
+
 ## Graphics Processing Unit
 
 The system benefits from a powerful GPU, as all of the visual experience Superalgos enables derives from the implementation of an HTML5 canvas animation. The more powerful your GPU, the more data you will be able to visualize at the same time, and the more fluid the visual experience becomes.
