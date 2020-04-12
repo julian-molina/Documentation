@@ -3,7 +3,6 @@ title:  System Architecture
 summary: "A high-level description of the frontend and backend applications behind Superalgos."
 sidebar: suite_sidebar
 permalink: suite-developers-system-architecture.html
-toc: false
 ---
 
 At the highest level the system is divided into 2 parts:
