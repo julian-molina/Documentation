@@ -86,28 +86,28 @@ Select *Configure Definition* on the menu to access the configuration.
 
 ```json
 {
-  "codeName": "Multi-Period-Market",
-  "type": "Market Files",
-  "validTimeFrames": [ "24-hs", "12-hs", "08-hs", "06-hs", "04-hs", "03-hs", "02-hs", "01-hs" ],
-  "filePath": "Data-Mine-Name/Bot-Name/@Exchange/Output/Product-Name/Multi-Period-Market/@Period",
-  "fileName": "@BaseAsset_@QuotedAsset.json"
-}
+    "codeName": "Multi-Period-Market",
+    "type": "Market Files",
+    "validTimeFrames": [ "24-hs", "12-hs", "08-hs", "06-hs", "04-hs", "03-hs", "02-hs", "01-hs" ],
+    "filePath": "@Exchange/@BaseAsset-@QuotedAsset/@DataMine/@Bot/Output/@Product/@Dataset/@Period",
+    "fileName": "Data.json"
+  }
 ```
 
 **Multi-Period-Daily:**
 
 ```json
 {
-  "codeName": "Multi-Period-Daily",
-  "type": "Daily Files",
-  "validTimeFrames": [ "45-min", "40-min", "30-min", "20-min", "15-min", "10-min", "05-min", "04-min", "03-min", "02-min", "01-min" ],
-  "filePath": "Data-Mine-Name/Bot-Name/@Exchange/Output/Product-Name/Multi-Period-Daily/@Period/@Year/@Month/@Day",
-  "fileName": "@BaseAsset_@QuotedAsset.json",
-  "dataRange": {
-  "filePath": "Data-Mine-Name/Bot-Name/@Exchange/Output/Product-Name/Multi-Period-Daily",
-  "fileName": "Data.Range.@BaseAsset_@QuotedAsset.json"
+    "codeName": "Multi-Period-Daily",
+    "type": "Daily Files",
+    "validTimeFrames": [ "45-min", "40-min", "30-min", "20-min", "15-min", "10-min", "05-min", "04-min", "03-min", "02-min", "01-min" ],
+    "filePath": "@Exchange/@BaseAsset-@QuotedAsset/@DataMine/@Bot/Output/@Product/@Dataset/@Period/@Year/@Month/@Day",
+    "fileName": "Data.json",
+    "dataRange": {
+      "filePath": "@Exchange/@BaseAsset-@QuotedAsset/@DataMine/@Bot/Output/@Product/@Dataset",
+      "fileName": "Data.Range.json"
+    }
   }
-}
 ```
 
 
@@ -115,7 +115,7 @@ Select *Configure Definition* on the menu to access the configuration.
 
 * ```type``` refers to the type of dataset; possible values are ```Market Files``` and ```Daily Files```.
 
-* ```validPeriods``` refers to the time frames handled by the dataset.
+* ```validTimeFrames``` refers to the time frames handled by the dataset.
 
 * ```filePath``` sets the path on which files are stored; the proper name of the data mine, the bot and the product need to be entered.
 
