@@ -107,6 +107,11 @@ entries:
       output: web
       class: childItem
 
+    - title: "... safely close Superalgos"
+      url: /suite-how-to-safely-close-superalgos.html
+      output: web
+      class: childItem
+
     - title: "Advanced use"
       url: /suite-how-to-install-a-new-market.html
       output: web

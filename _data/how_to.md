@@ -10,3 +10,5 @@ install_a_new_market: "To install a new market, click Run on the install market 
 
 set_up_a_new_exchange: "To set up a new exchange, find it in the Untested crypto exchanges node and bring it to a less crowded crypto exchanges node to make room for the new setup. Then add the assets and the markets you wish to work with, and finally, install the markets."
 
+safely_close_superalgos: "The correct way to close Superalgos is to stop all tasks in the data-mining and trading operations, wait a few seconds until the tasks stop, and only then close the browser. Before closing the console, you must wait around a minute until there is no further activity."
+
