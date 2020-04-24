@@ -16,8 +16,8 @@ These are properties managed internally by the system that are made available fo
 | ```takeProfitPhase``` | The number of the active take profit phase (0, 1, 2, ...). |
 | ```positionRate``` | The price at which the position was taken. |
 | ```positionSize``` | The size of the position. |
-| ```balanceAssetA``` | Your base asset balance. |
-| ```balanceAssetB``` | Your quoted asset balance. |
+| ```balanceBaseAsset``` | Your base asset balance. |
+| ```balanceQuotedAsset``` | Your quoted asset balance. |
 | ```lastTradeProfitLoss``` | The P&L value for the latest completed trade (roundtrip). |
 | ```lastTradeROI``` | The ROI of your latest trade. |
 | ```profit``` | The total P&L during the current execution period. |
