@@ -9,7 +9,7 @@ permalink: suite-webhook-notifications.html
 
 Superalgos allows you to receive webhook notifications from TradingView or any other system with the capability of sending webhooks. You may use this feature to turn notifications into signals upon which you may act from within your strategies.
 
-The system's Web Server receives notifications and serves them to a sensor bot running as a data mining task. The sensor creates a data product with a number of properties which are made available to be used from within strategies.
+The system's Web Server receives notifications and serves them to a sensor bot running as a data mining task. The sensor creates a data product with several properties which are made available to be used from within strategies.
 
 The rest of this page describes the set up process and how to use webhook notifications from within Superalgos.
 
@@ -27,7 +27,7 @@ Once the Webhooks sensor task is set up and running, you are all set at the appl
 
 ## Run a Quick Local Test
 
-Before setting up the actual signal at the corresponding provider, you may run a quick local test that will help you familiarize with the way in which Superalgos handles webhooks.
+Before setting up the actual signal at the corresponding provider, you may run a quick local test that will help you familiarize with how Superalgos handles webhooks.
 
 In the crypto ecosystem node menu, select *Add Signals Providers*. A structure of nodes is added with a signals provider node that allows you to run a little test. Select *Configure Signals Provider* on the menu.
 
@@ -76,7 +76,7 @@ You may use each of the three available properties with the following syntax:
 
 * ```chart.atAnyTimeFrame.externalSignal.message```
 
-For example, a simple condition evluating to ```true``` when a the last message received is a buy signal from TradingView would look like this:
+For example, a simple condition evaluating to ```true``` when a the last message received is a buy signal from TradingView would look like this:
 
 ```js
 chart.atAnyTimeFrame.externalSignal.source === "Trading-View" && chart.atAnyTimeFrame.externalSignal.message === "Buy"
@@ -109,4 +109,3 @@ For example:
 ## Set-up Your Network to Accept Incoming Connections
 
 Needless to say, you need to configure your network / router / firewall to allow incoming webhook messages on the corresponding port.
-
