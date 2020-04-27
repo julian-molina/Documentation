@@ -7,7 +7,7 @@ permalink: suite-webhook-notifications.html
 
 ## Overview
 
-Superalgos allows you to receive webhook notifications from TradingView or any other system with the capability of sending webhooks. You may use this feature to turn notifications into signals upon which you may act from within your strategies.
+Superalgos allows you to receive webhook notifications from TradingView or any other system supporting webhooks. You may use this feature to turn notifications into signals upon which you may act from within your strategies.
 
 The system's Web Server receives notifications and serves them to a sensor bot running as a data mining task. The sensor creates a data product with several properties which are made available to be used from within strategies.
 
