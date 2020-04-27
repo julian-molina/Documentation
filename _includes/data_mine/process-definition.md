@@ -85,90 +85,30 @@ Select *Configure Process* on the menu to access the configuration.
 **Multi-Period-Market:**
 
 ```json
-{
-  "codeName": "Multi-Period-Market",
-  "description": "Brief description of what the bot does.",
-  "startMode": {
-    "allMonths": {
-    "run": "false",
-    "minYear": "",
-    "maxYear": ""
-  },
-  "oneMonth": {
-    "run": "false",
-    "year": "",
-    "month": ""
-  },
-  "noTime": {
-      "run": "true"
-    },
-    "fixedInterval": {
-      "run": "false",
-      "interval": 0
-    }
-  },
-  "deadWaitTime": 0,
-  "normalWaitTime": 0,
-  "retryWaitTime": 10000,
-  "sleepWaitTime": 3600000,
-  "comaWaitTime": 86400000,
-  "framework": {
-    "name": "Multi-Period-Market",
-    "startDate": {
-    },
-    "endDate": {
+  {
+    "codeName": "Multi-Period-Market",
+    "normalWaitTime": 0,
+    "retryWaitTime": 10000,
+    "framework": {
+      "name": "Multi-Period-Market"
     }
   }
-}
 ```
 
 **Multi-Period-Daily:**
 
 ```json
-{
-  "codeName": "Multi-Period-Daily",
-  "description": "Brief description of what the bot does.",
-  "startMode": {
-    "allMonths": {
-      "run": "false",
-      "minYear": "",
-      "maxYear": ""
-    },
-    "oneMonth": {
-      "run": "false",
-      "year": "",
-      "month": ""
-    },
-    "noTime": {
-      "run": "true"
-    },
-    "fixedInterval": {
-      "run": "false",
-      "interval": 0
-    }
-  },
-  "deadWaitTime": 0,
-  "normalWaitTime": 0,
-  "retryWaitTime": 10000,
-  "sleepWaitTime": 3600000,
-  "comaWaitTime": 86400000,
-  "framework": {
-    "name": "Multi-Period-Daily",
-    "startDate": {
-      "takeItFromStatusDependency": 0
-    },
-    "endDate": {
-      "takeItFromStatusDependency": 1
+  {
+    "codeName": "Multi-Period-Daily",
+    "normalWaitTime": 0,
+    "retryWaitTime": 10000,
+    "framework": {
+      "name": "Multi-Period-Daily"
     }
   }
-}
 ```
 
-Both configurations deal with certain aspects of the internal workings of these kinds of processes. These are the ones to be adjusted when creating a new bot:
-
-* ```codeName``` is the name of the process as used within the code of the system; for consistency, always use ```Multi-Period-Market``` and ```Multi-Period-Daily``` accordingly.
-
-* ```description``` is a short description of what the bot does.
+Both configurations deal with certain aspects of the internal workings of these kinds of processes. In most cases, you may use the configuration as is.
 
 <!--------------------------------------------- CONFIGURING ends -->
 

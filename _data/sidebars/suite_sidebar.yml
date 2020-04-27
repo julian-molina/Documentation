@@ -116,6 +116,11 @@ entries:
       url: /suite-how-to-install-a-new-market.html
       output: web
   
+    - title: "... uninstall an existing market"
+      url: /suite-how-to-uninstall-an-existing-market.html
+      output: web
+      class: childItem
+
     - title: "... install a new market"
       url: /suite-how-to-install-a-new-market.html
       output: web
@@ -366,6 +371,14 @@ entries:
     output: web
     folderitems:
 
+    - title: Telegram Announcements
+      url: /suite-telegram-announcements.html
+      output: web
+
+    - title: Webhook Notifications
+      url: /suite-webhook-notifications.html
+      output: web
+
     - title: Backups
       url: /suite-backups.html
       output: web
@@ -376,10 +389,6 @@ entries:
 
     - title: Shares
       url: /suite-shares.html
-      output: web
-
-    - title: Telegram Announcements
-      url: /suite-telegram-announcements.html
       output: web
 
     - title: Screen Capture and Sharing
@@ -438,7 +447,7 @@ entries:
     output: web
     folderitems:
 
-    - title: System Architecture
+    - title: System architecture
       url: /suite-developers-system-architecture.html
       output: web
 
