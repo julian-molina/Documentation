@@ -91,8 +91,24 @@ To add a layers manager, select *Add Layers Manager* on the preferred timeline c
 {{include.configuring}} Configuring the {{title}}
 
 <!--------------------------------------------- CONFIGURING starts -->
+Select *Configure Layers Manager* in the menu to access the configuration.
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```json
+{
+    "visibleLayers": 3,
+    "panelLocation": {
+        "upOrDown": "up",
+        "leftOrRight": "left"
+    },
+    "label2FontSize": 12
+}
+```
+
+* ```visibleLayers``` keeps track of how many layers the managers is rolled to, that is, how many layers it is displaying.
+
+* ```panelLocation``` keeps track of the position of the panel relative to the four screen corners.
+
+* ```label2FontSize``` allows adjusting the font size of the second-order label of each layer, displaying the name of the exchange and market.
 
 <!--------------------------------------------- CONFIGURING ends -->
 

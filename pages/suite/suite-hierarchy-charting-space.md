@@ -38,6 +38,6 @@ toc: false
 
 {% include /charting_space/timeline-chart.md heading="##" icon="150-" adding="####" configuring="" charts="" content="yes" definition="bold" table="yes" more="no"%}
 
-{% include /charting_space/layers-manager.md heading="##" icon="150-" adding="####" configuring="" charts="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /charting_space/layers-manager.md heading="##" icon="150-" adding="####" configuring="####" charts="" content="yes" definition="bold" table="yes" more="no"%}
 
 {% include /charting_space/layer.md heading="##" icon="150-" adding="####" configuring="####" charts="" content="yes" definition="bold" table="yes" more="no"%}
