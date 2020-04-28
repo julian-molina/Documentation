@@ -68,6 +68,8 @@ There are two different ways in which you may customize announcements:
 * Plain text
 * Dynamic content
 
+{% include tip.html content="The Weak-hands buster strategy shipping with Superalgos features a complete set of announcements. Check them out and reuse them in your setup!" %}
+
 ### Plain Text
 
 To set a plain text announcement, click *Edit Announcement* on the announcement node menu and set a message on the field *text*.
@@ -124,4 +126,24 @@ For instance, ```"valueVariation": 0.5``` means a new announcement will be broad
 It is unlikely that you will want to use the announcements feature from within a backtesting session. A more likely scenario is you will want to use it with a paper trading session (to generate signals) or from a live trading session, to monitor the activity of your live trading.
 
 All you need to do to finish your set up is detach the social bot node from the backtesting session and attach it to the session you wish to use it in. Make sure the corresponding tasks are stopped before detaching and attaching the social bot.
+
+## Commercial Setups
+
+If you are settting up a signals business or require a more complex setup to broadcast announcements from multiple sessions, multiple strategies, or even to multiple groups, the following considerations may help you decide how to move forwards.
+
+{% include important.html content="Telegram does not allow running multiple instances of the same bot. Doing so may produce warnings, cause errors, delays in message delivery, lost messages, and erratic behavior in general." %}
+
+The solution is quite simple. Set up multiple bots. The rule of thumb is you should use one bot for each trading session. Remember you can include as many bots as you wish in your Telegram groups. That is, you may have different bots broadcast from different sessions in the same group.
+
+{% include tip.html content="If you wish to broadcast signals from multiple sessions to the same Telegram Group, you may name each bot in a way that each references their specific session, so that group members know exactly what each message is referring to." %}
+
+For example, let's say you are broadcasting signals from different markets... you may name your bots ```BTC/USDT```, ```ETH/USDT``` and ```XMR/BTC```.
+
+Or maybe you have different strategies, then simply name the bots after each strategy.
+
+This makes it really easy for group members to know what market or strategy the bot broadcasting the signal is referring to.
+
+Another example... let's say you are running a trading operation for friends and family. Each person is working with a different initial capital, different assets or different exchanges. in such case, you may set up multiple Telegram groups and multiple bots, so that each person may get precise information on what the bots are doing.
+
+
 
