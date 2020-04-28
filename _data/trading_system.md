@@ -24,7 +24,9 @@ phase_0: "Phase 0 represents the starting point for a stop or take profit target
 
 formula: "A formula is a mathematical expression intended to determine a numerical value to be applied dynamically to a certain property."
 
-next_phase_event: "The next-phase event describes a market situation upon which the management of the trade should shift from one phase to the next."
+next_phase_event: "The next-phase event is defined by a market situation upon which the management of the trade should shift from one phase to the next phase in a predetermined sequence."
+
+move_to_phase_event: "The move-to-phase event is defined by a market situation upon which the management of the trade should shift from the current phase to an arbitrary phase, determined by a reference."
 
 initial_take_profit: "The initial take profit defines the initial target to take profit before the trade gets to be managed."
 
