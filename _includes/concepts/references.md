@@ -50,34 +50,6 @@
 {% if include.content != "no" %}
 
 <!--------------------------------------------- CONTENT starts -->
-{% if include.heading != "" and include.heading != "more" and include.heading != "no" %}
-{{include.heading}}## Establishing and Removing References
-{% else %}
-##### Establishing and Removing References
-{% endif %}
-
-To establish a reference, right-click on the first node and drag it close to the target node. Grey rings show which nodes you may establish a reference with. In case there are multiple nodes that would accept the reference, the one closer to the node where the reference originates will have its ring highlighted. Releasing the mouse button establishes the reference, or *links* both nodes. 
-
-The reference is visually represented by a faint grey dotted line. Such line is visible only when both ends of the reference are visible.
-
-To remove a reference or *delink* two nodes, simply right-click the node where the reference originates and make a gentle swipping motion away from the target node.
-
-{% include image.html file='design-space/fundamental-design-space-concepts-02.gif' url='yes' max-width='100' caption='You may also use the *delink* option on the menu to break a reference.' %}
-
-{% include note.html content="Throughout this documentation we may use the verbs *to link*, *to reference* or *to establish a reference* interchangeably, as synonyms." %}
-
-<!--------------------------------------------- CONTENT ends -->
-
-{% endif %}
-
-{% if include.more == "yes" and include.extended == "more" and include.content != "more" and include.heading != "more" %}
-<details class='detailsCollapsible'><summary class='nobr'>Click to learn more about {{ title | downcase }}{{plural}}
-</summary>
-{% endif %}
-
-{% if include.extended != "no" %}
-
-<!--------------------------------------------- EXTENDED starts -->
 
 {{include.heading}}## Visibility
 
@@ -107,7 +79,22 @@ This means that the node *shapes* feature several internal references.
 
 {% include note.html content="The *backup*, *clone* and *share* operations make different uses of the properties of references. We will cover the three of them extensively so that you may make the most of these features." %}
 
+{% include /how_to/remove-and-establish-references.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
 
+<!--------------------------------------------- CONTENT ends -->
+
+{% endif %}
+
+{% if include.more == "yes" and include.extended == "more" and include.content != "more" and include.heading != "more" %}
+<details class='detailsCollapsible'><summary class='nobr'>Click to learn more about {{ title | downcase }}{{plural}}
+</summary>
+{% endif %}
+
+{% if include.extended != "no" %}
+
+<!--------------------------------------------- EXTENDED starts -->
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- EXTENDED ends -->
 

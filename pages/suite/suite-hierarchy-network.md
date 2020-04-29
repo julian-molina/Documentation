@@ -65,9 +65,11 @@ toc: false
 
 {% include /network/network.md heading="##" icon="150-" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
-{% include /network/network-node.md heading="##" icon="150-" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/network-node.md heading="##" icon="150-" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
 {% include /network/data-mining.md heading="##" icon="150-" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+
+{% include /network/exchange-tasks.md heading="##" icon="150-" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
 {% include /network/task-manager.md heading="##" icon="150-" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="no"%}
 

@@ -14,3 +14,6 @@ set_up_a_new_exchange: "To set up a new exchange, find it in the Untested crypto
 
 safely_close_superalgos: "The correct way to close Superalgos is to stop all tasks in the data-mining and trading operations, wait a few seconds until the tasks stop, and only then close the browser. Before closing the console, you must wait around a minute until there is no further activity."
 
+detach_and_attach_nodes: "To detach a node, click on the detach button on the node's menu. To attach a node, right-click it and drag it closer to the node you wish to attach it to. Release the right-click when the target node is highlighted."
+
+remove_and_establish_references: "To remove a reference, click on the remove reference button on the node's menu. To establish a reference, right-click on the node where the reference should originate and drag it close to the target node. Releas the right-click to establishes the reference." 

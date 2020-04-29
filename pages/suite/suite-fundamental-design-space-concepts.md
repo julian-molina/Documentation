@@ -21,7 +21,7 @@ In practical terms, the design space is the portion of the system you access whe
 
 {% include /concepts/nodes.md heading="##" icon="no" extended="more" content="yes" definition="bold" table="no" more="yes"%}
 
-{% include /concepts/references.md heading="##" icon="no" extended="yes" content="more" definition="bold" table="no" more="yes"%}
+{% include /concepts/references.md heading="##" icon="no" extended="no" content="more" definition="bold" table="no" more="yes"%}
 
 
 
