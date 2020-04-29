@@ -39,7 +39,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-{% include image.html file='design-space/fundamental-design-space-concepts-01.gif' url='yes' max-width='100' caption='You may also use the *detach* option on the menu to break a relationship.' %}
+{% include image.html file='design-space/fundamental-design-space-concepts-01.gif' url='yes' max-width='100' caption='Use the *detach* option on the menu to break a relationship.' %}
 
 {{site.data.concepts.chain}}
 

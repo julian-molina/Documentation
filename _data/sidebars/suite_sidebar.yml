@@ -107,13 +107,23 @@ entries:
       output: web
       class: childItem
 
+    - title: "... attach and detach nodes"
+      url: /suite-how-to-detach-and-attach-nodes.html
+      output: web
+      class: childItem
+
+    - title: "... remove and establish references"
+      url: /suite-how-to-remove-and-establish-references.html
+      output: web
+      class: childItem
+
     - title: "... safely close Superalgos"
       url: /suite-how-to-safely-close-superalgos.html
       output: web
       class: childItem
 
     - title: "Advanced use"
-      url: /suite-how-to-install-a-new-market.html
+      url: /suite-how-to-uninstall-an-existing-market.html
       output: web
   
     - title: "... uninstall an existing market"
@@ -371,11 +381,15 @@ entries:
     output: web
     folderitems:
 
-    - title: Telegram Announcements
+#    - title: Trading farms
+#      url: /suite-trading-farms.html
+#      output: web
+
+    - title: Telegram announcements
       url: /suite-telegram-announcements.html
       output: web
 
-    - title: Webhook Notifications
+    - title: Webhook notifications
       url: /suite-webhook-notifications.html
       output: web
 
@@ -391,7 +405,7 @@ entries:
       url: /suite-shares.html
       output: web
 
-    - title: Screen Capture and Sharing
+    - title: Screen capture and sharing
       url: /suite-screen-capture-and-sharing.html
       output: web
 

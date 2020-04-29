@@ -89,15 +89,19 @@ However, there will be times in which you will want to override this self-organi
 | ![horizontal-bottom](images/icons/arrangement-horizontal-bottom.png) | The node adopts a slot on a horizontal line below its parent node.  | 
 | ![horizontal-top](images/icons/arrangement-horizontal-top.png) | The node adopts a slot on a vertical line below its parent node. | 
 
+### Relationships and References
+
+| Icon | Action |
+| --- | --- |
+| ![detach](images/icons/detach.png) | **Detach**: Breaks the parent-offspring relationship that keeps the node attached to its parent. Once detached, the node is no longer computed as part of the hierarchy it was attached to. Learn more about [how to attach nodes](suite-how-to-detach-and-attach-nodes.html) |
+| ![delink](images/icons/delink.png) | **Delink**: Removes the reference that may have existed between the node and a second node. Learn more about [how to establish references](suite-how-to-remove-and-establish-references). |
 
 
 ### Productivity Features
 
-The rest of the menu options available in most nodes are the following:
-
 | Icon | Action |
 | --- | --- |
-| ![menu-backup](images/icons/backup.png) | **Backup**: Downloads a JSON file with the data structure and references concerning the particular node and the structure of offspring nodes in the hierarchy. Use this feature to save your entire workspace or any particular structure of nodes within your workspace so that you may later restore the information, including all references, should you need to. For your reference, the file downloaded is named ```Backup``` followed by the name of the node you are backing up. [Click to learn more about the nuances of backups](suite-backups.html). |
-| ![clone](images/icons/clone.png) | **Clone**: Downloads a JSON file containing information similar to a backup. The main difference is that the feature is built to facilitate the production of identical copies of any particular structure of nodes of a hierarchy, or a complete hierarchy. Use this feature to accelerate your work process when you need to replicate nodes, for example, to create multiple testing sessions. The file downloaded is named ```Clone``` followed by the name of the node you are cloning. [Click to learn more about the nuances of clones](suite-clones.html). |
-| ![menu-share](images/icons/share.png) | **Share**: Downloads a JSON file containing information similar to a backup. The only difference is that no personal information is included. This is particularly important so that you do not share sensitive information accidentally, such as your API keys. Always use this function when you intend to share work. Do not share your backups. The file downloaded is named ```Share``` followed by the name of the node you are sharing. [Click to learn more about the nuances of shares and the potential risks of using shared data structures from untrusted sources](suite-shares.html). |
+| ![menu-backup](images/icons/backup.png) | **Backup**: Downloads a JSON file with the data structure and references concerning the particular node and the structure of offspring nodes in the hierarchy. Use this feature to save your entire workspace or any particular structure of nodes within your workspace so that you may later restore the information, including all references, should you need to. For your reference, the file downloaded is named ```Backup``` followed by the name of the node you are backing up. Learn more about [the nuances of backups](suite-backups.html). |
+| ![clone](images/icons/clone.png) | **Clone**: Downloads a JSON file containing information similar to a backup. The main difference is that the feature is built to facilitate the production of identical copies of any particular structure of nodes of a hierarchy, or a complete hierarchy. Use this feature to accelerate your work process when you need to replicate nodes, for example, to create multiple testing sessions. The file downloaded is named ```Clone``` followed by the name of the node you are cloning. Learn more about [the nuances of clones](suite-clones.html). |
+| ![menu-share](images/icons/share.png) | **Share**: Downloads a JSON file containing information similar to a backup. The only difference is that no personal information is included. This is particularly important so that you do not share sensitive information accidentally, such as your API keys. Always use this function when you intend to share work. Do not share your backups. The file downloaded is named ```Share``` followed by the name of the node you are sharing. Learn more about [the nuances of shares and the potential risks](suite-shares.html) of using shared data structures from untrusted sources. |
 | ![menu-delete](images/icons/delete.png) | **Delete**: Deletes the node and all its offspring. Confirmation in the form of an additional click is required. |
