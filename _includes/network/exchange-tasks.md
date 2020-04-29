@@ -1,9 +1,9 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Network Node" %}
-{% assign definition = site.data.network.network_node %}
-{% assign preposition = "a" %}
-{% assign plural = "s" %}
+{% assign title = "Exchange Tasks" %}
+{% assign definition = site.data.network.exchange_tasks %}
+{% assign preposition = "an" %}
+{% assign plural = "" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
@@ -51,9 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-By default, processes are set up to run locally in a network node representing your local machine. However, the system is prepared to run distributed on a network of nodes.
-
-You may create unlimited network nodes and map them with different machines on a network. Each machine in the network runs an instance of Superalgos. However, you may control the whole network operation from a single machine, or&mdash;in general&mdash;from any machine in the network.
+When representing an exchange featured in the system's icons library, the standard exchange tasks icon is replaced by the exchange's logo.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -70,7 +68,7 @@ You may create unlimited network nodes and map them with different machines on a
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a network node, select *Add Network Node* on the *Spueralgos Network* node menu. A networknode is added along with the basic structure of nodes to set up a node.
+Exchange tasks nodes are added automatically when the first market in the corresponding exchange is installed. To manually add an exchange tasks node, select *Add Exchange Tasks* on the data mining, testing environment or production environment nodes.
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -82,21 +80,7 @@ To add a network node, select *Add Network Node* on the *Spueralgos Network* nod
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-Select *Configure Network Node* on the menu to access the configuration.
-
-```json
-{ 
-"host": "0.0.0.0", 
-"webPort": "34247", 
-"webSocketsPort": "8080"
-}
-```
-
-* ```host``` is the machine or hardware represented by the network node, which must be identified by its IP address.
-
-* ```webPort``` is the port used by the Web Server, at this stage ```34247```.
-
-* ```webSocketsPort``` is the port used by the system to communicate over the local area network, by default set at ```8080```.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONFIGURING ends -->
 

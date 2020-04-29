@@ -61,6 +61,10 @@ You will use the network hierarchy for the following purposes:
 
 * To control your data storage&mdash;that is, to administer the physical location in which the data products produced by bots reside.
 
+{% include note.html content="These processes may run together, on a single machine, or may be distributed across a network of machines, or what we call a *trading farm*. " %}
+
+{% include warning.html content="At this stage, the system does not implement any form of security meassures, therefore, the system is to be used in the context of a restricted Local Area Network only." %}
+
 <!--------------------------------------------- CONTENT ends -->
 
 {% endif %}

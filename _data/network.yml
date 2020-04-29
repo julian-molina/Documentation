@@ -4,6 +4,8 @@ network_node: "A network node represents a machine in the network on which proce
 
 data_mining: "Data mining is the activity of processing data. You need to process data to feed charts, and so that the trading bot may make decisions based on quality information. In the context of the network hierarchy, the data-mining node groups the task managers handling sensor and indicator bots instances."
 
+exchange_tasks: "The exchange tasks node organizes tasks by exchange."
+
 testing_environment: "The testing environment node organizes trading sessions involving testing of trading systems."
 
 production_environment: "The production environment node organizes trading sessions involving live trading."
