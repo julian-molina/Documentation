@@ -381,9 +381,9 @@ entries:
     output: web
     folderitems:
 
-#    - title: Trading farms
-#      url: /suite-trading-farms.html
-#      output: web
+    - title: Trading farms
+      url: /suite-trading-farms.html
+      output: web
 
     - title: Telegram announcements
       url: /suite-telegram-announcements.html

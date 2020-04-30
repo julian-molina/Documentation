@@ -60,17 +60,17 @@ You may create unlimited network nodes and map them with different machines on a
 {% endif %}
 
 {% if include.more == "yes" and include.content != "more" and include.heading != "more" %}
-<details class='detailsCollapsible'><summary class='nobr'>Click to learn more about {{ title | downcase }}{{plural}}
+<details class='detailsCollapsible'><summary class='nobr'>Click to learn more about adding {{ title | downcase }}{{plural}}
 </summary>
 {% endif %}
 
 {% if include.adding != "" %}
 
-{{include.adding}} Adding {{preposition}} {{title}} Node
+{{include.adding}} Adding {{preposition}} {{title}}
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a network node, select *Add Network Node* on the *Spueralgos Network* node menu. A networknode is added along with the basic structure of nodes to set up a node.
+To add a network node, select *Add Network Node* on the *Superalgos Network* node menu. A network node is added along with the basic structure of nodes to set up a node.
 
 <!--------------------------------------------- ADDING ends -->
 

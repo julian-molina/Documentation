@@ -39,7 +39,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-{% include image.html file='how-to/install-a-new-market-00.gif' url='yes' max-width='100' caption='The image shows how to install a new market. Usd the *uninstall market* super action node menu instead.' %}
+{% include image.html file='how-to/uninstall-existing-markets-01.gif' url='yes' max-width='100' caption='The image shows how to install a new market. Usd the *uninstall market* super action node menu instead.' %}
 
 **1. Expand the <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.exchange_markets}}">exchange markets</a> node** of your preferred <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_exchange}}">crypto exchange</a> in the <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_ecosystem}}">crypto ecosystem</a> hierarchy.
 
