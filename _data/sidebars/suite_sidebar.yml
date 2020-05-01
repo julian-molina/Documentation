@@ -377,7 +377,7 @@ entries:
       output: web
       class: childItem
 
-  - title: Trading Farms
+  - title: Trading farms
     output: web
     folderitems:
 
@@ -385,15 +385,19 @@ entries:
       url: /suite-fundamental-trading-farms-concepts.html
       output: web
 
-    - title: Set Up a Network of Nodes
+    - title: Set up a network of nodes
       url: /suite-set-up-a-network-of-nodes.html
       output: web
 
-    - title: Set Up Each Node on the Network
-      url: /suite-set-up-each-node-on-the-netowork.html
+    - title: Set up each node on the network
+      url: /suite-set-up-each-node-on-the-network.html
       output: web
 
-  - title: Productivity tools
+    - title: Operating a trading farm
+      url: /suite-suite-operating-a-trading-farm.html
+      output: web
+
+  - title: Integration with other systems
     output: web
     folderitems:
 
@@ -404,6 +408,10 @@ entries:
     - title: Webhook notifications
       url: /suite-webhook-notifications.html
       output: web
+
+  - title: Productivity tools
+    output: web
+    folderitems:
 
     - title: Backups
       url: /suite-backups.html
