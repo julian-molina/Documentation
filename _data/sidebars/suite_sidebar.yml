@@ -377,13 +377,25 @@ entries:
       output: web
       class: childItem
 
-  - title: Productivity tools
+  - title: Trading Farms
     output: web
     folderitems:
 
-    - title: Trading farms
-      url: /suite-trading-farms.html
+    - title: Fundamental concepts
+      url: /suite-fundamental-trading-farms-concepts.html
       output: web
+
+    - title: Set Up a Network of Nodes
+      url: /suite-set-up-a-network-of-nodes.html
+      output: web
+
+    - title: Set Up Each Node on the Network
+      url: /suite-set-up-each-node-on-the-netowork.html
+      output: web
+
+  - title: Productivity tools
+    output: web
+    folderitems:
 
     - title: Telegram announcements
       url: /suite-telegram-announcements.html
