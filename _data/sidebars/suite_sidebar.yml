@@ -141,6 +141,11 @@ entries:
       output: web
       class: childItem
 
+    - title: "... set up a trading task from scratch"
+      url: /suite-how-to-set-up-a-trading-task-from-scratch.html
+      output: web
+      class: childItem
+
     - title: "... test a trading idea"
       url: /suite-how-to-test-a-trading-idea.html
       output: web
