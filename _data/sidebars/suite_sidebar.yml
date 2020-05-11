@@ -470,8 +470,8 @@ entries:
       url: /suite-troubleshooting-my-system-gets-slow.html
       output: web
 
-    - title: There are no candles in my charts
-      url: /suite-troubleshooting-there-are-no-candles-in-my-charts.html
+    - title: There are no candles on the charts
+      url: /suite-troubleshooting-there-are-no-candles-on-the-charts.html
       output: web
 
     - title: On-screen errors and warnings
