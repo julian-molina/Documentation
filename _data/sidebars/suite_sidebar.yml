@@ -28,8 +28,8 @@ entries:
       output: web
       type: homepage
 
-    - title: What to expect
-      url: /suite-what-to-expect.html
+    - title: FAQs
+      url: /suite-frequently-asked-questions.html
       output: web
 
     - title: System requirements

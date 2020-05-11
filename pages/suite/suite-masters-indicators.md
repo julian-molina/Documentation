@@ -61,11 +61,6 @@ The product ```percentageBandwidth``` features four different properties that yo
 
 ```percentageBandwidth.bandwidth```: A numeric value between 0 and 100; the current bandwidth.
 
-```percentageBandwidth.direction```: 
-* ```"Down"```: percentageBandwidth.previous.movingAverage > percentageBandwidth.movingAverage
-* ```"Up"```: percentageBandwidth.previous.movingAverage < percentageBandwidth.movingAverage
-* ```"Side"```: percentageBandwidth.previous.movingAverage = percentageBandwidth.movingAverage)
-
 ## Bollinger Channels (BC)
 
 The product ```bollingerChannel``` features two different properties that you may use.
