@@ -466,6 +466,10 @@ entries:
     output: web
     folderitems:
 
+    - title: ERROR Node is not recognized 
+      url: /suite-troubleshooting-node-is-not-recognized-as-a-command.html
+      output: web
+
     - title: My system gets slow
       url: /suite-troubleshooting-my-system-gets-slow.html
       output: web

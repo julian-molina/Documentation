@@ -15,6 +15,10 @@ Check the data mining operation on the network hierarchy. You will be able to se
 
 {% include tip.html content="If you are not sure what the above paragraph refers to, please carefully read the instructions on [Step 6](suite-step-6.html) of the getting started guide, or watch the second video in the [video tutorial series](index.html#video-tutorial-series) as a refresher." %}
 
+## Switch Candles Layer Off and Back On and Refresh the Page
+
+Zoom into the chart until you see the layer manager featuring the *candles* layer. 
+
 ## Check the Time, Rate and Time Frame Scales
 
 It may happen that you attempted to manipulate the charts and something went wrong in the process.
@@ -33,9 +37,19 @@ Your PC may have been forcefully shut down or you may have closed the console ru
 
 If you are technical enough, you may want to review the latest files in the Candles Volumes indicator of the Masters Data Mine located deep in ```Multi-Period-Daily``` and ```Multi-Period-Market``` folders under ```Data-Storage > Exchange > Market > Masters > Candles-Volumes > Output > Candles```.
 
-If you find any ```.tmp``` files or you can't open any of the ```.json``` files in a regular text editor, chances are the files are corrupt. You may try renaming the ```.tmp``` files back to ```.json```. If nothing seems to work, ask for help in the Community.
+If you find any ```.tmp``` files or you can't open some of the latest ```Data.json``` files in a regular text editor, or some files are empty, chances are the files have been corrupted.
 
-Bear in mind that, likely, the easier solution is to delete the Candle-Volumes folder and run the data mining operation again to recalculate all candles.
+If such is the case, this is what you need to do: Go to the ```Exchange-Raw-Data``` folder under ```Data-Storage > Exchange > Market > Masters``` and keep opening the subfolders to get to the last day available, and open the ```Data.json``` file. If the file opens fine, this may mean that the data you donwloaded from the exchange is safe.
+
+If that is the case, then you will delete every folder within ```Data-Storage > Exchange > Market > Masters``` but ```Exchange-Raw-Data``` and get the data mining operation running afterwards. This will regenerate all indicators data products, including Candles Volumes.
+
+It the last file in ```Exchange-Raw-Data``` does not open properly then delete the whole ```Data-Storage > Exchange > Market > Masters``` and run the data mining operation. This will have the OCHLV sensor bot download all the data from the exchange again to later be processed by the indicator bots.
+
+Remember that there is a proper way to close the system!
+
+{% include /how_to/safely-close-superalgos.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
+
+
 
 ## Check for Errors at the Browser Level
 

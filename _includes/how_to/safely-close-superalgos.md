@@ -6,7 +6,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
 {% if include.more == "yes" and include.heading == "more" %}
-<details class='detailsCollapsible'><summary class='nobr'>Click to learn how to {{ title | downcase }}{{plural}}
+<details class='detailsCollapsible'><summary class='nobr'>Click to learn how to {{ title | downcase }}
 </summary>
 {% endif %}
 
@@ -31,7 +31,7 @@
 {% endif %}
 
 {% if include.more == "yes" and include.content == "more" and include.heading != "more" %}
-<details class='detailsCollapsible'><summary class='nobr'>Click to learn how to {{ title | downcase }}{{plural}}
+<details class='detailsCollapsible'><summary class='nobr'>Click to learn how to {{ title | downcase }}
 </summary>
 {% endif %}
 

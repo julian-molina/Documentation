@@ -55,6 +55,12 @@ That said, you are free to stop the default data mining operation and work with 
 
 The system benefits from a powerful GPU, as all of the visual experience Superalgos enables derives from the implementation of an HTML5 canvas animation. The more powerful your GPU, the more data you will be able to visualize at the same time, and the more fluid the visual experience becomes.
 
+## Internet Connection
+
+Superalgos does not require a high bandwidth Internet connection. The bandwidth used during a live trading session is quite small, orders of magnitude smaller than watching a Youtube video. The one time in which you may appreciate a high bandwidth-connection is during the initial download of data from the exchange, but even then, any ADSL connection should be more than enough.
+
+Stability is certainly desirable. The system attempts to sort out network instability, but continuous network issues may affect the functioning of the system.
+
 ## Console/Command Line
 
 Processes started from the system log their activity on the default console application, or the console used to fire up the app. Windows Command Prompt is particularly bad. It is recommended to install and use a decent application, such as <a href="https://cmder.net/" rel="nofollow" rel="noopener" target="_blank">Console Emulator Cmder<a/>. This will save you time and hassle in the long run.

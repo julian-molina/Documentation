@@ -15,7 +15,7 @@ That said, Superalgos is in an open beta-stage, still under development. The ear
 
 If you don't consider yourself an early adopter and usually go to your 10-year-old for advice on using your PC, you may still give it a shot. Developers and users in the <a href="https://t.me/superalgoscommunity" rel="nofollow" rel="noopener" target="_blank">Community</a> will be happy to give you a hand and help you get up and running.
 
-### Will Superalgos work in my machine?
+### Will Superalgos work on my computer?
 
 Superalgos may run in most computers. Please, read the [system requirements](suite-system-requirements) for the details.
 
@@ -27,8 +27,27 @@ There is a thorough description of system features and functionality <a href="ht
 
 ### Why is such an amazing piece of software open-source?
 
-Because the Superalgos Project is about building a Collective Trading Intelligence, and the Superalgos software is the backbone of the technology that enables creating such intelligence, while collaborating. You may find the full explanation in this <a href="https://medium.com/superalgos/why-we-open-sourced-superalgos-55a5cbf83922?source=friends_link&sk=68755ad373cc64c3a90318405f6c9a65" rel="nofollow" rel="noopener" target="_blank">Medium post</a>.
+Because the Superalgos Project is about building a Collective Trading Intelligence, and the Superalgos software is the backbone of the technology that enables creating such intelligence, while collaborating. Please find the full explanation in this <a href="https://medium.com/superalgos/why-we-open-sourced-superalgos-55a5cbf83922?source=friends_link&sk=68755ad373cc64c3a90318405f6c9a65" rel="nofollow" rel="noopener" target="_blank">Medium post</a>. You may also find more information about the project's long-term vision <a href="https://superalgos.org/about-project.shtml" target="_blank">on the web site</a>.
 
+### Is it safe to use Superalgos? Will I be spied, robbed of personal information, or scammed?
+
+Using Superalgos is as safe as it gets. This is why:
+
+1. The software is open-source. This means that any developer or technical person out there may read and audit the code and certify there is no hidden malware or anything of the sort. 
+
+1. Moreover, the system runs on the uncompiled code, that is, all of the code may be easily read by any programmer. There are no binary files which are much harder to interpret and audit.
+
+1. The code is maintained on GitHub using <a href="https://en.wikipedia.org/wiki/Git" rel="nofollow" rel="noopener" target="_blank">GIT technology</a> by which every single change made over the years is recorded and may be audited at any point.
+
+1. The software is free and open-source because it is the backbone of the project. The project will succeed if the software gets adopted. Thus, the interest of the project is perfectly aligned with the interest of users. The better the software, the more people will use it, and the larger the Collective Trading Intelligence the project may achieve.
+
+1. The software runs in your computer, and connects directly to the exchange, using your API key to access your account, trading directly from within your account. No third party is involved in any of your transactions. You do not need to trust your API keys, your funds, your personal information, or your strategies with anyone.
+
+1. Community-built strategies are open-source too. You may backtest them, verify their performance, set your parameters, and even modify them and produce your versions if you wish. They too are maintained on GitHub using GIT technology.
+
+1. We do not make any irresponsible claims regarding the performance of strategies. We simply report our backtesting results which you may verify, and we report the live performance since the day they where released. You may verify that information yourself as well. 
+
+1. Strategies are easy to read too and are stored in a file in the ```JSON``` format. All of the rules are written using simple mathematical statements. You may easily change the rules and test how the changes affect the results. 
 
 
 ## Live trading
@@ -61,7 +80,7 @@ You may close the fronted application running on the browser at any time. Only t
 
 ### What happens if Superalgos or the machine shuts down unexpectedly?
 
-In case the system is stopped or stops unexpectedly after a position has been taken, the system does not resume the transaction once it comes back online. In such case, the position must be managed and closed manually.
+In case the system is stopped or stops unexpectedly after a position has been taken, the system does not resume the transaction once it comes back online. In such a case, the position must be managed and closed manually.
 
 
 
@@ -69,7 +88,7 @@ In case the system is stopped or stops unexpectedly after a position has been ta
 
 ### May I create my own strategies? Do I need to write computer code?
 
-Yes and no! Building, testing and deploying strategies is the core competency of Superalgos. You don't need to write computer code... only simple statements with a specific [syntax](suite-syntax-overview.html) to create conditions and formulas, following a framework that guides you in the process of setting up a [trading system](suite-trading-systems.html).
+Yes and no! Building, testing, and deploying strategies is the core competency of Superalgos. You don't need to write computer code... only simple statements with a specific [syntax](suite-syntax-overview.html) to create conditions and formulas, following a framework that guides you in the process of setting up a [trading system](suite-trading-systems.html).
 
 However, if you can code you may have an edge building more complex logic in JavaScript.
 
@@ -87,13 +106,19 @@ Please check the <a href="https://github.com/Superalgos/Strategy-BTC-WeakHandsBu
 
 {% include live-trading-warning.html %}
 
-### May I configure the strategy to my liking?
+### May I configure the open-source strategy to my liking?
 
-Definitely. In fact, you should!
+Definitely. You should!
 
 A live trading session has a few [parameters](suite-parameters.html) that you must configure before running it.
 
-And you may also review, test and modify the rules within the trading system.
+And you may also review, test, and modify the rules within the trading system.
+
+{% include live-trading-warning.html %}
+
+### How risky is it to trade with open-source strategies?
+
+Trading crypto-assets is an inherently risky activity. You may lose all of your capital. We can not asses the risks of trading for you. Please, study the strategies you wish to use, do your own research, and consult your financial advisor.
 
 {% include live-trading-warning.html %}
 
@@ -105,7 +130,7 @@ And you may also review, test and modify the rules within the trading system.
 
 Superalgos is on open Community of people pursuing a common goal. The Community is thrilled to have more people joining the cause and is happy to answer questions and help new users get started with Superalgos. It is kindly suggested to read these FAQs, the troubleshooting section in the documentation, and to closely follow the instructions on the getting started guide. That said, please feel free to ask questions in the <a href="https://t.me/superalgoscommunity" rel="nofollow" rel="noopener" target="_blank">Community Telegram</a>.
 
-Superalgos is not commercial software, therefore, there is no such thing as a customer, or customer support for that matter.
+Superalgos is not commercial software, therefore, there is no such thing as a customer or customer support for that matter.
 
 ### May I ask for features I may be missing?
 
