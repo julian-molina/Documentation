@@ -57,6 +57,11 @@ When the time frame scale is set at the level of the time machine, the scale set
 
 {% endif %}
 
+{% if include.more == "yes" and include.content != "more" and include.heading != "more" %}
+<details class='detailsCollapsible'><summary class='nobr'>Click to learn more about {{ title | downcase }}{{plural}}
+</summary>
+{% endif %}
+
 {% if include.charts != "" %}
 
 {{include.charts}} Controlling the {{title}} from the Charts
@@ -69,11 +74,6 @@ When the time frame scale is set at the level of the time machine, the scale set
 
 <!--------------------------------------------- CHARTS ends -->
 
-{% endif %}
-
-{% if include.more == "yes" and include.content != "more" and include.heading != "more" %}
-<details class='detailsCollapsible'><summary class='nobr'>Click to learn more about {{ title | downcase }}{{plural}}
-</summary>
 {% endif %}
 
 {% if include.adding != "" %}

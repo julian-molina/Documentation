@@ -5,7 +5,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
 {% if include.content == "more" %}
-<details class='detailsCollapsible'><summary class='nobr'>Click to learn about the {{ title | downcase }}{{plural}}
+<details class='detailsCollapsible'><summary class='nobr'>Click to learn about {{ title | downcase }}{{plural}}
 </summary>
 {% endif %}
 

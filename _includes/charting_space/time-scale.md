@@ -77,6 +77,11 @@ The scale features a manual mode. When in manual mode the scale does not change,
 
 {% endif %}
 
+{% if include.more == "yes" and include.content != "more" and include.heading != "more" %}
+<details class='detailsCollapsible'><summary class='nobr'>Click to learn more about {{ title | downcase }}{{plural}}
+</summary>
+{% endif %}
+
 {% if include.charts != "" %}
 
 {{include.charts}} Controlling the {{title}} from the Charts
@@ -109,11 +114,6 @@ Notice that, while changing the scale, a number is displayed replacing the actua
 
 <!--------------------------------------------- CHARTS ends -->
 
-{% endif %}
-
-{% if include.more == "yes" and include.content != "more" and include.heading != "more" %}
-<details class='detailsCollapsible'><summary class='nobr'>Click to learn more about {{ title | downcase }}{{plural}}
-</summary>
 {% endif %}
 
 {% if include.adding != "" %}
