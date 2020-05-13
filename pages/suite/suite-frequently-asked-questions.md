@@ -41,9 +41,9 @@ We do our best to make Superalgos as safe as it gets. This is how:
 
 1. **The code is maintained on GitHub**, in a public repository, using <a href="https://en.wikipedia.org/wiki/Git" rel="nofollow" rel="noopener" target="_blank">GIT technology</a> by which every single change made over the years is recorded and may be audited at any point. This process guarantees transparency in all stages of development.
 
-1. **The software run in your computer, under your control**. This means that when you set up your exchange API keys to trade live, the keys remain in your computer. Web-based services require you to upload your API keys, therefore, trusting them to the service provider. Always remember the teaching of the wise man... *"Your keys, yur coins. Not your keys, not your coins"*.
+1. **The software runs in your computer, under your control**. This means that when you set up your exchange API keys to trade live, the keys remain in your computer. Web-based services require you to upload your API keys, therefore, trusting them to the service provider. Always remember the teachings of the wise man... *"Your keys, your coins. Not your keys, not your coins"*.
 
-1. **No third parties are involved in network communications**. The software runs in your computer, and connects directly to the exchange, using your API key to access your account, trading directly from within your account. No third party is involved in any of your transactions. You do not need to trust your API keys, your funds, your personal information, or your strategies with anyone. No communication is established or data is sent to any other party other than the exchange. This may be easily verified by people knowledgeable in networks, who may monitor the transfer of packets sent and received by the system.
+1. **No third parties are involved in network communications**. The software runs on your computer and connects directly to the exchange using your API key to access your account, trading directly from within your account. No third party is involved in any of your transactions. You do not need to trust your API keys, your funds, your personal information, or your strategies with anyone. No communication is established or data is sent to any other party other than the exchange. This may be easily verified by people knowledgeable in networks, who may monitor the transfer of packets sent and received from and by the system.
 
 1. **Alignment of interests**. The software is free and open-source because it is the backbone of the project. The project will succeed if the software gets adopted. Thus, the interest of the project is perfectly aligned with the interest of users. The better the software, the more people will use it, and the larger the Collective Trading Intelligence the project may achieve.
 
@@ -63,7 +63,7 @@ There are many things you&mdash;as a user&mdash;may do to bring the risk down to
 
 1. **Deposit a minimal amount**. In your new sub-account with the exchange, deposit the minimum amount required to make a transaction. In the case of Binance, the minimum transaction amount is 10 USD or its equivalent in crypto. In this way, your whole risk is limited to 10 USD.
 
-1. **Give the API key transaction permissions only**. When you create a new API key to access the new sub-account from within Superalgos, make sure you grant the key transaction permissions only. Do not grant withdrawal permissions. In this manner, if for some reason your keys fall in the wrong hands, an attacker would not be able to withdraw funds.
+1. **Give the API key transaction rights only**. When you create a new API key to access the new sub-account from within Superalgos, make sure you grant the key transaction rights only. Do not grant withdrawal rights. In this manner, if for some reason your keys fall on the wrong hands, an attacker would not be able to withdraw funds.
 
 1. **Get started with a paper trading session**. Before starting trading live, you may get acquainted with the system running paper trading sessions instead of live trading sessions. Paper trading sessions are live simulations running with real-time data feeds from the exchange, without actually placing orders. They allow you to understand how strategies work and analyze their live performance without actually placing orders at the exchange. Paper trading sessions do not require setting up your exchange account keys in Superalgos. These types of sessions may also be used to get signals over Telegram and acting on them discretionarily instead of letting the system trade in an automated fashion.
 
@@ -73,7 +73,7 @@ There are many things you&mdash;as a user&mdash;may do to bring the risk down to
 
 ### What exchanges may I work with?
 
-The system implements the <a href="https://github.com/ccxt/ccxt/" rel="nofollow" rel="noopener" target="_blank">CCXT library</a>, which allows connecting to a <a href="https://github.com/ccxt/ccxt/wiki/Exchange-Markets" rel="nofollow" rel="noopener" target="_blank">vast list of exchanges</a>. However, many exchanges do not fully comply with the standards established by the library.
+The system implements the <a href="https://github.com/ccxt/ccxt/" rel="nofollow" rel="noopener" target="_blank">CCXT library</a> which allows connecting to a <a href="https://github.com/ccxt/ccxt/wiki/Exchange-Markets" rel="nofollow" rel="noopener" target="_blank">vast list of exchanges</a>. However, many exchanges do not fully comply with the standards established by the library.
 
 For a list of tested exchanges, please refer to the <a href="https://github.com/Superalgos/Superalgos/blob/master/README.md#exchange-testing-queue" rel="nofollow" rel="noopener" target="_blank">Exchange Testing Queue</a> reference list. 
 
