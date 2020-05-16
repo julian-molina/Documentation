@@ -278,5 +278,5 @@ toc: false
 
 {% include /crypto_ecosystem/user-assets.md heading="##" icon="150-" adding="####" configuring="" starting="" content="no" definition="bold" table="yes" more="no"%}
 
-{% include /crypto_ecosystem/exchange-account-asset.md heading="##" icon="150-" adding="" configuring="" starting="" content="no" definition="bold" table="yes" more="no"%}
+{% include /crypto_ecosystem/exchange-account-asset.md heading="##" icon="150-" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 

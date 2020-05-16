@@ -12,9 +12,9 @@ exchange_markets: "The exchange markets node groups the definitions of markets."
 
 market: "A market is the definition of a pair of assets (i.e.: BTC-USDT) listed as a market in the corresponding exchange."
 
-market_base_asset: "The market base asset is a reference to one of the assets listed at the exchange as defined under the exchange assets node. It is the asset in the pair used to provide a quote&mdash;a price&mdash;for the quoted asset."
+market_base_asset: "The market base asset is the asset in the pair used to provide a quote&mdash;a price&mdash;for the quoted asset, as listed at the exchange."
 
-market_quoted_asset: "The market quoted asset is a reference to one of the assets listed at the exchange as defined under the exchange assets node. It is the asset in the pair for which a quote is given, denominated in the base asset."
+market_quoted_asset: "The market quoted asset is the asset in the pair for which a quote is given, denominated in the base asset, as listed at the exchange."
 
 exchange_accounts: "The exchange accounts node groups the different accounts the user may have with the corresponding exchange."
 

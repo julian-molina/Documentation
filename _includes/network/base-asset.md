@@ -51,7 +51,11 @@
 
 <!-- CONTENT starts -->
 
-The basse asset must reference an asset in a specific market of a specific exchange in the Crypto Ecosystem hierarchy.
+The base asset must reference an <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.exchange_account_asset}}">exchange account asset</a> under <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.exchange_accounts}}">exchange accounts</a> &#8594; <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.user_account}}">user account<a/> of the corresponding crypto exchange in the <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_ecosystem}}">Crypto Ecosystem</a> hierarchy. 
+
+The exchange account asset referenced must be one of the assets in the pair of the specific <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.market}}">market</a> and the specific <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_exchange}}">crypto exchange</a> that the trading session is associated with. 
+
+{% include note.html content="Notice that the base asset in the context of a trading session does not need to match the *market base asset* as listed by the exchange. The exchange decides how to list a market in terms of which is the *market base asset* and which is the *market quoted asset*. The user, however, may decide which are the trading session's base and quoted assets." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

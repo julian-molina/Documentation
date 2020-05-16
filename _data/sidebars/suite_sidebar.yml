@@ -291,6 +291,11 @@ entries:
       output: web
       class: childItem
 
+    - title: Setup for buying and selling
+      url: /suite-setup-for-buying-or-selling.html
+      output: web
+      class: childItem
+
     - title: Execution limitations
       url: /suite-execution-limitations.html
       output: web
