@@ -36,6 +36,8 @@ If you prefer watching videos to reading instructions, this tutorial series take
 
 If you prefer following illustrated written instructions, you may go straight to the written *[getting started](suite-step-0.html)* guide.
 
+## Community Support
+
 If you have any questions or issues running the system, or need help getting started, please ask for help in the <a href="https://t.me/superalgoscommunity" rel="nofollow" rel="noopener" target="_blank">Community Telegram</a>. We love it when people show up to say hi, or offer feedback as well. Also, the community is the place where you want to be to stay up to date with recent developments and with what is cooking for the next release. It's also the place where users discuss building strategies, share work in progress, and help each other learn faster. Don't be shy! Drop by, say hi, tell us how you are using Superalgos, or let us know if you are missing any features.
 
 ## About Superalgos
