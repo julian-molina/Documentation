@@ -36,16 +36,8 @@ If you prefer watching videos to reading instructions, this tutorial series take
 
 If you prefer following illustrated written instructions, you may go straight to the written *[getting started](suite-step-0.html)* guide.
 
-## About this Documentation
+If you have any questions or issues running the system, or need help getting started, please ask for help in the <a href="https://t.me/superalgoscommunity" rel="nofollow" rel="noopener" target="_blank">Community Telegram</a>. We love it when people show up to say hi, or offer feedback as well. Also, the community is the place where you want to be to stay up to date with recent developments and with what is cooking for the next release. It's also the place where users discuss building strategies, share work in progress, and help each other learn faster. Don't be shy! Drop by, say hi, tell us how you are using Superalgos, or let us know if you are missing any features.
 
-This is the documentation site for the Superalgos Project, as described [on the website](https://superalgos.org/), and it's in a permanent work-in-progress state, pretty much like the Superalgos software itself. Once you are up and running with Superalgos, the documentation covers all concepts managed by the system.
+## About Superalgos
 
-## Support
-
-If you have any questions or issues running the system or need help getting started, ask for help in the <a href="https://t.me/superalgoscommunity" rel="nofollow" rel="noopener" target="_blank">Community Telegram</a>. We love it when people show up just to say hi, or offer feedback.
-
-## Beta Stage Notice
-
-This is a pre-release in beta stage. The system is under heavy development. We appreciate your help in testing the system and [reporting issues](suite-how-to-report-a-bug.html) you may experience. We will keep improving user experience with your feedback.
-
-
+Superalgos is quickly turning into a large system managing each of the important concepts that make up trading intelligence. Learn more about the project and system features <a href="https://superalgos.org" target="_blank">on the home page</a>.
