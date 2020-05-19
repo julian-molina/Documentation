@@ -1,12 +1,14 @@
 ---
 title: "Superalgos Documentation"
-summary: "Superalgos enables the automation of simple and complex crypto-trading strategies and robust market data processing. Getting started with Superalgos is really easy: you may choose to follow a series of video tutorials, or follow written instructions instead. The video series is richer in explanations, while the written series is more concise and to-the-point. Using both is probably the smartest thing to do!"
+summary: "Superalgos enables the automation of simple and complex crypto-trading strategies as well as robust crypto-markets data processing. "
 sidebar: suite_sidebar
 permalink: index.html
 toc: false
 ---
 
 {% include live-trading-warning.html %}
+
+Getting started with Superalgos is really easy: you may choose to follow a series of video tutorials, or follow written instructions instead. The video series is richer in explanations, while the written series is more concise and to-the-point. Using both is probably the smartest thing to do!
 
 ## Video Tutorial Series
 
@@ -35,6 +37,10 @@ If you prefer following illustrated written instructions, you may go straight to
 ## About this Documentation
 
 This is the documentation site for the Superalgos Project, as described [on the website](https://superalgos.org/), and it's in a permanent work-in-progress state, pretty much like the Superalgos software itself. Once you are up and running with Superalgos, the documentation covers all concepts managed by the system.
+
+## Support
+
+If you have any questions or issues running the system or need help getting started, ask for help in the <a href="https://t.me/superalgoscommunity" rel="nofollow" rel="noopener" target="_blank">Community Telegram</a>. We love it when people show up just to say hi, or offer feedback.
 
 ## Beta Stage Notice
 
