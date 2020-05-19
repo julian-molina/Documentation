@@ -8,9 +8,11 @@ toc: false
 
 {% include live-trading-warning.html %}
 
+## Getting Started
+
 Getting started with Superalgos is really easy: you may choose to follow a series of video tutorials, or follow written instructions instead. The video series is richer in explanations, while the written series is more concise and to-the-point. Using both is probably the smartest thing to do!
 
-## Video Tutorial Series
+### Video Tutorial Series
 
 If you prefer watching videos to reading instructions, this tutorial series takes you through the whole *getting started* guide and gets you up and running with minimum effort.
 
@@ -30,7 +32,7 @@ If you prefer watching videos to reading instructions, this tutorial series take
 <iframe width="848" height="476" src="https://www.youtube.com/embed/CH7lYSX3Mtk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## Written Series
+### Written Series
 
 If you prefer following illustrated written instructions, you may go straight to the written *[getting started](suite-step-0.html)* guide.
 
