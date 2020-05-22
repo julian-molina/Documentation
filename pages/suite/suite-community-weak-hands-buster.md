@@ -1,6 +1,6 @@
 ---
-title:  Weak-hands Buster
-summary: "A trading system based on the break down of the Bollinger Bands idea, designed to accumulate Bitcoin, and targeting major market moves."
+title:  Weak-hands Buster (WHB)
+summary: "A trading system based on the break down of the Bollinger Bands idea, designed to accumulate Bitcoin, targeting major downward market moves."
 sidebar: suite_sidebar
 permalink: suite-community-weak-hands-buster.html
 ---
