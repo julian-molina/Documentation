@@ -300,6 +300,24 @@ entries:
       url: /suite-execution-limitations.html
       output: web
 
+  - title: Community trading systems
+    output: web
+    folderitems:
+
+    - title: BTC / USDT
+      url: /suite-weak-hands-buster.html
+      output: web
+
+    - title: Weak-hands Buster
+      url: /suite-community-weak-hands-buster.html
+      output: web
+      class: childItem
+
+    - title: BB Top Bounce
+      url: /suite-community-bb-top-bounce.html
+      output: web
+      class: childItem
+
   - title: Infrastructure
     output: web
     folderitems:
