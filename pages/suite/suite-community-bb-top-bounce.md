@@ -41,45 +41,31 @@ The following was the performance in backtests at the time of publishing:
 
 ### Backtest Trades
 
-**Q1, 2018**
+##### 2018
 
-{% include image.html file='trading-system/BBTB-Backtest-2018-Q1.PNG' url='yes' max-width='100' %}
+{% include image.html file='trading-system/BBTB-Backtest-2018-Q1.PNG' url='yes' max-width='100' caption='Jan-Mar, 2018' %}
 
-**Q2, 2018**
+{% include image.html file='trading-system/BBTB-Backtest-2018-Q2.PNG' url='yes' max-width='100' caption='Apr-Jun, 2018' %}
 
-{% include image.html file='trading-system/BBTB-Backtest-2018-Q2.PNG' url='yes' max-width='100' %}
+{% include image.html file='trading-system/BBTB-Backtest-2018-Q3.PNG' url='yes' max-width='100' caption='Jul-Sep, 2018' %}
 
-**Q3, 2018**
+{% include image.html file='trading-system/BBTB-Backtest-2018-Q4.PNG' url='yes' max-width='100' caption='Oct-Dec, 2018' %}
 
-{% include image.html file='trading-system/BBTB-Backtest-2018-Q3.PNG' url='yes' max-width='100' %}
+##### 2019
 
-**Q4, 2018**
+{% include image.html file='trading-system/BBTB-Backtest-2019-Q1.PNG' url='yes' max-width='100' caption='Jan-Mar, 2019' %}
 
-{% include image.html file='trading-system/BBTB-Backtest-2018-Q4.PNG' url='yes' max-width='100' %}
+{% include image.html file='trading-system/BBTB-Backtest-2019-Q2.PNG' url='yes' max-width='100' caption='Apr-Jun, 2019' %}
 
-**Q1, 2019**
+{% include image.html file='trading-system/BBTB-Backtest-2019-Q3.PNG' url='yes' max-width='100' caption='Jul-Sep, 2019' %}
 
-{% include image.html file='trading-system/BBTB-Backtest-2019-Q1.PNG' url='yes' max-width='100' %}
+{% include image.html file='trading-system/BBTB-Backtest-2019-Q4.PNG' url='yes' max-width='100' caption='Oct-Dec, 2019' %}
 
-**Q2, 2019**
+##### 2020
 
-{% include image.html file='trading-system/BBTB-Backtest-2019-Q2.PNG' url='yes' max-width='100' %}
+{% include image.html file='trading-system/BBTB-Backtest-2020-Q1.PNG' url='yes' max-width='100' caption='Jan-Mar, 2020' %}
 
-**Q3, 2019**
-
-{% include image.html file='trading-system/BBTB-Backtest-2019-Q3.PNG' url='yes' max-width='100' %}
-
-**Q4, 2019**
-
-{% include image.html file='trading-system/BBTB-Backtest-2019-Q4.PNG' url='yes' max-width='100' %}
-
-**Q1, 2020**
-
-{% include image.html file='trading-system/BBTB-Backtest-2020-Q1.PNG' url='yes' max-width='100' %}
-
-**Q2, 2020**
-
-{% include image.html file='trading-system/BBTB-Backtest-2020-Q2.PNG' url='yes' max-width='100' %}
+{% include image.html file='trading-system/BBTB-Backtest-2020-Q2.PNG' url='yes' max-width='100' caption='Apr-Jun, 2020' %}
 
 ## Technical Sheet
 
@@ -119,7 +105,11 @@ The average trading frequency according to backtests is of around 1 trade every 
 
 ## Implementation
 
-The trading system has eight different strategies, each specializing in a specific market situation.
+The trading system has eight different strategies, each specializing in a specific market situation. This section analyzes the principles governing each stage, taking the first strategy in the system as an example. The rest of the strategies in the system behave similarly, the main differences being:
+
+* Some of the conditions that define the take position event, in particular the ones representing the *Market Structure Analysis* and *Filters* (see below).
+
+* The specific conditions used to switch take profit management phases.
 
 ### Trigger Stage
 
