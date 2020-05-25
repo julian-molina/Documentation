@@ -44,6 +44,7 @@ toc: false
 <tr><td></td><td></td><td></td><td><img src='images/icons/tree-connector-line.png' /></td><td><img src='images/icons/tree-connector-elbow.png' /></td><td><a href='#point' data-toggle='tooltip' data-original-title='{{site.data.data_mine.point}}'><img src='images/icons/point.png' /><br />Point</a></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td><img src='images/icons/tree-connector-line.png' /></td><td></td><td><img src='images/icons/tree-connector-elbow.png' /></td><td><a href='#point-formula' data-toggle='tooltip' data-original-title='{{site.data.data_mine.point_formula}}'><img src='images/icons/point-formula.png' /><br />Point Formula</a></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td><img src='images/icons/tree-connector-elbow.png' /></td><td><a href='#polygon' data-toggle='tooltip' data-original-title='{{site.data.data_mine.polygon}}'><img src='images/icons/polygon.png' /><br />Polygon</a></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td><img src='images/icons/tree-connector-fork.png' /></td><td><a href='#polygon-condition' data-toggle='tooltip' data-original-title='{{site.data.data_mine.polygon_condition}}'><img src='images/icons/polygon-condition.png' /><br />Polygon Condition</a></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td><img src='images/icons/tree-connector-fork.png' /></td><td><a href='#polygon-vertex' data-toggle='tooltip' data-original-title='{{site.data.data_mine.polygon_vertex}}'><img src='images/icons/polygon-vertex.png' /><br />Polygon Vertex</a></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td><img src='images/icons/tree-connector-fork.png' /></td><td><a href='#polygon-border' data-toggle='tooltip' data-original-title='{{site.data.data_mine.polygon_border}}'><img src='images/icons/polygon-border.png' /><br />Polygon Border</a></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td><img src='images/icons/tree-connector-line.png' /></td><td><img src='images/icons/tree-connector-fork.png' /></td><td><a href='#style' data-toggle='tooltip' data-original-title='{{site.data.data_mine.style}}'><img src='images/icons/style.png' /><br />Style</a></td><td></td><td></td><td></td></tr>
@@ -53,8 +54,6 @@ toc: false
 <tr><td></td><td></td><td></td><td></td><td></td><td><img src='images/icons/tree-connector-fork.png' /></td><td><a href='#style' data-toggle='tooltip' data-original-title='{{site.data.data_mine.style}}'><img src='images/icons/style.png' /><br />Style</a></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td><img src='images/icons/tree-connector-elbow.png' /></td><td><a href='#style-condition' data-toggle='tooltip' data-original-title='{{site.data.data_mine.style_condition}}'><img src='images/icons/style-condition.png' /><br />Style Condition</a></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td><img src='images/icons/tree-connector-elbow.png' /></td><td><a href='#style' data-toggle='tooltip' data-original-title='{{site.data.data_mine.style}}'><img src='images/icons/style.png' /><br />Style</a></td><td></td><td></td></tr></tbody></table>
-
-
 
 
 {% include /data_mine/data-mine.md heading="##" icon="150-" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="no"%}
@@ -118,6 +117,8 @@ toc: false
 {% include /data_mine/point-formula.md heading="##" icon="150-" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
 {% include /data_mine/polygon.md heading="##" icon="150-" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+
+{% include /data_mine/polygon-condition.md heading="##" icon="150-" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
 {% include /data_mine/polygon-vertex.md heading="##" icon="150-" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 

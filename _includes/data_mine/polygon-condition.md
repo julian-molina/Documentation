@@ -1,9 +1,9 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Polygon Vertex" %}
-{% assign definition = site.data.data_mine.polygon_vertex %}
+{% assign title = "Polygon Condition" %}
+{% assign definition = site.data.data_mine.polygon_condition %}
 {% assign preposition = "a" %}
-{% assign plural = "es" %}
+{% assign plural = "s" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
@@ -51,13 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Vertices are the main element defining polygons. Once created, each vertex must establish a reference to the corresponding point in the charts point.
-
-[![Vertex-01-add-and-link](https://user-images.githubusercontent.com/13994516/71016081-eb4ca800-20f4-11ea-8fee-4d38ecfb0596.gif)](https://user-images.githubusercontent.com/13994516/71016081-eb4ca800-20f4-11ea-8fee-4d38ecfb0596.gif)
-
-Drawing curves requires two vertices. Painting areas, such as the background of a chart, likely requires four vertices. Note that vertices are not capable of featuring a style. Instead, styles are applied to polygon borders and polygon bodies.
-
-{% include important.html content="Bear in mind that the order in which vertices in a polygon are arranged around the parent polygon node when their *rotational symmetry* property is selected, is the order in which the plotter computes the points. This means that points need to be in the correct order, for example, when drawing a box. Imagine drawing a box on a piece of paper without lifting the pencil... that is how the plotter does it." %}
+The node is optional. When the node is not present in the definition of the polygon or when the condition validates ```true```, the polygon is rendered on screen. When the condition validates ```false``` the polygon is not rendered. As such, the node allows dynamically switching on and off the rendering of the corresponding polygon.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -74,9 +68,7 @@ Drawing curves requires two vertices. Painting areas, such as the background of 
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a polygon vertex, select *Add Polygon Vertex* on the polygon node menu.
-
-{% include tip.html content="Remember that a vertex must establish a reference to a point in the charts point to be properly defined" %}
+To add a polygon condition, select *Add Polygon Condition* on a polygon node menu.
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -88,7 +80,9 @@ To add a polygon vertex, select *Add Polygon Vertex* on the polygon node menu.
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Select *Edit Condition* on the menu to access the configuration.
+
+Polygon conditions work pretty much like conditions used on trading systems. The main difference is that the variables available are solely those provided by the bot product definition that reference the corresponding plotter module.
 
 <!--------------------------------------------- CONFIGURING ends -->
 
