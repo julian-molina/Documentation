@@ -501,12 +501,16 @@ entries:
       url: /suite-troubleshooting-there-are-no-candles-on-the-charts.html
       output: web
 
-    - title: On-screen errors and warnings
-      url: /suite-troubleshooting-on-screen-errors-and-warnings.html
-      output: web
-
     - title: Market data seems to be outdated
       url: /suite-troubleshooting-market-data-indicators-seem-to-be-outdated.html
+      output: web
+
+    - title: I think I broke something 
+      url: /suite-i-think-i-broke-something.html
+      output: web
+
+    - title: On-screen errors and warnings
+      url: /suite-troubleshooting-on-screen-errors-and-warnings.html
       output: web
 
     - title: Consulting logs
