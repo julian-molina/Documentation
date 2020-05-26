@@ -117,7 +117,7 @@ The trading system has eight different strategies, each specializing in a specif
 
 ##### Trigger On vs. Take Position
 
-The conditions at the take position event and the trigger on event are the same. Therefore, when a strategy is triggered, it also takes a position.
+The conditions at the take position event and the trigger-on event are the same. Therefore, when a strategy is triggered, it also takes a position.
 
 ##### Trading Idea
 
