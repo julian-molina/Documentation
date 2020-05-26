@@ -29,6 +29,12 @@ p {
     color: black;
 }
 
+.newItem ::after {
+    font-style: italic;
+    content: ' \2190 New!';
+    color: #ff8c29;
+}
+
 .nav .childItem a:hover {
     background-color: transparent;
     color: #ff8c29;
