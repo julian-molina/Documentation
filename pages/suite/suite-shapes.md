@@ -40,7 +40,7 @@ toc: false
 
 {% include /data_mine/polygon-border.md heading="###" icon="" adding="#####" configuring="" starting="" content="yes" definition="yes" table="yes" more="yes"%}
 
-{% include /data_mine/style.md heading="#####" icon="" adding="######" configuring="######" starting="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /data_mine/style.md heading="#####" icon="" adding="######" configuring="######" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
 {% include /data_mine/style-condition.md heading="#####" icon="" adding="######" configuring="######" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
