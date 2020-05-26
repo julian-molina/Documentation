@@ -296,6 +296,11 @@ entries:
       output: web
       class: childItem
 
+    - title: Snapshots
+      url: /suite-snapshots.html
+      output: web
+      class: childItem
+
     - title: Execution limitations
       url: /suite-execution-limitations.html
       output: web
@@ -425,7 +430,7 @@ entries:
       url: /suite-suite-operating-a-trading-farm.html
       output: web
 
-  - title: Integration with other systems
+  - title: Integrations
     output: web
     folderitems:
 
