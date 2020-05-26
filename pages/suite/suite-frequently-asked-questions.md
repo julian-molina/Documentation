@@ -35,19 +35,19 @@ We do our best to make Superalgos as safe as it gets. This is how:
 
 1. **The software is open-source**. This means that any developer or technical person out there may read and audit the code and verify if there is hidden malware or anything of the sort. There are several developers in the Community, many of them conducting deep reviews of the code. Developers tend to engage with interesting code like regular people would engage with a piece of literary work. They do this to fully understand how the software is built so that the may figure out how to best build on top of it. This is the true spirit of open-source software. Developers ask questions and engage with the core team all the time.  
 
-1. **Do not mistake Superalgos with software given away for free**. While Superalgos is both open-source and free software, it is not the same as free software, period. Free software that is not open-source is shipped as a black-box. That is, no one knows what it does. It is the open-source nature of software that makes it transparent, therefore trustworthy.
+1. **Do not mistake open-source with software given away for free**. While Superalgos is both open-source and free software, it is not the same as free software, period. Free software that is not open-source is shipped as a black-box. That is, no one knows what it does. It is the open-source nature of software that makes it transparent, therefore trustworthy.
 
-1. **The system runs on the uncompiled code**, that is, all of the code may be easily read by any programmer. There are no binary files which are much harder to interpret and audit.
+1. **The system runs on uncompiled code**, that is, all of the code may be easily read by any programmer. There are no binary files which are much harder to interpret and audit.
 
 1. **The code is maintained on GitHub**, in a public repository, using <a href="https://en.wikipedia.org/wiki/Git" rel="nofollow" rel="noopener" target="_blank">GIT technology</a> by which every single change made over the years is recorded and may be audited at any point. This process guarantees transparency in all stages of development.
 
 1. **The software runs in your computer, under your control**. This means that when you set up your exchange API keys to trade live, the keys remain in your computer. Web-based services require you to upload your API keys, therefore, trusting them to the service provider. Always remember the teachings of the wise man... *"Your keys, your coins. Not your keys, not your coins"*.
 
-1. **No third parties are involved in network communications**. The software runs on your computer and connects directly to the exchange using your API key to access your account, trading directly from within your account. No third party is involved in any of your transactions. You do not need to trust your API keys, your funds, your personal information, or your strategies with anyone. No communication is established or data is sent to any other party other than the exchange. This may be easily verified by people knowledgeable in networks, who may monitor the transfer of packets sent and received from and by the system.
+1. **No third parties are involved in network communications**. The software runs on your computer and connects directly to the exchange using your API key to access your account, trading directly from within your account. No third party is involved in any of your transactions. You do not need to trust your API keys, your funds, your personal information, or your strategies with anyone. No communication is established or data is sent to any party other than the exchange. This may be easily verified by people knowledgeable in networks, who may monitor the transfer of packets sent and received from and by the system.
 
 1. **Alignment of interests**. The software is free and open-source because it is the backbone of the project. The project will succeed if the software gets adopted. Thus, the interest of the project is perfectly aligned with the interest of users. The better the software, the more people will use it, and the larger the Collective Trading Intelligence the project may achieve.
 
-1. **Community-built strategies are open-source too** and maintained on GitHub using GIT technology, as well. Repositories holding strategies explain how strategies work, and we encourage users to educate themselves as much as they can. 
+1. **Community-built strategies are open-source too** and maintained on GitHub using GIT technology, as well. The documentation explains how strategies work, and we encourage users to educate themselves as much as they can. 
 
 1. **We do not make irresponsible claims regarding the performance of strategies**. There is no "get-rich-quick approach" in Superalgos. We simply report backtesting results, and we report the live performance since the day they where released. You may backtest strategies, verify their performance, set your parameters, and even modify them and produce your versions if you wish. We urge users to take all possible precautions and to try to understand what strategies do and how they work before they start trading live.
 
@@ -67,21 +67,38 @@ There are many things you&mdash;as a user&mdash;may do to bring the risk down to
 
 1. **Get started with a paper trading session**. Before starting trading live, you may get acquainted with the system running paper trading sessions instead of live trading sessions. Paper trading sessions are live simulations running with real-time data feeds from the exchange, without actually placing orders. They allow you to understand how strategies work and analyze their live performance without actually placing orders at the exchange. Paper trading sessions do not require setting up your exchange account keys in Superalgos. These types of sessions may also be used to get signals over Telegram and acting on them discretionarily instead of letting the system trade in an automated fashion.
 
-1. **Before you commit to starting trading live** study and learn as much as you can, both about how Superalgos work, and, in case you intend to use open-source strategies, about how your strategies of choice work. Ideally, you would understand which strategy may be used to achieve your own goals at trading, and which conforms to the level of risk you are willing to take. The more you know, the more educated decisions you will make.
+1. **Before you commit to trading live** study and learn as much as you can, both about how Superalgos work, and, in case you intend to use open-source strategies, about how your strategies of choice work. Ideally, you would understand which strategy may be used to achieve your own goals at trading, and which conforms to the level of risk you are willing to take. The more you know, the more educated decisions you will make.
 
-## Live trading
+
+
+## Trading
 
 ### What exchanges may I work with?
 
 The system implements the <a href="https://github.com/ccxt/ccxt/" rel="nofollow" rel="noopener" target="_blank">CCXT library</a> which allows connecting to a <a href="https://github.com/ccxt/ccxt/wiki/Exchange-Markets" rel="nofollow" rel="noopener" target="_blank">vast list of exchanges</a>. However, many exchanges do not fully comply with the standards established by the library.
 
-For a list of tested exchanges, please refer to the <a href="https://github.com/Superalgos/Superalgos/blob/master/README.md#exchange-testing-queue" rel="nofollow" rel="noopener" target="_blank">Exchange Testing Queue</a> reference list. 
-
 You are free to try exchanges that haven't been tested by the team. We'd be happy to hear about your tests. That said, it is highly recommended to start with tried and tested exchanges until you become proficient with using the system before venturing into the unknown territory of untested exchanges.
+
+The following is the current state of tests on different exchanges:
+
+| Exchange | OHLCVs Capability&nbsp;[*] | Market History | Trading Capability&nbsp;[**] | Comments |
+| :--- | :---: | :---:|  :---: | :--- | 
+| Binance | &#x2611; | Starting Sep, 2017  | &#x2611;| <strong>Fully tested. Starting with Binance is recommended as the experience is seamless.</strong> |
+| Bitfinex | &#x2611; | 1 year | &#x2611; | Tested, with issues: we have experienced the <a href="https://docs.bitfinex.com/docs/requirements-and-limitations#rest-rate-limits" rel="nofollow" rel="noopener" target="_blank">ERR_RATE_LIMIT</a> error despite the fact that Superalgos sends a maximum of two requests per market / bot /  minute when trading live. |
+| Bitmex | &#x2611; | | &#x2612; | The concept of a *contract* is not yet implemented within Superalgos, thus, trading is not enabled yet. |
+| Kraken | &#x2612;  | Historical data may only be accessed by id, not by date, thus not available at the moment. | &#x2610; | |
+| Poloniex | &#x2612; | Only 5-minutes time frame available in OHLCV data, while 1-minute is required, thus not available at the moment. | &#x2610; |  |
+| Bittrex | &#x2611; | A few weeks, depending on the market. | &#x2612; | Live trading not available because Bittrex allows limit orders only (Superalgos may only place market orders at the moment). |
+| Gemini | &#x2611; | A few hours. | &#x2610; | |
+| HitBTC | &#x2610; | | &#x2610; | |
+
+[*] The ability to fetch historic data for backtesting purposes has been verified.
+
+[**] The ability to run strategies in live-trading mode has been verified.
 
 ### Do I need to have an account with an exchange to use Superalgos?
 
-You will need an account with a <a href="https://github.com/Superalgos/Superalgos/blob/master/README.md#exchange-testing-queue" rel="nofollow" rel="noopener" target="_blank">supported exchange</a> and an exchange API key if you decide to trade live. You may use Superalgos to get started, to download data from exchanges, to build and to test trading strategies without an exchange account.
+You will need an account with a [supported exchange](#what-exchanges-may-i-work-with) and an exchange API key if you decide to trade live. You may use Superalgos to get started, to download data from exchanges, to build and to test trading strategies without an exchange account.
 
 ### Do I need to trust my API keys to someone?
 
@@ -96,6 +113,8 @@ Yes. It may be if you choose to run a live <a data-toggle="tooltip" data-origina
 Yes. The backend application must be running a live <a data-toggle="tooltip" data-original-title="{{site.data.network.session}}">trading session</a> to place orders at the exchange. If you turn your computer off or stop Superalgos, the system will not trade live during that time. 
 
 You may close the fronted application running on the browser at any time. Only the backend application running on the console needs to be running at all times when trading live.
+
+Once you are proficient with running and operating the system, you may set up the backend in a separate or dedicated computer, and control it from the fronted running on your every-day machine. In this manner, the machine running the backend is the only one required to run continuously, while the one running the frontend may be turned off and on at will.
 
 ### What happens if Superalgos or the machine shuts down unexpectedly?
 
@@ -113,15 +132,21 @@ However, if you can code you may have an edge building more complex logic in Jav
 
 ### May I get a ready-to-use strategy and use it to trade live?
 
-Yes. The strategies available to use in Superalgos are the ones you may create yourself and those open-sourced by the Community. If you intend to use a strategy you didn't create yourself, it is highly recommended that you study the strategy, test it, and understand how it works before committing to trade live with it.
+Yes. The strategies available to use in Superalgos are the ones you may create yourself and those open-sourced by the Community. If you intend to use a strategy you didn't create yourself, it is highly recommended that you study the strategy, test it, and understand how it works before committing to trading live with it.
 
 Superalgos ships with a few example strategies and the getting started guide teaches you how to run them in Superalgos.
 
 {% include live-trading-warning.html %}
 
-### How does the strategy shipping with Superalgos work? Is it profitable?
+### How do the strategies shipping with Superalgos work? Are they profitable?
 
-We try our best to educate users on how strategies work. In case of the Weak-hands Buster strategy, please check the README file <a href="https://github.com/Superalgos/Strategy-BTC-WeakHandsBuster" rel="nofollow" rel="noopener" target="_blank">on the repository</a> for the details. The documentation discusses the strategy's performance in live trading and backtesting contexts and explains its goal, approach, trading idea, and trading frequency. Please take the time to educate yourself so that you may make informed decisions as to how to use these strategies.
+We try our best to educate users on how strategies work. At the moment, two open-source strategies are available:
+
+* [Weak-hands Buster](suite-community-weak-hands-buster.html)
+
+* [BB Top Bounce](suite-community-bb-top-bounce.html)
+
+The documentation discusses the strategies' performance in live trading and backtesting contexts and explains their goal, approach, trading idea, and trading frequency. Please take the time to educate yourself so that you may make informed decisions as to how to use these strategies.
 
 You must adjust your expectations to reality. Trading strategies are not "get-rich-quick" schemes. Please, bear in mind the following well-known facts about trading strategies in general:
 
@@ -133,7 +158,7 @@ You must adjust your expectations to reality. Trading strategies are not "get-ri
 
 {% include live-trading-warning.html %}
 
-### May I configure the open-source strategy to my liking?
+### May I configure the open-source strategies to my liking?
 
 Definitely. You should!
 
