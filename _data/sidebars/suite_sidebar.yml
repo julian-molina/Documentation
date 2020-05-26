@@ -181,6 +181,11 @@ entries:
       url: /suite-hierarchies.html
       output: web
 
+    - title: Workflows
+      url: /suite-workflows.html
+      output: web
+      class: newItem
+
   - title: Charting space
     output: web
     folderitems:
@@ -299,7 +304,7 @@ entries:
     - title: Snapshots
       url: /suite-snapshots.html
       output: web
-      class: childItem
+      class: childItem newItem
 
     - title: Execution limitations
       url: /suite-execution-limitations.html
@@ -321,15 +326,11 @@ entries:
     - title: BB Top Bounce
       url: /suite-community-bb-top-bounce.html
       output: web
-      class: childItem
+      class: childItem newItem
 
-  - title: Infrastructure
+  - title: Crypto ecosystem
     output: web
     folderitems:
-
-    - title: Fundamental concepts
-      url: /suite-fundamental-infrastructure-concepts.html
-      output: web
 
     - title: Crypto ecosystem
       url: /suite-crypto-ecosystem.html
@@ -349,6 +350,10 @@ entries:
       url: /suite-exchange-accounts.html
       output: web
       class: childItem
+
+  - title: Network
+    output: web
+    folderitems:
 
     - title: Network
       url: /suite-network.html

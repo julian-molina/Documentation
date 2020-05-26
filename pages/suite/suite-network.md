@@ -1,6 +1,6 @@
 ---
 title:  Network
-summary: "The network hierarchy organizes the infrastructure to run bots and store data."
+summary: "The network hierarchy organizes the infrastructure to run bots and store data. It is the hierarchy you will use the most to operate the system."
 sidebar: suite_sidebar
 permalink: suite-network.html
 toc: false
