@@ -544,6 +544,11 @@ entries:
       url: /suite-developers-codebase-and-development-environment.html
       output: web
 
+    - title: Debugging a task
+      url: /suite-developers-debugging-a-task.html
+      output: web
+      class: newItem
+
     - title: Debugging a new indicator
       url: /suite-developers-debugging-a-new-indicator.html
       output: web
