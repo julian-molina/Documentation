@@ -272,6 +272,11 @@ entries:
       output: web
       class: childItem
 
+    - title: JavaScript code
+      url: /suite-javascript-code.html
+      output: web
+      class: childItem newItem
+
     - title: Internal variables
       url: /suite-internal-variables.html
       output: web
