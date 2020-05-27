@@ -39,9 +39,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-A list of tested exchanges is maintained in the Superalgos repository <a href="https://github.com/Superalgos/Superalgos/blob/master/README.md" rel="nofollow" rel="noopener" target="_blank">README file</a>. Not all tested exchanges are set up in the default workspace. If you wish to use an exchange that is not set up in the workspace, you may set it up yourself following the instructions below.
+A list of tested exchanges is available here.
 
-{% include note.html content="You are free to test exchanges that haven't been tested by the team yet. We'd be happy to hear about the results. " %}
+{% include /reuse/tested-exchanges.md heading="##" icon="no" extended="no" content="more" definition="bold" table="no" more="yes"%}
+
+Not all tested exchanges are set up in the default workspace. If you wish to use an exchange that is not set up in the workspace, you may set it up yourself following the instructions below.
 
 ## Start here
 
