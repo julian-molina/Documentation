@@ -15,4 +15,4 @@ try {
 }
 ```
 
-{% include tip.html content="Remember that all conditions must evaluate to ```true``` or ```false``` and that formulas must evaluate to a number." %}
+{% include tip.html content="Remember that all conditions must evaluate to ```true``` or ```false``` and that formulas must evaluate to a number. If you are having issues with your code, learn [how to debug a task](suite-developers-debugging-a-task.html)." %} 

@@ -16,6 +16,8 @@ You may debug any task, either a data mining task or a trading task by following
 
 **3. Click the Debug button on the menu** of the task you wish to debug. The request will be routed to the TaskServer running in your IDE.
 
+{% include image.html file='developers/Debugging-tasks.PNG' url='yes' max-width='100' caption='Click the Debug button on the task menu.' %}
+
 **4. Run the trading session** in case it is a trading task.
 
 After a few seconds, execution should pause in the line where you put the breakpoint. Bear in mind the system runs slower in debug mode, thus, it may take a little while for the session to start processing, after loading all dependencies.
