@@ -86,3 +86,5 @@ The product ```bollingerSubChannel``` features three different properties that y
 ```bollingerSubChannel.period```: The number of periods the subchannel spans at the moment the variable is being read. For instance, if a subchannel spans 10 candles and the variable is checked on the fourth candle, then _bollingerChannel.period_ = 4. Put in other words, it is the current span of the subchannel.
 
 ```bollingerSubChannel.slope```: Indicates how steep the slope of the subchannel is. Possible values are ```"Side"```, ```"Gentle"```, ```"Medium"```, ```"Steep"```, ```"Extreme"``` (in order from lowest to highest).
+
+{% include /reuse/bollinger-subchannels-calculation.md heading="" icon="no" extended="no" content="more" definition="bold" table="no" more="yes"%}
