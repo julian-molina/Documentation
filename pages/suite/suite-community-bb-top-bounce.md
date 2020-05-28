@@ -105,6 +105,22 @@ The strategy is designed with the one-hour time frame as the main decision-makin
 
 The average trading frequency according to backtests is of around 1 trade every 11 days.
 
+### Required Bots
+
+The following bots must be running and up to date to run paper trading, forward testing, and live trading sessions:
+
+**Masters Data Mine:**
+
+* OCHLVs
+* Candles & Volumes
+* Bollinger Bands & Percentage Bandwith
+* Bollinger Channels & SubChannels
+
+**Sparta Data Mine:**
+
+* EMA
+* RSI
+
 ## Implementation
 
 The trading system has eight different strategies, each specializing in a specific market situation. This section analyzes the principles governing each stage, taking the first strategy in the system as an example. The rest of the strategies in the system behave similarly, the main differences being:
