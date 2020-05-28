@@ -320,6 +320,11 @@ entries:
       output: web
       class: childItem newItem
 
+    - title: Low-frequency trading
+      url: /suite-low-frequency-trading.html
+      output: web
+      class: childItem newItem
+
     - title: Execution limitations
       url: /suite-execution-limitations.html
       output: web
