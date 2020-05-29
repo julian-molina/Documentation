@@ -36,7 +36,7 @@ Upon execution, bot instances run in a branched sequence determined by their <a 
 
 What you do need to understand as a user is that, if Alice depends on data Bob produces, then Bob needs to be running for Alice to do her job. If Bob is not running, then Alice can only sit and wait for Bob to do his part first.
 
-A good example of such dependencies may be found when running a live trading session. Is such case, the trading bot depends on the sensor and all indicator bots that must fetch raw data and process it for the trading bot to analyze in realtime. Therefore, before running a live trading session, the data mining operation must be running and up to date.
+A good example of such dependencies may be found when running a live trading session. In such a case, the trading bot depends on the sensor and all indicator bots that must fetch raw data and process it for the trading bot to analyze in realtime. Therefore, before running a live trading session, the data mining operation must be running and up to date.
 
 Each bot runs for as long as it may require to perform its job, usually in the order of a few seconds, and remains asleep until the next cycle is due. That is, bots run for short bursts, in frequent cycles. The reason for this behavior is that bots are prepared to read live data feeds and process it online.
 

@@ -2,6 +2,9 @@ IMAGES:
 
 {% include image.html file='how-to/go-to-the-workspace-node-00.gif' url='yes' max-width='100' caption='Flick the mouse wheel while pressing the Ctrl or Command key.' %}
 
+{% include image-ext.html file='how-to/go-to-the-workspace-node-00.gif' url='yes' max-width='100' caption='Flick the mouse wheel while pressing the Ctrl or Command key.' %}
+
+
 INCLUDES:
 
 {% include /how_to/go-to-the-workspace-node.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
