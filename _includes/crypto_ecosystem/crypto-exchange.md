@@ -83,14 +83,22 @@ To add a crypto exchange, select *Add Crypto Exchange* on the crypto exchanges n
 Select *Configure Crypto Exchange* on the menu to access the configuration.
 
 ```json
-{ 
-"codeName": "Poloniex"
+{
+    "codeName": "binance",
+    "API": [
+        {
+            "method": "fetchTrades",
+            "fetchType": "by Id",
+            "fetchTradesMethod": "publicGetHistoricalTrades",
+            "firstId": "f"
+        }
+    ]
 }
 ```
 
-* codeName is the name of the exchange as handled in the code of the system. 
+* ```codeName``` is the name of the exchange as handled in the code of the system. 
 
-{% include note.html content="Consult the list of supported exchanges for the list of possible values for the ```codeName``` field. When a supported exchange is successfully configured, the standard crypto exchange icon is replaced with the logotype of the corresponding exchange." %}
+* ```API``` holds a series of definitions used only in the case in which the sensor bot fetches trades (using the Historic-Trades process) instead of the OCHLV process that fetches one-minute candles and is the current default. In such a case, finding the right set of parameters to work with a specific exchange may be challenging, nd involves understanding how the exchanges API and the CCXT Library API work. In other words, there is no hard rule as of what each of the values should be. Determining each of this values requires exploring the exchange's API documentation, as well as the documentation of the CCXT Library.
 
 <!--------------------------------------------- CONFIGURING ends -->
 
