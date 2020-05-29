@@ -195,6 +195,11 @@ entries:
       output: web
       class: newItem
 
+    - title: Managing Workspaces
+      url: /suite-managing-workspaces.html
+      output: web
+      class: newItem  
+
   - title: Charting space
     output: web
     folderitems:

@@ -47,24 +47,6 @@ ARROWS:
 ****************************************************************************************************************************************************************
 
 
-ATOMIZE:
-
-Hierarchies tables, by segment.
-
-HOW TO PAGES:
-
-* Set up and exchange account.
-* Set up an exchange account key.
-* Set up an exchange account key instance.
-
-WORKFLOW PAGES:
-
-I a worflow a sequence of how to pages?
-
-PENDING:
-
-Screen Capture features
-Announcements
 
 
 
