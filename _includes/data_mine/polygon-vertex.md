@@ -3,7 +3,7 @@
 {% assign title = "Polygon Vertex" %}
 {% assign definition = site.data.data_mine.polygon_vertex %}
 {% assign preposition = "a" %}
-{% assign plural = "s" %}
+{% assign plural = "es" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 

@@ -9,6 +9,8 @@ BB Top Bounce was released in May 2020. This page explains the trading system an
 
 The trading system conforms to the Superalgos Trading Protocol, therefore, it may function as a fully automated trading system. People not interested in trading automation may still obtain the strategy's rules (situations, conditions, and formulas) from the design space and use the set of rules as they see fit.
 
+{% include important.html content="At the moment, BB Top Bounce may only be run with the software in the ```develop``` branch, using ```Backup - Workspace - Binance - WHB - BBTB.json```" %}
+
 {% include live-trading-warning.html %}
 
 ## BBTB Performance in Backtests (Binance)
@@ -103,6 +105,22 @@ The strategy is designed with the one-hour time frame as the main decision-makin
 
 The average trading frequency according to backtests is of around 1 trade every 11 days.
 
+### Required Bots
+
+The following bots must be running and up to date to run paper trading, forward testing, and live trading sessions:
+
+**Masters Data Mine:**
+
+* OCHLVs
+* Candles & Volumes
+* Bollinger Bands & Percentage Bandwith
+* Bollinger Channels & SubChannels
+
+**Sparta Data Mine:**
+
+* EMA
+* RSI
+
 ## Implementation
 
 The trading system has eight different strategies, each specializing in a specific market situation. This section analyzes the principles governing each stage, taking the first strategy in the system as an example. The rest of the strategies in the system behave similarly, the main differences being:
@@ -115,7 +133,7 @@ The trading system has eight different strategies, each specializing in a specif
 
 ##### Trigger On vs. Take Position
 
-The conditions at the take position event and the trigger on event are the same. Therefore, when a strategy is triggered, it also takes a position.
+The conditions at the take position event and the trigger-on event are the same. Therefore, when a strategy is triggered, it also takes a position.
 
 ##### Trading Idea
 

@@ -64,6 +64,8 @@ point_formula: "A point formula is a node used to input the [x,y] coordinates of
 
 polygon: "A polygon features definitions that makeup shapes and their styles."
 
+polygon_condition: "A polygon condition is a rule that allows establishing when a polygon shall be rendered and when not."
+
 polygon_vertex: "A polygon vertex is a reference to a point defined in the chart points, constituting a specific coordinate to be used as a vertex of a shape."
 
 polygon_border: "A polygon border is a shape defined by at least two vertices used to draw lines or to apply a style to the stroke of a closed shape."

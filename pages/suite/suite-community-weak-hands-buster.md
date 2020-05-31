@@ -81,6 +81,17 @@ Because the strategy is rather conservative in its design, it doesn't trade ever
 
 As a consequence, and as you may infer from the number of trades in the backtesting report above and the live trading performance of WHB V1 described below, the strategy performs an average of about one trade per month.
 
+### Required Bots
+
+The following bots must be running and up to date to run paper trading, forward testing, and live trading sessions:
+
+**Masters Data Mine:**
+
+* OCHLVs
+* Candles & Volumes
+* Bollinger Bands & Percentage Bandwith
+* Bollinger Channels & SubChannels
+
 ## Changes on WHB V.2
 
 * The two different situations making up the take position event were split into two separate strategies operating under the same trading system. This means that take profit and stop targets may be managed separately for each take position situation. This is the first case of two complementary strategies running under the same trading system.

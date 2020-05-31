@@ -53,6 +53,8 @@
 
 Having access to quality information is a crucial element of trading. For that reason, Superalgos strives to give users full control over how, where and when data is processed. You will use this section of the network hierarchy to exert that control.
 
+{% include node-deletion-warning.html %}
+
 <!--------------------------------------------- CONTENT ends -->
 
 {% endif %}

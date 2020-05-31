@@ -11,11 +11,15 @@ If you experience such symptoms, there are several workarounds you may implement
 
 {% include note.html content="Learn about the [system requirements](suite-system-requirements.html) to better understand what to expect in terms of the performance of your hardware." %}
 
+## Close The Browser's Developer Tools
+
+You may have opened Developer Tools at some point. Developer Tools may slow animation renderings to a crawl, as slow as one frame per second. In case it is open, make sure you close Developer Tools.
+
 ## Stop Tasks That You May Not Need to Run at All Times
 
 Data mining is a CPU-intensive activity. If you are designing a strategy, you probably don't need to have a live stream of information being processed in realtime. Learn to segment your activities and only start the tasks that you need for the work you are doing.
 
-## Open either the design space or the charting space
+## Open Either the Design Space or the Charting Space
 
 Leaving the slider halfway up or down the screen causes both the design space and the charting space to consume resources. Make sure the slider is either fully up or down.
 

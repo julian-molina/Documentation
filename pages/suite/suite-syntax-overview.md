@@ -67,7 +67,7 @@ The property is used with the following syntax: ```chart.at``` + ```time frame``
 
 In addition, you may use the ```previous``` property more than once, to retrieve values further in the past: ```chart.at``` + ```time frame``` + ```.productName``` + ```.previous.previous... ...previous``` + ```.propertyName```
 
-For example, ```chart.at1hs.candle.previous.previous.max``` returns the maximum value of two candles before the last closed candle at the 1-hour chart.
+For example, ```chart.at01hs.candle.previous.previous.max``` returns the maximum value of two candles before the last closed candle at the 1-hour chart.
 
 ## Alternative to the Previous Property
 
@@ -75,7 +75,7 @@ There is a cool alternative to the *previous* property, that you can use to fetc
 
 The syntax is ```productName.[currentCandleIndex-n].propertyName``` where *currentCandleIndex* represents the last closed candle and *n* may be replaced by any integer number.
 
-For example, ```chart.at1hs.candle.[currentCandleIndex-5].max``` retrieves the maximum value of the fifth candle previous to the last closed candle at the 1-hour chart.
+For example, ```chart.at01hs.candle.[currentCandleIndex-5].max``` retrieves the maximum value of the fifth candle previous to the last closed candle at the 1-hour chart.
 
 {% include note.html content="There is a technical limitation by which you may retrieve the value of a property up to a maximum of 24 hours in the past, whatever number of periods that may represent, depending on the time frame you may be working on. For instance, if you are working on the 1 hour time frame, you may fetch up to 23 candles before the last one. If you are working on the 1 minute time frame, you may retrieve 1439 candles. If you need to retrieve information further in the past, then you should consider building an indicator that makes the data available to your strategies. Learn more in the [data mines](suite-data-mines.html) pages." %}
 
