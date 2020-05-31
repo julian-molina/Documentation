@@ -11,6 +11,8 @@ Indicators may ocasionally require maintenance, sometimes to adapt to evolutions
 
 As such, the sustainable way to organize contributions of indicators is that each contributor owns and maintains his or her own data mine. If you set up a data mine and complete the documentation as described below, we may include your data mine in the next official release of Superalgos.
 
+{% include important.html content="All contributions are subject to the terms of the <a href='https://github.com/Superalgos/Superalgos/blob/master/LICENSE' rel='nofollow' rel='noopener' target='_blank'>LICENSE</a>." %}
+
 ## Documenting the Indicator
 
 You need to prepare the documentation of the indicator, so that people may understand how to use it and how to make the most of it. 
