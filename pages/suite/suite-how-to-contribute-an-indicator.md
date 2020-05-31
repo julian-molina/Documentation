@@ -39,7 +39,7 @@ The information that must be documented is twofold:
 
 ### Format the Content
 
-**1. Fork the ```develop``` branch of the <a href="https://github.com/Superalgos/Documentation/tree/develop" rel="noopener" target="_blank">Documentation repository</a>** and take ```pages/suite/suite-sparta-indicators.md``` and ```pages/suite/suite-sparta-bots-layers.md``` as templates for the documentation of your data mine. Create a copy of each file and rename the duplicates after your own data mine replacing ```sparta``` with the appropriate name.
+**1. Fork the <a href="https://github.com/Superalgos/Documentation/tree/develop" rel="noopener" target="_blank">Documentation repository</a>** and take ```pages/suite/suite-sparta-indicators.md``` and ```pages/suite/suite-sparta-bots-layers.md``` as templates for the documentation of your data mine. Create a copy of each file and rename the duplicates after your own data mine replacing ```sparta``` with the appropriate name.
 
 **2. Update the *yaml* header** on each page with the information corresponding to your data mine and indicators, and use the rest of the file as a markdown formatting template for your own write ups.
 
