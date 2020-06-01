@@ -88,3 +88,51 @@ The product ```bollingerSubChannel``` features three different properties that y
 ```bollingerSubChannel.slope```: Indicates how steep the slope of the subchannel is. Possible values are ```"Side"```, ```"Gentle"```, ```"Medium"```, ```"Steep"```, ```"Extreme"``` (in order from lowest to highest).
 
 {% include /reuse/bollinger-subchannels-calculation.md heading="" icon="no" extended="no" content="more" definition="bold" table="no" more="yes"%}
+
+## Resistances & Supports &mdash; New!
+
+The indicator features two data products: ```resitance``` and ```support```. 
+
+| Product Name | Product Variable |
+| :--- | :--- |
+| Resistance | ```resistance``` | 
+| Support | ```support``` |
+
+| Resistance Properties | Possible Values of (i) | Comments |
+| :--- | :---: | :--- |
+| ```resitance(i)Rate``` | 1 to 5 | The reference rate of the level. |
+| ```resistance(i)Period``` | 1 to 5 | The number of periods the level has been in existence. |
+| ```resistance(i)Bounce1``` | 1 to 5 | The number of bounces for zone 1, the one rendered on-screen. |
+| ```resistance(i)Bounce2``` | 1 to 3 | The number of bounces for zone 2, only available for the first three levels. Zone 2 is two times bigger than zone 1. |
+| ```resistance(i)Bounce3``` | 1 to 3 | The number of bounces for zone 3, only available for the first three levels. Zone 3 is three times bigger than zone 1. |
+| ```resistance(i)Bounce5``` | 1 to 3 | The number of bounces for zone 5, only available for the first three levels. Zone 5 is five times bigger than zone 1. |
+| ```resistance(i)Bounce10``` | 1 to 3 | The number of bounces for zone 10, only available for the first three levels. Zone 10 is ten times bigger than zone 1. |
+| ```resistance(i)BounceAll``` | 1 to 3 | The number of bounces for zone All, only available for the first three levels. Zone All is one hundred times bigger than zone 1. |
+
+| Support Properties | Possible Values of (i) | Comments |
+| :--- | :---: | :--- |
+| ```support(i)Rate``` | 1 to 5 | The reference rate of the level. |
+| ```support(i)Period``` | 1 to 5 | The number of periods the level has been in existence. |
+| ```support(i)Bounce1``` | 1 to 5 | The number of bounces for zone 1, the one rendered on-screen. |
+| ```support(i)Bounce2``` | 1 to 3 | The number of bounces for zone 2, only available for the first three levels. Zone 2 is two times bigger than zone 1. |
+| ```support(i)Bounce3``` | 1 to 3 | The number of bounces for zone 3, only available for the first three levels. Zone 3 is three times bigger than zone 1. |
+| ```support(i)Bounce5``` | 1 to 3 | The number of bounces for zone 5, only available for the first three levels. Zone 5 is five times bigger than zone 1. |
+| ```support(i)Bounce10``` | 1 to 3 | The number of bounces for zone 10, only available for the first three levels. Zone 10 is ten times bigger than zone 1. |
+| ```support(i)BounceAll``` | 1 to 3 | The number of bounces for zone All, only available for the first three levels. Zone All is one hundred times bigger than zone 1. |
+
+**Examples:**
+
+Let's say you wish to check if you have a strong support level below the current price on the 1H chart.
+
+* ```chart.at01hs.support.support1Bounce1``` tells you the number of times price has bounced off the first support level; a high number of bounces may mean the level has strong support.
+
+* ```chart.at01hs.support.support1Period``` tells you how long the support level has been "alive"; long-lasting support levels may mean the level is strong, as it hasn't been breached in a long time.
+
+* ```chart.at01hs.candle.close - chart.at01hs.support.support1Rate``` tells you how far down the first level of support is.
+
+Checking the first level only may not be enough. Bear in mind that the first level may show weak support, but there may be stronger support at lower levels.
+
+
+
+
+

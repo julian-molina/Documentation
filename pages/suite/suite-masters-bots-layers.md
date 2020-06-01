@@ -19,15 +19,15 @@ We innovated a bit placing the buy volume at the bottom (in green), and the sell
 
 {% include image.html file='interface/masters-bots-layers-01-volumes.gif' url='yes' max-width='100' caption='Volume.' %}
 
-## Candle Stairs Patterns
+## Candle Channels
 
-This is an unusual pattern proving any dataset may be plotted on the charts (and by extension, that anything can be added to the system). A Stair Pattern is defined as a set of candles going in the same direction, either up or down. You can think of these patterns as "Candle Channels", as they represent channels with an up or down direction based on underlying candles direction.
+A candles channel is defined as a set of candles going in the same direction, either up or down. They represent channels with an up or down direction based on underlying candles direction.
 
 {% include image.html file='interface/masters-bots-layers-02-candle-pattern-stairs.gif' url='yes' max-width='100' caption='A simple pattern forming ascending or descending stairs.' %}
 
-## Volume Stairs Patterns
+## Volume Channels
 
-A similar concept, this time with volumes. Whenever a sequence of volume bars is found where each one is bigger than the previous one, they are bundled together in a "Stair". The same applies when they are going down (the next is smaller than the previous one). For a trading bot, this serves to identify if sell or buy volumes are rising or declining.
+A similar concept, this time with volumes. Whenever a sequence of volume bars is found where each one is bigger than the previous one, they are bundled together in a channel. The same applies when they are going down (the next is smaller than the previous one). For a trading bot, this serves to identify if sell or buy volumes are rising or declining.
 
 {% include image.html file='interface/masters-bots-layers-03-volume-pattern-stairs.gif' url='yes' max-width='100' caption='A simple pattern forming ascending or descending stairs.' %}
 
@@ -58,3 +58,44 @@ This is a non-standard indicator derived from the Bollinger Bands. These types o
 If we consider that one Bollinger Channel can have sub-channels in the same direction (up or down) but different slopes, then we get to the concept of Bollinger Sub-Channels. The most important property of a sub-channel is its slope. The possible values are Side, Gentle, Medium, High and Extreme. With this information, a trading bot could easily ask if it is in a sub-channel with a certain slope and for how many periods. The slope or inclination of the moving average may be an indication of momentum.
 
 {% include image.html file='interface/masters-bots-layers-08-bollinger-subchannels.gif' url='yes' max-width='100' caption='Bollinger Sub-Channels.' %}
+
+## Resistances & Supports &mdash; New!
+
+This indicator is an interpretation of the concept of resistance and support levels. The indicator identifies levels (a price range) on which price is rejected, and keeps a counter of how many times rejections occur until the level is breached.
+
+{% include image.html file='interface/support-resistance-00.PNG' url='yes' max-width='100' caption='Each relative high rejected at the level increments the counter, and changes the color of the level.' %}
+
+Each level is determined by the reference rate, which is the rate of the first rejection. However, the level is not a specific rate, but a *rate range* expressed as a percentage of the reference rate. The percentage used to determine a level varies depending on the time frame. The smaller the time frame, the smaller the percentage.
+
+Also, each level is calculated in different variations using different percentages to determine the rate range that makes up the level. Each of these variations in the rate range of a level is called a *zone*.
+
+For simplicity's sake, only the first zone of each level is rendered on-screen. That is, what you see on-screen is the representation of a single variation of a level. However, strategies have access to several different versions increasing in zone sizes.
+
+The way in which a level is visualized on screen depends on the number of rejections that have occured at the particular level since is was first established:
+
+| Number of Rejections | Graphics | Comments |
+| :---: | :---: | :--- |
+| 1 | <span style="display: block; border-bottom: 1px dotted grey;">&nbsp;</span> | A faint, grey dotted line marking the reference rate of the support / resistance level. |
+| 2 | <span style="display: block; background: RGB(150, 150, 150, 0.2); ">&nbsp;</span> | A grey block, marking the range of rates that make up the level. | 
+| 3 | <span style="display: block; background: RGB(2, 149, 170, 0.2); ">&nbsp;</span> | A turquoise block. |
+| 4 | <span style="display: block; background: RGB(244, 228, 9, 0.2); ">&nbsp;</span> | A yellow block. |
+| 5 | <span style="display: block; background: RGB(188, 214, 67, 0.2); ">&nbsp;</span> | A green block. |
+| 6 | <span style="display: block; background: RGB(240, 162, 2, 0.2); ">&nbsp;</span> | An orange block. |
+| 7 | <span style="display: block; background: RGB(91,80, 122, 0.4); ">&nbsp;</span> | A purple block. |
+
+{% include image.html file='interface/support-resistance-01.gif' url='yes' max-width='100' caption='Each relative high rejected at the level increments the counter, and changes the color of the level.' %}
+
+Once the price breaks through the level, the level is reset to zero.
+
+When a level is identified and the rejection counter is greater than zero, the level remains *"in memory"*. However, this doesn't mean that the level is graphically represented on-screen at all times. On the contrary, not all levels are represented on-screen at all times. 
+
+The criteria to render level on-screen is influenced by the price at the current candle. For each candle, only five levels of resistance and five levels of support are rendered, above and below the price, respectively. This is to clear up the screen and limit the density of information in display when information is not relevant. As price moves up and down, some levels are hidden, some new levels may form, and pre-existing levels may emerge.
+
+{% include image.html file='interface/support-resistance-02.gif' url='yes' max-width='100' caption='Notice the discontinuity in the level marked in blue caused by the drop of the price and the emergence of new levels below. However, despite the level stops being rendered on screen, it remains hidden and re-emerges when the price comes back up.' %}
+
+### Panels
+
+| Bounces | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Levels | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Zone Sizes | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| :---: | :--- | :---: | :--- | :---: | :--- |
+| ![image](images/interface/support-resistance-01-panel-bounces.png) | The panel shows the number of bounces off each of the six zones of the first three levels. | ![image](images/interface/support-resistance-02-panel-levels.png) | The panel indicates the rate on which the closest five resistance or support levels are located, and the number of periods the levels have been in existance, counting from the period of the first rejection. | ![image](images/interface/support-resistance-03-panel-zone-sizes.png) | The panel shows the sizes of the different zones tracked for each level. However, remember that only the first zone is rendered on screen. |
+
