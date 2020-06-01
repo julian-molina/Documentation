@@ -81,11 +81,11 @@ The way in which a level is visualized on screen depends on the number of reject
 | 4 | <span style="display: block; background: RGB(244, 228, 9, 0.2); ">&nbsp;</span> | A yellow block. |
 | 5 | <span style="display: block; background: RGB(188, 214, 67, 0.2); ">&nbsp;</span> | A green block. |
 | 6 | <span style="display: block; background: RGB(240, 162, 2, 0.2); ">&nbsp;</span> | An orange block. |
-| 7 | <span style="display: block; background: RGB(91,80, 122, 0.4); ">&nbsp;</span> | A purple block. |
+| 7 or more | <span style="display: block; background: RGB(91,80, 122, 0.4); ">&nbsp;</span> | A purple block. |
 
 {% include image.html file='interface/support-resistance-01.gif' url='yes' max-width='100' caption='Each relative high rejected at the level increments the counter, and changes the color of the level.' %}
 
-Once the price breaks through the level, the level is reset to zero.
+Once the price breaks through the level, the level dissappears.
 
 When a level is identified and the rejection counter is greater than zero, the level remains *"in memory"*. However, this doesn't mean that the level is graphically represented on-screen at all times. On the contrary, not all levels are represented on-screen at all times. 
 
