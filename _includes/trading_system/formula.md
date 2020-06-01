@@ -51,15 +51,15 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-In the context of a trading system, formulas are used to determine the values for stopLoss, takeProfit, positionRate and positionSize.
+In the context of a trading system, formulas are used to determine the values for stopLoss, takeProfit, positionRate, and positionSize.
 
-Formulas may use [internal variables](suite-internal-variables.html) made available by the system. In addition to the ones listed above, other variables such as balanceAssetA and balanceAssetB may be of use.
+Formulas may use indicators and internal variables made available by the system. The main difference between writing a formula and writing a condition is that while conditions must evaluate to ```true``` or ```false```, formulas must evaluate to a number.
 
 **For example:**
 
 * ```positionRate - positionRate * 2.5 / 100``` &#8594; This formula may be used to define an initial stop target 2.5% below the rate at which the position was taken.
 
-{% include note.html content="To learn which variables may be used in formulas, see the page about <a href='suite-sysntax-overview.html'>internal variables</a>." %}
+{% include note.html content="To learn how to write formulas, see [syntax overview](suite-syntax-overview.html) and [internal variables](suite-internal-variables.html)." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

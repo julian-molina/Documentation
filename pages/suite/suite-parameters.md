@@ -20,6 +20,8 @@ toc: false
 
 {% include /network/quoted-asset.md heading="##" icon="" adding="####" configuring="" starting="" content="yes" definition="" table="yes" more="yes"%}
 
+{% include /network/time-range.md heading="##" icon="" adding="" configuring="####" starting="" content="yes" definition="" table="yes" more="yes"%}
+
 {% include /network/time-frame.md heading="##" icon="" adding="" configuring="####" starting="" content="yes" definition="" table="yes" more="yes"%}
 
 {% include /network/slippage.md heading="##" icon="" adding="" configuring="####" starting="" content="yes" definition="" table="yes" more="yes"%}

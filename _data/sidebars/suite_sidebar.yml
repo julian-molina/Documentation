@@ -174,6 +174,15 @@ entries:
       output: web
       class: childItem
 
+    - title: "Contributing"
+      url: /suite-how-to-contribute-an-indicator.html
+      output: web
+
+    - title: "... contribute an indicator"
+      url: /suite-how-to-contribute-an-indicator.html
+      output: web
+      class: childItem newItem
+
   - title: Design space
     output: web
     folderitems:
@@ -239,7 +248,7 @@ entries:
     - title: Masters bots layers
       url: /suite-masters-bots-layers.html
       output: web
-      class: childItem
+      class: childItem newItem
 
     - title: Sparta bots layers
       url: /suite-sparta-bots-layers.html
@@ -299,7 +308,7 @@ entries:
     - title: Masters indicators
       url: /suite-masters-indicators.html
       output: web
-      class: childItem
+      class: childItem newItem
 
     - title: Sparta indicators
       url: /suite-sparta-indicators.html
