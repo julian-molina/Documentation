@@ -51,9 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-In the context of a trading system, formulas are used to determine the values for stopLoss, takeProfit, positionRate and positionSize.
+In the context of a trading system, formulas are used to determine the values for stopLoss, takeProfit, positionRate, and positionSize.
 
-Formulas may use indicators and internal variables made available by the system. The main difference between writting a formula and writting a condition is that while conditions must evaluate to ```true``` or ```false```, formulas must evaluate to a number.
+Formulas may use indicators and internal variables made available by the system. The main difference between writing a formula and writing a condition is that while conditions must evaluate to ```true``` or ```false```, formulas must evaluate to a number.
 
 **For example:**
 
