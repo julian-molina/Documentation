@@ -95,7 +95,7 @@ The criteria to render level on-screen is influenced by the price at the current
 
 ### Panels
 
-| Bounces | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Levels | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Zone Sizes | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-| :---: | :--- | :---: | :--- | :---: | :--- |
-| ![image](images/interface/support-resistance-01-panel-bounces.png) | The panel shows the number of bounces off each of the six zones of the first three levels. | ![image](images/interface/support-resistance-02-panel-levels.png) | The panel indicates the rate on which the closest five resistance or support levels are located, and the number of periods the levels have been in existance, counting from the period of the first rejection. | ![image](images/interface/support-resistance-03-panel-zone-sizes.png) | The panel shows the sizes of the different zones tracked for each level. However, remember that only the first zone is rendered on screen. |
+| Bounces | Levels | Zone Sizes | Details |
+| :---: | :---: | :---: | :--- |
+| ![image](images/interface/support-resistance-01-panel-bounces.png) | ![image](images/interface/support-resistance-02-panel-levels.png) | ![image](images/interface/support-resistance-03-panel-zone-sizes.png) | **Resistance / Support Bounces:** <br />The panel shows the number of bounces off each of the six zones of the first three levels.<br /><br />**Resistance / Support Levels:** <br />The panel indicates the rate on which the closest five resistance or support levels are located, and the number of periods the levels have been in existence, counting from the period of the first rejection. <br /><br />**Resistance / Support Zone Sizes:** <br /> The panel shows the sizes of the different zones tracked for each level. However, remember that only the first zone is rendered on screen. |
 
