@@ -1,6 +1,6 @@
 ---
 title:  Masters Data Mine Bots
-summary: "The Masters data mine offers candles, volumes, candle stairs patterns, volume stairs patterns, Bollinger bands (BB), percentage bandwidth (%B), Bollinger channels, and Bollinger sub-channels."
+summary: "The Masters data mine offers candles, volumes, candle channels, volume channels, Bollinger bands (BB), Percentage Bandwidth (%B), Bollinger Channels, Bollinger Sub-Channels, and Support & Resistance."
 sidebar: suite_sidebar
 permalink: suite-masters-bots-layers.html
 ---

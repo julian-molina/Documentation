@@ -1,6 +1,6 @@
 ---
 title:  Masters indicators
-summary: "A set of indicators built in the Masters data mine including candles, Bollinger Bands (BB), Percentage Bandwidth (%B), Bollinger Channels, and Bollinger Subchannels."
+summary: "A set of indicators built in the Masters data mine including offers candles, volumes, candle channels, volume channels, Bollinger bands (BB), Percentage Bandwidth (%B), Bollinger Channels, Bollinger Sub-Channels, and Support & Resistance."
 sidebar: suite_sidebar
 permalink: suite-masters-indicators.html
 ---
