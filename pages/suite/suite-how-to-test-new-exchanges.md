@@ -6,7 +6,7 @@ permalink: suite-how-to-test-new-exchanges.html
 toc: false
 ---
 
-Testing new exchanges is a technical endeavor that requires a good understanding of how Superalgos works with data. These are a few logical steps you should take to test the OCHLV and trading capabilities...
+Testing new exchanges is a technical endeavor that requires a good understanding of how Superalgos works with data. These are a few logical steps you should take to test the OHLCV and trading capabilities...
 
 ## Start Here
 

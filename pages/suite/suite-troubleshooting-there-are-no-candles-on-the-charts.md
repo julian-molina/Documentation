@@ -11,7 +11,7 @@ There are a few reasons why you may be having issues finding candles on the char
 
 If you are just getting started with Superalgos, still following the getting started guide, bear in mind it takes time for data to be downloaded from the exchange. Depending on the power of your hardware and the speed of your internet connection, it may take anything from half an hour to several hours to see the first few candles, particularly those of the Binance exchange, as the market spans back to September 2017.
 
-Check the data mining operation on the network hierarchy. You will be able to see candles on the screen only after the OCHLV Sensor Bot and the Candles Volumes indicator in the Masters task manager of the corresponding exchange tasks node and market have both reached 100% progress.
+Check the data mining operation on the network hierarchy. You will be able to see candles on the screen only after the OHLCV Sensor Bot and the Candles Volumes indicator in the Masters task manager of the corresponding exchange tasks node and market have both reached 100% progress.
 
 {% include tip.html content="If you are not sure what the above paragraph refers to, please carefully read the instructions on [Step 6](suite-step-6.html) of the getting started guide, or watch the second video in the [video tutorial series](index.html#video-tutorial-series) as a refresher." %}
 
@@ -43,7 +43,7 @@ If such is the case, this is what you need to do: Go to the ```Exchange-Raw-Data
 
 If that is the case, then you will delete every folder within ```Data-Storage > Exchange > Market > Masters``` but ```Exchange-Raw-Data``` and get the data mining operation running afterwards. This will regenerate all indicators data products, including Candles Volumes.
 
-It the last file in ```Exchange-Raw-Data``` does not open properly then delete the whole ```Data-Storage > Exchange > Market > Masters``` and run the data mining operation. This will have the OCHLV sensor bot download all the data from the exchange again to later be processed by the indicator bots.
+It the last file in ```Exchange-Raw-Data``` does not open properly then delete the whole ```Data-Storage > Exchange > Market > Masters``` and run the data mining operation. This will have the OHLCV sensor bot download all the data from the exchange again to later be processed by the indicator bots.
 
 Remember that there is a proper way to close the system!
 
