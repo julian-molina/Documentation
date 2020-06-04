@@ -294,10 +294,10 @@ entries:
       output: web
       class: childItem
 
-    - title: Buddha bots layers
-      url: /suite-buddha-bots-layers.html
-      output: web
-      class: childItem
+#    - title: Buddha bots layers
+#      url: /suite-buddha-bots-layers.html
+#      output: web
+#      class: childItem newItem
 
     - title: Simulation layers
       url: /suite-simulation-layers.html
@@ -359,10 +359,10 @@ entries:
       output: web
       class: childItem
 
-    - title: Buddha indicators
-      url: /suite-buddha-indicators.html
-      output: web
-      class: childItem
+#    - title: Buddha indicators
+#      url: /suite-buddha-indicators.html
+#      output: web
+#      class: childItem newItem
 
     - title: Trading sessions
       url: /suite-trading-sessions.html
