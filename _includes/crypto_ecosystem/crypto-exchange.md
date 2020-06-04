@@ -98,7 +98,7 @@ Select *Configure Crypto Exchange* on the menu to access the configuration.
 
 * ```codeName``` is the name of the exchange as handled in the code of the system. 
 
-* ```API``` holds a series of definitions used only in the case in which the sensor bot fetches trades (using the Historic-Trades process) instead of the OCHLV process that fetches one-minute candles and is the current default. In such a case, finding the right set of parameters to work with a specific exchange may be challenging, nd involves understanding how the exchanges API and the CCXT Library API work. In other words, there is no hard rule as of what each of the values should be. Determining each of this values requires exploring the exchange's API documentation, as well as the documentation of the CCXT Library.
+* ```API``` holds a series of definitions used only in the case in which the sensor bot fetches trades (using the Historic-Trades process) instead of the OHLCV process that fetches one-minute candles and is the current default. In such a case, finding the right set of parameters to work with a specific exchange may be challenging, nd involves understanding how the exchanges API and the CCXT Library API work. In other words, there is no hard rule as of what each of the values should be. Determining each of this values requires exploring the exchange's API documentation, as well as the documentation of the CCXT Library.
 
 <!--------------------------------------------- CONFIGURING ends -->
 

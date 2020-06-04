@@ -111,7 +111,7 @@ The following bots must be running and up to date to run paper trading, forward 
 
 **Masters Data Mine:**
 
-* OCHLVs
+* OHLCVs
 * Candles & Volumes
 * Bollinger Bands & Percentage Bandwith
 * Bollinger Channels & SubChannels

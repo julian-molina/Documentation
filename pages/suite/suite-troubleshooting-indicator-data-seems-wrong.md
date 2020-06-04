@@ -9,7 +9,7 @@ You may be comparing one of Superalgos' indicators with indicators produced by o
 
 One of the most likely reasons for these mostly minor discrepancies is that the raw data exchanges provide is not always consistent. For example, occasionally a one-minute candle may be missing in the data set. Or some candles may not start exactly at the zero-seconds mark.
 
-Our OCHLVs sensor bot fetching data from exchanges works recursively to ensure no data is missed, however, we have no control over the data the exchange delivers at any point.
+Our OHLCVs sensor bot fetching data from exchanges works recursively to ensure no data is missed, however, we have no control over the data the exchange delivers at any point.
 
 Furthermore, there is no information as to how third-parties obtain the data they serve, or what measures they may be taking when they detect inconsistencies in the datasets.
 
