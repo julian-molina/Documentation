@@ -1,5 +1,5 @@
 ---
-title:  Monitor Data Mining Progress
+title:  Monitor the Data Mining Operation Progress
 summary: The system started pulling data from exchanges the minute you ran it the first time. Read on to learn the details.
 sidebar: suite_sidebar
 permalink: suite-step-6.html
@@ -30,13 +30,13 @@ The following instructions teach you how to monitor the progress of the data min
 
 **3. Hover the mouse over the network <a data-toggle="tooltip" data-original-title="{{site.data.concepts.node}}">node</a>** and click the {% include inline_image.html file="icons/12-expand.png" %} button on the menu. This action expands the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.hierarchy}}">hierarchy</a>.
 
-{% include image.html file='how-to/data-mining-progress-00.gif' url='yes' max-width='100' caption='The image illustrates points 3 to 5, showing the path to find the data mining node, and the indication of how many exchange tasks and task managers are running.' %}
+{% include image.html file='how-to/data-mining-progress-00.gif' url='yes' max-width='100' caption='The image illustrates points 3 to 5, showing the path to find the data mining node, and the indication of how many exchange tasks and task managers are running. In your case, it will be 1 out of 3.' %}
 
-**4. Follow the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.structure_of_nodes}}">structure of nodes</a> until you find the <a data-toggle="tooltip" data-original-title="{{site.data.network.data_mining}}">data mining</a> node**. Notice the sign below the node indicating how many <a data-toggle="tooltip" data-original-title="{{site.data.network.exchange_tasks}}">exchange tasks</a> are running. 
+**4. Follow the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.structure_of_nodes}}">structure of nodes</a> until you find the <a data-toggle="tooltip" data-original-title="{{site.data.network.data_mining}}">data mining</a> node**. Notice the sign below the node indicating how many <a data-toggle="tooltip" data-original-title="{{site.data.network.exchange_tasks}}">exchange tasks</a> are running.  In your case, it will be 1 out of 3.
 
 **5. Notice the <a data-toggle="tooltip" data-original-title="{{site.data.network.exchange_tasks}}">exchange tasks</a> nodes** under the data mining node, named after different exchanges: Binance, Bitfinex, and Bittrex.
 
-Each of those exchange tasks nodes control bots running on your machine, processing data from each of the exchanges.
+Each of those exchange tasks nodes control bots that you may run on your machine to process data from each of the exchanges.
 
 **6. Expand the Binance exchange tasks node**.
 
@@ -44,7 +44,7 @@ Notice the different <a data-toggle="tooltip" data-original-title="{{site.data.n
 
 Also, notice the sign below each task manager indicating how many <a data-toggle="tooltip" data-original-title="{{site.data.network.task}}">tasks</a> are running.
 
-{% include image.html file='how-to/data-mining-progress-01.gif' url='yes' max-width='100' caption='The image illustrates point 6 above.' %}
+{% include image.html file='how-to/data-mining-progress-01.gif' url='yes' max-width='100' caption='The image illustrates point 6 above. In your case, only the MastersBTC/USDT task manager will be running.' %}
 
 **7. Notice the *Masters BTC/USDT* task manager to the left**, the one that is expanded. 
 

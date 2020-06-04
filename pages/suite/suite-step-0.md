@@ -6,8 +6,6 @@ permalink: suite-step-0.html
 toc: false
 ---
 
-This *Getting Started Guide* will quickly show you the very basics of Superalgos so that you may rapidly grasp the system's potential. The guide will take you through a sequence of instructions to download and install the system, run it for the first time, fetch some data from exchanges, browse markets on the charts, run a first backtest with an existing strategy, and even try a live trading session, for demonstration purposes.
-
 ## Use Chrome, the Only Tested Browser
 
 Before you begin, it is highly recommended that you <a href="https://www.google.com/chrome/" rel="nofollow" rel="noopener" target="_blank">install Chrome</a> and set it up as your default browser.
