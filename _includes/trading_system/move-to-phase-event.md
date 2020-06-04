@@ -55,7 +55,7 @@ The sequence in which phases are executed may be overriden by the use of the mov
 
 Any number of move-to-phase events may be set-up at each and every phase, allowing complete flexibility on how the trade is managed. This feature allows setting complex trade-management algorithms switching to different formulas back and forth or in any configuration imaginble.
 
-{% include note.html content="Each move-to-phase event must reference a specific phase to be effective." %}
+{% include note.html content="A move-to-phase event must reference a phase node. When the situation in the move-to-phase event evaluates ```true``` the management shifts to the referenced phase." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

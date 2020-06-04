@@ -36,53 +36,92 @@ entries:
       url: /suite-system-requirements.html
       output: web
 
-  - title: Getting started
+  - title: "Getting started"
     output: web
     folderitems:
+
+    - title: "Video guide"
+      url: /suite-step-1-video.html
+      output: web
+
+    - title: "Step 1: Initial set up"
+      url: /suite-step-1-video.html
+      output: web
+      class: childItem
+
+    - title: "Step 2: Managing data"
+      url: /suite-step-2-video.html
+      output: web
+      class: childItem
+
+    - title: "Step 3: Charting space"
+      url: /suite-step-3-video.html
+      output: web
+      class: childItem
+
+    - title: "Step 4: Trading sessions"
+      url: /suite-step-4-video.html
+      output: web
+      class: childItem
+
+    - title: "Written guide"
+      url: /suite-step-0.html
+      output: web
 
     - title: "Step 0: Get ready"
       url: /suite-step-0.html
       output: web
+      class: childItem
 
     - title: "Step 1: Download and set up"
       url: /suite-step-1.html
       output: web
+      class: childItem
 
     - title: "Step 2: Run the system"
       url: /suite-step-2.html
       output: web
+      class: childItem
 
     - title: "Step 3: First impression"
       url: /suite-step-3.html
       output: web
+      class: childItem
 
     - title: "Step 4: Workspace"
       url: /suite-step-4.html
       output: web
+      class: childItem
 
     - title: "Step 5: Quick overview"
       url: /suite-step-5.html
       output: web
+      class: childItem
 
-    - title: "Step 6: Monitor data mining progress"
+    - title: "Step 6: Monitor the data mining"
       url: /suite-step-6.html
       output: web
+      class: childItem
 
-    - title: "Step 7: Control data mining operation"
+    - title: "Step 7: Control the data mining"
       url: /suite-step-7.html
       output: web
+      class: childItem
 
     - title: "Step 8: Learn the charting space"
       url: /suite-step-8.html
       output: web
+      class: childItem
 
     - title: "Step 9: Run a backtesting session"
       url: /suite-step-9.html
       output: web
+      class: childItem
 
     - title: "Step 10: Run a live trading session"
       url: /suite-step-10.html
       output: web
+      class: childItem
 
   - title: How to...
     output: web

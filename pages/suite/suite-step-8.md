@@ -6,7 +6,7 @@ permalink: suite-step-8.html
 toc: false
 ---
 
-The charting space is mostly visual in nature, thus, we recommend watching the corresponding video in the series to get acquainted with it quickly. If you prefer to engage illustrated written content, the [charting space pages](suite-fundamental-charting-space-concepts.html) provide plenty.
+The charting space is mostly visual, thus, we recommend watching the corresponding video in the series to get acquainted with it quickly. If you prefer to engage with illustrated written content instead, the [charting space pages](suite-fundamental-charting-space-concepts.html) provide plenty.
 
 ## Step 8 in a Video Tutorial
 
