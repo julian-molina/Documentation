@@ -5,7 +5,7 @@ sidebar: suite_sidebar
 permalink: suite-masters-bots-layers.html
 ---
 
-{% include note.html content="To learn to use these products from within strategies, see the [Masters Indicators](suite-masters-indicators.html) page." %}
+{% include note.html content="This page covers the use of Masters indicators on the charts. To learn how to use these products from within strategies, see the [Masters Indicators](suite-masters-indicators.html) page." %}
 
 ## Candles
 

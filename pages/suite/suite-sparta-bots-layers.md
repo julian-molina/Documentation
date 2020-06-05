@@ -5,7 +5,7 @@ sidebar: suite_sidebar
 permalink: suite-sparta-bots-layers.html
 ---
 
-{% include note.html content="To learn to use these products from within strategies, see the [Sparta Indicators](suite-sparta-indicators.html) page." %}
+{% include note.html content="This page covers the use of Sparta indicators on the charts. To learn how to use these products from within strategies, see the [Sparta Indicators](suite-sparta-indicators.html) page." %}
 
 ### Relative Strength Index (RSI 14)
 
