@@ -33,7 +33,7 @@ Chances are someone else has experienced a similar issue as you may be experienc
 
 ### 3. Is your processor stuck at 100%?
 
-Open your operating system's Task Manager application and verify the CPU load while you reproduce the issue you are experiencing. If your CPU is running at 100% for more than 30 to 60 seconds, all sorts of problems may arise, as your hardware is not able to cope with the [systems' requirements](suite-system-requirements.html). 
+Open your operating system's Task Manager application and verify the CPU load while you reproduce the issue you are experiencing. If your CPU is running at 100% for more than 30 to 60 seconds, all sorts of problems may arise, as your hardware is not able to cope with the [system requirements](suite-system-requirements.html). 
 
 If this is the case, try closing any other applications that may be demanding CPU time, and follow the guidelines proposed in the [My System Gets Slow](suite-troubleshooting-my-system-gets-slow.html) page to lower the demands on the processor.
 
@@ -41,7 +41,7 @@ If you may not reproduce the issue while your CPU is working at less than 100%, 
 
 ### 4. Does the issue persist when using the latest version of the software?
 
-Running the latest version of the software is virtually mandatory, as bugs affecting you may have already been solved. Make sure you are running the latest stable software version (in the ```master``` branch of the <a href="https://github.com/Superalgos/Superalgos" rel="nofollow" rel="noopener" target="_blank">Superalgos repository</a>, or the latest software (in the ```develop``` branch). 
+Running the latest version of the software is virtually mandatory, as bugs affecting you may have already been solved. Make sure you are running the latest stable software version in the ```master``` branch of the <a href="https://github.com/Superalgos/Superalgos" rel="nofollow" rel="noopener" target="_blank">Superalgos repository</a>, or the latest software in the ```develop``` branch. 
 
 {% include note.html content="Making sure means installing the latest version, right now." %}
 
@@ -61,7 +61,7 @@ When you are doing several things at the same time and something goes wrong, it 
 
 For example:
 
-* If you are having an issue while backtesting a strategy, you do not need your data mining operation to be running. In a such case, stop the data mining operation and everything else you may be doing, and run the backtest only.
+* If you are having an issue while backtesting a strategy, you do not need your data mining operation to be running. In such a case, stop the data mining operation and everything else you may be doing, and run the backtest only.
 
 * If you are having an issue running one of the Masters indicators, you do not need all indicators to be running at the same time. Make sure the said indicator dependencies are running, and stop the rest of the indicators.
 
@@ -95,7 +95,7 @@ If there are issues with the backend application, then errors must be logged at 
 
 ### 10. May this be an issue related to your particular setup?
 
-Deploying and running Superalgos in complex or very particular setups augments the probability of issues related to the setup itself, which may be very hard or even impossible for the team to reproduce. The team will investigate issues that happen while running Superalgos in your local machine, or while running in a classic [trading farm](suite-fundamental-trading-farms-concepts.html) setup as described in the documentation. We can not investigate issues unrelated to the software itself.
+Deploying and running Superalgos in complex or very particular setups augments the probability of issues related to the setup itself, which may be very hard or even impossible for the Team to reproduce. The team will investigate issues that happen while running Superalgos in your local machine, or while running in a classic [trading farm](suite-fundamental-trading-farms-concepts.html) setup as described in the documentation. We can not investigate issues unrelated to the software itself.
 
 If you have issues with a particular setup, feel free to ask for help from other users in the community, but do not open an issue for the Team to look into.
 
