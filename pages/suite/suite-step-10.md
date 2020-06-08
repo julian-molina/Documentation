@@ -8,11 +8,11 @@ toc: false
 
 Running a live trading session is very similar to running a backtesting session. The two main operational differences are:
 
-* Live sessions&mdash;this includes paper trading and forward testing sessions&mdash;require all of the trading system's dependencies to be up to date and running. In this context, *dependencies* are the bots that provide information to the trading system for strategies to make decisions. In the case of [Weak Hands Buster](suite-community-weak-hands-buster.html), this means that all Masters bots must be running and up to date.
+* Live sessions&mdash;this includes paper trading and forward testing sessions&mdash;require all of the trading system's dependencies to be up to date and running. In this context, *dependencies* are the bots that provide information to the trading system for strategies to make decisions. In the case of [Weak Hands Buster](suite-community-weak-hands-buster.html), this means that all Masters bots and Sparta's EMA must be running and up to date.
 
 * An <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.exchange_account_key}}">exchange account key</a> must be set up to log into your account at the corresponding exchange.
 
-{% include note.html content="We will refer to Binance as the exchange of choice for running this live trading session, assuming you have an account with Binance. Please get your API Key and Secret Key from Binance before you begin. If you do not have an account with Binance, then you may run a paper trading session instead. If you wish to work with other exchanges other than Binance, you may use Bitfinex which is already installed in the default workspace, or learn [how to set up other exchanges](suite-how-to-set-up-a-new-exchange.html). If you choose to use an exchange other than Binance, you should first run the data mining operation and wait until all Masters bots are up to date." %}
+{% include note.html content="We will refer to Binance as the exchange of choice for running this live trading session, assuming you have an account with Binance. Please get your API Key and Secret Key from Binance before you begin. If you do not have an account with Binance, then you may run a paper trading session instead. If you wish to work with other exchanges other than Binance, you may use Bitfinex which is already installed in the default workspace, or learn [how to set up other exchanges](suite-how-to-set-up-a-new-exchange.html). If you choose to use an exchange other than Binance, you should first run the data mining operation and wait until all Masters bots and Sparta's EMA are up to date." %}
 
 {% include live-trading-warning.html %}
 
@@ -49,7 +49,9 @@ Running a live trading session is very similar to running a backtesting session.
 
 **2. Select *Run All Tasks* on the menu**.
 
-**3. Wait until all indicators are at 100%**.
+**3. Expand the *Sparta Binance BTC/USDT* task manager next to it and start the EMA task**.
+
+**4. Wait until all indicators are at 100%**.
 
 {% include important.html content="Remember that a live trading session requires having a live data feed from the exchange and all indicators up to date." %}
 

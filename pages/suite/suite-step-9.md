@@ -8,7 +8,7 @@ toc: false
 
 The testing of strategies and trading ideas is at the core of successful trading, and Superalgos provides a powerful infrastructure for that matter. The instructions below will take you through the operational aspects of running a backtesting session, using an existing open-source strategy, the [Weak Hands Buster](suite-community-weak-hands-buster.html) as an example. The rest of this documentation provides valuable insights on the full potential behind the set of testing tools available.
 
-{% include important.html content="Before running the backtesting session, make sure all Masters indicators in the Binance BTC/USDT market have been calculated until the present time. To do this, refer to the tools you learnt about in previous steps. If all indicators are up to 100%, then you may completely stop the data mining operation and continue with the following instructions." %}
+{% include important.html content="Before running the backtesting session, make sure all Masters indicators and Sparta's EMA in the Binance BTC/USDT market have been calculated until the present time. To do this, refer to the tools you learnt about in previous steps. If all indicators are up to 100%, then you may completely stop the data mining operation and continue with the following instructions." %}
 
 ## Start Here
 
