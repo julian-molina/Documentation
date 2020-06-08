@@ -17,7 +17,7 @@ Check the data mining operation on the network hierarchy. You will be able to se
 
 ## Switch Candles Layer Off and Back On and Refresh the Page
 
-Zoom into the chart until you see the layer manager featuring the *candles* layer. 
+Zoom into the chart until you see the layer manager featuring the *candles* layer. Turn off the candles layer and turn it back on. This forces to candles layer to reload.
 
 ## Check the Time, Rate and Time Frame Scales
 
@@ -31,32 +31,10 @@ If you don't know how to do that, please watch the third video in the [video tut
 
 {% include /charting_space/time-frame-scale.md heading="" icon="no" adding="" configuring="" charts="####" content="no" definition="no" table="no" more="yes"%}
 
-## Check the Integrity of the Data
+## Check the Integrity of Your Data
 
-Your PC may have been forcefully shut down or you may have closed the console running the Superalgos backend while running a data-mining operation. Such situations may cause some data to become corrupt.
+{% include /reuse/check-data-integrity.md content="yes" extended="no" more="no" %}
 
-If you are technical enough, you may want to review the latest files in the Candles Volumes indicator of the Masters Data Mine located deep in ```Multi-Period-Daily``` and ```Multi-Period-Market``` folders under ```Data-Storage > Exchange > Market > Masters > Candles-Volumes > Output > Candles```.
+## Check for Errors at the Browser
 
-If you find any ```.tmp``` files or you can't open some of the latest ```Data.json``` files in a regular text editor, or some files are empty, chances are the files have been corrupted.
-
-If such is the case, this is what you need to do: Go to the ```Exchange-Raw-Data``` folder under ```Data-Storage > Exchange > Market > Masters``` and keep opening the subfolders to get to the last day available, and open the ```Data.json``` file. If the file opens fine, this may mean that the data you donwloaded from the exchange is safe.
-
-If that is the case, then you will delete every folder within ```Data-Storage > Exchange > Market > Masters``` but ```Exchange-Raw-Data``` and get the data mining operation running afterwards. This will regenerate all indicators data products, including Candles Volumes.
-
-It the last file in ```Exchange-Raw-Data``` does not open properly then delete the whole ```Data-Storage > Exchange > Market > Masters``` and run the data mining operation. This will have the OHLCV sensor bot download all the data from the exchange again to later be processed by the indicator bots.
-
-Remember that there is a proper way to close the system!
-
-{% include /how_to/safely-close-superalgos.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
-
-
-
-## Check for Errors at the Browser Level
-
-Open Chrome's DevTools with the <kbd>F12</kbd> key (when the browser is in focus) and click the Console tab, then go back and reproduce the issue trying to show the candles on the chart. The console may display errors that are not important. Pay attention if you find errors that refer to files that can not be loaded, or similar issues.
- 
-{% include image.html file='how-to/report-a-bug-01.png' url='yes' max-width='100' caption='Open Developer Tools and check the console tab for potential errors.' %}
-
-If nothing else has worked for you, then record a quick WEBM video of the problem in the charts and ask for help in the <a href="https://t.me/superalgoscommunity" rel="nofollow" rel="noopener" target="_blank">Community Telegram</a>, thoughtfully describing the issue you are experiencing and what you have done to troubleshoot it.
-
-{% include /reuse/screen-capture-and-sharing.md content="more" extended="no" more="yes" %}
+{% include /reuse/check-for-errors-at-the-browser.md content="yes" extended="no" more="no" %}

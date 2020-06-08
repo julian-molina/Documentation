@@ -199,7 +199,7 @@ entries:
       output: web
       class: childItem
 
-    - title: "Maintenance"
+    - title: "Maintenance & Issues"
       url: /suite-upgrading-your-existing-instalation.html
       output: web
 
@@ -208,10 +208,15 @@ entries:
       output: web
       class: childItem
 
-    - title: "... report a bug"
-      url: /suite-how-to-report-a-bug.html
+    - title: "... troubleshoot an issue"
+      url: /suite-how-to-troubleshoot-an-issue.html
       output: web
-      class: childItem
+      class: childItem newItem
+
+    - title: "... report an issue"
+      url: /suite-how-to-report-an-issue.html
+      output: web
+      class: childItem newItem
 
     - title: "Contributing"
       url: /suite-how-to-contribute-an-indicator.html
@@ -581,38 +586,68 @@ entries:
     output: web
     folderitems:
 
+    - title: Initial setup
+      url: /suite-troubleshooting-node-is-not-recognized-as-a-command.html
+      output: web
+
     - title: ERROR Node is not recognized
       url: /suite-troubleshooting-node-is-not-recognized-as-a-command.html
+      output: web
+      class: childItem
+
+    - title: Perception issues
+      url: /suite-troubleshooting-my-system-gets-slow.html
       output: web
 
     - title: My system gets slow
       url: /suite-troubleshooting-my-system-gets-slow.html
       output: web
+      class: childItem
 
     - title: There are no candles on the charts
       url: /suite-troubleshooting-there-are-no-candles-on-the-charts.html
       output: web
+      class: childItem
 
     - title: Market data seems outdated
       url: /suite-troubleshooting-market-data-indicators-seem-to-be-outdated.html
       output: web
+      class: childItem
 
     - title: Indicator data seems wrong
       url: /suite-troubleshooting-indicator-data-seems-wrong.html
       output: web
       class: newItem
+      class: childItem
 
-    - title: I think I broke something
+    - title: Investigating issues
       url: /suite-i-think-i-broke-something.html
       output: web
+
+    - title: I think I broke something
+      url: /suite-troubleshooting-i-think-i-broke-something
+      output: web
+      class: childItem
 
     - title: On-screen errors and warnings
       url: /suite-troubleshooting-on-screen-errors-and-warnings.html
       output: web
+      class: childItem
 
-    - title: Consulting logs
+    - title: Check for errors at the browser
+      url: /suite-troubleshooting-check-for-errors-at-the-browser.html
+      output: web
+      class: childItem
+
+    - title: Check the integrity of your data
+      url: /suite-troubleshooting-check-data-integrity.html
+      output: web
+      class: childItem
+
+    - title: Consult the system logs
       url: /suite-troubleshooting-consulting-logs.html
       output: web
+      class: childItem
 
   - title: Developers
     output: web

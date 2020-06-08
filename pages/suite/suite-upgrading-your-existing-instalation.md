@@ -7,7 +7,7 @@ permalink: suite-upgrading-your-existing-instalation.html
 
 You should expect new releases of Superalgos to become available every few months. Release announcements are made through the <a href="https://t.me/superalgos" rel="nofollow" rel="noopener" target="_blank">Official Superalgos Telegram Announcements Channel</a>.
 
-{% include note.html content="During this beta stage, patches may be released as frequently as several times per week. Due to their high-frequency, minor updates go unannounced. If you ever experience a malfunction, make sure you upgrade your installation to the latest version available in the <a href='https://github.com/Superalgos/Superalgos/' rel='nofollow' rel='noopener' target='_blank'>Superalgos repository</a> before [reporting a bug](suite-how-to-report-a-bug.html)." %}
+{% include note.html content="During this beta stage, patches may be released as frequently as several times per week. Due to their high-frequency, minor updates go unannounced. If you ever experience a malfunction, make sure you upgrade your installation to the latest version available in the <a href='https://github.com/Superalgos/Superalgos/' rel='nofollow' rel='noopener' target='_blank'>Superalgos repository</a> before [reporting a bug](suite-how-to-report-an-issue.html)." %}
 
 ## New Releases
 
