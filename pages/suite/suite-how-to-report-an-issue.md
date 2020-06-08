@@ -49,25 +49,25 @@ If you answer *no* to any of the above, then you are not ready to open an issue.
 
 ### 4. Open a new issue
 
+Click the *New Issue* button and select *Get Started* on the *Bug report* item. The following form will open:
+
+{% include image.html file='troubleshooting/report-an-issue-01.PNG' url='yes' max-width='100' caption='Carefully complete the form following the below guidelines' %}
+
 ##### Title
 
 Do your best to describe the issue in a single, short sentence. Take your time. A good practice is describing what happens and in which context. For example: "WHB backtest stops short of finalDatetime".
 
-##### Header
+##### Context
 
-Copy the text below and paste it as the header of the issue in the body of the form. Complete and adjust the contents leaving the information that fits your case and deleting the information that doesn't.
+Complete and adjust the contents leaving the information that fits your case and deleting the information that doesn't.
 
-```
-CONTEXT
+**Operating System:** Windows / MacOs / Linux / Other (include the version on either case)
 
-**Operating System:** Windows | MacOs | Linux | Other (include the version on either case)
+**Software version:** today's master branch / today's develop branch 
 
-**Software version:** today's master branch | today's develop branch 
+**Workspace version:** default Workspace.json (Getting Started Guide) / Simple Workspace.json / Workspace - Binance - WHB - BBTB.json / My custom workspace 
 
-**Workspace version:** default Workspace.json (Getting Started Guide) | Simple Workspace.json | Workspace - Binance - WHB - BBTB.json | My custom workspace 
-
-**Reproducible:** the issue may | may not be reproduced.
-```
+**Reproducible:** the issue may / may not be reproduced.
 
 ##### Explain your issue
 
@@ -101,7 +101,7 @@ If you have errors in the backend, attach the logs you have collected while foll
 
 {% include note.html content="GitHub issues do not allow uploading JSON files. Make a ZIP file with all relevant logs instead." %}
 
-##### Custom Workspace?
+##### Custom workspace?
 
 If the issue happens under specific conditions on a custom workspace, attach a [share](suite-shares.html) of the workspace. **Do not attach backups as those may contain personal information such as API Keys**. 
 
