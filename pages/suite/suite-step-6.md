@@ -44,7 +44,7 @@ Notice the different <a data-toggle="tooltip" data-original-title="{{site.data.n
 
 Also, notice the sign below each task manager indicating how many <a data-toggle="tooltip" data-original-title="{{site.data.network.task}}">tasks</a> are running.
 
-{% include image.html file='how-to/data-mining-progress-01.gif' url='yes' max-width='100' caption='The image illustrates point 6 above. In your case, only the MastersBTC/USDT task manager will be running.' %}
+{% include image.html file='how-to/data-mining-progress-01.gif' url='yes' max-width='100' caption='The image illustrates point 6 above. The exact number of tasks running on each task manager may vary slightly.' %}
 
 **7. Notice the *Masters BTC/USDT* task manager to the left**, the one that is expanded. 
 

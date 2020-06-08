@@ -92,6 +92,10 @@ The following bots must be running and up to date to run paper trading, forward 
 * Bollinger Bands & Percentage Bandwith
 * Bollinger Channels & SubChannels
 
+**Sparta Data Mine:**
+
+* EMA (Popular)
+
 ## Changes on WHB V.2
 
 * The two different situations making up the take position event were split into two separate strategies operating under the same trading system. This means that take profit and stop targets may be managed separately for each take position situation. This is the first case of two complementary strategies running under the same trading system.
