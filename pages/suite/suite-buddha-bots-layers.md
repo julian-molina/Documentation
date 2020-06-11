@@ -5,7 +5,7 @@ sidebar: suite_sidebar
 permalink: suite-buddha-bots-layers.html
 ---
 
-{% include note.html content="This page covers the use of Buddha indicators on the charts. To learn how to use these products from within strategies, see the [Buddha Indicators](suite-sparta-indicators.html) page." %}
+{% include note.html content="This page covers the use of Buddha indicators on the charts. To learn how to use these products from within strategies, see the [Buddha Indicators](suite-buddha-indicators.html) page." %}
 
 ## Candle Patterns
 
@@ -17,11 +17,11 @@ Before we may identify elaborate candle patterns, *basic candles* must be define
 
 The starting point to search for candle patterns is to establish standard criteria to name each candle. Because candles are made up of four prices, this gives rise to a large number of possible combinations. For example, there may be candles with one, two, or without shadows, which may be big or small relative to the body of the candle, which itself may be big or small in relation to other candles, and so on.
 
-The *Basic Candles* layer features two blue lines and an orange one. 
+The *Basic Candles* layer features two blue lines and an orange one.
 
-* The blue line in the bottom connects the *low* price of each candle. 
+* The blue line in the bottom connects the *low* price of each candle.
 
-* The blue line on top results from averaging the length of the last ten candles and adding it to the *low* value of the current candle. 
+* The blue line on top results from averaging the length of the last ten candles and adding it to the *low* value of the current candle.
 
 * The orange line in the middle is calculated by multiplying the distance between the two blue lines by an arbitrary *sizeFactor*.
 
@@ -130,7 +130,7 @@ According to their particular characteristics, they are named as follows:
 
 {% include image.html file='buddha/candle-patterns/buddha-bots-layers-01-one-candle-patterns.gif' url='yes' max-width='100' caption='One-Candle Patterns layer' %}
 
-The layer features an EMA 10 drawn with a dark line. It also features green and red arrows below and above the one-candles patterns, indicating the position in which the pattern appears. 
+The layer features an EMA 10 drawn with a dark line. It also features green and red arrows below and above the one-candles patterns, indicating the position in which the pattern appears.
 
 If the candle is green and is pointing up, the pattern indicates a "Bullish Reversal" or a "Bullish Continuation" forecast when it's trending downwards or upwards respectively. If the candle is red and is pointing down, it indicates a "Bearish Reversal" or "Bearish Continuation" forecast when the trend is up or down respectively.
 
