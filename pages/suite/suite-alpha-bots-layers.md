@@ -2,7 +2,7 @@
 title:  Alpha Data Mine Bots
 summary: "The Alpha data mine offers Average True Range, Rate of Change, Stochastic indicators"
 sidebar: suite_sidebar
-permalink: suite-sparta-bots-layers.html
+permalink: suite-alpha-bots-layers.html
 ---
 
 {% include note.html content="This page covers the use of Alpha indicators on the charts. To learn how to use these products from within strategies, see the [Alpha Indicators](suite-alpha-indicators.html) page." %}
