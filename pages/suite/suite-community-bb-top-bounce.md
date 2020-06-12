@@ -9,7 +9,7 @@ BB Top Bounce was released in May 2020. This page explains the trading system an
 
 The trading system conforms to the Superalgos Trading Protocol, therefore, it may function as a fully automated trading system. People not interested in trading automation may still obtain the strategy's rules (situations, conditions, and formulas) from the design space and use the set of rules as they see fit.
 
-{% include important.html content="At the moment, BB Top Bounce may only be run with the software in the ```develop``` branch, using ```Backup - Workspace - Binance - WHB - BBTB.json```" %}
+{% include note.html content="BB Top Bounce is available on the ```Backup - Workspace - Binance - WHB - BBTB.json``` workspace." %}
 
 {% include live-trading-warning.html %}
 
