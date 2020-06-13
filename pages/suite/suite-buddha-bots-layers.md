@@ -1,11 +1,13 @@
 ---
 title:  Buddha Data Mine Bots
-summary: "The Buddha data mine offers Candle Patterns recognition."
+summary: "The Buddha data mine offers the Candle Patterns recognition indicator."
 sidebar: suite_sidebar
 permalink: suite-buddha-bots-layers.html
 ---
 
-{% include note.html content="This page covers the use of Buddha indicators on the charts. To learn how to use these products from within strategies, see the [Buddha Indicators](suite-buddha-indicators.html) page." %}
+| &nbsp; | The Buddha data mine is brought to you by <a href="https://github.com/EduRemix" rel="nofollow" rel="noopener" target="_blank">@EduRemix</a> |
+| :--- | :--- |
+| <img src="https://avatars1.githubusercontent.com/u/54202149" style="max-width: 92px;">  | Collaborate with this data mine and report issues directly at the [contributor's repository](https://github.com/EduRemix/Superalgos).<br>This page covers the use of Buddha indicators on the charts. To learn how to use these products from within strategies, see the [Buddha Indicators](suite-buddha-indicators.html) page. |
 
 ## Candle Patterns
 

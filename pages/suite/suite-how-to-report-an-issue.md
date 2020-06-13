@@ -71,6 +71,8 @@ Complete and adjust the contents leaving the information that fits your case and
 
 ##### Explain your issue
 
+1. Explain what the problem seems to be.
+
 1. Clearly explain what you wish to accomplish.
 
 1. Explain, step by step, what you've done to achieve the goal. The Team will follow these steps to reproduce the issue, so be precise.
