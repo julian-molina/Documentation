@@ -5,7 +5,9 @@ sidebar: suite_sidebar
 permalink: suite-buddha-indicators.html
 ---
 
-{% include note.html content="The following indicators are available under the Buddha task managers in the data mining section of the network hierarchy." %}
+| &nbsp; | The Buddha data mine is brought to you by <a href="https://github.com/EduRemix" rel="nofollow" rel="noopener" target="_blank">@EduRemix</a> |
+| :--- | :--- |
+| <img src="https://avatars1.githubusercontent.com/u/54202149" style="max-width: 92px;">  | Collaborate with this data mine and report issues directly at the [contributor's repository](https://github.com/EduRemix/Superalgos).<br>The following indicators are available under the Buddha task managers in the data mining section of the ```Simple Workspace.json``` in the ```develop```branch. |
 
 ## Candle Patterns
 
