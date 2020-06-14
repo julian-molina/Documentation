@@ -17,6 +17,8 @@ INCLUDES:
 
 {% include /concepts/references.md heading="##" icon="no" extended="more" content="yes" definition="bold" table="no" more="yes"%}
 
+{% include callout.html type="primary" content="<strong>A strategy is a set of actions occurring in stages</strong>" %}
+
 EXTERNAL LINKS:
 
 <a href="" rel="nofollow" rel="noopener" target="_blank"></a>
