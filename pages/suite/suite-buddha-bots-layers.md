@@ -5,9 +5,10 @@ sidebar: suite_sidebar
 permalink: suite-buddha-bots-layers.html
 ---
 
-| &nbsp; | The Buddha data mine is brought to you by <a href="https://github.com/EduRemix" rel="nofollow" rel="noopener" target="_blank">@EduRemix</a> |
-| :--- | :--- |
-| <img src="https://avatars1.githubusercontent.com/u/54202149" style="max-width: 92px;">  | Collaborate with this data mine and report issues directly at the [contributor's repository](https://github.com/EduRemix/Superalgos).<br>This page covers the use of Buddha indicators on the charts. To learn how to use these products from within strategies, see the [Buddha Indicators](suite-buddha-indicators.html) page. |
+{% include callout.html type="primary" content="<strong>The Buddha data mine is brought to you by <a href='https://github.com/EduRemix' rel='nofollow' rel='noopener' target='_blank'>@EduRemix</a></strong>. Collaborate with this data mine and report issues directly at the <a href='https://github.com/EduRemix/Superalgos'  rel='nofollow' rel='noopener' target='_blank'>contributor's repository</a>." %}
+
+{% include note.html content="This page covers the use of Buddha indicators on the charts. To learn how to use these products from within strategies, see the [Buddha Indicators](suite-buddha-indicators.html) page." %}
+
 
 ## Candle Patterns
 
