@@ -11,7 +11,7 @@ permalink: suite-sparta-indicators.html
 
 There are three products pre-configured to start calculating as soon as you start the corresponding task, each with different period configurations:
 
-| Product Name | Product Variable | Period Variables |
+| Product Name | Product Variable | Properties |
 | :---: | :---: | :--- | 
 | Popular SMAs | ```popularSMA``` | ```sma20```, ```sma50```, ```sma100```, ```sma200``` |
 | Base 7 | ```base7SMA``` | ```sma7```, ```sma14```, ```sma21```, ```sma28```, ```sma35```, ```sma70```, ```sma140```, ```sma210```, ```sma280```, ```sma350```, ```sma700```, ```sma1400```|
@@ -19,7 +19,7 @@ There are three products pre-configured to start calculating as soon as you star
 
 There are four more products available but they will not be calculated unless you create the corresponding data outputs and reference them to the corresponding data sets:
 
-| Product Name | Product Variable | Period Variables |
+| Product Name | Product Variable | Properties |
 | :---: | :---: | :--- | 
 | Base 5 | ```base5SMA``` | ```sma5```, ```sma10```, ```sma15```, ```sma20```, ```sma25```, ```sma50```, ```sma100```, ```sma150```, ```sma200```, ```sma250```, ```sma500```, ```sma1000``` |
 | Base 6 | ```base6SMA``` | ```sma6```, ```sma12```, ```sma18```, ```sma24```, ```sma30```, ```sma60```, ```sma120```, ```sma180```, ```sma240```, ```sma300```, ```sma600```, ```sma1200``` |
@@ -38,7 +38,7 @@ The products and periods available in EMA map exactly the products and periods a
 
 Like with SMAs, there are three products pre-configured to start calculating as soon as you start the corresponding task, each with different period configurations:
 
-| Product Name | Product Variable | Period Variables |
+| Product Name | Product Variable | Properties |
 | :---: | :---: | :--- | 
 | Popular EMAs | ```popularEMA``` | ```ema20```, ```ema50```, ```ema100```, ```ema200``` |
 | Base 7 | ```base7EMA``` | ```ema7```, ```ema14```, ```ema21```, ```ema28```, ```ema35```, ```ema70```, ```ema140```, ```ema210```, ```ema280```, ```ema350```, ```ema700```, ```ema1400```|
@@ -46,7 +46,7 @@ Like with SMAs, there are three products pre-configured to start calculating as 
 
 There are four more products available but they will not be calculated unless you create the corresponding data outputs and reference them to the corresponding data sets:
 
-| Product Name | Product Variable | Period Variables |
+| Product Name | Product Variable | Properties |
 | :---: | :---: | :--- | 
 | Base 5 | ```base5EMA``` | ```ema5```, ```ema10```, ```ema15```, ```ema20```, ```ema25```, ```ema50```, ```ema100```, ```ema150```, ```ema200```, ```ema250```, ```ema500```, ```ema1000``` |
 | Base 6 | ```base6EMA``` | ```ema6```, ```ema12```, ```ema18```, ```ema24```, ```ema30```, ```ema60```, ```ema120```, ```ema180```, ```ema240```, ```ema300```, ```ema600```, ```ema1200``` |
@@ -61,7 +61,7 @@ There are four more products available but they will not be calculated unless yo
 
 There are four different products, each configured with a specific setting for the fast and slow moving avarages and the MACD Signal line.
 
-| Product Setting | Product Variable | EMAs |
+| Product Setting | Product Variable | Properties |
 | :---: | :---: | :--- |
 | MACD (12, 26, 9) | ```macd122609``` | ```ema12```, ```ema26``` |
 | MACD (3, 10, 16) | ```macd031016``` | ```ema3```, ```ema10``` |
