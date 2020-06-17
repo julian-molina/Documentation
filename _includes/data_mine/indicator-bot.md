@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The indicator bot node holds all definitions required for an indicator bot to function. Definitions are split between the definition of processes and products. Processes are algorithms that go through an input dataset, perform certain calculations, and produce an output. Part of that output is the data products the bot creates.
+The indicator bot node holds all definitions required for an indicator bot to function. Definitions are split between the definition of processes and products. Processes are algorithms that go through an input dataset, perform certain calculations, and produce an output. Products are the outcome of the work produced by these algorithms, in the form of ellaborate data sets.
+
+Most of the behavior expected from an indicator bot is defined by the structure of nodes in the hierarchy and the references among the nodes within these definitions. As such, you do not need to code any of the functions that make up the infrastructure functionality. Dependencies, outputs, data structures, execution sequences, and several other problems are handled by the definitions embodied in the structure of nodes that make up an indicator, and are configured in the visual environment of the design space. Coding is limited to the actual calculation and data building procedures.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -84,8 +86,7 @@ Select *Configure Bot* on the menu to access the configuration.
 
 ```json
 {
-"codeName": "Super",
-"repo": "Super-Indicator-Bot"
+"codeName": "Superbot"
 }
 ```
 

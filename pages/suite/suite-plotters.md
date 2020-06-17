@@ -6,7 +6,7 @@ permalink: suite-plotters.html
 toc: false
 ---
 
-{% include /data_mine/plotter.md heading="" icon="150-" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes" %}
+{% include /data_mine/plotter.md heading="" icon="150-" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="yes" %}
 
 <table class='hierarchyTable'><thead><tr><th><a href='#plotter' data-toggle='tooltip' data-original-title='{{site.data.data_mine.plotter}}'><img src='images/icons/plotter.png' /><br />Plotter</a></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
 <tr><td><img src='images/icons/tree-connector-elbow.png' /></td><td><a href='#plotter-module' data-toggle='tooltip' data-original-title='{{site.data.data_mine.plotter_module}}'><img src='images/icons/plotter-module.png' /><br />Plotter Module</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>

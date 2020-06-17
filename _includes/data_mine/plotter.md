@@ -90,7 +90,15 @@ To add a plotter, select *Add Plotter* on the data mine node menu. An indicator 
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Select *Configure Plotter* on the menu to access the configuration.
+
+```json
+{
+  "codeName": "Plotter-Name"
+}
+```
+
+* ```codeName``` is the name of the plotter as it is used within the bot's code.
 
 <!--------------------------------------------- CONFIGURING ends -->
 
