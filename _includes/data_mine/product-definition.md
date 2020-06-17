@@ -86,9 +86,9 @@ Select *Configure Product* on the menu to access the configuration.
 
 ```json
 {
-  "codeName": "New-Product-Name",
-  "singularVariableName": "newProductName",
-  "pluralVariableName": "newProductNames"
+  "codeName": "Product-Name",
+  "singularVariableName": "productName",
+  "pluralVariableName": "productNames"
 }
 ```
 

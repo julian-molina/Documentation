@@ -55,9 +55,9 @@ The reference is established to acquire the information relative to what the tar
 
 The status report referenced may belong to the same process&mdash; which is called a self-reference. In such a case, the process is learning what it did the last time it ran. Also, the status report referenced may belong to another process&mdash;another bot. In that case, the dependency may be of the Market Starting Point or Market Ending Point types.
 
-* **Self Reference** is mandatory, as a process needs to read it's own status report every time it wakes up.
+* **Self Reference** is mandatory, as a process needs to read its own status report every time it wakes up.
 
-* **Market Starting Point** is a status dependency existing on Multi-Period-Daily processes so that the process establishing the reference learns the datetime of the start of the market. Usually, the reference is established with the sensor's Historic-Trades process status report. Multi-Period-Market processes do not have this type of status dependency as the date of the start of the market is implied in their dataset (a single file with all market data).
+* **Market Starting Point** is a status dependency existing on Multi-Period-Daily processes so that the process establishing the reference learns the datetime of the start of the market. Usually, the reference is established with the sensor's Historic-OHLCVs process status report. Multi-Period-Market processes do not have this type of status dependency as the date of the start of the market is implied in their dataset (a single file with all market data).
 
 * **Market Ending Point** is a status dependency existing both in Multi-Period-Market and Multi-Period-Daily processes so that the process establishing the reference knows the datetime of the end of the market.
 
