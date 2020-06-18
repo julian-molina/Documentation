@@ -502,6 +502,15 @@ entries:
       output: web
       class: childItem
 
+    - title: How to build an indicator
+      url: /suite-how-to-build-an-indicator-01-infrastructure-setup.html
+      output: web
+
+    - title: "Step 1: Infrastructure setup"
+      url: /suite-how-to-build-an-indicator-01-infrastructure-setup.html
+      output: web
+      class: childItem
+
   - title: Trading farms
     output: web
     folderitems:
