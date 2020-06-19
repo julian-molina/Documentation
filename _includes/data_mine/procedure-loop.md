@@ -51,9 +51,15 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-This is an example of a procedure loop code snippet, in particular, the code that calculates the Popular SMAs product of the Simple Moving Average (SMA) indicator.
+The data input is determined by the data dependencies declared at the level of the processes. The input is made available in the ```record``` object. 
 
-{% include important.html content="Calculation procedures may only access data up to 48 hours in the past counting from the datetime of the record being processed. For that reason, the calculation of a moving average requires temporarily storing data in an array." %}
+You may use the statement ```record.current.propertyName``` to access the value of any of the properties in the input datasets for the current record. On the other hand ```record.previous.propertyName``` returns the value of the property in the previous record.
+
+The output must be stored in the ```variable``` object, which is made available to record properties under the record definition node.
+
+The following is an example of a procedure loop code snippet, in particular, the code that calculates the Popular SMAs product of the Simple Moving Average (SMA) indicator.
+
+{% include important.html content="Procedures may only access data up to 48 hours in the past counting from the datetime of the record being processed. For that reason, the calculation of a moving average requires temporarily storing data in an array." %}
 
 ```js
 /* Loop Code. */

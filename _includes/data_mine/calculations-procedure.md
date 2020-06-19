@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
 {% assign title = "Calculations Procedure" %}
-{% assign definition = site.data.data_mine.calculation_procedure %}
+{% assign definition = site.data.data_mine.calculations_procedure %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
@@ -53,11 +53,9 @@
 
 Bots store data in the minimized array format as a strategy to build the lightest possible datasets. For the same reason, a bot may choose not to store easily calculable information.
 
-For example, imagine an indicator that stores buy and sell volumes... does it *need* to store the total volume? Given that it is so easy to calculate, the answer is *probably* no. IT is up to the developer to decide, but it is certainly not required.
+For example, imagine an indicator that stores buy and sell volumes... does it *need* to store the total volume? Given that it is so easy to calculate, the answer is *probably* no. It is up to the developer to decide, but it is certainly not required.
 
-{% include note.html content="It may not be worthy to store information that can be easily calculated at a later stage." %}
-
-The calculations procedure calculates the properties that the developer chose not to store in the dataset.
+{% include note.html content="The calculations procedure is used to calculate properties that the developer chooses not to store in the dataset." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

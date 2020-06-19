@@ -53,7 +53,7 @@
 
 Bots store data in the form of arrays of records, in a minimized plain text file and the standard JSON format, although not as objects with named properties, but as arrays.
 
-[![image](https://user-images.githubusercontent.com/13994516/68998023-303eae00-08ad-11ea-9baa-ddea801c7d6d.png)](https://user-images.githubusercontent.com/13994516/68998023-303eae00-08ad-11ea-9baa-ddea801c7d6d.png)
+{% include image-ext.html file='https://user-images.githubusercontent.com/13994516/68998023-303eae00-08ad-11ea-9baa-ddea801c7d6d.png' url='yes' max-width='100' caption='Typical dataset file showing records as arrays.' %}
 
 The choice of plain text for storage of large volumes of information has benefits in terms of not requiring any sophisticated technology to store and serve the data (*i.e.:* no database is required).
 

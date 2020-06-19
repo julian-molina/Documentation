@@ -51,6 +51,8 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
+Formulas may use both the ```record``` and the ```variable``` objects made available by the calculations procedure and the data building procedure (see [procedure loop](#procedure-loop)).
+
 A formula may act in slightly different ways depending on the ```isCaculated``` attribute in the record property configuration:
 
 * When a property is calculated (```"isCalculated": true```), the formula assigns to the property a value that is calculated in the calculations procedure. Even if the property is not stored in the dataset, it is made available as a *calculated property* to other bots that may have the dataset as input.
