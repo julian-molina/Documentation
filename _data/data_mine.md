@@ -26,13 +26,13 @@ execution_finished_event: "The execution finished event is the event that proces
 
 product_definition: "The product definition node holds all definitions that make up a product, including how the product is calculated and the datasets the product is comprised of."
 
-dataset_definition: "A dataset definition contains a configuration file that defines all aspects of the dataset. There are two types of dataset definitions: Multi-Period-Market and Multi-Period-Daily."
+dataset_definition: "A dataset definition contains a configuration file that defines many aspects of the dataset. There are two types of dataset definitions: Multi-Period-Market and Multi-Period-Daily."
 
-record_definition: "The record definition is where indicators define how many fields, what fields and in which order those fields will be stored in each record."
+record_definition: "The record definition is where indicators define how many properties, what properties and in which order those properties will be made available in each record."
 
-record_property: "A record is the compendium of information stored for each period of time, including the start and end datetime of the period along with the properties that provide the information the indicator is meant to generate."
+record_property: "A record property is a piece of information that may be stored as part of the dataset or made available as a calculated property."
 
-formula: "In the context of a record definition, formulas are used to assign a value to the property, usually in the form of a variable declared in the calculation or data building procedure."
+formula: "In the context of a record definition, formulas are used to assign a value to the property, usually in the form of a variable declared in the calculation or data building procedures."
 
 calculations_procedure: "The calculations procedure processes information to be fed to calculated properties. Calculated properties are not stored in the data set; instead, they are calculated in real-time as the data is consumed by others."
 
