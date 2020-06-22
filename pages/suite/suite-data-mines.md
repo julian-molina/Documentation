@@ -10,7 +10,7 @@ Superalgos puts a powerful data processing and visualization system in your hand
 
 Anyone may access raw trades and order book data from exchanges. Anyone may access information in the form of standard indicators and technical studies. 
 
-However, Superalgos allows you to perform any sort of processing over existing information, store the results into new datasets, and make them accessible from within trading strategies. Moreover, it allows you to produce ellaborate graphical representations of data, which is instantly browsable over the charts.
+However, Superalgos allows you to perform any sort of processing over existing information across the whole span of the market, store the results into new datasets, and make them available to trading strategies. Moreover, it allows you to produce elaborate graphical representations of data, which is instantly browsable over the charts.
 
 Data mines' functionality is highly flexible and works under the same paradigm used for building strategies. They provide a visual interface and a framework that leads you through the process of creating new bots, with minimal coding skills required.
 

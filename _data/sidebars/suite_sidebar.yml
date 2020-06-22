@@ -142,12 +142,12 @@ entries:
     - title: Workflows
       url: /suite-workflows.html
       output: web
-      class: newItem
+      class:
 
     - title: Managing Workspaces
       url: /suite-managing-workspaces.html
       output: web
-      class: newItem
+      class:
 
     - title: "How to..."
       url: /#
@@ -201,7 +201,7 @@ entries:
     - title: "... test new exchanges"
       url: /suite-how-to-test-new-exchanges.html
       output: web
-      class: childItem newItem
+      class: childItem
 
     - title: "... set up a trading task from scratch"
       url: /suite-how-to-set-up-a-trading-task-from-scratch.html
@@ -247,7 +247,7 @@ entries:
     - title: Masters bots layers
       url: /suite-masters-bots-layers.html
       output: web
-      class: childItem newItem
+      class: childItem
 
     - title: Sparta bots layers
       url: /suite-sparta-bots-layers.html
@@ -257,7 +257,7 @@ entries:
     - title: Buddha bots layers
       url: /suite-buddha-bots-layers.html
       output: web
-      class: childItem newItem
+      class: childItem
 
     - title: Simulation layers
       url: /suite-simulation-layers.html
@@ -302,7 +302,7 @@ entries:
     - title: JavaScript code
       url: /suite-javascript-code.html
       output: web
-      class: childItem newItem
+      class: childItem
 
     - title: Internal variables
       url: /suite-internal-variables.html
@@ -312,7 +312,7 @@ entries:
     - title: Masters indicators
       url: /suite-masters-indicators.html
       output: web
-      class: childItem newItem
+      class: childItem
 
     - title: Sparta indicators
       url: /suite-sparta-indicators.html
@@ -322,7 +322,7 @@ entries:
     - title: Buddha indicators
       url: /suite-buddha-indicators.html
       output: web
-      class: childItem newItem
+      class: childItem
 
     - title: Trading sessions
       url: /suite-trading-sessions.html
@@ -341,12 +341,12 @@ entries:
     - title: Snapshots
       url: /suite-snapshots.html
       output: web
-      class: childItem newItem
+      class: childItem
 
     - title: Low-frequency trading
       url: /suite-low-frequency-trading.html
       output: web
-      class: childItem newItem
+      class: childItem
 
     - title: Execution limitations
       url: /suite-execution-limitations.html
@@ -377,7 +377,7 @@ entries:
     - title: BB Top Bounce
       url: /suite-community-bb-top-bounce.html
       output: web
-      class: childItem newItem
+      class: childItem
 
   - title: Crypto ecosystem
     output: web
@@ -452,6 +452,16 @@ entries:
       output: web
       class: childItem
 
+    - title: Runtime Cycle
+      url: /suite-runtime-cycle.html
+      output: web
+      class: childItem
+
+    - title: "Coding the indicator's logic"
+      url: /suite-coding-the-indicator-logic.html
+      output: web
+      class: childItem
+
     - title: Plotters
       url: /suite-plotters.html
       output: web
@@ -473,12 +483,11 @@ entries:
     - title: "Step 1: Infrastructure setup"
       url: /suite-how-to-build-an-indicator-01-infrastructure-setup.html
       output: web
-      class: childItem newItem
+      class: childItem
 
     - title: How to contribute an indicator
       url: /suite-how-to-contribute-an-indicator.html
       output: web
-      class: newItem
 
   - title: Trading farms
     output: web
@@ -576,12 +585,12 @@ entries:
     - title: "... troubleshoot an issue"
       url: /suite-how-to-troubleshoot-an-issue.html
       output: web
-      class: childItem newItem
+      class: childItem
 
     - title: "... report an issue"
       url: /suite-how-to-report-an-issue.html
       output: web
-      class: childItem newItem
+      class: childItem
 
     - title: Initial setup
       url: /suite-troubleshooting-node-is-not-recognized-as-a-command.html
@@ -614,7 +623,7 @@ entries:
     - title: Indicator data seems wrong
       url: /suite-troubleshooting-indicator-data-seems-wrong.html
       output: web
-      class: newItem
+      class:
       class: childItem
 
     - title: Investigating issues
@@ -661,7 +670,7 @@ entries:
     - title: Debugging a task
       url: /suite-developers-debugging-a-task.html
       output: web
-      class: newItem
+      class:
 
     - title: Debugging a new indicator
       url: /suite-developers-debugging-a-new-indicator.html
