@@ -1,6 +1,6 @@
 ---
 title:  Indicator Bots
-summary: "Data mines enable the processing of data by consuming datasets others have produced, performing calculations, and outputting a new value-added data product that others may consume."
+summary: "Indicator bots enable the processing of data by consuming datasets others have produced, performing calculations, and outputting a new value-added data product that others may consume."
 sidebar: suite_sidebar
 permalink: suite-indicator-bots.html
 toc: false
