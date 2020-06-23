@@ -1,8 +1,8 @@
 ---
-title:  Runtime Cycle
+title:  Data Mining Workflow
 summary: "When running on a data mining operation, indicators follow a cycle designed to fulfill their purpose: to process data others have produced and make the result available for others to consume."
 sidebar: suite_sidebar
-permalink: suite-runtime-cycle.html
+permalink: suite-data-mining-workflow.html
 ---
 
 Indicators take datasets produced by sensors or by other indicators as input. These inputs are determined by the data dependencies defined. The calculations procedure and the data building procedure produce the intended transformations. The data building procedure stores the results in datasets that others may use as input, and the calculations procedure may make certain pieces of information available without ever writing it in the files.
@@ -21,7 +21,7 @@ For example, the following fragment features three records in the 24-hours Multi
 
 That is what the system encounters at the time of reading a typical file in a dataset, which is the first step in the runtime cycle.
 
-## 2. Transformation of files into JSON objects with named properties
+## 2. Inflation of files into JSON objects with named properties
 
 Once a file is loaded in memory, it is inflated into a JSON object structure, with named properties. This is the second step in the cycle and aims to make accessing each record&mdash;from within the code&mdash;much easier.
 
@@ -30,8 +30,6 @@ Once a file is loaded in memory, it is inflated into a JSON object structure, wi
 Because performance is inversely related to the weight of files, developers may choose not to store all indicator properties in files. They may choose to leave properties that are easy to calculate out of the dataset and make them available as calculated properties instead. Calculated properties are calculated by the calculations procedure and fed to the record definition formulas to be made available as an integral part of the object other indicators may access.
 
 For example, picture an indicator that offers buy, sell, and total volumes. Because the total volume is so easy to calculate, the developer of such an indicator may choose to store the buy and sell volumes only and make the total volume available as a calculated property.
-
-Let's consider another example. Let's say a developer wishes the indicator to provide the direction in which the price is moving, based on a moving average. Instead of storing ```"Up"``` or ```"Down"``` for the value of the ```direction``` property, the developer may choose to store ```0``` and ```1``` respectively, and use the calculations procedure to map the value ```0``` with ```"Up"``` and ```1``` with ```"Down"```, saving considerable weight in the files.
 
 {% include tip.html content="Make your indicators more efficient by limiting the amount of information you store in files." %}
 
@@ -47,7 +45,7 @@ For example: ```products.bollingerBands[10].deviation```
 
 Each product remains an array of JSON objects with named variables.
 
-## 5. Transformations
+## 5. Data building
 
 The fifth step in the runtime cycle is running the indicator's data building procedure. This is where the developer codes the logic to go over the input datasets and perform the calculations required to produce the indicator's output.
 

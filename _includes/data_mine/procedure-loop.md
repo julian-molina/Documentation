@@ -51,43 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The data input is determined by the data dependencies declared at the level of the processes. The input is made available in the ```record``` object. 
-
-You may use the statement ```record.current.propertyName``` to access the value of any of the properties in the input datasets for the current record. On the other hand ```record.previous.propertyName``` returns the value of the property in the previous record.
-
-The output must be stored in the ```variable``` object, which is made available to record properties under the record definition node.
-
-The following is an example of a procedure loop code snippet, in particular, the code that calculates the Popular SMAs product of the Simple Moving Average (SMA) indicator.
-
-{% include important.html content="Procedures may only access data up to 48 hours in the past counting from the datetime of the record being processed. For that reason, the calculation of a moving average requires temporarily storing data in an array." %}
-
-```js
-/* Loop Code. */
-
-let candle = record.current // Our main dependencies are candles 
-variable.last200.push(candle.close) // Add the current close value to the last 200 array.
-
-if (variable.last200.length > 200) {
-    variable.last200.splice(0, 1) // Remove the first element of the array to keep it at a maximun of 200 elements.
-}
-
-variable.sma20 = calculateSMA(20)
-variable.sma50 = calculateSMA(50)
-variable.sma100 = calculateSMA(100)
-variable.sma200 = calculateSMA(200)
-
-function calculateSMA(periods) {  // Having a function saves us from duplicating code.
-    /* We check we have enough values to make the calculation */
-    if (variable.last200.length < periods) { return 0 } // If we dont, we define the value is zero.
-
-    let sum = 0 // Initialize sum variable. 
-    for (let i = variable.last200.length - periods; i < variable.last200.length; i++) { // Iterate through the last periods
-        sum = sum + variable.last200[i]
-    }
-    let sma = sum / periods
-    return sma
-}
-```
+{% include note.html content="Please refer to the [coding references](suite-coding-the-indicator-logic.html) page to learn how to code the indicator's logic." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

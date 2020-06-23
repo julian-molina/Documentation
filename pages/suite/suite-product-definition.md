@@ -37,6 +37,8 @@ toc: false
 
 {% include /data_mine/formula.md heading="####" icon="" adding="######" configuring="" starting="" content="yes" definition="yes" table="yes" more="yes" %}
 
+{% include /data_mine/calculations-procedure.md heading="##" icon="150-" adding="###" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes" %}
+
 {% include /data_mine/data-building-procedure.md heading="##" icon="150-" adding="###" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes" %}
 
 {% include /data_mine/procedure-loop.md heading="###" icon="" adding="#####" configuring="" starting="" content="yes" definition="yes" table="yes" more="yes" %}
@@ -45,4 +47,3 @@ toc: false
 
 {% include /data_mine/procedure-initialization.md heading="###" icon="" adding="#####" configuring="" starting="" content="yes" definition="yes" table="yes" more="yes" %}
 
-{% include /data_mine/calculations-procedure.md heading="##" icon="150-" adding="###" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes" %}
