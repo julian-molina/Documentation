@@ -452,15 +452,15 @@ entries:
       output: web
       class: childItem
 
-    - title: Runtime Cycle
-      url: /suite-runtime-cycle.html
+    - title: Data mining workflow
+      url: /suite-data-mining-workflow.html
       output: web
-      class: childItem
+      class: childItem newItem
 
     - title: "Coding the indicator's logic"
       url: /suite-coding-the-indicator-logic.html
       output: web
-      class: childItem
+      class: childItem newItem
 
     - title: Plotters
       url: /suite-plotters.html
