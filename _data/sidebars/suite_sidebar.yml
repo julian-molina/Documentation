@@ -476,12 +476,17 @@ entries:
       output: web
       class: childItem
 
-    - title: "How to build an indicator:"
-      url: /#
+    - title: "How to build an indicator"
+      url: /suite-how-to-build-an-indicator.html
       output: web
 
     - title: "Step 1: Infrastructure setup"
       url: /suite-how-to-build-an-indicator-01-infrastructure-setup.html
+      output: web
+      class: childItem
+
+    - title: "Step 2: Code & record definition"
+      url: /suite-how-to-build-an-indicator-02-code-and-record-definition.html
       output: web
       class: childItem
 
@@ -577,11 +582,6 @@ entries:
       url: /#
       output: web
 
-    - title: "... upgrade your installation"
-      url: /suite-upgrading-your-existing-instalation.html
-      output: web
-      class: childItem
-
     - title: "... troubleshoot an issue"
       url: /suite-how-to-troubleshoot-an-issue.html
       output: web
@@ -589,6 +589,11 @@ entries:
 
     - title: "... report an issue"
       url: /suite-how-to-report-an-issue.html
+      output: web
+      class: childItem
+
+    - title: "... upgrade your installation"
+      url: /suite-upgrading-your-existing-instalation.html
       output: web
       class: childItem
 
