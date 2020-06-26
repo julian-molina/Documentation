@@ -490,6 +490,11 @@ entries:
       output: web
       class: childItem
 
+    - title: "Step 3: Testing & troubleshooting"
+      url: /suite-how-to-build-an-indicator-03-testing-and-troubleshooting.html
+      output: web
+      class: childItem
+
     - title: How to contribute an indicator
       url: /suite-how-to-contribute-an-indicator.html
       output: web
