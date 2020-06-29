@@ -259,6 +259,11 @@ entries:
       output: web
       class: childItem
 
+    - title: Alpha bots layers
+      url: /suite-alpha-bots-layers.html
+      output: web
+      class: childItem newItem
+
     - title: Simulation layers
       url: /suite-simulation-layers.html
       output: web
@@ -323,6 +328,11 @@ entries:
       url: /suite-buddha-indicators.html
       output: web
       class: childItem
+
+    - title: Alpha indicators
+      url: /suite-alpha-indicators.html
+      output: web
+      class: childItem newItem
 
     - title: Trading sessions
       url: /suite-trading-sessions.html
