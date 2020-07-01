@@ -262,7 +262,7 @@ entries:
     - title: Alpha bots layers
       url: /suite-alpha-bots-layers.html
       output: web
-      class: childItem newItem
+      class: childItem
 
     - title: Simulation layers
       url: /suite-simulation-layers.html
@@ -332,7 +332,7 @@ entries:
     - title: Alpha indicators
       url: /suite-alpha-indicators.html
       output: web
-      class: childItem newItem
+      class: childItem
 
     - title: Trading sessions
       url: /suite-trading-sessions.html
@@ -465,12 +465,12 @@ entries:
     - title: Data mining workflow
       url: /suite-data-mining-workflow.html
       output: web
-      class: childItem newItem
+      class: childItem
 
     - title: "Coding the indicator's logic"
       url: /suite-coding-the-indicator-logic.html
       output: web
-      class: childItem newItem
+      class: childItem
 
     - title: Plotters
       url: /suite-plotters.html
@@ -490,8 +490,8 @@ entries:
       url: /suite-how-to-build-an-indicator.html
       output: web
 
-    - title: "Step 1: Infrastructure setup"
-      url: /suite-how-to-build-an-indicator-01-infrastructure-setup.html
+    - title: "Step 1: Visual definitions"
+      url: /suite-how-to-build-an-indicator-01-visual-definitions.html
       output: web
       class: childItem
 
@@ -502,6 +502,11 @@ entries:
 
     - title: "Step 3: Testing & troubleshooting"
       url: /suite-how-to-build-an-indicator-03-testing-and-troubleshooting.html
+      output: web
+      class: childItem
+
+    - title: "Step 4: Plotters"
+      url: /suite-how-to-build-an-indicator-04-plotters.html
       output: web
       class: childItem
 
