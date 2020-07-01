@@ -82,7 +82,7 @@ To add a style, select *Add Style* on a polygon border or polygon body node menu
 
 Select *Configure Style* on the menu to access the configuration.
 
-A typical definition for a polygon body style looks like this:
+A typical definition for a polygon *body style* looks like this:
 
 ```json
 {
@@ -97,7 +97,7 @@ A typical definition for a polygon body style looks like this:
 }
 ```
 
-A typical definition for a polygon border style has a couple more properties:
+A typical definition for a polygon *border style* has a couple more properties:
 
 ```json
 {

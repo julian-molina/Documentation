@@ -9,7 +9,7 @@ permalink: suite-frequently-asked-questions.html
 
 ### Do I need to be a technical person to use Superalgos?
 
-There is extensive documentation and a step by step getting started guide available both as [written instructions](suite-step-0.html) and in [video tutorials](index.html).
+There is extensive documentation and a step by step getting started guide available both as [written instructions](suite-step-0.html) and in [video tutorials](suite-step-1-video.html).
 
 That said, Superalgos is in an open beta-stage, still under development. The early-stage pre-release intends to gather feedback from early adopters, who may help shape the software and evolve it into a robust product. We try our best to make installation and operation easy. At this point, the system is directed at tech-savvy individuals with a knack for learning a few PC operator tricks while installing and using the system.
 
