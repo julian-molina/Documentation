@@ -36,12 +36,12 @@ entries:
       url: /suite-system-requirements.html
       output: web
 
-  - title: "Getting started"
+  - title: Getting started
     output: web
     folderitems:
 
-    - title: "Video guide"
-      url: /suite-step-1-video.html
+    - title: Video guide
+      url: /#
       output: web
 
     - title: "Step 1: Initial set up"
@@ -64,8 +64,8 @@ entries:
       output: web
       class: childItem
 
-    - title: "Written guide"
-      url: /suite-step-0.html
+    - title: Written guide
+      url: /#
       output: web
 
     - title: "Step 0: Get ready"
@@ -149,61 +149,61 @@ entries:
       output: web
       class:
 
-    - title: "How to..."
+    - title: How to...
       url: /#
       output: web
 
-    - title: "... find a hierarchy"
+    - title: ... find a hierarchy
       url: /suite-how-to-find-a-hierarchy.html
       output: web
       class: childItem
 
-    - title: "... go to the workspace node"
+    - title: ... go to the workspace node
       url: /suite-how-to-go-to-the-workspace-node.html
       output: web
       class: childItem
 
-    - title: "... restore a workspace"
+    - title: ... restore a workspace
       url: /suite-how-to-restore-a-workspace.html
       output: web
       class: childItem
 
-    - title: "... attach and detach nodes"
+    - title: ... attach and detach nodes
       url: /suite-how-to-detach-and-attach-nodes.html
       output: web
       class: childItem
 
-    - title: "... remove and establish references"
+    - title: ... remove and establish references
       url: /suite-how-to-remove-and-establish-references.html
       output: web
       class: childItem
 
-    - title: "... safely close Superalgos"
+    - title: ... safely close Superalgos
       url: /suite-how-to-safely-close-superalgos.html
       output: web
       class: childItem
 
-    - title: "... uninstall an existing market"
+    - title: ... uninstall an existing market
       url: /suite-how-to-uninstall-an-existing-market.html
       output: web
       class: childItem
 
-    - title: "... install a new market"
+    - title: ... install a new market
       url: /suite-how-to-install-a-new-market.html
       output: web
       class: childItem
 
-    - title: "... set up a new exchange"
+    - title: ... set up a new exchange
       url: /suite-how-to-set-up-a-new-exchange.html
       output: web
       class: childItem
 
-    - title: "... test new exchanges"
+    - title: ... test new exchanges
       url: /suite-how-to-test-new-exchanges.html
       output: web
       class: childItem
 
-    - title: "... set up a trading task from scratch"
+    - title: ... set up a trading task from scratch
       url: /suite-how-to-set-up-a-trading-task-from-scratch.html
       output: web
       class: childItem
@@ -225,7 +225,7 @@ entries:
       output: web
       class: childItem
 
-    - title: "Navigating time machines & charts"
+    - title: Navigating time machines & charts
       url: /suite-navigating-time-machines.html
       output: web
       class: childItem
@@ -362,11 +362,11 @@ entries:
       url: /suite-execution-limitations.html
       output: web
 
-    - title: "How to..."
+    - title: How to...
       url: /#
       output: web
 
-    - title: "... test a trading idea"
+    - title: ... test a trading idea
       url: /suite-how-to-test-a-trading-idea.html
       output: web
       class: childItem
@@ -376,7 +376,7 @@ entries:
     folderitems:
 
     - title: BTC / USDT
-      url: /suite-weak-hands-buster.html
+      url: /#
       output: web
 
     - title: Weak-hands Buster
@@ -486,7 +486,7 @@ entries:
       output: web
       class: childItem
 
-    - title: "How to build an indicator"
+    - title: How to build an indicator
       url: /suite-how-to-build-an-indicator.html
       output: web
 
@@ -598,27 +598,27 @@ entries:
     output: web
     folderitems:
 
-    - title: "How to..."
+    - title: How to...
       url: /#
       output: web
 
-    - title: "... troubleshoot an issue"
+    - title:  troubleshoot an issue
       url: /suite-how-to-troubleshoot-an-issue.html
       output: web
       class: childItem
 
-    - title: "... report an issue"
+    - title: ... report an issue
       url: /suite-how-to-report-an-issue.html
       output: web
       class: childItem
 
-    - title: "... upgrade your installation"
+    - title: ... upgrade your installation
       url: /suite-upgrading-your-existing-instalation.html
       output: web
       class: childItem
 
     - title: Initial setup
-      url: /suite-troubleshooting-node-is-not-recognized-as-a-command.html
+      url: /#
       output: web
 
     - title: ERROR Node is not recognized
@@ -627,7 +627,7 @@ entries:
       class: childItem
 
     - title: Perception issues
-      url: /suite-troubleshooting-my-system-gets-slow.html
+      url: /#
       output: web
 
     - title: My system gets slow
@@ -648,11 +648,10 @@ entries:
     - title: Indicator data seems wrong
       url: /suite-troubleshooting-indicator-data-seems-wrong.html
       output: web
-      class:
       class: childItem
 
     - title: Investigating issues
-      url: /suite-i-think-i-broke-something.html
+      url: /#
       output: web
 
     - title: I think I broke something
@@ -695,7 +694,6 @@ entries:
     - title: Debugging a task
       url: /suite-developers-debugging-a-task.html
       output: web
-      class:
 
     - title: Debugging a new indicator
       url: /suite-developers-debugging-a-new-indicator.html
