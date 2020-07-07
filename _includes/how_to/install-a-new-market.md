@@ -41,6 +41,8 @@
 
 {% include image.html file='how-to/install-a-new-market-00.gif' url='yes' max-width='100' caption='If the market is set up in your preferred exchange, click *Run* on the corresponding *install market* super action node menu.' %}
 
+{% include note.html content="If the market you wish to install is not set up under the exchange markets node, you must set it up first. To learn how to set up new assets and markets, please read the definition of each of the nodes under the [Exchange Assets](suite-hierarchy-crypto-ecosystem.html#exchange-assets) and [Exchange Markets](suite-hierarchy-crypto-ecosystem.html#exchange-markets) nodes." %}
+
 **1. Expand the <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.exchange_markets}}">exchange markets</a> node** of your preferred <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_exchange}}">crypto exchange</a> in the <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_ecosystem}}">crypto ecosystem</a> hierarchy.
 
 {% include /how_to/find-a-hierarchy.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
@@ -57,7 +59,7 @@ Running the super action deploys all the infrastructure required to start using 
 
 4. A <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.time_machine}}">time machine</a> containing a <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.timeline_chart}}">timeline chart</a> for the market, made readily available on the <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.charting_space}}">charting space</a>.
 
-{% include note.html content="If the market you wish to install is not set up under the exchange markets node, you must set it up first. To learn how to set up new assets and markets, please read the definition of each of the nodes under the [Exchange Assets](suite-hierarchy-crypto-ecosystem.html#exchange-assets) and [Exchange Markets](suite-hierarchy-crypto-ecosystem.html#exchange-markets) nodes." %}
+
 
 
 
