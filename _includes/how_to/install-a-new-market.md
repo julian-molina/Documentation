@@ -57,7 +57,7 @@ Running the super action deploys all the infrastructure required to start using 
 
 4. A <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.time_machine}}">time machine</a> containing a <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.timeline_chart}}">timeline chart</a> for the market, made readily available on the <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.charting_space}}">charting space</a>.
 
-{% include note.html content="If the market you wish to install is not set up under the exchange markets node, you must set it up first." %}
+{% include note.html content="If the market you wish to install is not set up under the exchange markets node, you must set it up first. To learn how to set up new assets and markets, please read the definition of each of the nodes under the [Exchange Assets](suite-hierarchy-crypto-ecosystem.html#exchange-assets) and [Exchange Markets](suite-hierarchy-crypto-ecosystem.html#exchange-markets) nodes." %}
 
 
 
