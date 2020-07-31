@@ -389,6 +389,19 @@ entries:
       output: web
       class: childItem
 
+#  - title: Myth busters trading ideas
+#    output: web
+#    folderitems:
+#
+#    - title: BTC / USDT
+#      url: /#
+#      output: web
+#
+#    - title: Bollinger Bounce
+#      url: /suite-mythbusters-bollinger-bounce.html
+#      output: web
+#      class: childItem
+
   - title: Crypto ecosystem
     output: web
     folderitems:
