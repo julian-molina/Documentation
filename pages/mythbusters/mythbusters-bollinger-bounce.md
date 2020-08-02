@@ -2,7 +2,7 @@
 title:  "Mythbusters: The Bollinger Bounce"
 summary: "You may verify each of the tests featured in the brief report, and keep working on the ideas to turn them into complete strategies."
 sidebar: suite_sidebar
-permalink: suite-mythbusters-bollinger-bounce.html
+permalink: mythbusters-bollinger-bounce.html
 ---
 
 {% include note.html content="If you are not familiar with Superalgos, you will need to [Get Started](index.html) before you may run these tests." %}
