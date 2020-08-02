@@ -7,4 +7,4 @@ _pdf
 vendor/
 .bundle/
 CNAME
-_config.yml
+robots.txt
