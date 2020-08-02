@@ -711,3 +711,11 @@ entries:
     - title: Debugging a new indicator
       url: /suite-developers-debugging-a-new-indicator.html
       output: web
+
+  - title: Contributing
+    output: web
+    folderitems:
+
+    - title: Help us make Superalgos better
+      url: /suite-contributing-to-superalgos.html
+      output: web
