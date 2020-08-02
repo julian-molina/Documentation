@@ -1,13 +1,13 @@
 ---
-title:  How to Contribute an Indicator
+title:  How to Contribute Indicators
 summary: Set up your data mine, document both the on-chart features and the data products made available to other bots, and submit a PR to the corresponding repository.
-sidebar: suite_sidebar
-permalink: suite-how-to-contribute-an-indicator.html
+sidebar: contributing_sidebar
+permalink: contributing-indicators.html
 ---
 
 It's awesome you wish to contribute an indicator! Thank you for your generosity! By doing so, you are contributing to the intelligence of the collective. We hope many developers will want to share indicators so that Superalgos may soon feature a comprehensive library of technical studies that make our strategies smarter.
 
-Indicators may ocasionally require maintenance, sometimes to adapt to evolutions in Superalgos, or to fix bugs users may help to spot. For that reason, it's good that indicators have maintainers. Also, contributing to an open-source project is the main way of building reputation with the community. The project thrives thanks to contributions, as there is only so much founders and project mantainers may achieve on their own. It is always positive that the community knows who contributed what, and proper attribution is a fundamental part of the culture we wish to build for Superalgos: the realization that we are all better off collaborating.
+Indicators may ocasionally require maintenance, sometimes to adapt to evolutions in Superalgos, or to fix bugs users may help to spot. For that reason, it's good that indicators have maintainers. Also, contributing to an open-source project is the main way of building reputation with the community. 
 
 As such, the sustainable way to organize contributions of indicators is that each contributor owns and maintains his or her own data mine. If you set up a data mine and complete the documentation as described below, we may include your data mine in the next official release of Superalgos.
 
