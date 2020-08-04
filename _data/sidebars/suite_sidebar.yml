@@ -595,6 +595,10 @@ entries:
       url: /suite-hierarchy-trading-system.html
       output: web
 
+    - title: Trading engine
+      url: /suite-hierarchy-trading-engine.html
+      output: web
+
     - title: Network
       url: /suite-hierarchy-network.html
       output: web
