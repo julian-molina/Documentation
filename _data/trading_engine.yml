@@ -1,6 +1,6 @@
 trading_engine: ""
 dynamic_indicators: ""
-inidicator_function: ""
+indicator_function: ""
 formula: ""
 episode: ""
 episode_base_asset: ""
