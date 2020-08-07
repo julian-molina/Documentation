@@ -1,5 +1,5 @@
 ---
-title:  "Contributing Documentation: Introduction"
+title:  Contributing Documentation
 summary: "The documentation is the second most prominent asset of the project after the system itself. As such, contributing to the documentation has a huge impact!"
 sidebar: contributing_sidebar
 permalink: contributing-documentation.html

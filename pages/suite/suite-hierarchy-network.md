@@ -61,7 +61,7 @@ toc: false
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#fee-structure' data-toggle='tooltip' data-original-title='{{site.data.network.fee_structure}}'><img src='images/icons/nodes/png50/fee-structure.png' /><br />Fee Structure</a></td></tr></tbody></table>
 
 
-{% include /network/network.md heading="##" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/network.md heading="##" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more=""%}
 
 {% include /network/network-node.md heading="##" icon="150" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
