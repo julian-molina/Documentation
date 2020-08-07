@@ -29,7 +29,7 @@ However, with a vast and complex system, the above is not enough. The documentat
 
 ## Information Structure
 
-Conceptually, information is structured in horizontal layers. The bottom layers of information provide a substance that layers built on top feed from by reusing content and further elaborating on it.
+Conceptually, information is structured in horizontal layers. The bottom layers of information provide the substance that layers built on top feed from by reusing content and further elaborating on it.
 
 At a glance, these are the layers that make up the current documentation:
 
