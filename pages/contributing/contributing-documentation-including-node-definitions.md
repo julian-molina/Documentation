@@ -8,7 +8,7 @@ toc: false
 
 Not all information within the definition of a node is relevant at all times. For example, a page introducing the four existing trading modes may list the short definition of each type of trading session, without going into details such as how to configure each type.
 
-The infrastructure described in the [Node Definitions](contributing-documentation-node-definitions.html) page is designed to facilitate the flexible use of the information within each page.
+{% include note.html content="The infrastructure described in the [Node Definitions](contributing-documentation-node-definitions.html) page is designed to facilitate the flexible use of the information within each page." %}
 
 Node definition pages are designed to be included in other pages. To do that, the Liquid ```include``` statement is used with the following syntax:
 
