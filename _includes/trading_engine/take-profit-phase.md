@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Base Asset" %}
-{% assign definition = site.data.trading_engine.base_asset %}
+{% assign title = "Take Profit Phase" %}
+{% assign definition = site.data.trading_engine.take_profit_phase %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 

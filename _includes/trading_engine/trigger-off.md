@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Previous" %}
-{% assign definition = site.data.trading_engine.previous %}
+{% assign title = "Trigger Off" %}
+{% assign definition = site.data.trading_engine.trigger_off %}
 {% assign preposition = "a" %}
 {% assign plural = "" %}
 
