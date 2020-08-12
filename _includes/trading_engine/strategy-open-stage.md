@@ -51,7 +51,15 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+The open stage is active from the instant the take position event gets triggered until the instant one of the following things happen:
+
+* the target size is filled, 
+
+* the close stage event is triggered, 
+
+* the take profit or stop loss targets are hit. 
+
+Therefore, this section of the data structure features information spaning those periods only.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +76,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

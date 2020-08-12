@@ -50,8 +50,25 @@
 {% if include.content != "no" %}
 
 <!--------------------------------------------- CONTENT starts -->
+```No Exit``` is the default value until a new value is assigned before the object is closed. Other possible values vary with the context.
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+In the context of the episode object:
+
+* ```Last Candle Reached```: the object was closed because the last candle was reached.
+
+In the context of the strategy object:
+
+* ```Position Closed```: the position was closed.
+
+In the context of the position object:
+
+* ```Take Profit```: the take profit target was hit.
+
+* ```Stop Loss```: the stop loss target was hit.
+
+In the context of an order:
+
+* ```Closing Stage```: the stage is closing.
 
 <!--------------------------------------------- CONTENT ends -->
 

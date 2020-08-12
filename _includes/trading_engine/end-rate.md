@@ -51,7 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+In the context of a strategy, it is the close rate of the last closed candle at the moment the strategy is triggered-off.
+
+In the context of a position, it is the close rate of the last closed candle at the moment the close stage is closed.
+
+In the context of an episode, it is the close rate of the last closed candle at the moment the episode ends.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +72,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

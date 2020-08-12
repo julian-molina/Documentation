@@ -51,7 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+In the context of a candle, it is the datetime of the close of the candle as provided by the exchange.
+
+In every other context, the datetime is given by the closing datetime of the last closed candle at the moment of evaluation.
+
+When evaluating a point in time in which the object remains open, *end* stores the closing datetime of the last closed candle, because the object existed until that point in time at the moment the value was last updated. Once the object is closed, the end value is not modified again.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +72,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

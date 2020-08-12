@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Each offspring node in the current section of the hierarchy keeps track of information within the scope of the embodied concept (episode, strategy, position, and so on).
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +68,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To add the current node, select *Add Missing Items* on the trading engine node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

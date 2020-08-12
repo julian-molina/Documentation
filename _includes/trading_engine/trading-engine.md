@@ -51,7 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Every relevant piece of information handled by the trading bot is stored in JSON files, sorted by over 40 different concepts, and&mdash;as usual&mdash;by exchange, market, trading session, and time frame. 
+
+The data in these files may be accessed in real-time by strategies through conditions and formulas via the regular [syntax](suite-syntax-overview.html). It may also be accessed by external systems, and is kept on disk to be accessed offline as well.
+
+{% include note.html content="There may be more than one trading engine in a workspace." %}
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +72,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To add a trading engine, select *Add Trading Engine* on the workspace node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

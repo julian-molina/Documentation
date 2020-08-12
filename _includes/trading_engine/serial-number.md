@@ -51,7 +51,13 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+In the context of the strategy object, it means how many times a strategy has been triggered. It does not refer to a specific strategy within a trading system, but any strategy.
+
+In the context of a position, it refers to the number of times a position has been open.
+
+In the context of an episode, the value is usually 1, as the current version of the system handles a single episode at a time.
+
+In the context of an order, it refers to the number of times an order of the specific type has been open.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +74,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 
