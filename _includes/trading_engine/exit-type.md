@@ -68,7 +68,7 @@ In the context of the position object:
 
 In the context of an order:
 
-* ```Closing Stage```: the stage is closing.
+* ```Closing Stage```: the current stage started closing because the Close Stage is opening.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -85,7 +85,7 @@ In the context of an order:
 
 <!--------------------------------------------- ADDING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

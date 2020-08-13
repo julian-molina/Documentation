@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-A position is active from the instant the take position event is triggered until the instant the close stage is closed. Therefore, this section of the data structure features information spaning those periods only.
+A position is open from the instant the take position event is triggered until the instant the close stage is closed. Therefore, this section of the data structure features information spaning those periods only.
 
 <!--------------------------------------------- CONTENT ends -->
 

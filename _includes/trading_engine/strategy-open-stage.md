@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The open stage is active from the instant the take position event gets triggered until the instant one of the following things happen:
+The open stage is open from the instant the take position event gets triggered, and starts closing from the instant one of the following things happen:
 
 * the target size is filled, 
 

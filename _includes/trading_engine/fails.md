@@ -51,7 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+In the context of the quoted asset or the base asset, *fails* are calculated relative to the asset in question.
+
+However, when the context of the asset is not specified, then *fails* are calculated in a consolidated manner, converting the respective balances to perform the calculations.
+
+{% include note.html content="Learn the specifics about the underlying calculations on the page explaining the initial targets in the trading system." %}
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +72,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

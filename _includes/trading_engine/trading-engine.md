@@ -51,11 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Every relevant piece of information handled by the trading bot is stored in JSON files, sorted by over 40 different concepts, and&mdash;as usual&mdash;by exchange, market, trading session, and time frame. 
+The hierarchy provides users with a visual environment to keep track of the actions of the trading bot. By analyzing runtime information, users may gain a detailed understanding of what happens, when, and why, throughout a trading session.
 
-The data in these files may be accessed in real-time by strategies through conditions and formulas via the regular [syntax](suite-syntax-overview.html). It may also be accessed by external systems, and is kept on disk to be accessed offline as well.
+The hierarchy exposes&mdash;literally&mdash;all the information processed by the trading bot, providing a comprehensive feedback loop to trading systems and analysis capabilities to users.
 
-{% include note.html content="There may be more than one trading engine in a workspace." %}
+{% include tip.html content="There may be more than one trading engine in a workspace. Cloning the default trading engine is the best way to start a new one." %}
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -72,7 +72,7 @@ The data in these files may be accessed in real-time by strategies through condi
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a trading engine, select *Add Trading Engine* on the workspace node menu. 
+To add the {{ title | downcase }} node, select *Add Trading Engine* on the workspace node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 
