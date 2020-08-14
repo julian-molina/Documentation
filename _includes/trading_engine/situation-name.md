@@ -51,7 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+In the context of a strategy, it is the name of the situation that triggered-on the strategy.
+
+In the context of a position, it's the name of the situation that triggered the take position event.
+
+In the context of an order, it's the situation that triggered the create order event.
 
 <!--------------------------------------------- CONTENT ends -->
 

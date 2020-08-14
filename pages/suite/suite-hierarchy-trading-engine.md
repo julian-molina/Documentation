@@ -1,6 +1,6 @@
 ---
 title:  Trading Engine
-summary: ""
+summary: "The trading engine provides a feedback loop to trading systems so that your strategies may leverage the information processed by the trading bot."
 sidebar: suite_sidebar
 permalink: suite-hierarchy-trading-engine.html
 toc: false
@@ -56,7 +56,7 @@ toc: false
 <tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#hit-ratio' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.hit_ratio}}'><img src='images/icons/nodes/png50/hit-ratio.png' /><br />Hit Ratio</a></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#days' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.days}}'><img src='images/icons/nodes/png50/days.png' /><br />Days</a></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#annualized-rate-of-return' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.annualized_rate_of_return}}'><img src='images/icons/nodes/png50/annualized-rate-of-return.png' /><br />Annualized Rate of Return</a></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#user-defined-statistics' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.user_defined_statistics}}'><img src='images/icons/nodes/png50/user-defined-statistics.png' /><br />User Defined Statistics</a></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#user-defined-statistic' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.user_defined_statistic}}'><img src='images/icons/nodes/png50/user-defined-statistic.png' /><br />User Defined Statistic</a></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#formula' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.formula}}'><img src='images/icons/nodes/png50/formula.png' /><br />Formula</a></td><td></td><td></td><td></td><td></td></tr>
 <tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#candle' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.candle}}'><img src='images/icons/nodes/png50/candle.png' /><br />Candle</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#begin' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.begin}}'><img src='images/icons/nodes/png50/begin.png' /><br />Begin</a></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -313,6 +313,7 @@ toc: false
 <tr><td></td><td></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#formula' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.formula}}'><img src='images/icons/nodes/png50/formula.png' /><br />Formula</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 
+
 {% include /trading_engine/trading-engine.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/current.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
@@ -371,53 +372,53 @@ toc: false
 
 {% include /trading_engine/user-defined-counters.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/episode-statistics.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/episode-statistics.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/days.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/user-defined-statistics.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/user-defined-statistic.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/formula.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/candle.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/candle.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/open.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/open.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/close.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/close.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/min.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/min.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/max.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/max.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/index.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/distance-to-event.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/distance-to-event.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/trigger-on.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/trigger-on.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/trigger-off.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/trigger-off.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/take-position.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/take-position.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/close-position.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/close-position.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/next-phase.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/next-phase.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/move-to-phase.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/move-to-phase.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/create-order.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/create-order.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/cancel-order.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/cancel-order.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/close-order.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/close-order.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/strategy.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/situation-name.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/strategy-name.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/strategy-name.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/strategy-counters.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/strategy-counters.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/position.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 

@@ -51,7 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+In the context of the trading engine, formulas are used to create user defined statistics.
+
+Formulas may use indicators and object properties made available by the trading engine. They must evaluate to a number.
+
+{% include note.html content="To learn how to write formulas, see [syntax overview](suite-syntax-overview.html)." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

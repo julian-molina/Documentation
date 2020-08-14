@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "User Defined Statistics" %}
-{% assign definition = site.data.trading_engine.user_defined_statistics %}
+{% assign title = "User Defined Statistic" %}
+{% assign definition = site.data.trading_engine.user_defined_statistic %}
 {% assign preposition = "a" %}
 {% assign plural = "" %}
 
@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+The current contexts in which custom statistics may be defined are episodes, positions, and orders.
 
 <!--------------------------------------------- CONTENT ends -->
 

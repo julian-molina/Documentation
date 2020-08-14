@@ -57,7 +57,7 @@ Formulas may use indicators and internal variables made available by the system.
 
 **For example:**
 
-* ```positionRate - positionRate * 2.5 / 100``` &#8594; This formula may be used to define an initial stop target 2.5% below the rate at which the position was taken.
+* ```positionRate * 0.98``` &#8594; This formula may be used to define an initial stop target 2% below the rate at which the position was taken.
 
 {% include note.html content="To learn how to write formulas, see [syntax overview](suite-syntax-overview.html) and [internal variables](suite-internal-variables.html)." %}
 

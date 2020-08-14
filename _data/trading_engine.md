@@ -56,53 +56,53 @@ orders: "Orders counts the number of times orders have been placed, in the conte
 
 user_defined_counters: ""
 
-episode_statistics: ""
+episode_statistics: "Episode statistics keeps track of several metrics in the context of the episode."
 
-days: ""
+days: "Days counts the number of days through which the trading bot has cycled since the object represented by the parent node was open."
 
-user_defined_statistics: ""
+user_defined_statistic: "A user defined statistic allows users to create custom metrics by defining the corresponding calculation in a formula, in the context of the parent node."
 
-formula: ""
+formula: "A formula is a mathematical expression intended to determine a numerical value to be applied dynamically to a certain property."
 
-candle: ""
+candle: "Candle features all the properties that make up a candle."
 
-open: ""
+open: "Open is the rate at the datetime of the begin property, as provided by the exchange."
 
-close: ""
+close: "Close is the rate at the datetime of the end property, as provided by the exchange."
 
-min: ""
+min: "Min is the minimum rate registered by the exchange during the period between the datetimes of the begin and end properties, as provided by the exchange."
 
-max: ""
+max: "Max is the maximum rate registered by the exchange during the period between the datetimes of the begin and end properties, as provided by the exchange."
 
-index: ""
+index: "Index is the position of the parent object in the corresponding data collection, as determined by the context."
 
-distance_to_event: ""
+distance_to_event: "Distance to event features counters indicating how many periods (candles) have passed since the last occurrence of certain events."
 
-trigger_on: ""
+trigger_on: "Counts the periods since the last time a strategy was triggered on."
 
-trigger_off: ""
+trigger_off: "Counts the periods since the last time a strategy was triggered off."
 
-take_position: ""
+take_position: "Counts the periods since the last time a position was taken."
 
-close_position: ""
+close_position: "Counts the periods since the last time a position was closed."
 
-next_phase: ""
+next_phase: "Counts the periods since the last time a next phase event was triggered."
 
-move_to_phase: ""
+move_to_phase: "Counts the periods since the last time a move to phase event was triggered."
 
-create_order: ""
+create_order: "Counts the periods since the last time an order was created."
 
-cancel_order: ""
+cancel_order: "Counts the periods since the last time an order was canceled."
 
-close_order: ""
+close_order: "Counts the periods since the last time an order was closed."
 
 strategy: "Strategy is the section of the data structure that keeps track of information within the scope of the trading strategy as defined in the trading system, during the time the strategy is open."
 
-situation_name: ""
+situation_name: "Situation name features the name of the situation that triggered a certain event, which is dependent on the context."
 
-strategy_name: ""
+strategy_name: "Strategy name features the name of the strategy that is currently open."
 
-strategy_counters: ""
+strategy_counters: "The strategy counters node features counters of instances of objects that come to exist while the strategy is open."
 
 position: "Position is the section of the data structure that keeps track of information within the scope of each position, and during the time a position is open."
 

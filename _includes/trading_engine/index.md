@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+In the context of a candle, *index* is the position of the current candle in the array of candles within the larger context, for example, an episode.
+
+Trading systems may feature more than one strategy. In the context of a strategy, *index* is the position of the strategy within the trading system. 
 
 <!--------------------------------------------- CONTENT ends -->
 

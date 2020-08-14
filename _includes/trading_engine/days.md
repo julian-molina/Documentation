@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+In the context of an episode, it counts the number of days in the episode.
+
+In the context of a position, it counts the number of days a position has been open.
 
 <!--------------------------------------------- CONTENT ends -->
 

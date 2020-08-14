@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-A strategy is active from the instant it is triggered-on until the instant it is triggered-off. Therefore, this section of the data structure features information spaning those periods only.
+A strategy is open from the instant it is triggered-on until the instant it is triggered-off. Therefore, this section of the data structure features information spaning those periods only.
 
 <!--------------------------------------------- CONTENT ends -->
 
