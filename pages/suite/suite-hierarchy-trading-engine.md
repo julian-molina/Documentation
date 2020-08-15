@@ -103,11 +103,9 @@ toc: false
 <tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#entry-target-rate' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.entry_target_rate}}'><img src='images/icons/nodes/png50/entry-target-rate.png' /><br />Entry Target Rate</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#exit-target-rate' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.exit_target_rate}}'><img src='images/icons/nodes/png50/exit-target-rate.png' /><br />Exit Target Rate</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#stop-loss' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.stop_loss}}'><img src='images/icons/nodes/png50/stop-loss.png' /><br />Stop Loss</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#stop-loss-stage' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.stop_loss_stage}}'><img src='images/icons/nodes/png50/stop-loss-stage.png' /><br />Stop Loss Stage</a></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#stop-loss-phase' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.stop_loss_phase}}'><img src='images/icons/nodes/png50/stop-loss-phase.png' /><br />Stop Loss Phase</a></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#stop-loss-position' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.stop_loss_position}}'><img src='images/icons/nodes/png50/stop-loss-position.png' /><br />Stop Loss Position</a></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#take-profit' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.take_profit}}'><img src='images/icons/nodes/png50/take-profit.png' /><br />Take Profit</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#take-profit-stage' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.take_profit_stage}}'><img src='images/icons/nodes/png50/take-profit-stage.png' /><br />Take Profit Stage</a></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#take-profit-phase' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.take_profit_phase}}'><img src='images/icons/nodes/png50/take-profit-phase.png' /><br />Take Profit Phase</a></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#take-profit-position' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.take_profit_position}}'><img src='images/icons/nodes/png50/take-profit-position.png' /><br />Take Profit Position</a></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#position-counters' data-toggle='tooltip' data-original-title='{{site.data.super_scripts.position_counters}}'><img src='images/icons/nodes/png50/position-counters.png' /><br />Position Counters</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -314,6 +312,7 @@ toc: false
 
 
 
+
 {% include /trading_engine/trading-engine.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/current.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
@@ -426,25 +425,21 @@ toc: false
 
 {% include /trading_engine/exit-target-rate.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/stop-loss.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/stop-loss.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/stop-loss-stage.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
-
-{% include /trading_engine/stop-loss-phase.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/stop-loss-phase.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/stop-loss-position.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/take-profit.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/take-profit.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/take-profit-stage.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
-
-{% include /trading_engine/take-profit-phase.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/take-profit-phase.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/take-profit-position.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/position-counters.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/position-counters.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/position-statistics.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/position-statistics.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/position-base-asset.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 

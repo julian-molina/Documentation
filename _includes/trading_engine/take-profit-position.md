@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Possible values are ```Above``` and ```Below```.
+
+The implications of setting the take profit target above or below the position rate are explained on the page explaining the take profit in the manage stage of the trading system.
 
 <!--------------------------------------------- CONTENT ends -->
 

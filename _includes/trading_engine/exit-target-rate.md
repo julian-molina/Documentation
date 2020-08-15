@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Check the explanations on the initial target definitions at the trading system for further details.
 
 <!--------------------------------------------- CONTENT ends -->
 
