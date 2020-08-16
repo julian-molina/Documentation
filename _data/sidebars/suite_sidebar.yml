@@ -598,6 +598,7 @@ entries:
     - title: Trading engine
       url: /suite-hierarchy-trading-engine.html
       output: web
+      class: newItem
 
     - title: Network
       url: /suite-hierarchy-network.html
