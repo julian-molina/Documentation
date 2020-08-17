@@ -51,7 +51,61 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+In general financial terms, ROI is equal to the *Net Return on Investment* divided by the *Cost of Investment*, expressed as a percentage.
+
+In Superalgos, the *Net Return on Investment* is the profit loss, as defined elsewhere. The *Cost of Investment* is solely the begin balance, as the fees are subtracted from the balance to calculate the profit loss, so we don't need to account for them in the divisor side of the ratio.
+
+*That is:*
+
+```ROI = profit loss / begin balance * 100```
+
+In the context of the episode base asset and episode quoted asset, the calculation is done relative to the corresponding assets, and the overall context.
+
+*The formula:*
+
+```
+tradingEngine.current.episode.episodeBaseAsset.ROI.value =
+    tradingEngine.current.episode.episodeBaseAsset.profitLoss.value /
+    tradingEngine.current.episode.episodeBaseAsset.beginBalance.value * 100 
+    
+tradingEngine.current.episode.episodeQuotedAsset.ROI.value =
+    tradingEngine.current.episode.episodeQuotedAsset.profitLoss.value /
+    tradingEngine.current.episode.episodeQuotedAsset.beginBalance.value * 100
+```
+
+In the context of the position base asset and position quoted asset, the size filled is used instead of the balance, so that ROI may be properly calculated for complex execution algorithms.
+
+*The formula:*
+
+```
+tradingEngine.current.position.positionBaseAsset.ROI.value =
+    tradingEngine.current.position.positionBaseAsset.profitLoss.value * 100 /
+    tradingEngine.current.position.positionBaseAsset.sizeFilled.value
+    
+tradingEngine.current.position.positionQuotedAsset.ROI.value =
+    tradingEngine.current.position.positionQuotedAsset.profitLoss.value * 100 /
+    tradingEngine.current.position.positionQuotedAsset.sizeFilled.value
+```
+
+In the context of the episode statistics, the calculation is done using the consolidated balance, as explained in the profit loss definition. 
+
+{% include note.html content="When the context does not refer to either of the assets in particular, then both asset balances are consolidated, and denominated in the quoted asset." %}
+
+*The formula:*
+
+```
+tradingEngine.current.episode.episodeStatistics.ROI.value =
+    (
+        tradingEngine.current.episode.episodeBaseAsset.profitLoss.value * 
+        tradingEngine.current.episode.endRate.value +
+        tradingEngine.current.episode.episodeQuotedAsset.profitLoss.value
+    ) / (
+        tradingEngine.current.episode.episodeBaseAsset.beginBalance.value * 
+        tradingEngine.current.episode.beginRate.value +
+        tradingEngine.current.episode.episodeQuotedAsset.beginBalance.value
+    ) * 100
+```
+
 
 <!--------------------------------------------- CONTENT ends -->
 

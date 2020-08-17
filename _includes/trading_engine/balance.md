@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+The balance of an asset changes every time an order involving the asset is filled.
 
 <!--------------------------------------------- CONTENT ends -->
 

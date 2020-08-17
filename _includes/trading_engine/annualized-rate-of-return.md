@@ -51,7 +51,77 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
+In other words, it is the equivalent annual return received over a given period.
+
+*The formula:*
+
+```annualized rate of return = (((investment + profits) / investments) ^ (365 / days)) - 1```
+
+In the context of the episode base asset and episode quoted asset, the calculation is done relative to the corresponding assets, and the overall context.
+
+*The formulas:*
+
+```
+tradingEngine.current.episode.episodeBaseAsset.annualizedRateOfReturn.value = 
+((( tradingEngine.current.episode.episodeBaseAsset.beginBalance.value +
+tradingEngine.current.episode.episodeBaseAsset.profitLoss.value ) / 
+tradingEngine.current.episode.episodeBaseAsset.beginBalance.value) ^
+(365 / tradingEngine.current.episode.episodeStatistics.days.value)) - 1
+
+tradingEngine.current.episode.episodeQuotedAsset.annualizedRateOfReturn.value = 
+((( tradingEngine.current.episode.episodeQuotedAsset.beginBalance.value +
+tradingEngine.current.episode.episodeQuotedAsset.profitLoss.value ) / 
+tradingEngine.current.episode.episodeQuotedAsset.beginBalance.value) ^
+(365 / tradingEngine.current.episode.episodeStatistics.days.value)) - 1
+```
+
+*The JavaScript code:*
+
+```js
+tradingEngine.current.episode.episodeBaseAsset.annualizedRateOfReturn.value = 
+Math.pow(
+             ( tradingEngine.current.episode.episodeBaseAsset.beginBalance.value +
+             tradingEngine.current.episode.episodeBaseAsset.profitLoss.value ) / 
+             tradingEngine.current.episode.episodeBaseAsset.beginBalance.value
+             , 
+             (365 / tradingEngine.current.episode.episodeStatistics.days.value)
+        ) - 1
+
+tradingEngine.current.episode.episodeQuotedAsset.annualizedRateOfReturn.value = 
+Math.pow(
+             ( tradingEngine.current.episode.episodeQuotedAsset.beginBalance.value +
+             tradingEngine.current.episode.episodeQuotedAsset.profitLoss.value ) / 
+             tradingEngine.current.episode.episodeQuotedAsset.beginBalance.value
+             , 
+             (365 / tradingEngine.current.episode.episodeStatistics.days.value)
+        ) - 1
+```
+
+In the context of the episode statistics, the calculation is done using the consolidated balance, as explained in the profit loss definition. 
+
+{% include note.html content="When the context does not refer to either of the assets in particular, then both asset balances are consolidated, and denominated in the quoted asset." %}
+
+*The JavaScript code:*
+
+```
+tradingEngine.current.episode.episodeStatistics.annualizedRateOfReturn.value =
+Math.pow(
+    (
+        tradingEngine.current.episode.episodeBaseAsset.beginBalance.value * tradingEngine.current.episode.beginRate.value +
+        tradingEngine.current.episode.episodeQuotedAsset.beginBalance.value +
+        tradingEngine.current.episode.episodeBaseAsset.profitLoss.value +
+        tradingEngine.current.episode.episodeQuotedAsset.profitLoss.value
+    ) / 
+    (
+        tradingEngine.current.episode.episodeBaseAsset.beginBalance.value * tradingEngine.current.episode.beginRate.value +
+        tradingEngine.current.episode.episodeQuotedAsset.beginBalance.value 
+    ) 
+    , 
+    (
+        365 / tradingEngine.current.episode.episodeStatistics.days.value
+    ) 
+        ) - 1
+```
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +138,7 @@ To add the {{ title | downcase }} node, select *Add Missing Items* on the parent
 
 <!--------------------------------------------- ADDING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

@@ -22,25 +22,25 @@ exit_type: "Exit type refers to the reason why the object is closed."
 
 episode_base_asset: "The episode base asset node keeps track of the evolution of variables related to the base asset throughout the episode."
 
-balance: ""
+balance: "Balance is the running balance, that is, the amount of the asset that exists at any point in time."
 
-begin_balance: ""
+begin_balance: "Begin balance is the balance at the datetime of the begin property of the parent node or concept."
 
-end_balance: ""
+end_balance: "End balance is the balance at the datetime of the end property of the parent node or concept."
 
-hits: "Hits counts the number of positions that closed with a positive profit loss (P&L), in the context of the parent node."
+hits: "Hits counts the number of positions that closed with a positive profit loss, in the context of the parent node."
 
-fails: "Fails counts the number of positions that closed with a negative profit loss (P&L), in the context of the parent node."
+fails: "Fails counts the number of positions that closed with a negative profit loss, in the context of the parent node."
 
-hit_ratio: "Hit ratio is the percentage of positions that closed with a positive profit loss (P&L), in the context of the parent node."
+hit_ratio: "Hit ratio is the percentage of positions that closed with a positive profit loss, in the context of the parent node."
 
-profit_loss: ""
+profit_loss: "Profit loss is the difference between the balance at the end and the balance at the beginning of a certain period, given by the context."
 
-roi: ""
+roi: "ROI is a ratio that compares the profit loss with the cost of the investment, expressed as a percentage."
 
-annualized_rate_of_return: ""
+annualized_rate_of_return: "Annualized rate of return is the equivalent ROI scaled to one year."
 
-hit_fail: ""
+hit_fail: "Hit fail states whether a transaction is successful or not, hit meaning it is successful and fail meaning it is not."
 
 episode_quoted_asset: "The episode quoted asset node keeps track of the evolution of variables related to the quoted asset throughout the episode."
 

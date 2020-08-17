@@ -51,7 +51,59 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+In the context of the base asset or the quoted asset, the calculation is done by subtracting the balances in the corresponding assets, using the variable appropriate to the larger context (i.e.: episode, position, etc.).
+
+*In general terms:*
+
+* ```base asset profit loss = base asset end balance - base asset begin balance```
+
+* ```quoted asset profit loss = quoted asset end balance - quoted asset begin balance```
+
+*In the case of the episode base asset and episode quoted asset:*
+
+```
+tradingEngine.current.episode.episodeBaseAsset.profitLoss.value =
+    tradingEngine.current.episode.episodeBaseAsset.balance.value -
+    sessionParameters.sessionBaseAsset.config.initialBalance
+    
+tradingEngine.current.episode.episodeQuotedAsset.profitLoss.value =
+    tradingEngine.current.episode.episodeQuotedAsset.balance.value -
+    sessionParameters.sessionQuotedAsset.config.initialBalance
+```
+
+*In the case of the position base asset and position quoted asset:*
+
+```
+tradingEngine.current.position.positionBaseAsset.profitLoss.value =
+    tradingEngine.current.episode.episodeBaseAsset.balance.value -
+    tradingEngine.current.position.positionBaseAsset.beginBalance
+    
+tradingEngine.current.position.positionQuotedAsset.profitLoss.value =
+    tradingEngine.current.episode.episodeQuotedAsset.balance.value -
+    tradingEngine.current.position.positionQuotedAsset.beginBalance
+```
+
+In the context of the episode statistics or the position statistics, the calculation is done consolidating the profits of both assets. 
+
+{% include note.html content="When the context does not refer to either of the assets in particular, then both assets are taken into account in the calculation." %}
+
+*In the context of the episode:*
+
+```
+tradingEngine.current.episode.episodeStatistics.profitLoss.value =
+    tradingEngine.current.episode.episodeBaseAsset.profitLoss.value * 
+    tradingEngine.current.episode.candle.close.value +
+    tradingEngine.current.episode.episodeQuotedAsset.profitLoss.value
+```
+
+*In the context of the position:*
+
+```
+tradingEngine.current.position.positionStatistics.profitLoss.value =
+    tradingEngine.current.episode.episodeBaseAsset.profitLoss.value * 
+    tradingEngine.current.position.endRate.value +
+    tradingEngine.current.episode.episodeQuotedAsset.profitLoss.value
+```
 
 <!--------------------------------------------- CONTENT ends -->
 

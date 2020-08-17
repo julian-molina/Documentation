@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Superalgos marks positions and even entire episodes as hits or fails, by evaluating ROI for the corresponding context. If ROI is positive, then the position or episode is a hit. If ROI is negative, it is a fail.
 
 <!--------------------------------------------- CONTENT ends -->
 

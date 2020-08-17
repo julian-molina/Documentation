@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+In the context of an episode, it is the balance at the datetime the episode ended.
+
+In the context of a position, it is the balance at the datetime the position was closed.
 
 <!--------------------------------------------- CONTENT ends -->
 
