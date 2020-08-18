@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Each limit order defined in the trading system must reference the data structure of a limit order in the trading engine.
 
 <!--------------------------------------------- CONTENT ends -->
 

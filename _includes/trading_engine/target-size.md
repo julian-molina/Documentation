@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Both the close and open stages may have multiple execution algorithms, each with multiple orders defined. In this context, the target size acts as a limit, as it is defined by the user as the maximum size allowed for any given position.
+
+Before placing an order, the system makes sure that the size limit embodied in the target size would not be breached by opening a new order.
 
 <!--------------------------------------------- CONTENT ends -->
 

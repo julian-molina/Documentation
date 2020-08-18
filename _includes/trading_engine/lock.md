@@ -51,7 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Possible values for lock are ```open``` and ```closed```.
+
+The moment an order is closed, the system checks the ```spawnMultipleOrders``` parameter at the order's configuration in the trading system. If the value is ```false```, the system sets the lock to ```closed``` so that the data structure may not be used again during the same position.
+
+At the moment of opening an order, the system checks the ```spawnMultipleOrders``` parameter at the order's configuration in the trading system. If the value is ```false```, the system checks the value of the lock. If the value is ```open```, then it may create the order; if it is ```closed``` then the order may not be created.
 
 <!--------------------------------------------- CONTENT ends -->
 

@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+*The formula:*
+
+```percentage filled = size filled * 100 / size```
 
 <!--------------------------------------------- CONTENT ends -->
 

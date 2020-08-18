@@ -473,7 +473,7 @@ toc: false
 
 {% include /trading_engine/exchange-orders.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/market-buy-orders.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/market-buy-orders.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/market-order.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
@@ -485,7 +485,7 @@ toc: false
 
 {% include /trading_engine/algorithm-name.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/order-counters.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/order-counters.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/lock.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
@@ -495,19 +495,19 @@ toc: false
 
 {% include /trading_engine/order-quoted-asset.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/order-statistics.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/order-statistics.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/percentage-filled.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/actual-rate.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/market-sell-orders.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/market-sell-orders.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/limit-buy-orders.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/limit-buy-orders.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/limit-order.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
-{% include /trading_engine/limit-sell-orders.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_engine/limit-sell-orders.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
 {% include /trading_engine/dynamic-indicators.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 

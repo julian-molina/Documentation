@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+In case an order is filled incrementally, the value is updated accordingly. The system does not use this value at all and is presented for informational purposes only.
 
 <!--------------------------------------------- CONTENT ends -->
 

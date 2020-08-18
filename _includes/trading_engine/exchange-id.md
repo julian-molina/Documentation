@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+By default, it is the rate at the close of the last candle at the moment the order is placed. All market orders have the default rate value.
+
+In the case of limit orders, it is the rate as specified by the formula under the order rate node. If no such definition exists, then limit orders use the default value as well.
 
 <!--------------------------------------------- CONTENT ends -->
 

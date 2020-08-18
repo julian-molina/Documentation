@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+The amount paid in fees is deducted from the size placed, therefore, the size filled tends to be equal to the size placed minus the fees paid.
 
 <!--------------------------------------------- CONTENT ends -->
 

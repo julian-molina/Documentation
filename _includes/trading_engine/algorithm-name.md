@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Assigning names to execution algorithms in the definition of the trading system makes tracking the execution of orders easier.
 
 <!--------------------------------------------- CONTENT ends -->
 

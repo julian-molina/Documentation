@@ -1,6 +1,6 @@
 trading_engine: "The trading engine hierarchy is the data structure used by the trading bot to keep runtime information highly accessible and exposed to others. Trading systems may access the information processed by the trading bot, keep track of and react to current and past events&mdash;including those involving the exchange, such as orders placed or filled&mdash;as the bot is running."
 
-current: "The current object stores instances of several other objects, in particular the instances that are open at the time of evaluation. Conceptually, current is used as an adverb of time applied to different concepts, such as the current episode, the current strategy, the current position, or the current strategy stage."
+current: "The current object stores instances of several other objects, in particular the instances that are open at the time of evaluation. Conceptually, current is used as an adjective applied to different concepts, such as the current episode, the current strategy, the current position, or the current strategy stage, to indicate the instance actually passing."
 
 episode: "Episode is the object that handles the information corresponding to the whole run of the trading bot&mdash;beginning to end&mdash;between the specified initial datetime and final datetime in the time range parameter of a trading session."
 
@@ -140,13 +140,13 @@ strategy_open_stage: "Strategy open stage is the section of the data structure t
 
 stage_base_asset: "The stage base asset node keeps track of the evolution of variables related to the base asset throughout the stage."
 
-target_size: ""
+target_size: "Target size is the target set on the initial targets definition which, in the context of a strategy stage, acts as a limit."
 
-size_placed: ""
+size_placed: "Size placed is the size of the order as placed in the exchange."
 
-size_filled: ""
+size_filled: "Size filled is the amount of the order that has been filled."
 
-fees_paid: ""
+fees_paid: "Fees paid is the amount paid in fees."
 
 stage_quoted_asset: "The stage quoted asset node keeps track of the evolution of variables related to the quoted asset throughout the stage."
 
@@ -154,45 +154,45 @@ strategy_manage_stage: "Strategy manage stage is the section of the data structu
 
 strategy_close_stage: "Strategy close stage is the section of the data structure that keeps track of information specific to the scope of the close stage during the period the stage is open."
 
-last: ""
+last: "The last object stores instances of position and strategy objects, in particular the instances that were last open at the time of evaluation. Conceptually, last is used as an adjective applied to these concepts, such as the last position or the last strategy."
 
-exchange_orders: ""
+exchange_orders: "Exchange orders is the section of the data structure that keeps track of orders of all types."
 
-market_buy_orders: ""
+market_buy_orders: "Market buy orders is the section of the data structure that keeps track of this specific type of order."
 
-market_order: ""
+market_order: "Market order is the section of the data structure that keeps track of the properties of a specific market order, as defined in the trading system."
 
-exchange_id: ""
+exchange_id: "Exchange ID is a unique identifier the exchange assigns to the order, so that it may be unequivocally identified."
 
-rate: ""
+rate: "Rate is the rate at which the order is placed."
 
-order_name: ""
+order_name: "Order name is the name of the order as specified in the trading system."
 
-algorithm_name: ""
+algorithm_name: "Algorithm name is the name of the execution algorithm that opened the order, as specified in the trading system."
 
-order_counters: ""
+order_counters: "The order counters node features counters of instances of objects that come to exist while the order is open."
 
-lock: ""
+lock: "Lock is an internal mechanism that blocks the order's data structure at the trading engine when the definition of the order at the trading system disallows spawning multiple orders."
 
-order_base_asset: ""
+order_base_asset: "The order base asset node keeps track of the evolution of certain properties of orders, denominated in the base asset."
 
-size: ""
+size: "Size is the size set for the order through a combination of formulas and configurations defined in the trading system, and is the value passed on to the exchange as the size of the order."
 
-order_quoted_asset: ""
+order_quoted_asset: "The order quoted asset node keeps track of the evolution of certain properties of orders, denominated in the quoted asset."
 
-order_statistics: ""
+order_statistics: "Order statistics keeps track of several metrics in the context of the order."
 
-percentage_filled: ""
+percentage_filled: "Percentage filled represents the portion of the order that has been filled, expressed as a percentage."
 
-actual_rate: ""
+actual_rate: "Actual rate is the number reported by the exchange as the rate at which an order was filled."
 
-market_sell_orders: ""
+market_sell_orders: "Market sell orders is the section of the data structure that keeps track of this specific type of order."
 
-limit_buy_orders: ""
+limit_buy_orders: "Limit buy orders is the section of the data structure that keeps track of this specific type of order."
 
-limit_order: ""
+limit_order: "Limit order is the section of the data structure that keeps track of the properties of a specific limit order, as defined in the trading system."
 
-limit_sell_orders: ""
+limit_sell_orders: "Limit sell orders is the section of the data structure that keeps track of this specific type of order."
 
 dynamic_indicators: ""
 

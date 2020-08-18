@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Each market order defined in the trading system must reference the data structure of a market order in the trading engine.
 
 <!--------------------------------------------- CONTENT ends -->
 

@@ -51,7 +51,13 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+The system provides a flexible and robust infrastructure to control execution. The size of a single order results from the combination of multiple settings.
+
+* **The target size in base asset or target size in quoted asset**: The formulas under these nodes define the absolute maximum size allowed for the position. The implications of using one or the other are explained under the initial targets node in the open stage.
+
+* **The configuration of the execution algorithm**: The parameter ```percentageOfStageTargetSize``` determines what fraction of the target size the algorithm will attempt to execute.
+
+* **The configuration of the order**: The parameter ```percentageOfAlgorithmSize``` determines what fraction of the size handled by the algorithm the order shall be constrained to.
 
 <!--------------------------------------------- CONTENT ends -->
 

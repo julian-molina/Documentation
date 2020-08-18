@@ -78,13 +78,15 @@ In the context of the position base asset and position quoted asset, the size fi
 *The formula:*
 
 ```
+
 tradingEngine.current.position.positionBaseAsset.ROI.value =
     tradingEngine.current.position.positionBaseAsset.profitLoss.value * 100 /
-    tradingEngine.current.position.positionBaseAsset.sizeFilled.value
+    tradingEngine.current.strategyOpenStage.stageBaseAsset.sizeFilled.value
     
 tradingEngine.current.position.positionQuotedAsset.ROI.value =
     tradingEngine.current.position.positionQuotedAsset.profitLoss.value * 100 /
-    tradingEngine.current.position.positionQuotedAsset.sizeFilled.value
+    tradingEngine.current.strategyOpenStage.stageQuotedAsset.sizeFilled.value
+
 ```
 
 In the context of the episode statistics, the calculation is done using the consolidated balance, as explained in the profit loss definition. 

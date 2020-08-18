@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Size placed should usually match the target size.
+
+In the context of a strategy stage, target size refers to all the orders that may be placed while the stage is open.
 
 <!--------------------------------------------- CONTENT ends -->
 

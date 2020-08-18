@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Each offspring node in the last section of the hierarchy keeps track of information within the scope of the embodied concept (strategy or position).
 
 <!--------------------------------------------- CONTENT ends -->
 

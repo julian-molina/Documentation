@@ -51,7 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+The function of this section of the trading engine is to provide the data structure to hold the information of orders as they are open and closed. 
+
+Orders are organized by type, such as market orders and limit orders, and also by the type of transaction, such as buy or sell orders.
+
+Each section of the hierarchy must have the definition of as many orders of each type as the trading system is capable of placing concurrently. For example, if the execution algorithm may place up to three limit buy orders to open a position, then three limit orders must exist under the limit buy orders section of the hierarchy. Each order defined in the trading system must reference the data structure of a matching type of order in the trading engine.
 
 <!--------------------------------------------- CONTENT ends -->
 
