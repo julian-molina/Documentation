@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Stop" %}
-{% assign definition = site.data.trading_system.stop %}
+{% assign title = "Target Size In Quoted Asset" %}
+{% assign definition = site.data.trading_system.target_size_in_quoted_asset %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
@@ -68,7 +68,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a stop node, select *Add Missing Items* on the manage stage node menu. All items that may be missing are created along with the rest of the basic structure of nodes required to define each of them.
+To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

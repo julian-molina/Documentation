@@ -2,7 +2,7 @@
 
 {% assign title = "Open Execution" %}
 {% assign definition = site.data.trading_system.open_execution %}
-{% assign preposition = "the" %}
+{% assign preposition = "an" %}
 {% assign plural = "s" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-{% include note.html content="You don't need to do anything with this node for the time being, other than make sure it is present once you are ready to trade live." %}
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +68,7 @@
 
 <!--------------------------------------------- ADDING starts -->
 
-To add an open execution node, select *Add Open Execution* on the open stage node menu.
+To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

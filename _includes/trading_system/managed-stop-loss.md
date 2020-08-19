@@ -1,9 +1,9 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "XXXXXXXXXXXXXXXX" %}
-{% assign definition = site.data.crypto_ecosystem.XXXXXXXXXXXXXXXX %}
-{% assign preposition = "XXXXXXXXXXXXXXXX" %}
-{% assign plural = "s" %}
+{% assign title = "Managed Stop Loss" %}
+{% assign definition = site.data.trading_system.managed_stop_loss %}
+{% assign preposition = "a" %}
+{% assign plural = "" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
@@ -68,7 +68,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
+To add a stop node, select *Add Missing Items* on the manage stage node menu. All items that may be missing are created along with the rest of the basic structure of nodes required to define each of them.
 
 <!--------------------------------------------- ADDING ends -->
 

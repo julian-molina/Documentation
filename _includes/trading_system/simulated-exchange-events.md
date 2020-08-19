@@ -1,9 +1,9 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Take Profit" %}
-{% assign definition = site.data.trading_system.take_profit %}
+{% assign title = "Simulated Exchange Events" %}
+{% assign definition = site.data.trading_system.simulated_exchange_events %}
 {% assign preposition = "a" %}
-{% assign plural = "" %}
+{% assign plural = "s" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
@@ -68,7 +68,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a take profit node, select *Add Missing Items* on the manage stage node menu. All items that may be missing are created along with the rest of the basic structure of nodes required to define each of them.
+To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

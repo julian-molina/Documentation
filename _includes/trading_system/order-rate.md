@@ -1,8 +1,8 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "XXXXXXXXXXXXXXXX" %}
-{% assign definition = site.data.crypto_ecosystem.XXXXXXXXXXXXXXXX %}
-{% assign preposition = "XXXXXXXXXXXXXXXX" %}
+{% assign title = "Order Rate" %}
+{% assign definition = site.data.trading_system.order_rate %}
+{% assign preposition = "an" %}
 {% assign plural = "s" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->

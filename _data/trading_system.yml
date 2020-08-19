@@ -16,17 +16,46 @@ take_position_event: "The take position event defines the situation that needs t
 
 open_stage: "The open stage deals with all the parameters that define a trade, including position rate and size as well as initial stop and take profit targets."
 
-initial_definition: "The initial definition node groups the parameters that define the trade at the moment the position is taken."
+open_stage: ""
 
-initial_stop: "The initial stop defines the initial target to stop a loss before the trade gets to be managed."
+initial_targets: ""
 
-phase_0: "Phase 0 represents the starting point for a stop or take profit target, which may be managed in subsequent phases, on the manage stage."
+target_rate: ""
 
 formula: "A formula is a mathematical expression intended to determine a numerical value to be applied dynamically to a certain property."
 
-next_phase_event: "The next-phase event is defined by a market situation upon which the management of the trade should shift from one phase to the next phase in a predetermined sequence."
+target_size_in_base_asset: ""
 
-move_to_phase_event: "The move-to-phase event is defined by a market situation upon which the management of the trade should shift from the current phase to an arbitrary phase, determined by a reference."
+target_size_in_quoted_asset: ""
+
+open_execution: ""
+
+execution_algorithm: ""
+
+market_buy_order: ""
+
+create_order_event: ""
+
+simulated_exchange_events: ""
+
+simulated_partial_fill: ""
+
+simulated_actual_rate: ""
+
+simulated_fees_paid: ""
+
+market_sell_order: ""
+
+limit_buy_order: ""
+
+order_rate: ""
+
+
+
+
+initial_definition: "The initial definition node groups the parameters that define the trade at the moment the position is taken."
+
+initial_stop: "The initial stop defines the initial target to stop a loss before the trade gets to be managed."
 
 initial_take_profit: "The initial take profit defines the initial target to take profit before the trade gets to be managed."
 
@@ -34,15 +63,24 @@ position_size: "The size of the position is the amount of capital that will go i
 
 position_rate: "The position rate is the rate at which the position is taken, denominated in the quoted asset. The position rate node allows setting the desired position rate with a formula."
 
-open_execution: "Open execution is the node that will eventually hold the information regarding the execution of the trade opening orders."
+
+
+
+
 
 manage_stage: "The manage stage is the third stage in the definition of a strategy and deals with the management of stop and take-profit targets."
 
-stop: "The stop node in the manage stage groups all phases managing stop loss targets as the trade develops."
+managed_stop_loss: "The stop node in the manage stage groups all phases managing stop loss targets as the trade develops."
+
+phase_0: "Phase 0 represents the starting point for a stop or take profit target, which may be managed in subsequent phases, on the manage stage."
 
 phase_1: "Phase 1 is the first phase in the management of a stop or take-profit target. The management of targets may have as many phases as required."
 
-take_profit: "Take profit node in the manage stage groups all phases managing take profit targets as the trade develops."
+next_phase_event: "The next-phase event is defined by a market situation upon which the management of the trade should shift from one phase to the next phase in a predetermined sequence."
+
+move_to_phase_event: "The move-to-phase event is defined by a market situation upon which the management of the trade should shift from the current phase to an arbitrary phase, determined by a reference."
+
+managed_take_profit: "Take profit node in the manage stage groups all phases managing take profit targets as the trade develops."
 
 close_stage: "Close stage is not developed yet. In the future, it will deal with the execution of the closing orders, trading log, and related matters."
 

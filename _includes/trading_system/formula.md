@@ -1,8 +1,8 @@
-<!-- TITLE AND DEFINITION starts -->
+<!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Formula" %}
-{% assign definition = site.data.trading_system.formula %}
-{% assign preposition = "a" %}
+{% assign title = "XXXXXXXXXXXXXXXX" %}
+{% assign definition = site.data.crypto_ecosystem.XXXXXXXXXXXXXXXX %}
+{% assign preposition = "XXXXXXXXXXXXXXXX" %}
 {% assign plural = "s" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
@@ -51,15 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-In the context of a trading system, formulas are used to determine the values for stopLoss, takeProfit, positionRate, and positionSize.
-
-Formulas may use indicators and internal variables made available by the system. The main difference between writing a formula and writing a condition is that while conditions must evaluate to ```true``` or ```false```, formulas must evaluate to a number.
-
-**For example:**
-
-* ```positionRate * 0.98``` &#8594; This formula may be used to define an initial stop target 2% below the rate at which the position was taken.
-
-{% include note.html content="To learn how to write formulas, see [syntax overview](suite-syntax-overview.html) and [internal variables](suite-internal-variables.html)." %}
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -76,9 +68,9 @@ Formulas may use indicators and internal variables made available by the system.
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a formula, select *Add Formula* on the corresponding parent node menu.
+To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -86,7 +78,7 @@ To add a formula, select *Add Formula* on the corresponding parent node menu.
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
