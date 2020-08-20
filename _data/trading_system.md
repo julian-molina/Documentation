@@ -1,10 +1,10 @@
 trading_system: "A trading system is a framework handling the low-level logic that serves to structure the processes and methods used to implement and deploy trading strategies."
 
-strategy: "A strategy is a set of actions occurring in stages, designed to achieve a specific goal within a broader plan, via executing trades."
+trading_strategy: "A strategy is a set of actions occurring in stages, designed to achieve a specific goal within a broader plan, via executing trades."
 
 trigger_stage: "The trigger stage deals with monitoring the market in search of trading opportunities with the corresponding strategy."
 
-trigger-on_event: "The trigger-on event defines the set of rules that need to be met for the corresponding strategy to be triggered on. A strategy that is triggered may use all the capital available to the trading system, preventing other strategies in the system from triggering."
+trigger-on_event: "The trigger-on event defines the set of rules that need to be met for the corresponding strategy to be triggered on. A strategy that is triggered may use all the capital available to the trading system, and prevents other strategies in the system from triggering."
 
 situation: "A situation refers to a specific state of the market in which a certain event should take place, as defined by any number of conditions."
 
@@ -12,13 +12,11 @@ condition: "Conditions are rules within a situation. When all conditions under a
 
 trigger-off_event: "The trigger-off event defines the situation in which the corresponding strategy shall be triggered-off. A strategy that is triggered-off releases the capital in reserve and makes it available to other strategies in the trading system."
 
-take_position_event: "The take position event defines the situation that needs to be met to enter a trade."
+take_position_event: "The take position event defines the situation that needs to be met to take a position."
 
-open_stage: "The open stage deals with all the parameters that define a trade, including position rate and size as well as initial stop and take profit targets."
+open_stage: "The open stage deals with all the definitions that make up a position, including the target rate and size, and the definitions concerning order execution."
 
-open_stage: ""
-
-initial_targets: ""
+initial_targets: "The initial targets node holds the most basic definitions about the position to be taken: the target rate and the target size."
 
 target_rate: ""
 
@@ -50,6 +48,8 @@ limit_buy_order: ""
 
 order_rate: ""
 
+limit_sell_order: ""
+
 
 
 
@@ -68,7 +68,7 @@ position_rate: "The position rate is the rate at which the position is taken, de
 
 
 
-manage_stage: "The manage stage is the third stage in the definition of a strategy and deals with the management of stop and take-profit targets."
+manage_stage: "The manage stage deals with the setting and management of stop loss and take-profit targets."
 
 managed_stop_loss: "The stop node in the manage stage groups all phases managing stop loss targets as the trade develops."
 
@@ -82,7 +82,7 @@ move_to_phase_event: "The move-to-phase event is defined by a market situation u
 
 managed_take_profit: "Take profit node in the manage stage groups all phases managing take profit targets as the trade develops."
 
-close_stage: "Close stage is not developed yet. In the future, it will deal with the execution of the closing orders, trading log, and related matters."
+close_stage: "The close stage deals with all the definitions required to close a position, including the target rate and size, and the definitions concerning order execution."
 
 close_execution: "Close execution is the node that will eventually hold the information regarding the execution of the closing orders."
 

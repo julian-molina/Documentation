@@ -51,11 +51,15 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Conceptually, the open stage deals with the details that concern the opening of a trade once the decision to take a position has been made. In this stage, you deal with the aforementioned parameters, each of which is defined by a formula.
+Conceptually, the open stage deals with the details that concern the opening of the position once the decision to take a position has been made.
 
-Ideally, the open stage would also handle the parameters that define the execution of the trade, that is, how and which kinds of orders are to be placed, on which exchanges and so on. However, the execution side of the system is still under development. For the time being, execution is drastically simplified: a single market order is placed for each order.
+The open stage is opened upon the triggering of the take position event, and the stage closes as soon as one of the following events happen:
 
-{% include note.html content="Learn more about the temporal <a href='suite-execution-limitation.html'>execution limitations</a>." %}
+* the target size is filled,
+
+* the close stage event is triggered,
+
+* the take profit or stop loss targets are hit.
 
 <!--------------------------------------------- CONTENT ends -->
 

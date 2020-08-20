@@ -51,13 +51,13 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-A trading system may have multiple strategies designed for the same market, with the same base asset.
+A trading system may have multiple strategies designed for the same market.
 
-An important aspect of trading systems is that they are allocated a certain amount of capital (see the base asset parameter). As a consequence, strategies within a trading system have to share that capital allocation. 
+An important aspect of trading systems is that they are allocated a certain amount of capital (see the <a data-toggle="tooltip" data-original-title="{{site.data.network.base_asset}}">base asset</a> parameter of the trading session). As a consequence, strategies within a trading system share a certain capital allocation. 
 
-The logic behind the concept of the trigger stage assumes that different strategies within a trading system are specialized for trading in different market conditions. The trigger stage in each strategy is, therefore, the mechanism by which any particular strategy may be selected to trade, given any particular market situation.
+The logic behind the concept of the trigger stage assumes that different strategies within a trading system may be specialized for trading in different market conditions. The trigger stage in each strategy is, therefore, the mechanism by which any particular strategy within the trading system may be selected to trade, given any particular market situation.
 
-The triggering-on of a strategy effectively blocks the selection of any other strategy in the trading system, and reserves the whole capital allocation for a potential trade, until the strategy is triggered-off.
+The triggering-on of a strategy effectively blocks the selection of any other strategy in the trading system and reserves the whole capital allocation for the one selected strategy, until it is triggered-off.
 
 As a corollary, if certain strategies are meant to trade under the same market situations and open trades concurrently, then those strategies should be put in separate trading systems.
 

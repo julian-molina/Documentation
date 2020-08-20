@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Assigning names to orders in the definition of the trading system makes tracking the execution of orders easier.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -80,7 +80,7 @@ To add the {{ title | downcase }} node, select *Add Missing Items* on the parent
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-Assigning names to orders in the definition of the trading system makes tracking the execution of orders easier.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONFIGURING ends -->
 

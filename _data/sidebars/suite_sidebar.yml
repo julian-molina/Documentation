@@ -291,9 +291,29 @@ entries:
       url: /suite-trading-systems.html
       output: web
 
-    - title: Strategies
+    - title: Trading Strategies
       url: /suite-strategies.html
       output: web
+
+    - title: Trigger Stage
+      url: /suite-strategies-trigger.html
+      output: web
+      class: childItem newItem
+
+    - title: Open Stage
+      url: /suite-strategies-open.html
+      output: web
+      class: childItem newItem
+
+    - title: Manage Stage
+      url: /suite-strategies-manage.html
+      output: web
+      class: childItem newItem
+
+    - title: Close Stage
+      url: /suite-strategies-close.html
+      output: web
+      class: childItem newItem
 
     - title: Situations, conditions and formulas
       url: /suite-situations-conditions-formulas.html
@@ -594,6 +614,7 @@ entries:
     - title: Trading system
       url: /suite-hierarchy-trading-system.html
       output: web
+      class: newItem
 
     - title: Trading engine
       url: /suite-hierarchy-trading-engine.html

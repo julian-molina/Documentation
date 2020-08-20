@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Rate" %}
-{% assign definition = site.data.trading_engine.rate %}
+{% assign title = "Limit Sell Order" %}
+{% assign definition = site.data.trading_system.limit_sell_order %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
@@ -51,9 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-By default, it is the rate at the close of the last candle at the moment the order is placed. All market orders have the default rate value.
-
-In the case of limit orders, it is the rate as specified by the formula under the order rate node. If no such definition exists, then limit orders use the default value as well.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONTENT ends -->
 
