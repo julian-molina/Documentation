@@ -51,15 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-*A note about the definition of the target size:*
-
-The system supports defining the size of the position in either asset involved in the market. A such, the target size may be defined in one of the two assets only, to avoid inconsistencies. 
-
-However, the system keeps track of accounts for both assets. That is, performance metrics such as profit loss, ROI, hit ratio, or the annualized rate of return are calculated both based on the base asset and the quoted asset. In fact, metrics are also calculated in a consolidated manner, taking into account both assets at the same time. 
-
-All of this information is made available for multiple contexts, for instance, for each position or for the whole episode, through the data structure of the trading engine.
-
-When tracking the results of your trading operation, make sure you refer to the set of accounts that make sense for your trading system. This will all become clearer once you read about the trading engine and the panels available on the charts.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONTENT ends -->
 

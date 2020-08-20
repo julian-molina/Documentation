@@ -18,19 +18,19 @@ open_stage: "The open stage deals with all the definitions that make up a positi
 
 initial_targets: "The initial targets node holds the most basic definitions about the position to be taken: the target rate and the target size."
 
-target_rate: ""
+target_rate: "The target rate defines the default rate for all limit orders in the scope of the given context."
 
 formula: "A formula is a mathematical expression intended to determine a numerical value to be applied dynamically to a certain property."
 
-target_size_in_base_asset: ""
+target_size_in_base_asset: "Target size in base asset is used to define the size of the position, denominating it in the base asset."
 
-target_size_in_quoted_asset: ""
+target_size_in_quoted_asset: "Target size in quoted asset is used to define the size of the position, denominating it in the quoted asset."
 
-open_execution: ""
+open_execution: "The open execution node groups all execution algorithms involved in the process of opening a position."
 
-execution_algorithm: ""
+execution_algorithm: "An execution algorithm is a set of instructions used to place and manage orders at the exchange."
 
-market_buy_order: ""
+market_buy_order: "A market buy order is an instruction sent to the exchange to buy the base asset, for immediate execution at current market prices."
 
 create_order_event: ""
 
@@ -42,13 +42,13 @@ simulated_actual_rate: ""
 
 simulated_fees_paid: ""
 
-market_sell_order: ""
+market_sell_order: "A market sell order is an instruction sent to the exchange to sell the base asset, for immediate execution at current market prices."
 
-limit_buy_order: ""
+limit_buy_order: "A limit buy order is an instruction sent to the exchange to buy the base asset, for execution at a specific rate or better."
 
 order_rate: ""
 
-limit_sell_order: ""
+limit_sell_order: "A limit sell order is an instruction sent to the exchange to sell the base asset, for execution at a specific rate or better."
 
 
 

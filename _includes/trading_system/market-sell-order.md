@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+{% include tip.html content="Please read the definition of [market buy order](suite-strategies-open.html#market-buy-order) for relevant information about how orders in general&mdash;and market orders in particular&mdash;work. " %}
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -80,7 +80,18 @@ To add the {{ title | downcase }} node, select *Add Missing Items* on the parent
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To configure the {{ title | downcase }} node, select *Configure* on the menu. 
+
+```json
+{
+     "percentageOfAlgorithmSize": 100, 
+     "spawnMultipleOrders": false 
+}
+```
+
+* ```percentageOfAlgorithmSize``` is the definition of how much of the size handled by the algorithm shall be allocated to this particular order. Posible values are real numbers between ```0``` and ```100```, including the extremes. If you set the value to ```0```, the order will not be executed.
+
+* ```spawnMultipleOrders``` is the parameter that indicates whether additional spawned orders are allowed (```true```) or not (```false```).
 
 <!--------------------------------------------- CONFIGURING ends -->
 

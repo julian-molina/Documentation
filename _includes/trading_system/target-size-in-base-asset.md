@@ -51,7 +51,21 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+The system supports defining the size of the position in either asset involved in the market: the base asset, or the quoted asset, as per the exchange listing of the market. 
+
+The target size may be defined in one of the two assets only, to avoid inconsistencies. 
+
+The target size is the maximum size the position may achieve. That is, the definition of the target size is used as a limit for the trading 
+
+If you prefer to define the size of the position denominated in the base asset, then use this node and delete the target size in quoted asset node.
+
+{% include important.html content="Only one target size definition may exist at a time." %}
+
+Even though the definition of the target size is denominated in one of the two assets in the market, the system keeps track of accounts for both assets. That is, performance metrics such as profit loss, ROI, hit ratio, or the annualized rate of return are calculated both based on the base asset and the quoted asset. In fact, metrics are also calculated in a consolidated manner, taking into account both assets at the same time. 
+
+All of this information is made available for multiple contexts, for instance, for each position or the whole episode, through the data structure of the trading engine.
+
+When tracking the results of your trading operation, make sure you refer to the set of accounts that make sense for your trading system. This will all become clearer once you read about the trading engine and the layer managers available on the charts.
 
 <!--------------------------------------------- CONTENT ends -->
 

@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+If you prefer to define the size of the position denominated in the quoted asset, then use this node and delete the target size in base asset node.
+
+{% include important.html content="Make sure you read the definition of the target size in base asset node to get the proper context for this definition." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

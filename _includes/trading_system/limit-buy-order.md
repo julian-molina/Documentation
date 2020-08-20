@@ -51,7 +51,15 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Traders usually use limit orders when the priority is the rate of execution over the certainty of execution. Limit orders are much more efficient than market orders in terms of rate, particularly for larger sizes which&mdash;when executed as market orders&mdash;may suffer considerable slippage filled at current market prices.
+
+###### Limit Orders' Rate
+
+Superalgos users have absolute control over the rate at which a limit order is filled, as the exchange will not fill the order unless it can match it with bids/asks at the rate set by the user, or at a better rate.
+
+{% include note.html content="Limit orders must define a rate using the appropriate child node, otherwise, the target rate defined as an initial target is used. If no rate is defined at all, the system stops with an error upon execution. The configuration of the order deals with the size. " %}
+
+{% include tip.html content="Please read the definition of [market buy order](suite-strategies-open.html#market-buy-order) for relevant information about how orders in general work, in particular, the section about Order Size, Filling of Orders, Closing of Orders, and Spawning Multiple Orders. " %}
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -80,7 +88,18 @@ To add the {{ title | downcase }} node, select *Add Missing Items* on the parent
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To configure the {{ title | downcase }} node, select *Configure* on the menu. 
+
+```json
+{
+     "percentageOfAlgorithmSize": 100, 
+     "spawnMultipleOrders": false 
+}
+```
+
+* ```percentageOfAlgorithmSize``` is the definition of how much of the size handled by the algorithm shall be allocated to this particular order. Posible values are real numbers between ```0``` and ```100```, including the extremes. If you set the value to ```0```, the order will not be executed.
+
+* ```spawnMultipleOrders``` is the parameter that indicates whether additional spawned orders are allowed (```true```) or not (```false```).
 
 <!--------------------------------------------- CONFIGURING ends -->
 

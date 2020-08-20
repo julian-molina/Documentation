@@ -36,19 +36,19 @@ toc: false
 
 
 
-{% include /trading_system/initial-targets.md more="yes" heading="###" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_system/initial-targets.md more="no" heading="###" icon="150" definition="bold" table="yes" content="no" adding="" configuring="" starting="" %}
 
-{% include /trading_system/target-rate.md more="yes" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_system/target-rate.md more="no" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="" starting="" %}
 
-{% include /trading_system/target-size-in-base-asset.md more="yes" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_system/target-size-in-base-asset.md more="no" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="" starting="" %}
 
-{% include /trading_system/target-size-in-quoted-asset.md more="yes" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_system/target-size-in-quoted-asset.md more="no" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="" starting="" %}
 
-{% include /trading_system/open-execution.md more="yes" heading="###" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_system/open-execution.md more="no" heading="###" icon="150" definition="bold" table="yes" content="yes" adding="" configuring="" starting="" %}
 
-{% include /trading_system/execution-algorithm.md more="yes" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_system/execution-algorithm.md more="yes" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="#####" starting="" %}
 
-{% include /trading_system/market-buy-order.md more="yes" heading="#####" icon="50" definition="yes" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_system/market-buy-order.md more="yes" heading="#####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="######" starting="" %}
 
 {% include /trading_system/create-order-event.md more="yes" heading="######" icon="50" definition="yes" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
@@ -60,10 +60,10 @@ toc: false
 
 {% include /trading_system/simulated-fees-paid.md more="yes" heading="######" icon="no" definition="yes" table="no" content="yes" adding="####" configuring="" starting="" %}
 
-{% include /trading_system/market-sell-order.md more="yes" heading="#####" icon="50" definition="yes" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_system/market-sell-order.md more="yes" heading="#####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="######" starting="" %}
 
-{% include /trading_system/limit-buy-order.md more="yes" heading="#####" icon="50" definition="yes" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_system/limit-buy-order.md more="yes" heading="#####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="######" starting="" %}
 
 {% include /trading_system/order-rate.md more="yes" heading="######" icon="50" definition="yes" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
-{% include /trading_system/limit-sell-order.md more="yes" heading="#####" icon="50" definition="yes" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_system/limit-sell-order.md more="yes" heading="#####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="######" starting="" %}
