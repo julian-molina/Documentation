@@ -1,8 +1,8 @@
-<!--------------------------------------------- TITLE AND DEFINITION starts -->
+<!-- TITLE AND DEFINITION starts -->
 
-{% assign title = "XXXXXXXXXXXXXXXX" %}
-{% assign definition = site.data.crypto_ecosystem.XXXXXXXXXXXXXXXX %}
-{% assign preposition = "XXXXXXXXXXXXXXXX" %}
+{% assign title = "Formula" %}
+{% assign definition = site.data.trading_system.formula %}
+{% assign preposition = "a" %}
 {% assign plural = "s" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
@@ -51,7 +51,15 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+In the context of a trading system, formulas are used to determine the values for several properties, such as the target rate, target size, managed stop loss, managed take profit, and so on.
+
+Formulas may use indicators and trading engine properties. The main difference between writing a formula and writing a condition is that while conditions must evaluate to ```true``` or ```false```, formulas must evaluate to a number.
+
+**For example:**
+
+* ```tradingEngine.current.position.entryTargetRate.value * 1.03``` &#8594; This formula may be used to define an initial stop target 3% above the rate at which the position was taken.
+
+{% include note.html content="To learn how to write formulas, see [syntax overview](suite-syntax-overview.html) and [internal variables](suite-internal-variables.html)." %}
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,9 +76,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
+To add a formula, select *Add Formula* on the corresponding parent node menu.
 
-<!--------------------------------------------- ADDING ends -->
+<!-- ADDING ends -->
 
 {% endif %}
 
@@ -78,7 +86,7 @@ To add the {{ title | downcase }} node, select *Add Missing Items* on the parent
 
 {{include.configuring}} Configuring the {{title}}
 
-<!--------------------------------------------- CONFIGURING starts -->
+<!-- CONFIGURING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 

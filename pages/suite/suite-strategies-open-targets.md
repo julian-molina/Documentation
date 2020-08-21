@@ -28,4 +28,4 @@ toc: false
 
 {% include /trading_system/target-size-in-quoted-asset.md more="no" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="" starting="" %}
 
-{% include /trading_system/close-stage-event.md more="no" heading="###" icon="150" definition="bold" table="yes" content="no" adding="" configuring="" starting="" %}
+{% include /trading_system/close-stage-event.md more="no" heading="###" icon="150" definition="bold" table="yes" content="yes" adding="" configuring="" starting="" %}

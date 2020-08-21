@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
 {% assign title = "XXXXXXXXXXXXXXXX" %}
-{% assign definition = site.data.crypto_ecosystem.XXXXXXXXXXXXXXXX %}
+{% assign definition = site.data.trading_system.XXXXXXXXXXXXXXXX %}
 {% assign preposition = "XXXXXXXXXXXXXXXX" %}
 {% assign plural = "s" %}
 

@@ -51,7 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Even though the decision to take a position may have been made, the user may still decide to exert additional control over the placement of orders. Such is the intent of the create order event.
+
+An order defined in an execution algorithm will be executed only if the event evaluates ```true```.
+
+If you wish orders to be placed as defined immediately after the take position event has been triggered, the use the statement ```true``` your only create order event condition.
 
 <!--------------------------------------------- CONTENT ends -->
 

@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Because the purpose of limit orders is to have control over the rate at which the order is executed, the definition of the order rate is required for all limit orders.
 
 <!--------------------------------------------- CONTENT ends -->
 

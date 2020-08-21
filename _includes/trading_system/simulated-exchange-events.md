@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+The offspring nodes under simulated exchange events allow setting order-specific parameters for the size filled, actual rate, and fees paid, so that each order may be simulated in a specific manner.
+
+If either of the offspring nodes is not present or is undefined, then the parameters configured at the level of the trading session are factored in by default.
 
 <!--------------------------------------------- CONTENT ends -->
 

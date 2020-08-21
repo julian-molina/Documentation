@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+The slippage parameter of the trading session allows setting a blanket slippage for all orders in the trading system. The simulated actual rate node allows control on a per-order basis, so each order may be simulated with a specific rate. 
+
+{% include note.html content="If the node is not present or the parameter is undefined, the slippage parameter set up for the trading session is used." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

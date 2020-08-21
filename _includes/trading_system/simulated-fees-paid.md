@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+The fee structure parameter of the trading session allows setting a blanket fee structure (maker and taker) for all orders in the trading system. The simulated fees paid node allows control on a per-order basis, so each order may be simulated with a specific fee. 
+
+{% include note.html content="If the node is not present or the parameter is undefined, the fee structure parameter set up for the trading session is used." %}
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -80,7 +82,15 @@ To add the {{ title | downcase }} node, select *Add Missing Items* on the parent
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To configure the {{ title | downcase }} node, select *Configure* on the menu. 
+
+```json
+{ 
+"percentage": 0.1
+}
+```
+
+* ```percentage``` is the percentage to be applied to calculate the fees for the specific order.
 
 <!--------------------------------------------- CONFIGURING ends -->
 

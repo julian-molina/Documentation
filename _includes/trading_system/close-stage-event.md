@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
 {% assign title = "Close Stage Event" %}
-{% assign definition = site.data.crypto_ecosystem.close_stage_event %}
+{% assign definition = site.data.trading_system.close_stage_event %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Both the open and close stages are closed once the target size is filled. 
+
+However, Superalgos allows an extra level of control so that the user may choose to close either stage given specific market situations. Such is the intent of the close stage event.
 
 <!--------------------------------------------- CONTENT ends -->
 

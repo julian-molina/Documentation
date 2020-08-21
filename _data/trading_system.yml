@@ -18,7 +18,7 @@ open_stage: "The open stage deals with all the definitions that make up a positi
 
 initial_targets: "The initial targets node holds the most basic definitions about the position to be taken: the target rate and the target size."
 
-target_rate: "The target rate defines the default rate for all limit orders in the scope of the given context."
+target_rate: "The target rate is a reference rate you may define to later use with limit orders."
 
 formula: "A formula is a mathematical expression intended to determine a numerical value to be applied dynamically to a certain property."
 
@@ -32,25 +32,26 @@ execution_algorithm: "An execution algorithm is a set of instructions used to pl
 
 market_buy_order: "A market buy order is an instruction sent to the exchange to buy the base asset, for immediate execution at current market prices."
 
-create_order_event: ""
+create_order_event: "The create order event controls the placement of orders."
 
-simulated_exchange_events: ""
+simulated_exchange_events: "The simulated exchange event node allows to override the parameters set at the level of the trading session on a per order basis to determine how each order shall be simulated."
 
-simulated_partial_fill: ""
+simulated_partial_fill: "The simulated partial fill parameter allows simulating the partial fill of orders."
 
-simulated_actual_rate: ""
+simulated_actual_rate: "The simulated actual rate node allows setting a specific rate value for the simulation of each order, overriding the slippage parameter of the trading session."
 
-simulated_fees_paid: ""
+simulated_fees_paid: "The simulated fees paid node allows setting a specific fee for the simulation of each order, overriding the fee structure parameter of the trading session."
 
 market_sell_order: "A market sell order is an instruction sent to the exchange to sell the base asset, for immediate execution at current market prices."
 
 limit_buy_order: "A limit buy order is an instruction sent to the exchange to buy the base asset, for execution at a specific rate or better."
 
-order_rate: ""
+order_rate: "The order rate node defines the rate of limit orders."
 
 limit_sell_order: "A limit sell order is an instruction sent to the exchange to sell the base asset, for execution at a specific rate or better."
 
-close_stage_event: ""
+close_stage_event: "The close stage event defines the set of rules that need to be met for the corresponding stage to be closed."
+
 
 
 
