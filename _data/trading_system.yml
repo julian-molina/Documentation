@@ -50,6 +50,8 @@ order_rate: ""
 
 limit_sell_order: "A limit sell order is an instruction sent to the exchange to sell the base asset, for execution at a specific rate or better."
 
+close_stage_event: ""
+
 
 
 

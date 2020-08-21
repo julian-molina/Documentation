@@ -1,8 +1,8 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Execution Algorithm" %}
-{% assign definition = site.data.trading_system.execution_algorithm %}
-{% assign preposition = "an" %}
+{% assign title = "Close Stage Event" %}
+{% assign definition = site.data.crypto_ecosystem.close_stage_event %}
+{% assign preposition = "a" %}
 {% assign plural = "s" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
@@ -51,13 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Any given strategy may have simple or very complex execution requirements. To deal with complexity, Superalgos allows users to set up as many execution algorithms as required.
-
-Then, the logic in each algorithm may remain simple, while the combined work of multiple algorithms may deal with the required complexity.
-
-Each algorithm may be assigned a fraction of the target size (see the configuration section), thus, the extent of each algorithm's involvement in the execution is defined by this parameter.
-
-An execution algorithm is a set of instructions in the sense that the orders defined in each algorithm are themselves the instructions. That is, an execution algorithm is a set of predefined orders which may be created or canceled given specific market situations.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -86,15 +80,7 @@ To add the {{ title | downcase }} node, select *Add Missing Items* on the parent
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-To configure the {{ title | downcase }} node, select *Configure* on the menu. 
-
-```json
-{
-     "percentageOfStageTargetSize": 100 
-}
-```
-
-* ```percentageOfStageTargetSize``` is the definition of how much of the target size of the whole stage will be handled by the one specific execution algorithm, expressed as a percentage of the total target size. Posible values are real numbers between ```0``` and ```100```, including the extremes. If you set the value to ```0```, the algorithm will not be executed.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONFIGURING ends -->
 

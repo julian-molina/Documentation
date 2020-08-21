@@ -291,26 +291,31 @@ entries:
       url: /suite-trading-systems.html
       output: web
 
-    - title: Trading Strategies
+    - title: Trading strategies
       url: /suite-strategies.html
       output: web
 
-    - title: Trigger Stage
+    - title: Trigger stage
       url: /suite-strategies-trigger.html
       output: web
       class: childItem newItem
 
-    - title: Open Stage
-      url: /suite-strategies-open.html
+    - title: Open stage | Targets
+      url: /suite-strategies-open-targets.html
       output: web
       class: childItem newItem
 
-    - title: Manage Stage
+    - title: Open stage | Execution
+      url: /suite-strategies-open-execution.html
+      output: web
+      class: childItem newItem
+
+    - title: Manage stage
       url: /suite-strategies-manage.html
       output: web
       class: childItem newItem
 
-    - title: Close Stage
+    - title: Close stage
       url: /suite-strategies-close.html
       output: web
       class: childItem newItem

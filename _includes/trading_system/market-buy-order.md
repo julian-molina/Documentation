@@ -61,23 +61,69 @@ Users have no control over the rate at which a market order is filled. The excha
 
 ###### Order Size
 
-The size of an order is set as a percentage of the size that the particular algorithm is allowed to execute. Because each execution algorithm may define multiple orders, the typical scenario is that all orders defined within an algorithm add up to 100% of the size allocated to the algorithm. 
+As explained in the definition of the execution algorithm, each algorithm is allocated a percentage of the target size defined under the initial targets node.
+
+*The simplified logic for non-coders:*
+
+```algorithmSize = targetSize * percentageOfStageTargetSize / 100```
+
+*The actual code:*
+
+```js
+let algorithmSizeInBaseAsset = tradingEngineStage.stageBaseAsset.targetSize.value * executionAlgorithm.config.percentageOfStageTargetSize / 100
+
+let algorithmSizeInQuotedAsset = tradingEngineStage.stageQuotedAsset.targetSize.value * executionAlgorithm.config.percentageOfStageTargetSize / 100
+```
+
+Similarly, the size of an order is defined as a percentage of the size that the particular algorithm is allowed to execute *(see the configuration)*. 
+
+*The simplified logic for non-coders:*
+
+```orderSize = algorithmSize * percentageOfAlgorithmSize / 100```
+
+*The actual code:*
+
+```js
+tradingEngineOrder.orderBaseAsset.size.value = algorithmSizeInBaseAsset * tradingSystemOrder.config.percentageOfAlgorithmSize / 100
+```
+
+Because each execution algorithm may define multiple orders, the typical scenario is that all orders defined within an algorithm add up to 100% of the size allocated to the algorithm. 
 
 However, it is up to the user how to manage this setting, as different hacks may be found to achieve different behaviors.
 
-If orders defined add up to more than 100% of the size allocated to the algorithm, the trading engine places the last order with a size matching the established limit, thus modifying the defined size to match the limit.
+{% include callout.html type="primary" content="<strong>If orders defined add up to more than 100% of the size allocated to the algorithm, the trading engine does not enforce a cap.</strong>" %}
 
-Similarly, the trading engine checks the overall position size limit established by the target size defined under the initial targets node. If the order size as defined would cause the target size to be breached, then the order size is lowered to match the limit.
-
-Pretty much like the user may decide to define the size of orders within an algorithm above and below the 100% mark, the same is true when defining multiple algorithms. In other words, the user may choose to set up algorithms whose combined sizes amount to more or less of target size defined under the initial targets node, that is, more or less than 100%.
+Pretty much like the user may decide to define the size of orders within an algorithm above or below the 100% mark, the same is true when defining multiple algorithms. In other words, the user may choose to set up algorithms whose combined sizes amount to more or less than 100%.
 
 In cases in which the combined sizes amount to less than 100%, the target size would be partially filled at best. On the other hand, in cases in which the combined sizes amount to more than 100%, then the orders and/or algorithms would compete with each other.
 
+{% include callout.html type="primary" content="<strong>The one validation the trading engine does is to enforce the target size defined under the initial targets node. The target size is treated as a hard cap, so that no position may ever be sized larger than the target.</strong>" %}
+
+If the order size as defined would cause the target size to be breached, then the order size is lowered to match the hard cap.
+
+*The simplified logic for non-coders:*
+
+```js
+if   ( targetSize + sizePlaced > targetSize )
+     { orderSize = targetSize - sizePlaced }
+```
+
+*The actual code:*
+
+```js
+if (
+     tradingEngineOrder.orderBaseAsset.size.value + tradingEngineStage.stageBaseAsset.sizePlaced.value >
+     tradingEngineStage.stageBaseAsset.targetSize.value
+   ) {
+     tradingEngineOrder.orderBaseAsset.size.value = tradingEngineStage.stageBaseAsset.targetSize.value - tradingEngineStage.stageBaseAsset.sizePlaced.value
+   }
+```
+
 {% include note.html content="See the order's configuration to learn how to set up the order size." %}
 
-###### Filling of Orders
+###### Placing and Filling of Orders
 
-The trading engine keeps track of the amounts filled based on the feedback obtained from the exchange and makes the information available in the size filled node. The node is present in multiple contexts, such as the particular stage (open and close) or the particular order type, and is denominated both in the base asset and quoted asset. You may learn more about how to track the size filled on the trading engine pages.
+The trading engine keeps track of the amounts placed and the amounts filled based on the feedback obtained from the exchange, and makes the information available in the size placed and size filled nodes. The nodes are present in multiple contexts, such as the particular stage (open and close) or the particular order type, and are denominated both in the base asset and quoted asset. You may learn more about how to track the size placed and size filled on the trading engine pages.
 
 ###### Closing of Orders
 
