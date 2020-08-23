@@ -290,10 +290,12 @@ entries:
     - title: Trading systems
       url: /suite-trading-systems.html
       output: web
+      class: newItem
 
     - title: Trading strategies
       url: /suite-strategies.html
       output: web
+      class: newItem
 
     - title: Trigger stage
       url: /suite-strategies-trigger.html

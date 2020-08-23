@@ -51,22 +51,32 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The management of phases happens in a sequence. Phase 1 comes after phase 0, which holds the initial definitions for stop and take profit targets. You may continue adding phase 2, phase 3 and so on. Once the next phase event is triggered in one phase, the system applies the targets of the following phase and starts monitoring the situations defined in the corresponding next phase event.
+The default management of phases is sequential, meaning that phase 2 comes after phase 1, phase 3 comes after phase 2, and so on. 
 
-{% include note.html content="Notice that stop loss and take profit phases are independent and defined separately from each other, each below the corresponding stop and take-profit branch of the manage stage." %}
+To switch from one phase to the next phase in the sequence, the next phase event is used. When the situation described in the next phase event validates ```true```, the switch occurs and the next phase becomes the active phase.
+
+However, management does not need to happen sequentially. By using the move to phase event instead of the next phase event, the system may activate any other phase and not just the one next in the sequence.
+
+Both events may be used at the same time, and whichever event is triggered first takes precedence.
+
+{% include note.html content="Notice that stop loss and take profit phases are independent and defined separately from each other, each below the corresponding managed stop loss and managed take profit nodes." %}
+
+{% include note.html content="The value of the target set for a phase is expressed by a formula. Learn more about [formulas](suite-situations-conditions-formulas.html) and how to write them." %}
+
+{% include tip.html content="This explanation about phase 1 may be extended to any other phase, as they all work similarly, and it applies both for managed stop loss phases and managed take profit phases." %}
 
 <!--------------------------------------------- CONTENT ends -->
 
 {% endif %}
 
 {% if include.more == "yes" and include.content != "more" and include.heading != "more" %}
-<details class='detailsCollapsible'><summary class='nobr'>Click to learn more about {{ title | downcase }}{{plural}}
+<details class='detailsCollapsible'><summary class='nobr'>Click to learn more about phases
 </summary>
 {% endif %}
 
 {% if include.adding != "" %}
 
-{{include.adding}} Adding {{preposition}} {{title}} Node
+{{include.adding}} Adding {{preposition}} Phase Node
 
 <!--------------------------------------------- ADDING starts -->
 

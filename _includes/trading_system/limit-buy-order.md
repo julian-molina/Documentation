@@ -51,11 +51,15 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Traders usually use limit orders when the priority is the rate of execution over the certainty of execution. Limit orders are much more efficient than market orders in terms of rate, particularly for larger sizes which&mdash;when executed as market orders&mdash;may suffer considerable slippage filled at current market prices.
+Traders usually use limit orders when the priority is the rate of execution over the certainty of execution. Limit orders are much more efficient than market orders in terms of rate, particularly for larger sizes which&mdash;when executed as market orders&mdash;may suffer considerable slippage filled as fast as possible with the order book of the particular instant.
+
+Also, many exchanges regard limit orders as market makers, that is, orders that bring liquidity to the market, and, therefore, may charge relatively better fees.
 
 ###### Limit Orders' Rate
 
-Superalgos users have absolute control over the rate at which a limit order is filled, as the exchange will not fill the order unless it can match it with bids/asks at the rate set by the user, or at a better rate.
+Superalgos users must define the rate at wish they wish the order to be filled. The exchange is responsible for not filling the order unless it can match it with bids/asks at the rate set by the user, or at a better rate.
+
+Small discrepancies between the actual rate and the order rate are to be expected, as not all exchanges handle decimals and other conversions involving, for example, fees, in the same manner.
 
 {% include note.html content="Limit orders must define a rate using the appropriate child node, otherwise, the target rate defined as an initial target is used. If no rate is defined at all, the system stops with an error upon execution. The configuration of the order deals with the size. " %}
 

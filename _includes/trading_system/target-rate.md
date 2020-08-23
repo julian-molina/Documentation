@@ -51,7 +51,13 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The system does not use the target rate for internal calculations, nor does it require the definition. In any case, defining a reference target rate may be of use, as the value defined at the level of the stage may be retrieved from formulas while setting up the rate of limit orders.
+There is no setting by which the user informs the system about the intent&mdash;the goal&mdash;of the strategy. However, the system still needs to provide performance metrics such as profit loss and ROI, and must determine if a position is a hit or a fail.
+
+The way the system *guesses* the intent of the strategy is by observing how the user places the stop loss and take profit targets in relation with the target rate.
+
+If the phase 1 stop loss is placed above the target rate and phase 1 take profit below it, the system assumes the intent of the strategy is to sell the base asset to rebuy it at a lower rate. Such a result would be counted as a hit and displayed as such in the simulation. The opposite occurrence would be counted as a fail.
+
+Additionally, defining a reference target rate at the level of the stage may be of use so that you may retrieve the value from formulas while setting the rate of limit orders.
 
 <!--------------------------------------------- CONTENT ends -->
 

@@ -40,9 +40,9 @@ live_trading_session: "A live trading session is a trading mode by which the tra
 
 parameters: "Parameters are properties of trading sessions, defined by users, to determine their behavior and improve the quality of simulations."
 
-base_asset: "In the context of trading sessions, the base asset is the asset in the pair on which capital stands when out of a trade. In other words, it is the asset you wish to accumulate."
+base_asset: "The base asset is the asset whose price is determined by the market. It is usually the first asset in the pair, as listed by the exchange."
 
-quoted_asset: "In the context of trading sessions, the quoted asset is the asset in the pair for which capital is exchanged at the take position event, and which is traded back for the base asset when closing the trade."
+quoted_asset: "The quoted asset is the asset on which the price of the base asset is denominated in the market. It is usually the second asset in the pair, as listed by the exchange."
 
 time_frame: "The time frame is the frequency on which the session runs, meaning that the associated process instance runs once per unit of the time frame."
 

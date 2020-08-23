@@ -53,6 +53,8 @@
 
 Because the purpose of limit orders is to have control over the rate at which the order is executed, the definition of the order rate is required for all limit orders.
 
+{% include note.html content="Please, read about [limit orders](suite-strategies-open-execution.html#limit-buy-order) to complement the information in this definition." %}
+
 <!--------------------------------------------- CONTENT ends -->
 
 {% endif %}

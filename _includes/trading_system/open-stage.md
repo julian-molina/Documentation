@@ -51,11 +51,14 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Conceptually, the open stage deals with the details that concern the opening of the position once the decision to take a position has been made.
+The open stage comes into play once the take position event is triggered. 
+Conceptually, the open stage deals with the details concerning how the position shall be opened once the decision to take a position has been made. That is, the open stage does not participate in the process of deciding whether a position should be open or not.
 
-The open stage is opened upon the triggering of the take position event, and the stage closes as soon as one of the following events happen:
+To take a position, several definitions are required. In particular, those concerning targets, such as the rate and size of the position, and the logic of the execution strategy, that is, how many of which orders shall be placed at the exchange&mdash;and when&mdash;to enter the position.
 
-* the target size is filled,
+The open stage closes as soon as one of the following events happen:
+
+* the target size gets filled,
 
 * the close stage event is triggered,
 

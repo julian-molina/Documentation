@@ -21,15 +21,17 @@ toc: false
 <tr><td></td><td></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#move-to-phase-event' data-toggle='tooltip' data-original-title='{{site.data.trading_system.move_to_phase_event}}'><img src='images/icons/nodes/png50/move-to-phase-event.png' /><br />Move to Phase Event</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 
-{% include /trading_system/managed-stop-loss.md heading="###" icon="150" adding="###" configuring="" starting="" content="no" definition="bold" table="yes" more="yes"%}
+{% include /trading_system/managed-stop-loss.md heading="###" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
-{% include /trading_system/phase-1.md heading="####" icon="50" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /trading_system/managed-take-profit.md heading="###" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
-{% include /trading_system/next-phase-event.md heading="#####" icon="50" adding="######" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /trading_system/phase-1.md heading="####" icon="50" adding="####" configuring="" starting="" content="yes" definition="yes" table="yes" more="yes"%}
 
-{% include /trading_system/move-to-phase-event.md heading="#####" icon="50" adding="######" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /trading_system/next-phase-event.md heading="#####" icon="50" adding="######" configuring="" starting="" content="yes" definition="yes" table="yes" more="yes"%}
 
-{% include tip.html content="Events are triggered by situations, which are defined by conditions. Both are explained in the <a href='suite-situations-conditions-formulas'>situations, conditions, and formulas</a> page." %}
+{% include /trading_system/move-to-phase-event.md heading="#####" icon="50" adding="######" configuring="" starting="" content="yes" definition="yes" table="yes" more="yes"%}
 
-{% include /trading_system/managed-take-profit.md heading="###" icon="150" adding="###" configuring="" starting="" content="no" definition="bold" table="yes" more="yes"%}
+
+
+
 

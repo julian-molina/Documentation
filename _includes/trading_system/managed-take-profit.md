@@ -51,7 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+A take profit target bears an important role in your strategy, as it plays a crucial role in determining the risk/reward ratio of the trading opportunity that materialized, and upon which your strategy acted to take a position.
+
+The foremost goal of trading is to increase your capital, and how you set your initial take profit target and manage it afterward determines how much you may increase your capital given a favorable price action.
+
+{% include note.html content="The system provides the same functionality for managing the take profit target as explained for the managed stop loss target, so please make sure you go through that section too. " %}
 
 <!--------------------------------------------- CONTENT ends -->
 
