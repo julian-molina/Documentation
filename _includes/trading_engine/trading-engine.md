@@ -51,11 +51,13 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The hierarchy provides users with a visual environment to keep track of the actions of the trading bot. By analyzing runtime information, users may gain a detailed understanding of what happens, when, and why, throughout a trading session.
+You will use this hierarchy for two main purposes:
+
+* **To let your trading systems access the information processed by the trading bot.** This allows strategies to keep track of and react to current and past events&mdash;including those involving the exchange, such as orders placed or filled&mdash;as the bot is running.
+
+* **To keep track of the actions of the trading bot via the design space visual environment and panels over the charts.** By analyzing runtime information, you may gain a detailed understanding of what happens, when, and why, throughout a trading session.
 
 The hierarchy exposes&mdash;literally&mdash;all the information processed by the trading bot, providing a comprehensive feedback loop to trading systems and analysis capabilities to users.
-
-{% include tip.html content="There may be more than one trading engine in a workspace. Cloning the default trading engine is the best way to start a new one." %}
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -72,7 +74,9 @@ The hierarchy exposes&mdash;literally&mdash;all the information processed by the
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add Trading Engine* on the workspace node menu. 
+{% include tip.html content="There may be more than one trading engine in a workspace. Cloning the default trading engine is the best way to start a new one." %}
+
+To add the {{ title | downcase }} node from scratch, select *Add Trading Engine* on the workspace node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

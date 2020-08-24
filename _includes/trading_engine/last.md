@@ -51,7 +51,23 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Each offspring node in the last section of the hierarchy keeps track of information within the scope of the embodied concept (strategy or position).
+Conceptually, last is used as an adjective applied to these concepts, such as the last position or the last strategy, providing the context on which those concepts exist.
+
+The *last* context exists so that you may easily access information about the strategy that was last triggered or the position that was last opened. 
+
+This is valuable information, both for users and trading systems alike.
+
+* As a user, you will value being able to visually follow what happened with the last position after it closed, or the last strategy after it triggered off, and at the same time see what is going on with the current position or the current strategy.
+
+* From within a trading system, your strategies may make decisions factoring in what happened with the last position or strategy. For example, you may want to affect the size of the next position depending on the result of the last one.
+
+If you can code, you may actually access any object that was open in the past at any point in time, and not just the last one.
+
+
+
+
+
+
 
 <!--------------------------------------------- CONTENT ends -->
 

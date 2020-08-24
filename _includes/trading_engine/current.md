@@ -51,7 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Each offspring node in the current section of the hierarchy keeps track of information within the scope of the embodied concept (episode, strategy, position, and so on).
+Conceptually, current is used as an adjective applied to different concepts, such as the current episode, the current strategy, the current position, or the current strategy stage, to indicate the instance that is passing at the moment.
+
+The generation of offspring nodes under the current section of the hierarchy keeps track of information within the scope of the embodied concept: episode, strategy, position, and so on. 
+
+In other words, the episode, strategy and position nodes within the current section of the hierarchy feature information relative to the instances of the episode, strategy, and position that are currently passing, at any point in time.
 
 <!--------------------------------------------- CONTENT ends -->
 

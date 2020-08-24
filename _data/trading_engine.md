@@ -1,16 +1,16 @@
-trading_engine: "The trading engine hierarchy is the data structure used by the trading bot to keep runtime information highly accessible and exposed to others. Trading systems may access the information processed by the trading bot, keep track of and react to current and past events&mdash;including those involving the exchange, such as orders placed or filled&mdash;as the bot is running."
+trading_engine: "The trading engine hierarchy is the data structure used by the trading bot to keep runtime information highly accessible and exposed to others."
 
-current: "The current object stores instances of several other objects, in particular the instances that are open at the time of evaluation. Conceptually, current is used as an adjective applied to different concepts, such as the current episode, the current strategy, the current position, or the current strategy stage, to indicate the instance actually passing."
+current: "The current object refers to the context in which instances of several other objects exist&mdash;like episode, strategy, position, strategy stages, and so on&mdash;in particular, the instances that are open at the time of evaluation, hence the adjective current."
 
-episode: "Episode is the object that handles the information corresponding to the whole run of the trading bot&mdash;beginning to end&mdash;between the specified initial datetime and final datetime in the time range parameter of a trading session."
+episode: "Episode is the object that handles the information corresponding to the whole run of the trading bot&mdash;beginning to end&mdash;between the specified initial datetime and final datetime, in the time range parameter of the trading session."
 
-serial_number: "Serial number is a sequential number assigned to the object represented by the parent node at the moment it's opened."
+serial_number: "Serial number is a sequential number assigned to the object represented by the parent node at the moment it is opened."
 
 identifier: "Identifier is a unique alphanumeric string by which the object represented by the parent node may be unequivocally identified."
 
 begin: "Begin is the datetime at the moment the object represented by the parent node began to exist."
 
-end: "End is the datetime on which the object represented by the parent node ceased to exist. In case the object hasn't been closed yet, it is the datetime at the moment of evaluation."
+end: "End is the datetime on which the object represented by the parent node ceased to exist. In case the object has not been closed yet, it is the datetime at the moment of evaluation."
 
 begin_rate: "Begin rate is the close rate of the candle corresponding to the datetime of the begin property."
 
@@ -154,7 +154,7 @@ strategy_manage_stage: "Strategy manage stage is the section of the data structu
 
 strategy_close_stage: "Strategy close stage is the section of the data structure that keeps track of information specific to the scope of the close stage during the period the stage is open."
 
-last: "The last object stores instances of position and strategy objects, in particular the instances that were last open at the time of evaluation. Conceptually, last is used as an adjective applied to these concepts, such as the last position or the last strategy."
+last: "The last object stores instances of position and strategy objects, in particular the instances that were last open at the time of evaluation, hence the adjective last."
 
 exchange_orders: "Exchange orders is the section of the data structure that keeps track of orders of all types."
 
@@ -172,7 +172,7 @@ algorithm_name: "Algorithm name is the name of the execution algorithm that open
 
 order_counters: "The order counters node features counters of instances of objects that come to exist while the order is open."
 
-lock: "Lock is an internal mechanism that blocks the order's data structure at the trading engine when the definition of the order at the trading system disallows spawning multiple orders."
+lock: "Lock is an internal mechanism that blocks the data structure of the order at the trading engine when the definition of the order at the trading system disallows spawning multiple orders."
 
 order_base_asset: "The order base asset node keeps track of the evolution of certain properties of orders, denominated in the base asset."
 

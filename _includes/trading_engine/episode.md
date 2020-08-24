@@ -51,7 +51,21 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-As such, an episode keeps track of&mdash;and accumulates&mdash;the results of all positions entered throughout a run of a trading session.
+In other words, episode is the context framed between the datetimes that make up the whole trading session, as per the session's configuration. As such, an episode keeps track of&mdash;and accumulates&mdash;the results of all positions entered throughout a complete run of a trading session.
+
+In this section of the hierarchy, you have access to:
+
+*  the running balances and overall performance metrics denominated in both the base and quoted assets *(see [episode base &amp; quoted asset](suite-episode-base-and-quoted-asset.html))*;
+
+* counters, such as the number of positions taken, orders placed, hits, fails, and so on *(see [episode counters](suite-episode-counters.html))*;
+
+* statistics, such as performance metrics consolidating both assets, number of days in the episode, or user-defined statistics *(see [episode statistics](suite-episode-statistics.html))*;
+
+* the distance to certain events, such as the number of candles to the last  take position event, or the last create order event *(see [distance to event](suite-episode-distance-to-event.html))*;
+
+* rates describing each candle in the episode, such as the open, close, min and max rates *(see [candle](suite-episode-candle.html))*;
+
+
 
 <!--------------------------------------------- CONTENT ends -->
 
