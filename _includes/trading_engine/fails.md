@@ -51,11 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-In the context of the quoted asset or the base asset, *fails* are calculated relative to the asset in question.
-
-However, when the context of the asset is not specified, then *fails* are calculated in a consolidated manner, converting the respective balances to perform the calculations.
-
-{% include note.html content="Learn the specifics about the underlying calculations on the page explaining the initial targets in the trading system." %}
+{% include note.html content="The workings of the fail counts are analogous to the workings of the hits counts, reversing the sign. That is, when profit loss is negative, it is counted as a fail. Please refer to the definition of *hits* for the details." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

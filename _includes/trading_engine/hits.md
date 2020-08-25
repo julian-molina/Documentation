@@ -51,11 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-In the context of the quoted asset or the base asset, *hits* are calculated relative to the asset in question.
+In the context of the quoted asset or the base asset, *hits* are calculated relative to the asset in question. That is, if the base asset profit loss is positive, then a hit is counted for the base asset.
 
-However, when the context of the asset is not specified, then *hits* are calculated in a consolidated manner, converting the respective balances to perform the calculations.
+However, when the context of the asset is not specified&mdash;such as under the statistics node&mdash;then *hits* are calculated in a consolidated manner, converting the respective balances to perform the calculations. 
 
-{% include note.html content="Learn the specifics about the underlying calculations on the page explaining the initial targets in the trading system." %}
+{% include note.html content="The consolidated calculations are explained thoroughly in the profit loss node." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

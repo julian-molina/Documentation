@@ -415,7 +415,7 @@ entries:
     - title: Episode base & quoted asset
       url: /suite-episode-base-and-quoted-asset.html
       output: web
-      class: childItem newItem
+      class: childItem
 
     - title: Episode counters
       url: /suite-episode-counters.html

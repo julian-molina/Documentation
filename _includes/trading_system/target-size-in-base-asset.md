@@ -55,7 +55,7 @@ The system supports defining the size of the position in either asset involved i
 
 The target size may be defined in one of the two assets only, to avoid inconsistencies. 
 
-The target size is the maximum size the position may achieve. That is, the definition of the target size is used as a limit for the trading 
+The target size is the maximum size the position may achieve. That is, the definition of the target size is used as a cap for the total size of orders that may be placed during the open stage.
 
 If you prefer to define the size of the position denominated in the base asset, then use this node and delete the target size in quoted asset node.
 

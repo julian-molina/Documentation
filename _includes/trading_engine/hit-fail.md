@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Superalgos marks positions and even entire episodes as hits or fails, by evaluating ROI for the corresponding context. If ROI is positive, then the position or episode is a hit. If ROI is negative, it is a fail.
+Superalgos marks positions and even entire episodes as hits or fails, by evaluating profit loss for the corresponding context. If profit loss is positive, then the position or episode is a hit. If profit loss is negative, it is a fail.
+
+{% include note.html content="Please refer to the definition of *hits* for the details." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

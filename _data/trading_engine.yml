@@ -20,7 +20,7 @@ status: "Status refers to the state of the object represented by the parent node
 
 exit_type: "Exit type refers to the reason why the object is closed."
 
-episode_base_asset: "The episode base asset node keeps track of the evolution of variables related to the base asset throughout the episode."
+episode_base_asset: "The episode base asset node keeps track of the evolution of variables and metrics denominated in the base asset, throughout the episode."
 
 balance: "Balance is the running balance, that is, the amount of the asset that exists at any point in time."
 
@@ -42,7 +42,7 @@ annualized_rate_of_return: "Annualized rate of return is the equivalent ROI scal
 
 hit_fail: "Hit fail states whether a transaction is successful or not, hit meaning it is successful and fail meaning it is not."
 
-episode_quoted_asset: "The episode quoted asset node keeps track of the evolution of variables related to the quoted asset throughout the episode."
+episode_quoted_asset: "The episode quoted asset node keeps track of the evolution of variables and metrics denominated in the quoted asset, throughout the episode."
 
 episode_counters: "The episode counters node features counters of instances of objects that come to exist during the duration of the episode."
 
@@ -64,7 +64,7 @@ user_defined_statistic: "A user defined statistic allows users to create custom 
 
 formula: "A formula is a mathematical expression intended to determine a numerical value to be applied dynamically to a certain property."
 
-candle: "Candle features all the properties that make up a candle."
+candle: "The candle structure of nodes stores the properties that make up each candle in the episode, including open and close datetime, and the rates for open, min, max, and close."
 
 open: "Open is the rate at the datetime of the begin property, as provided by the exchange. That is, the rate at the open of the candle."
 

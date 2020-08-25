@@ -87,7 +87,7 @@ In the context of the episode statistics or the position statistics, the calcula
 
 {% include note.html content="When the context does not refer to either of the assets in particular, then both assets are taken into account in the calculation." %}
 
-*In the context of the episode:*
+*In the context of the episode statistics:*
 
 ```
 tradingEngine.current.episode.episodeStatistics.profitLoss.value =
@@ -96,7 +96,7 @@ tradingEngine.current.episode.episodeStatistics.profitLoss.value =
     tradingEngine.current.episode.episodeQuotedAsset.profitLoss.value
 ```
 
-*In the context of the position:*
+*In the context of the position statistics:*
 
 ```
 tradingEngine.current.position.positionStatistics.profitLoss.value =

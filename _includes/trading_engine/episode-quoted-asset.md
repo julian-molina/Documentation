@@ -51,9 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Because the system aims to be as flexible as possible, the trading bot keeps the accounts relative to both the base asset and the quoted asset. This allows the user to set up the trading system with whatever logic is required and decide which set of accounts to use accordingly.
-
-{% include note.html content="Learn the specifics about the underlying calculations on the page explaining the initial targets in the trading system." %}
+{% include note.html content="The workings of the episode quoted asset node are analogous to the workings of the episode base asset node. Please refer to it for the details." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

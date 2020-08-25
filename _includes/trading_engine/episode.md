@@ -55,15 +55,15 @@ In other words, episode is the context framed between the datetimes that make up
 
 In this section of the hierarchy, you have access to:
 
-*  the running balances and overall performance metrics denominated in both the base and quoted assets *(see [episode base &amp; quoted asset](suite-episode-base-and-quoted-asset.html))*;
+*  **the running balances and overall performance metrics** denominated in both the base and quoted assets *(see [episode base &amp; quoted asset](suite-episode-base-and-quoted-asset.html))*;
 
-* counters, such as the number of positions taken, orders placed, hits, fails, and so on *(see [episode counters](suite-episode-counters.html))*;
+* **counters**, such as the number of positions taken, orders placed, hits, fails, and so on *(see [episode counters](suite-episode-counters.html))*;
 
-* statistics, such as performance metrics consolidating both assets, number of days in the episode, or user-defined statistics *(see [episode statistics](suite-episode-statistics.html))*;
+* **statistics**, such as performance metrics consolidating both assets, number of days in the episode, or user-defined statistics *(see [episode statistics](suite-episode-statistics.html))*;
 
-* the distance to certain events, such as the number of candles to the last  take position event, or the last create order event *(see [distance to event](suite-episode-distance-to-event.html))*;
+* **the distance to certain events**, such as the number of candles to the last  take position event, or the last create order event *(see [distance to event](suite-episode-distance-to-event.html))*;
 
-* rates describing each candle in the episode, such as the open, close, min and max rates *(see [candle](suite-episode-candle.html))*;
+* **rates describing each candle** in the episode, such as the open, close, min and max rates *(see [candle](suite-episode-candle.html))*;
 
 
 

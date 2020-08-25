@@ -51,13 +51,21 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-There is no setting by which the user informs the system about the intent&mdash;the goal&mdash;of the strategy. However, the system still needs to provide performance metrics such as profit loss and ROI, and must determine if a position is a hit or a fail.
+The system needs to determine when the managed stop loss and managed take profit targets have been hit. To do this, the system observes how the user places the targets in relation to the target rate.
 
-The way the system *guesses* the intent of the strategy is by observing how the user places the stop loss and take profit targets in relation with the target rate.
+*For example:*
 
-If the phase 1 stop loss is placed above the target rate and phase 1 take profit below it, the system assumes the intent of the strategy is to sell the base asset to rebuy it at a lower rate. Such a result would be counted as a hit and displayed as such in the simulation. The opposite occurrence would be counted as a fail.
+If the phase 1 managed stop loss target is placed below the target rate and the phase 1 managed take profit target above it, the system assumes that:
 
-Additionally, defining a reference target rate at the level of the stage may be of use so that you may retrieve the value from formulas while setting the rate of limit orders.
+* the stop loss target is hit when the current rate is equal to or smaller than the managed stop loss value;
+
+* the stop loss target is hit when the current rate is equal to or greater than the managed take profit value;
+
+The reversed example is true, as well.
+
+This is how the system uses the target rate internally.
+
+Additionally, defining a target rate at the level of the stage may be of use so that you may retrieve the value from formulas while setting the rate of limit orders.
 
 <!--------------------------------------------- CONTENT ends -->
 

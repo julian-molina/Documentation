@@ -1,6 +1,6 @@
 ---
 title:  Episode
-summary: "The episode is the context convering the whole span of time of the trading session. In this page: Serial Number, Identifier, Begin, End, Begin Rate, End Rate, Status, and Exit Type."
+summary: "Track information at the highest level, stored in the context of the episode, covering the whole span of time of the trading session. On this page: Serial Number, Identifier, Begin, End, Begin Rate, End Rate, Status, and Exit Type."
 sidebar: suite_sidebar
 permalink: suite-episode.html
 toc: false
