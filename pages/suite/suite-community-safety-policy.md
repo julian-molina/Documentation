@@ -28,7 +28,7 @@ If an admin ever needs to have a private conversation with you, the admin will c
 
 Admins, moderators, and Core Team members' messages in the group are labeled with the person's position in the Community group or the project. It is easy to identify them when in the group. 
 
-{% include image.html file='various/Luis-message.png' url='yes' max-width='100' caption='Notice the Lead Developer label on the top-right corner of the message.' %}
+{% include image.html file='various/Luis-message-lead-developer.png' url='yes' max-width='100' caption='Notice the Lead Developer label on the top-right corner of the message.' %}
 
 To contact an admin in private, find one of the admin's messages in the group, click on the admin's user name, and click *Send Message* on the admin's profile.
 
