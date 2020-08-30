@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Check the explanations on the initial target definitions at the trading system for further details.
+Both entry and exit target sizes may be defined either denominated in the base asset or the quoted asset. Nevertheless, the sytem keeps track of target sizes in both assets. If the target is defined denominated in the base asset, then the target for the quoted asset is calculated using the current rate, and viceversa.
+
+Refresh this concepts by reading about the [initial target definitions](suite-strategies-open-targets.html) at the trading system.
 
 <!--------------------------------------------- CONTENT ends -->
 

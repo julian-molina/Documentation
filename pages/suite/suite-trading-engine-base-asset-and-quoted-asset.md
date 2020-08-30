@@ -1,8 +1,8 @@
 ---
-title:  Episode Base and Quoted Asset
+title:  Base Asset and Quoted Asset
 summary: "Keep track of accounts denominated in the base asset and the quoted asset. On this page: Balance, Begin Balance, End Balance, Hits, Fails, Hit Ratio, Profit Loss, ROI, Annualized Rate of Return, Hit Fail."
 sidebar: suite_sidebar
-permalink: suite-episode-base-and-quoted-asset.html
+permalink: suite-trading-engine-base-asset-and-quoted-asset.html
 toc: false
 ---
 

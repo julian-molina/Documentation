@@ -2,7 +2,7 @@
 title:  Candle
 summary: "Track the information that makes up candles, stored in the context of the episode. On this page: Begin, End, Open, Close, Min, Max, Index."
 sidebar: suite_sidebar
-permalink: suite-episode-candle.html
+permalink: suite-trading-engine-candle.html
 toc: false
 ---
 

@@ -2,7 +2,7 @@
 title:  Distance to Event
 summary: "Track the number of periods that have passed since the last occurrence of each type of event. On this page: Trigger On, Trigger Off, Take Position, Close Position, Next Phase, Move to Phase, Create Order, Cancel Order, Close Order."
 sidebar: suite_sidebar
-permalink: suite-episode-distance-to-event.html
+permalink: suite-trading-engine-distance-to-event.html
 toc: false
 ---
 

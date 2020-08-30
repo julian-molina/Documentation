@@ -1,8 +1,8 @@
 ---
-title:  Episode Statistics
+title:  Statistics
 summary: "Track popular statistics consolidating both the base asset and the quoted asset. On this page: days and user defined statistics."
 sidebar: suite_sidebar
-permalink: suite-episode-statistics.html
+permalink: suite-trading-engine-statistics.html
 toc: false
 ---
 

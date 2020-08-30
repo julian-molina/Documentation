@@ -53,7 +53,7 @@
 
 Because the system aims to be as flexible as possible, the trading engine keeps the accounts relative to both the base asset and the quoted asset. This allows the user to set up the trading system with whatever logic is required and decide which set of accounts suits the intent&mdash;the goal&mdash;of the trading strategy.
 
-{% include callout.html type="primary" content="<strong>Notice that&mdash;usually&mdash;the accounts denominated in one asset will be valid, while the accounts denominated in the other asset will likely make no sense.</strong>" %}
+{% include callout.html type="success" content="Notice that&mdash;usually&mdash;the accounts denominated in one asset will be valid, while the accounts denominated in the other asset will likely make no sense." %}
 
 Which set of accounts you will monitor to track the performance of the episode depends on how you define your trading system. 
 

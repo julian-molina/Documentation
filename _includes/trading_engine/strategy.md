@@ -51,7 +51,13 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
+The strategy node is available both in the current context and the last context, that is, you may retrieve information of the strategy that was last triggered or the one currently open.
+
 A strategy is open from the instant it is triggered-on until the instant it is triggered-off. Therefore, this section of the data structure features information spaning those periods only.
+
+This section provides all the basic details about the strategy, which is particularly useful when the trading system features multiple strategies. It also provides information about the context, that is, what is going on with the market at the time strategies are triggered-on and off.
+
+Most interestingly, the strategy section provides information such as which situation was responsible for triggering the strategy. This may be particularly useful in complex strategies in which the trigger on event may be defined by multiple situations.
 
 <!--------------------------------------------- CONTENT ends -->
 

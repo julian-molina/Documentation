@@ -53,7 +53,7 @@
 
 The definition of a strategy may be analyzed in three sections:
 
-{% include callout.html type="primary" content="<strong>A strategy is a set of actions occurring in stages</strong>" %}
+{% include callout.html type="success" content="A strategy is a set of actions occurring in stages" %}
 
 Strategies are defined in the following stages:
 
@@ -66,7 +66,7 @@ These stages are played in a sequence: once a strategy is *triggered* it looks t
 
 While stages are played in a sequence, upon execution there are overlaps. That is, a stage doesn't need to be closed for the next stage to be opened. The framework sets a clear separation of the concepts embodied in each stage to facilitate the process of defining and developing a trading system. But the truth is that, both at the conceptual level and during execution, the lines between stages are rather blurry.
 
-{% include callout.html type="primary" content="<strong>designed to achieve a specific goal within a broader plan</strong>" %}
+{% include callout.html type="success" content="designed to achieve a specific goal within a broader plan" %}
 
 Your investment plan or trading career may have any number of goals *(e.g.: accumulating a certain asset, diversifying on a basket of coins, annual profit targets, etc.)*. If you attempt to achieve more than one goal with a single strategy, you will sooner or later run into problems. It may be doable, but the strategy would certainly be more complex than is necessary or desirable. In any case, the logical thing to do is to analyze each goal separately so that you may design (at least) one clear, straightforward strategy for each goal.
 
@@ -76,7 +76,7 @@ Understanding that keeping things simple is important will help you develop a ro
 
 In other words, the infrastructure provided by Superalgos enables the hyperspecialization of strategies. Do not aim to trade in all sorts of market situations with the same strategy. Instead, develop a strategy for each market situation you wish to trade.
 
-{% include callout.html type="primary" content="<strong>via taking and managing positions</strong>" %}
+{% include callout.html type="success" content="via taking and managing positions" %}
 
 The definition of strategy points to the concept of a *position*. A position is a process that exchanges the base asset for the quoted asset and that—after some time, as the position develops and targets are hit—exchanges back the quoted asset for the base asset. 
 

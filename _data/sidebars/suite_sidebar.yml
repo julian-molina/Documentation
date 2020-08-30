@@ -36,6 +36,10 @@ entries:
       url: /suite-system-requirements.html
       output: web
 
+    - title: Community safety policy
+      url: /suite-community-safety-policy.html
+      output: web
+      
   - title: Getting started
     output: web
     folderitems:
@@ -405,37 +409,90 @@ entries:
     - title: Trading engine
       url: /suite-trading-engine.html
       output: web
-      class: newItem
 
-    - title: Episode
-      url: /suite-episode.html
+    - title: Monitoring runtime data
+      url: /suite-trading-engine-monitoring-runtime-data.html
       output: web
-      class: newItem
 
-    - title: Episode base & quoted asset
-      url: /suite-episode-base-and-quoted-asset.html
+    - title: Temporal context
+      url: /suite-trading-engine-temporal-context.html
+      output: web
+
+    - title: Current
+      url: /suite-trading-engine-current.html
       output: web
       class: childItem
 
-    - title: Episode counters
-      url: /suite-episode-counters.html
+    - title: Last
+      url: /suite-trading-engine-last.html
       output: web
-      class: childItem newItem
+      class: childItem
 
-    - title: Episode statistics
-      url: /suite-episode-statistics.html
+    - title: Conceptual context
+      url: /suite-trading-engine-conceptual-context.html
       output: web
-      class: childItem newItem
 
-    - title: Candle
-      url: /suite-episode-candle.html
+    - title: Episode
+      url: /suite-trading-engine-episode.html
       output: web
-      class: childItem newItem
+      class: childItem
+
+    - title: Strategy
+      url: /suite-trading-engine-strategy.html
+      output: web
+      class: childItem
+
+    - title: Position
+      url: /suite-trading-engine-position.html
+      output: web
+      class: childItem
+
+    - title: Strategy stages
+      url: /suite-trading-engine-strategy-stages.html
+      output: web
+      class: childItem
+
+    - title: Exchange orders
+      url: /suite-trading-engine-exchange-orders.html
+      output: web
+      class: childItem
+
+    - title: Accounts and metrics
+      url: /suite-trading-engine-accounts-and-metrics.html
+      output: web
+
+    - title: Base asset and quoted asset
+      url: /suite-trading-engine-base-asset-and-quoted-asset.html
+      output: web
+      class: childItem
+
+    - title: Counters
+      url: /suite-trading-engine-counters.html
+      output: web
+      class: childItem
+
+    - title: Statistics
+      url: /suite-trading-engine-statistics.html
+      output: web
+      class: childItem
 
     - title: Distance to event
-      url: /suite-episode-distance-to-event.html
+      url: /suite-trading-engine-distance-to-event.html
       output: web
-      class: childItem newItem
+      class: childItem
+
+    - title: Market data
+      url: /suite-trading-engine-market-data.html
+      output: web
+
+    - title: Candle
+      url: /suite-trading-engine-candle.html
+      output: web
+      class: childItem
+
+    - title: Identity
+      url: /suite-trading-engine-identity.html
+      output: web
 
   - title: Community strategies
     output: web

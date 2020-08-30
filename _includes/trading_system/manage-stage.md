@@ -71,7 +71,7 @@ All of these considerations may feed the dynamic analysis performed in each phas
 
 Upon execution, the system verifies if the current candle has tagged either of the targets. If&mdash;or when&mdash;it does, the close stage kicks in and closing execution begins.
 
-{% include callout.html type="primary" content="<strong>It is crucial to understand that Superalgos does not place orders to close a position until the stop loss or take profit targets are hit. That is, stop loss and take profit are not orders sitting at the exchange waiting to be filled at a certain rate. Instead, Superalgos keeps track of targets internally, and places the orders at the exchange during the execution cycle in which it detects either of the targets has been hit.</strong>" %}
+{% include callout.html type="success" content="It is crucial to understand that Superalgos does not place orders to close a position until the stop loss or take profit targets are hit. That is, stop loss and take profit are not orders sitting at the exchange waiting to be filled at a certain rate. Instead, Superalgos keeps track of targets internally, and places the orders at the exchange during the execution cycle in which it detects either of the targets has been hit." %}
 
 This behavior has advantages and disadvantages, but it was designed as is because the former outweigh the latter.
 

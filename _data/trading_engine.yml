@@ -96,7 +96,7 @@ cancel_order: "Counts the periods since the last time an order was canceled."
 
 close_order: "Counts the periods since the last time an order was closed."
 
-strategy: "Strategy is the section of the data structure that keeps track of information within the scope of the trading strategy as defined in the trading system, during the time the strategy is open."
+strategy: "The strategy section of the trading engine keeps track of information relating to the trading strategies that are triggered-on, during the time they remain open."
 
 situation_name: "Situation name features the name of the situation that triggered a certain event, which is dependent on the context."
 

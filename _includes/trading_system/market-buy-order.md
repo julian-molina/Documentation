@@ -91,13 +91,13 @@ Because each execution algorithm may define multiple orders, the typical scenari
 
 However, it is up to the user how to manage this setting, as different hacks may be found to achieve different behaviors.
 
-{% include callout.html type="primary" content="<strong>If orders defined add up to more than 100% of the size allocated to the algorithm, the trading engine does not enforce a cap.</strong>" %}
+{% include callout.html type="success" content="If orders defined add up to more than 100% of the size allocated to the algorithm, the trading engine does not enforce a cap." %}
 
 Pretty much like the user may decide to define the size of orders within an algorithm above or below the 100% mark, the same is true when defining multiple algorithms. In other words, the user may choose to set up algorithms whose combined sizes amount to more or less than 100%.
 
 In cases in which the combined sizes amount to less than 100%, the target size would be partially filled at best. On the other hand, in cases in which the combined sizes amount to more than 100%, then the orders and/or algorithms would compete with each other.
 
-{% include callout.html type="primary" content="<strong>The one validation the trading engine does is to enforce the target size defined under the initial targets node. The target size is treated as a hard cap, so that no position may ever be sized larger than the target.</strong>" %}
+{% include callout.html type="success" content="The one validation the trading engine does is to enforce the target size defined under the initial targets node. The target size is treated as a hard cap, so that no position may ever be sized larger than the target." %}
 
 If the order size as defined would cause the target size to be breached, then the order size is lowered to match the hard cap.
 

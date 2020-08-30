@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Check the explanations on the initial target definitions at the trading system for further details.
+Refer to the explanations on the entry target size for some relevant context.
+
+Refresh this concepts by reading about the [initial target definitions](suite-strategies-open-targets.html) at the trading system.
 
 <!--------------------------------------------- CONTENT ends -->
 

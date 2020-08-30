@@ -51,7 +51,21 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
+The position node is available both in the current context and the last context, that is, you may retrieve information of the position that was last opened or the one currently open.
+
 A position is open from the instant the take position event is triggered until the instant the close stage is closed. Therefore, this section of the data structure features information spaning those periods only.
+
+In this section of the hierarchy, you have access to:
+
+*  **[balances and position performance metrics](suite-trading-engine-accounts-and-metrics.html)** denominated in both the base and quoted assets;
+
+* **[counters](suite-trading-engine-counters.html)**, such as the number of periods the position has been open;
+
+* **[statistics](suite-trading-engine-statistics.html)**, such as performance metrics consolidating both assets, or user-defined statistics;
+
+* **[the distance to certain events](suite-trading-engine-distance-to-event.html)**, such as the number of candles to the last  take position event, or the last create order event;
+
+* **[rates describing each candle](suite-trading-engine-candle.html)** in the episode, such as the open, close, min and max rates;
 
 <!--------------------------------------------- CONTENT ends -->
 

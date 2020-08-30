@@ -1,8 +1,8 @@
 ---
-title:  Episode Counters
+title:  Counters
 summary: "Keep track of how many instances of each relevant object have existed in a given context. On this page: Periods, Strategies, Positions, and Orders."
 sidebar: suite_sidebar
-permalink: suite-episode-counters.html
+permalink: suite-trading-engine-counters.html
 toc: false
 ---
 
