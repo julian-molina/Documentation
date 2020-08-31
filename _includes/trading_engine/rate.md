@@ -55,6 +55,8 @@ By default, it is the rate at the close of the last candle at the moment the ord
 
 In the case of limit orders, it is the rate as specified by the formula under the order rate node. If no such definition exists, then limit orders use the default value as well.
 
+The rate is used by the system for all internal calculations affecting the accounts kept in both assets.
+
 <!--------------------------------------------- CONTENT ends -->
 
 {% endif %}

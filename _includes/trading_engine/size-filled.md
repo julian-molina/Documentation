@@ -51,11 +51,13 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-In the context of a strategy stage, target size refers to all the orders that may be placed while the stage is open, for the asset given by the context.
+In the context of a strategy stage, the size filled refers to the sum of the size filled for all orders placed on the corresponding stage.
 
-In liquid markets, market orders should usually fill immediately. However, limit orders may fill incrementally. Size filled keeps track of how much of the size placed has been filled.
+In the context of an order, it refers to the size filled for the particular order.
 
-Size filled does not usually match the size placed, as fees are deducted accordingly. In most circumstances, once an order is filled, size filled equals the size placed minus the fees paid.
+Upon each execution of the trading bot, the system asks the exchange about the status of the orders placed, and the exchange reports back with the size filled and the actual rate at which orders are filled.
+
+In liquid markets, market orders should usually fill immediately. However, limit orders may fill incrementally. Size filled keeps track of how much of the size placed has been filled on every execution.
 
 <!--------------------------------------------- CONTENT ends -->
 

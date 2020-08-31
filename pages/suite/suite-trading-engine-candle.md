@@ -20,12 +20,4 @@ toc: false
 <tr><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#index' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.index}}'><img src='images/icons/nodes/png50/index.png' /><br />Index</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 
-{% include /trading_engine/open.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
 
-{% include /trading_engine/close.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
-
-{% include /trading_engine/min.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
-
-{% include /trading_engine/max.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
-
-{% include /trading_engine/index.md more="no" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="" starting="" %}

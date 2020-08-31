@@ -51,7 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The amount paid in fees is deducted from the size placed, therefore, the size filled tends to be equal to the size placed minus the fees paid.
+The exchange does not explicitly indicate how much has been paid in fees for a given transaction. Instead, when Superalgos verifies if an order has been filled or not, the exchange reports the size filled and the actual rate only.
+
+{% include callout.html type="success" content="Exchange fees are *estimated* using the *fee structure* parameter set for the trading session. It is, therefore, important to set the correct values for that parameter." %}
+
+Exchanges deduct fees from the asset you are receiving. For instance, if you are selling BTC in the BTC-USDT market, then you are receiving USDT, and the exchange will deduct the fees directly from the amount of USDT you are receiving.
 
 <!--------------------------------------------- CONTENT ends -->
 

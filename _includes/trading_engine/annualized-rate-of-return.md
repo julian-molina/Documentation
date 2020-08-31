@@ -103,23 +103,25 @@ In the context of the episode statistics, the calculation is done using the cons
 
 *The JavaScript code:*
 
-```
+```js
 tradingEngine.current.episode.episodeStatistics.annualizedRateOfReturn.value =
 Math.pow(
-    (
-        tradingEngine.current.episode.episodeBaseAsset.beginBalance.value * tradingEngine.current.episode.beginRate.value +
-        tradingEngine.current.episode.episodeQuotedAsset.beginBalance.value +
-        tradingEngine.current.episode.episodeBaseAsset.profitLoss.value +
-        tradingEngine.current.episode.episodeQuotedAsset.profitLoss.value
-    ) / 
-    (
-        tradingEngine.current.episode.episodeBaseAsset.beginBalance.value * tradingEngine.current.episode.beginRate.value +
-        tradingEngine.current.episode.episodeQuotedAsset.beginBalance.value 
-    ) 
-    , 
-    (
-        365 / tradingEngine.current.episode.episodeStatistics.days.value
-    ) 
+            (
+                tradingEngine.current.episode.episodeBaseAsset.beginBalance.value * 
+                tradingEngine.current.episode.beginRate.value +
+                tradingEngine.current.episode.episodeQuotedAsset.beginBalance.value +
+                tradingEngine.current.episode.episodeBaseAsset.profitLoss.value +
+                tradingEngine.current.episode.episodeQuotedAsset.profitLoss.value
+            ) / 
+            (
+                tradingEngine.current.episode.episodeBaseAsset.beginBalance.value * 
+                tradingEngine.current.episode.beginRate.value +
+                tradingEngine.current.episode.episodeQuotedAsset.beginBalance.value 
+            ) 
+        , 
+            (
+                365 / tradingEngine.current.episode.episodeStatistics.days.value
+            ) 
         ) - 1
 ```
 

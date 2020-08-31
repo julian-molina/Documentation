@@ -51,9 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Size placed should usually match the target size.
+In the context of a strategy stage, the size placed refers to the sum of the sizes placed for all orders placed on the corresponding stage.
 
-In the context of a strategy stage, target size refers to all the orders that may be placed while the stage is open.
+In the context of an order, it refers to the size placed for the particular order.
 
 <!--------------------------------------------- CONTENT ends -->
 

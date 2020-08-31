@@ -1,6 +1,6 @@
 ---
 title:  Counters
-summary: "Keep track of how many instances of certain objects have existed in a given context. On this page: Periods, Strategies, Positions, and Orders."
+summary: "Keep track of how many instances of certain objects have existed in a given context. On this page: Periods, Strategies, Positions, Orders, and Days."
 sidebar: suite_sidebar
 permalink: suite-trading-engine-counters.html
 toc: false
@@ -11,6 +11,20 @@ A counter keeps track of how many instances of certain objects have come to exis
 For example, how many positions have been open during an episode, or how many of those positions have been hits.
 
 Counters are kept in multiple contexts simultaneously. In particular, you will find episode counters, strategy counters, position counters, and order counters.
+
+## Counter-specific Nodes
+
+{% include /trading_engine/periods.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
+
+{% include /trading_engine/strategies.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
+
+{% include /trading_engine/positions.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
+
+{% include /trading_engine/orders.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
+
+{% include /trading_engine/days.md more="no" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="" starting="" %}
+
+{% include note.html content="Other properties typical to counters are defined elsewhere, as they are not specific to counters. Find below the different contexts in which counters are found." %}
 
 {% include /trading_engine/episode-counters.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="" configuring="" starting="" %}
 

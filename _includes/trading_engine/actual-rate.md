@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-In case an order is filled incrementally, the value is updated accordingly. The system does not use this value at all and is presented for informational purposes only.
+When the system consults the status of open orders with the exchange, the exchange responds with the size filled and the actual rate for the particular order. In case an order is filled incrementally, the value is updated accordingly. 
+
+The system uses the actual rate to update the calculation of balances, which are otherwise calculated with the original rate, by default.
 
 <!--------------------------------------------- CONTENT ends -->
 

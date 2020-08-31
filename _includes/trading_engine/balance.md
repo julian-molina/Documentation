@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The balance of an asset changes every time an order involving the asset is filled.
+The balance of an asset changes every time an order involving the asset is filled. When the trading bot consults the exchange to find out the status of each order placed, the exchange answers with the size filled and actual rate for the order. That is the information used to calculate balances.
 
 <!--------------------------------------------- CONTENT ends -->
 

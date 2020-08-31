@@ -481,6 +481,43 @@ entries:
       output: web
       class: childItem
 
+    - title: Common Metrics
+      url: /suite-trading-engine-common-metrics.html
+      output: web
+
+    - title: Balances
+      url: /suite-trading-engine-balances.html
+      output: web
+      class: childItem
+
+    - title: Hits, fails, and ratios
+      url: /suite-trading-engine-hits-fails-ratios.html
+      output: web
+      class: childItem
+
+    - title: Profit Loss
+      url: /suite-trading-engine-profit-loss.html
+      output: web
+      class: childItem
+
+    - title: ROI
+      url: /suite-trading-engine-roi.html
+      output: web
+      class: childItem
+
+    - title: Annualized Rate of Return
+      url: /suite-trading-engine-annualized-rate-of-return.html
+      output: web
+      class: childItem
+
+    - title: Stage-specific accounts
+      url: /suite-trading-engine-stage-specific.html
+      output: web
+
+    - title: Order-specific accounts
+      url: /suite-trading-engine-order-specific.html
+      output: web
+
     - title: Market data
       url: /suite-trading-engine-market-data.html
       output: web
@@ -490,8 +527,8 @@ entries:
       output: web
       class: childItem
 
-    - title: Identity
-      url: /suite-trading-engine-identity.html
+    - title: Identity and status
+      url: /suite-trading-engine-identity-and-status.html
       output: web
 
   - title: Community strategies

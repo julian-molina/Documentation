@@ -1,5 +1,5 @@
 ---
-title:  Accounts and Metrics
+title:  Accounts, Counters, and Statistics
 summary: "Keep track of accounts, balances, and several performance metrics across multiple contexts."
 sidebar: suite_sidebar
 permalink: suite-trading-engine-accounts-counters-stats.html
@@ -12,4 +12,4 @@ The trading engine also keeps track of several performance metrics, counters, an
 
 {% include callout.html type="success" content="All of this information may exist in different contexts, for example, in the context of the episode, a position, a strategy stage, and even a particular exchange order." %}
 
-The following pages compile the nodes that make up such metrics.
+The following pages list all of those contexts in which accounts, counters, and statistics are provided.

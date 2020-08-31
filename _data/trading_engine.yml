@@ -142,9 +142,9 @@ stage_base_asset: "The stage base asset node keeps track of the evolution of var
 
 target_size: "Target size is the target set on the initial targets definition which, in the context of a strategy stage, acts as a limit."
 
-size_placed: "Size placed is the size of the order as placed in the exchange."
+size_placed: "Size placed is the size of the order placed at the exchange."
 
-size_filled: "Size filled is the amount of the order that has been filled."
+size_filled: "Size filled is the amount of the order that has been filled at the exchange."
 
 fees_paid: "Fees paid is the amount paid in fees."
 
