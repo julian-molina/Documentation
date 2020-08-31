@@ -1,49 +1,49 @@
 ---
 title:  Base Asset and Quoted Asset
-summary: "Keep track of accounts denominated in the base asset and the quoted asset. On this page: Balance, Begin Balance, End Balance, Hits, Fails, Hit Ratio, Profit Loss, ROI, Annualized Rate of Return, Hit Fail."
+summary: "Keep track of accounts denominated in the base asset and the quoted asset, in multiple contexts. On this page: Episode Base Asset, Episode Quoted Asset, Position Base Asset, Position Quoted Asset, Stage Base Asset, Stage Quoted Asset, Order Base Asset, Order Quoted Asset."
 sidebar: suite_sidebar
 permalink: suite-trading-engine-base-asset-and-quoted-asset.html
 toc: false
 ---
 
-{% include /trading_engine/episode-base-asset.md more="no" heading="###" icon="150" definition="bold" table="yes" content="yes" adding="" configuring="" starting="" %}
+Because the system aims to be as flexible as possible, the trading engine keeps the accounts relative to both the base asset and the quoted asset. This allows the user to set up the trading system with whatever logic is required and decide which set of accounts suits the intent&mdash;the goal&mdash;of the trading strategy.
 
-{% include /trading_engine/episode-quoted-asset.md more="no" heading="###" icon="150" definition="bold" table="yes" content="yes" adding="" configuring="" starting="" %}
+{% include callout.html type="success" content="Notice that&mdash;usually&mdash;the accounts denominated in one asset will be valid, while the accounts denominated in the other asset will likely make no sense." %}
 
-{% include note.html content="Hover your mouse over a node for a tooltip definition, and click to get all the details." %}
+Which set of accounts you will monitor to track the performance of the episode depends on how you define your trading system. 
 
-<table class='hierarchyTable'><thead><tr><th><a href='#episode' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.episode}}'><img src='images/icons/nodes/png50/episode.png' /><br />Episode</a></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
-<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#episode-base-asset' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.episode_base_asset}}'><img src='images/icons/nodes/png50/episode-base-asset.png' /><br />Episode Base Asset</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#episode-quoted-asset' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.episode_quoted_asset}}'><img src='images/icons/nodes/png50/episode-quoted-asset.png' /><br />Episode Quoted Asset</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#balance' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.balance}}'><img src='images/icons/nodes/png50/balance.png' /><br />Balance</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#begin-balance' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.begin_balance}}'><img src='images/icons/nodes/png50/begin-balance.png' /><br />Begin Balance</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#end-balance' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.end_balance}}'><img src='images/icons/nodes/png50/end-balance.png' /><br />End Balance</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#hits' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.hits}}'><img src='images/icons/nodes/png50/hits.png' /><br />Hits</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#fails' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.fails}}'><img src='images/icons/nodes/png50/fails.png' /><br />Fails</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#hit-ratio' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.hit_ratio}}'><img src='images/icons/nodes/png50/hit-ratio.png' /><br />Hit Ratio</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#profit-loss' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.profit_loss}}'><img src='images/icons/nodes/png50/profit-loss.png' /><br />Profit Loss</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#roi' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.roi}}'><img src='images/icons/nodes/png50/roi.png' /><br />ROI</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#annualized-rate-of-return' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.annualized_rate_of_return}}'><img src='images/icons/nodes/png50/annualized-rate-of-return.png' /><br />Annualized Rate of Return</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#hit-fail' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.hit_fail}}'><img src='images/icons/nodes/png50/hit-fail.png' /><br />Hit Fail</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+For example, If you are trading the BTC/USDT market and developed a trading system to accumulate USDT, then the set of accounts that will make sense for you is the one denominated in the quoted asset, that is, in USDT. This is why:
+
+Your strategy will likely buy BTC (the base asset) expecting the price to go up while the position is open, in order to sell BTC at a higher rate and end up with more USDT (the quoted asset) than you started with. 
+
+*Let's put a simple example in numbers:*
+
+Let's say you buy 10,000 USDT worth of BTC. BTC price increases by 10%, so you sell the whole amount of BTC to close the position and end up with 10,900 USDT *(exchange fees are deducted from the balance)*.
+
+In terms of the base asset, your begin balance is 0 BTC and your end balance is 0.00000012 BTC, as the exchange left some BTC dust in the account due to rate conversion limitations. Also in terms of the base asset, your profit loss for the position is ```0.00000012 BTC - o BTC = 0.00000012 BTC```. ROI and other metrics may be derived from these initial observations as well. Needless to say, such metrics are irrelevant to the intent of the strategy, which is to accumulate USDT.
+
+Now, in terms of the base asset, your begin balance is 10,000 USDT and your end balance is 10,900 USDT *(exchange fees are deducted from the balance)*. Also in terms of the quoted asset, your profit loss for the position is ```10,900 USDT - 10,000 USDT = 900 USDT```. It should be clear by now that these are the metrics relevant to the intent of the strategy.
+
+{% include note.html content="With other types of strategies, for example, those in which the intent is to accumulate both assets, both sets of metrics may be relevant. Also, the consolidated metrics provided in the context of statistics may be relevant too." %}
+
+The concepts relative to base and quoted asset, such as the balance of each asset and the performance metrics computed from the perspective of each asset, are tracked in multiple contexts simultaneously.
+
+What follows are the definitions of the base and quoted asset in each of the contexts that the concepts are tracked.
 
 
-{% include /trading_engine/balance.md more="no" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="" starting="" %}
+{% include /trading_engine/episode-base-asset.md more="no" heading="###" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
 
-{% include /trading_engine/begin-balance.md more="no" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="" starting="" %}
+{% include /trading_engine/episode-quoted-asset.md more="no" heading="###" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
 
-{% include /trading_engine/end-balance.md more="no" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="" starting="" %}
+{% include /trading_engine/position-base-asset.md more="no" heading="###" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
 
-{% include /trading_engine/hits.md more="no" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="" starting="" %}
+{% include /trading_engine/position-quoted-asset.md more="no" heading="###" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
 
-{% include /trading_engine/fails.md more="no" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="" starting="" %}
+{% include /trading_engine/stage-base-asset.md more="no" heading="###" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
 
-{% include /trading_engine/hit-ratio.md more="no" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="" starting="" %}
+{% include /trading_engine/stage-quoted-asset.md more="no" heading="###" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
 
-{% include /trading_engine/profit-loss.md more="no" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="" starting="" %}
+{% include /trading_engine/order-base-asset.md more="no" heading="###" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
 
-{% include /trading_engine/roi.md more="no" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="" starting="" %}
-
-{% include /trading_engine/annualized-rate-of-return.md more="no" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="" starting="" %}
-
-{% include /trading_engine/hit-fail.md more="no" heading="####" icon="50" definition="yes" table="yes" content="yes" adding="" configuring="" starting="" %}
+{% include /trading_engine/order-quoted-asset.md more="no" heading="###" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
 

@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+The information may be used from within strategies, for example, to leave a cool-down period in-between positions, to separate orders in specific intervals, or to achieve any particular logic that may require counting how much time has passed since the last time a specific event was triggered.
 
 <!--------------------------------------------- CONTENT ends -->
 

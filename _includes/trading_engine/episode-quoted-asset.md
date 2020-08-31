@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-{% include note.html content="The workings of the episode quoted asset node are analogous to the workings of the episode base asset node. Please refer to it for the details." %}
+{% include note.html content="Learn more about how accounts for the base asset and the quoted asset are kept in the [base asset and quoted asset](suite-trading-engine-base-asset-and-quoted-asset.html) page on the trading engine section of the documentation." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

@@ -6,7 +6,7 @@ permalink: suite-trading-engine-distance-to-event.html
 toc: false
 ---
 
-{% include /trading_engine/distance-to-event.md more="no" heading="" icon="150" definition="bold" table="yes" content="no" adding="" configuring="" starting="" %}
+{% include /trading_engine/distance-to-event.md more="no" heading="" icon="150" definition="bold" table="yes" content="yes" adding="" configuring="" starting="" %}
 
 {% include note.html content="Hover your mouse over a node for a tooltip definition, and click to get all the details." %}
 
@@ -20,22 +20,3 @@ toc: false
 <tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#create-order' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.create_order}}'><img src='images/icons/nodes/png50/create-order.png' /><br />Create Order</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#cancel-order' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.cancel_order}}'><img src='images/icons/nodes/png50/cancel-order.png' /><br />Cancel Order</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#close-order' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.close_order}}'><img src='images/icons/nodes/png50/close-order.png' /><br />Close Order</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
-
-
-{% include /trading_engine/trigger-on.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
-
-{% include /trading_engine/trigger-off.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
-
-{% include /trading_engine/take-position.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
-
-{% include /trading_engine/close-position.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
-
-{% include /trading_engine/next-phase.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
-
-{% include /trading_engine/move-to-phase.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
-
-{% include /trading_engine/create-order.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
-
-{% include /trading_engine/cancel-order.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}
-
-{% include /trading_engine/close-order.md more="no" heading="####" icon="50" definition="yes" table="yes" content="no" adding="" configuring="" starting="" %}

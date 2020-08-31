@@ -457,42 +457,42 @@ entries:
       output: web
       class: childItem
 
-#    - title: Accounts and metrics
-#      url: /suite-trading-engine-accounts-and-metrics.html
-#      output: web
+    - title: Accounts, counters, and stats
+      url: /suite-trading-engine-accounts-counters-stats.html
+      output: web
 
-#    - title: Base asset and quoted asset
-#      url: /suite-trading-engine-base-asset-and-quoted-asset.html
-#      output: web
-#      class: childItem
+    - title: Base asset and quoted asset
+      url: /suite-trading-engine-base-asset-and-quoted-asset.html
+      output: web
+      class: childItem
 
-#    - title: Counters
-#      url: /suite-trading-engine-counters.html
-#      output: web
-#      class: childItem
+    - title: Counters
+      url: /suite-trading-engine-counters.html
+      output: web
+      class: childItem
 
-#    - title: Statistics
-#      url: /suite-trading-engine-statistics.html
-#      output: web
-#      class: childItem
+    - title: Statistics
+      url: /suite-trading-engine-statistics.html
+      output: web
+      class: childItem
 
-#    - title: Distance to event
-#      url: /suite-trading-engine-distance-to-event.html
-#      output: web
-#      class: childItem
+    - title: Distance to event
+      url: /suite-trading-engine-distance-to-event.html
+      output: web
+      class: childItem
 
-#    - title: Market data
-#      url: /suite-trading-engine-market-data.html
-#      output: web
+    - title: Market data
+      url: /suite-trading-engine-market-data.html
+      output: web
 
-#    - title: Candle
-#      url: /suite-trading-engine-candle.html
-#      output: web
-#      class: childItem
+    - title: Candle
+      url: /suite-trading-engine-candle.html
+      output: web
+      class: childItem
 
-#    - title: Identity
-#      url: /suite-trading-engine-identity.html
-#      output: web
+    - title: Identity
+      url: /suite-trading-engine-identity.html
+      output: web
 
   - title: Community strategies
     output: web

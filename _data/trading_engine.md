@@ -76,7 +76,7 @@ max: "Max is the maximum rate registered by the exchange during the period betwe
 
 index: "Index is the position of the parent object in the corresponding data collection, as determined by the context."
 
-distance_to_event: "Distance to event features counters indicating how many periods (candles) have passed since the last occurrence of certain events."
+distance_to_event: "Distance to event features counters indicating how many periods (candles) have passed since the last occurrence of certain events, in the context of the episode."
 
 trigger_on: "Counts the periods since the last time a strategy was triggered on."
 
