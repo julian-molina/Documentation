@@ -6,60 +6,60 @@ permalink: suite-trading-engine-exchange-orders.html
 toc: false
 ---
 
-{% include /trading_engine/trading-engine.md more="no" heading="" icon="150" definition="bold" table="yes" content="yes" adding="" configuring="" starting="" %}
+{% include /trading_engine/exchange-orders.md more="no" heading="" icon="150" definition="bold" table="yes" content="yes" adding="" configuring="" starting="" %}
 
-### Context
+For organizational reasons, the exchange orders section is split in four sub-sections under wich market and limit orders may be found:
 
-The trading engine hierarchy is organized by *context*. That is, the main offspring nodes&mdash;current, last, and exchange orders&mdash;describe the context in which their respective offspring live.
-
-For example, the concept of an episode&mdash;a whole run of the trading bot&mdash; exists only in the context of the *current* episode, as the system keeps track of one episode at the time only. 
-
-However, the concept of a position is tracked both as the *current position* and the *last position*. This is possible because the system keeps track of all positions occurring within an episode. Superalgos developers thought it was worth it to provide information about positions in both contexts, as this allows you (visually) and your trading system (using simple syntax) to access information about the current position and the last position at any given point in time.
-
-{% include callout.html type="success" content="Episodes, positions, and other concepts may be seen as different contexts too." %}
-
-For instance, you may want to know what the ROI is in the context of the episode&mdash;that is, the ROI after several positions have passed&mdash;or the ROI of the current position only.
-
-In other words, some concepts may exist in more than one context. Throughout these pages, you will find definitions and explanations covering each node in the hierarchy. For every concept that may exist in different contexts, you will find the details of how the concept behaves in the different contexts it may exist.
-
-The documentation covers each concept one time only. Each concept is listed within the first context in which the concept appears, according to the structure of the hierarchy. This is to avoid feeding you duplicate content.
-
-### Monitoring Runtime Data on the Design Space
-
-Each of the nodes in the hierarchy may display its value on the design space, right below the icon representing the node. This is how you may monitor every piece of information processed by the trading bot, at any given point in time. 
-
-{% include callout.html type="success" content="With this visualization feature, you gain insight into what happens at every moment." %}
-
-To see the value of each node rendered on-screen, you must:
-
-**1. Run a trading session**. Start with a backtest, so that you may get a quick feel of how the trading engine hierarchy displays data spanning any period.
-
-**2. Go to the chart displaying the simulation** and find one of the positions. 
-
-**3. Turn on the *Current Position* layer** in the *Trading Engine* layer manager. This layer monitors the position structure of nodes under the current node, that is, the information regarding current positions.
-
-**4. Split the screen** to make room for both the design space and the charting space.
-
-**5. Position the view on the design space** so that you may see the corresponding structure of nodes.
-
-**6. Slide the pointer of the mouse over the charts**, across the position, and notice how the values for each node displayed on the design space change. Each node displays the corresponding value for each candle.
-
-{% include tip.html content="Much of the data handled by the trading engine may also be visualized over the charts through the layers and panels in the *Trading Charts* layer manager. Please refer to the explanations on the trading system section of the documentation." %}
-
-{% include tip.html content="The trading engine hierarchy is deep and large, with many ramifications. It is best to learn it through hands-on experimentation, by testing an existing trading system." %}
-
-{% include note.html content="Hover your mouse over a node for a tooltip definition, and click to get all the details." %}
-
-<table class='hierarchyTable'><thead><tr><th><a href='#trading-engine' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.trading_engine}}'><img src='images/icons/nodes/png50/trading-engine.png' /><br />Trading Engine</a></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
-<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#current' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.current}}'><img src='images/icons/nodes/png50/current.png' /><br />Current</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#last' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.last}}'><img src='images/icons/nodes/png50/last.png' /><br />Last</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#exchange-orders' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.exchange_orders}}'><img src='images/icons/nodes/png50/exchange-orders.png' /><br />Exchange Orders</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table class='hierarchyTable'><thead><tr><th><a href='#exchange-orders' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.exchange_orders}}'><img src='images/icons/nodes/png50/exchange-orders.png' /><br />Exchange Orders</a></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#market-buy-orders' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.market_buy_orders}}'><img src='images/icons/nodes/png50/market-buy-orders.png' /><br />Market Buy Orders</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#market-sell-orders' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.market_sell_orders}}'><img src='images/icons/nodes/png50/market-sell-orders.png' /><br />Market Sell Orders</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#limit-buy-orders' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.limit_buy_orders}}'><img src='images/icons/nodes/png50/limit-buy-orders.png' /><br />Limit Buy Orders</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#limit-sell-orders' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.limit_sell_orders}}'><img src='images/icons/nodes/png50/limit-sell-orders.png' /><br />Limit Sell Orders</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 
-{% include /trading_engine/current.md more="no" heading="###" icon="150" definition="bold" table="yes" content="yes" adding="" configuring="" starting="" %}
+{% include /trading_engine/market-order.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="" configuring="" starting="" %}
 
-{% include /trading_engine/last.md more="no" heading="###" icon="150" definition="bold" table="yes" content="yes" adding="" configuring="" starting="" %}
+{% include note.html content="Find below the first level of the data structure of a market order. You may find the complete data structure in the [trading engine hierarchy directory](suite-hierarchy-trading-engine.html). Hover your mouse over a node for a tooltip definition." %}
 
-### Exchange Orders
+<table class='hierarchyTable'><thead><tr><th><a href='#market-order' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.market_order}}'><img src='images/icons/nodes/png50/market-order.png' /><br />Market Order</a></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#serial-number' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.serial_number}}'><img src='images/icons/nodes/png50/serial-number.png' /><br />Serial Number</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#identifier' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.identifier}}'><img src='images/icons/nodes/png50/identifier.png' /><br />Identifier</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#exchange-id' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.exchange_id}}'><img src='images/icons/nodes/png50/exchange-id.png' /><br />Exchange Id</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#begin' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.begin}}'><img src='images/icons/nodes/png50/begin.png' /><br />Begin</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#end' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.end}}'><img src='images/icons/nodes/png50/end.png' /><br />End</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#rate' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.rate}}'><img src='images/icons/nodes/png50/rate.png' /><br />Rate</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#exit-type' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.exit_type}}'><img src='images/icons/nodes/png50/exit-type.png' /><br />Exit Type</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#status' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.status}}'><img src='images/icons/nodes/png50/status.png' /><br />Status</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#order-name' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.order_name}}'><img src='images/icons/nodes/png50/order-name.png' /><br />Order Name</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#algorithm-name' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.algorithm_name}}'><img src='images/icons/nodes/png50/algorithm-name.png' /><br />Algorithm Name</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#situation-name' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.situation_name}}'><img src='images/icons/nodes/png50/situation-name.png' /><br />Situation Name</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#order-counters' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.order_counters}}'><img src='images/icons/nodes/png50/order-counters.png' /><br />Order Counters</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#lock' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.lock}}'><img src='images/icons/nodes/png50/lock.png' /><br />Lock</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#order-base-asset' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.order_base_asset}}'><img src='images/icons/nodes/png50/order-base-asset.png' /><br />Order Base Asset</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#order-quoted-asset' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.order_quoted_asset}}'><img src='images/icons/nodes/png50/order-quoted-asset.png' /><br />Order Quoted Asset</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#order-statistics' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.order_statistics}}'><img src='images/icons/nodes/png50/order-statistics.png' /><br />Order Statistics</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
-We shall cover exchange orders in a separate page, as it is a context of a different nature.
+
+
+{% include /trading_engine/limit-order.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="" configuring="" starting="" %}
+
+{% include note.html content="Find below the first level of the data structure of a limit order. You may find the complete data structure in the [trading engine hierarchy directory](suite-hierarchy-trading-engine.html). Hover your mouse over a node for a tooltip definition." %}
+
+
+<table class='hierarchyTable'><thead><tr><th><a href='#limit-order' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.limit_order}}'><img src='images/icons/nodes/png50/limit-order.png' /><br />Limit Order</a></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#serial-number' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.serial_number}}'><img src='images/icons/nodes/png50/serial-number.png' /><br />Serial Number</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#identifier' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.identifier}}'><img src='images/icons/nodes/png50/identifier.png' /><br />Identifier</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#exchange-id' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.exchange_id}}'><img src='images/icons/nodes/png50/exchange-id.png' /><br />Exchange Id</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#begin' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.begin}}'><img src='images/icons/nodes/png50/begin.png' /><br />Begin</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#end' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.end}}'><img src='images/icons/nodes/png50/end.png' /><br />End</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#rate' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.rate}}'><img src='images/icons/nodes/png50/rate.png' /><br />Rate</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#exit-type' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.exit_type}}'><img src='images/icons/nodes/png50/exit-type.png' /><br />Exit Type</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#status' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.status}}'><img src='images/icons/nodes/png50/status.png' /><br />Status</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#order-name' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.order_name}}'><img src='images/icons/nodes/png50/order-name.png' /><br />Order Name</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#algorithm-name' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.algorithm_name}}'><img src='images/icons/nodes/png50/algorithm-name.png' /><br />Algorithm Name</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#situation-name' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.situation_name}}'><img src='images/icons/nodes/png50/situation-name.png' /><br />Situation Name</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#order-counters' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.order_counters}}'><img src='images/icons/nodes/png50/order-counters.png' /><br />Order Counters</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#lock' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.lock}}'><img src='images/icons/nodes/png50/lock.png' /><br />Lock</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#order-base-asset' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.order_base_asset}}'><img src='images/icons/nodes/png50/order-base-asset.png' /><br />Order Base Asset</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#order-quoted-asset' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.order_quoted_asset}}'><img src='images/icons/nodes/png50/order-quoted-asset.png' /><br />Order Quoted Asset</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#order-statistics' data-toggle='tooltip' data-original-title='{{site.data.trading_engine.order_statistics}}'><img src='images/icons/nodes/png50/order-statistics.png' /><br />Order Statistics</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
