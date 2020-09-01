@@ -349,11 +349,6 @@ entries:
       output: web
       class: childItem
 
-    - title: Setup for buying and selling
-      url: /suite-setup-for-buying-or-selling.html
-      output: web
-      class: childItem
-
     - title: Snapshots
       url: /suite-snapshots.html
       output: web
@@ -363,10 +358,6 @@ entries:
       url: /suite-low-frequency-trading.html
       output: web
       class: childItem
-
-    - title: Execution limitations
-      url: /suite-execution-limitations.html
-      output: web
 
     - title: How to...
       url: /#
