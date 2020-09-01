@@ -414,6 +414,10 @@ entries:
       url: /suite-trading-engine-monitoring-runtime-data.html
       output: web
 
+    - title: Accessing runtime data
+      url: /suite-trading-engine-accessing-runtime-data.html
+      output: web
+
     - title: Temporal context
       url: /suite-trading-engine-temporal-context.html
       output: web

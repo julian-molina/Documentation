@@ -22,4 +22,4 @@ toc: false
 
 {% include /trading_system/take-position-event.md heading="###" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
-{% include tip.html content="Events are triggered by situations, which are defined by conditions. Both are explained in the <a href='suite-situations-conditions-formulas'>situations, conditions, and formulas</a> page." %}
+{% include tip.html content="Events are triggered by situations, which are defined by conditions. The combination of conditions and situations make up a good part of the rules of a trading strategy. Both are explained in the <a href='suite-situations-conditions-formulas'>situations, conditions, and formulas</a> page." %}
