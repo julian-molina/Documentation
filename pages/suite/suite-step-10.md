@@ -81,7 +81,7 @@ Running a live trading session is very similar to running a backtesting session.
 }
 ```
 
-{% include /network/base-asset.md heading="more" icon="150" adding="###" configuring="###" starting="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /network/session-base-asset.md heading="more" icon="150" adding="###" configuring="###" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
 **7. Click *Run* on the *Live Trading WHB* task menu**.
 

@@ -340,31 +340,6 @@ entries:
       output: web
       class: childItem
 
-    - title: Internal variables
-      url: /suite-internal-variables.html
-      output: web
-      class: childItem
-
-    - title: Masters indicators
-      url: /suite-masters-indicators.html
-      output: web
-      class: childItem
-
-    - title: Sparta indicators
-      url: /suite-sparta-indicators.html
-      output: web
-      class: childItem
-
-    - title: Buddha indicators
-      url: /suite-buddha-indicators.html
-      output: web
-      class: childItem
-
-    - title: Alpha indicators
-      url: /suite-alpha-indicators.html
-      output: web
-      class: childItem
-
     - title: Trading sessions
       url: /suite-trading-sessions.html
       output: web
@@ -399,6 +374,30 @@ entries:
 
     - title: ... test a trading idea
       url: /suite-how-to-test-a-trading-idea.html
+      output: web
+      class: childItem
+
+  - title: Indicators
+    output: web
+    folderitems:
+
+    - title: Masters indicators
+      url: /suite-masters-indicators.html
+      output: web
+      class: childItem
+
+    - title: Sparta indicators
+      url: /suite-sparta-indicators.html
+      output: web
+      class: childItem
+
+    - title: Buddha indicators
+      url: /suite-buddha-indicators.html
+      output: web
+      class: childItem
+
+    - title: Alpha indicators
+      url: /suite-alpha-indicators.html
       output: web
       class: childItem
 

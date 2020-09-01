@@ -38,17 +38,27 @@ forward_testing_session: "A forward testing session is a trading mode by which t
 
 live_trading_session: "A live trading session is a trading mode by which the trading bot instance reads a live market data feed, applies the rules as defined in the associated trading system, places the corresponding orders at the associated exchange, and stores the defined data products."
 
+trading_engine_reference: "A trading engine reference determines which trading engine the trading bot shall use to structure the data it processes while running the trading session."
+
+trading_system_reference: "A trading engine reference determines which trading system shall be evaluated by the trading bot to run the trading session."
+
 parameters: "Parameters are properties of trading sessions, defined by users, to determine their behavior and improve the quality of simulations."
 
-base_asset: "The base asset is the asset whose price is determined by the market. It is usually the first asset in the pair, as listed by the exchange."
+session_base_asset: "The base asset is the asset whose price is determined by the market. It is usually the first asset in the pair, as listed by the exchange."
 
-quoted_asset: "The quoted asset is the asset on which the price of the base asset is denominated in the market. It is usually the second asset in the pair, as listed by the exchange."
+session_quoted_asset: "The quoted asset is the asset on which the price of the base asset is denominated in the market. It is usually the second asset in the pair, as listed by the exchange."
 
 time_frame: "The time frame is the frequency on which the session runs, meaning that the associated process instance runs once per unit of the time frame."
 
 time_range: "The time range is the specific period between a starting and an ending date on which the session runs."
 
 slippage: "The slippage is an assumption on the difference between the simulated rate and the actual fill rate of an order, most relevant in the context of backtesting and paper-trading sessions. The parameter is a tool to make simulations more realistic."
+
+snapshots: "Snapshots are CSV files output by the trading bot listing every trade in a backtesting session. The snapshots parameter determines whether snapshots shall be produced, and how."
+
+heartbeats: "During a trading session, the backend communicates with the front end via heartbeats to inform the frontend about the status of the session. The parameter controls what information is made available to the user through the frontend."
+
+user_defined_parameters: "Users may define parameters to be used within the trading system during the trading session."
 
 fee_structure: "The fee structure is a parameter enabling users to enter assumptions on fees, to be computed on backtesting and paper trading sessions to make simulations more realistic."
 

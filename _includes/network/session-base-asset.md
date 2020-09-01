@@ -1,7 +1,7 @@
 <!-- TITLE AND DEFINITION starts -->
 
-{% assign title = "Base Asset" %}
-{% assign definition = site.data.network.base_asset %}
+{% assign title = "Session Base Asset" %}
+{% assign definition = site.data.network.session_base_asset %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
