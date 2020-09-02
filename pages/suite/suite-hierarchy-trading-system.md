@@ -44,6 +44,7 @@ toc: false
 <tr><td></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#order-rate' data-toggle='tooltip' data-original-title='{{site.data.trading_system.order_rate}}'><img src='images/icons/nodes/png50/order-rate.png' /><br />Order Rate</a></td><td></td><td></td><td></td></tr>
 <tr><td></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#formula' data-toggle='tooltip' data-original-title='{{site.data.trading_system.formula}}'><img src='images/icons/nodes/png50/formula.png' /><br />Formula</a></td><td></td><td></td></tr>
 <tr><td></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#create-order-event' data-toggle='tooltip' data-original-title='{{site.data.trading_system.create_order_event}}'><img src='images/icons/nodes/png50/create-order-event.png' /><br />Create Order Event</a></td><td></td><td></td><td></td></tr>
+<tr><td></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#cancel-order-event' data-toggle='tooltip' data-original-title='{{site.data.trading_system.cancel_order_event}}'><img src='images/icons/nodes/png50/cancel-order-event.png' /><br />Cancel Order Event</a></td><td></td><td></td><td></td></tr>
 <tr><td></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#simulated-exchange-events' data-toggle='tooltip' data-original-title='{{site.data.trading_system.simulated_exchange_events}}'><img src='images/icons/nodes/png50/simulated-exchange-events.png' /><br />Simulated Exchange Events</a></td><td></td><td></td><td></td></tr>
 <tr><td></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#limit-sell-order' data-toggle='tooltip' data-original-title='{{site.data.trading_system.limit_sell_order}}'><img src='images/icons/nodes/png50/limit-sell-order.png' /><br />Limit Sell Order</a></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#close-stage-event' data-toggle='tooltip' data-original-title='{{site.data.trading_system.close_stage_event}}'><img src='images/icons/nodes/png50/close-stage-event.png' /><br />Close Stage Event</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -98,8 +99,6 @@ toc: false
 <tr><td></td><td></td><td></td><td></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#condition' data-toggle='tooltip' data-original-title='{{site.data.trading_system.condition}}'><img src='images/icons/nodes/png50/condition.png' /><br />Condition</a></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 
-
-
 {% include /trading_system/trading-system.md heading="##" icon="150" adding="###" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
 {% include /trading_system/trading-strategy.md heading="##" icon="150" adding="###" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
@@ -140,6 +139,8 @@ toc: false
 
 {% include /trading_system/create-order-event.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
+{% include /trading_system/cancel-order-event.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+
 {% include /trading_system/simulated-exchange-events.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
 {% include /trading_system/simulated-partial-fill.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
@@ -157,22 +158,6 @@ toc: false
 {% include /trading_system/limit-sell-order.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
 {% include /trading_system/close-stage-event.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
-
-
-
-{% include /trading_system/initial-definition.md heading="##" icon="150" adding="###" configuring="" starting="" content="no" definition="bold" table="yes" more="no"%}
-
-{% include /trading_system/initial-stop.md heading="##" icon="150" adding="###" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
-
-{% include /trading_system/phase-0.md heading="##" icon="150" adding="###" configuring="" starting="" content="no" definition="bold" table="yes" more="no"%}
-
-{% include /trading_system/initial-take-profit.md heading="##" icon="150" adding="###" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
-
-{% include /trading_system/position-size.md heading="##" icon="150" adding="###" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
-
-{% include /trading_system/position-rate.md heading="##" icon="150" adding="###" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
-
-
 
 
 

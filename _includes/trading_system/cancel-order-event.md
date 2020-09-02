@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Phase 0" %}
-{% assign definition = site.data.trading_system.phase_0 %}
+{% assign title = "Cancel Order Event" %}
+{% assign definition = site.data.trading_system.cancel_order_event %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+The cancel order event defines the market situations in which a limit order shall be canceled. When the event is triggered, the order is closed, even when the order may have been partially filled. In such a case, the size filled remains as is, and all accounts are computed accordingly, with the partial fill.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,9 +68,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the phase 0 node, select *Add Phase* on the initial definitions node menu. The missing phase 0 node is created along with the rest of the basic structure of nodes required to define it.
-
-{% include note.html content="Only one phase&mdash;phase 0&mdash;may exist in the initial definition of the open stage." %}
+To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

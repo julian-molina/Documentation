@@ -34,6 +34,8 @@ market_buy_order: "A market buy order is an instruction sent to the exchange to 
 
 create_order_event: "The create order event controls the placement of orders."
 
+cancel_order_event: "The cancel order event makes cancelling limit orders possible."
+
 simulated_exchange_events: "The simulated exchange event node allows to override the parameters set at the level of the trading session on a per order basis to determine how each order shall be simulated."
 
 simulated_partial_fill: "The simulated partial fill parameter allows simulating the partial fill of orders."
@@ -51,25 +53,6 @@ order_rate: "The order rate node defines the rate of limit orders."
 limit_sell_order: "A limit sell order is an instruction sent to the exchange to sell the base asset, for execution at a specific rate or better."
 
 close_stage_event: "The close stage event defines the set of rules that need to be met for the corresponding stage to be closed."
-
-
-
-
-
-initial_definition: "The initial definition node groups the parameters that define the trade at the moment the position is taken."
-
-initial_stop: "The initial stop defines the initial target to stop a loss before the trade gets to be managed."
-
-initial_take_profit: "The initial take profit defines the initial target to take profit before the trade gets to be managed."
-
-position_size: "The size of the position is the amount of capital that will go in the trade, denominated in the quoted asset. The position size node allows setting a size for the position using a formula."
-
-position_rate: "The position rate is the rate at which the position is taken, denominated in the quoted asset. The position rate node allows setting the desired position rate with a formula."
-
-
-
-
-
 
 manage_stage: "The manage stage deals with the setting and management of stop loss and take profit targets, both to protect your capital and to increase the efficiency of your trading system."
 
