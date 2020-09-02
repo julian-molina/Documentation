@@ -42,7 +42,7 @@ If you wish to go one step lower and access the value of the target size under t
 
 ## Copy Node Path
 
-For ease of use, you may copy the path of any node that holds a valid value directly from within the node's menu. Simply use the *Copy node Path* button.
+For ease of use, you may copy the path of any node that holds a valid value directly from within the node's menu. Simply use the *Copy Node Path* button.
 
 ## Formula Example
 

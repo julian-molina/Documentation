@@ -408,6 +408,10 @@ entries:
       url: /suite-trading-engine-accessing-runtime-data.html
       output: web
 
+    - title: Trading Bot Output
+      url: /suite-trading-engine-trading-bot-output.html
+      output: web
+
     - title: Temporal context
       url: /suite-trading-engine-temporal-context.html
       output: web
