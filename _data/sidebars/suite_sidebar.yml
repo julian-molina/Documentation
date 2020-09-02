@@ -359,6 +359,10 @@ entries:
       output: web
       class: childItem
 
+    - title: Accessing definitions and parameters
+      url: /suite-trading-system-definitions-parameters.html
+      output: web
+
     - title: How to...
       url: /#
       output: web
