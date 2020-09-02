@@ -60,7 +60,7 @@ heartbeats: "During a trading session, the backend communicates with the front e
 
 user_defined_parameters: "Users may define parameters to be used within the trading system during the trading session."
 
-fee_structure: "The fee structure is a parameter enabling users to enter assumptions on fees, to be computed on backtesting and paper trading sessions to make simulations more realistic."
+fee_structure: "The fee structure is a parameter fundamental to the calculation of fees, both in testing and live trading sessions."
 
 key_instance: "The key instance is a reference to an exchange account key as defined in a specific user account, in a specific exchange, on the Crypto Ecosystem hierarchy."
 
