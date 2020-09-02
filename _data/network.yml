@@ -48,7 +48,7 @@ session_base_asset: "The base asset is the asset whose price is determined by th
 
 session_quoted_asset: "The quoted asset is the asset on which the price of the base asset is denominated in the market. It is usually the second asset in the pair, as listed by the exchange."
 
-time_frame: "The time frame is the frequency on which the session runs, meaning that the associated process instance runs once per unit of the time frame."
+time_frame: "The time frame determines the collection of candles to be analyzed during a backtesting session, and the frequency with which the trading bot runs on paper trading, forward testing, and live trading sessions."
 
 time_range: "The time range is the specific period between a starting and an ending date on which the session runs."
 
