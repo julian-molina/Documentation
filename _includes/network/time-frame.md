@@ -55,7 +55,9 @@ In the context of backtesting sessions, what time frame you decide to run the se
 
 In other words, in backtesting sessions, you should match the time frame to the smallest period on which the trading system makes decisions.
 
-In the context of live sessions, that is, paper trading, forward testing, and live trading, you should run the session on the ```01-min``` time frame so that the trading bot reacts fast when the price tags the take profit or stop loss targets. If that is not the desired behavior, you may choose whatever time frame you like taking into account the explanations below.
+In the context of live sessions, that is, paper trading, forward testing, and live trading, you should run the session on the ```01-min``` time frame so that the trading bot reacts fast when the price tags the take profit or stop loss targets. Remember that stop and take profit orders are not placed at the exchange after the take position event, that is, once you enter the position. Instead, the trading bot checks the current price upon each execution cycle and determines whether targets have been hit or not. If targets are hit, only then orders are placed. That is why running live trading sessions at the ```01-min``` time frame is recommended. Learn more about the [management](suite-strategies-manage.html) of take profit and stop loss targets.
+
+If for whatever reason you don't need to minimize the potential for slippage when hitting stop or take profit targets, you may choose whatever time frame you like, taking into account the explanations below.
 
 {{include.heading}}## Why the Time Frame Matters
 
