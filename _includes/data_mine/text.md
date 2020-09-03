@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Polygon Condition" %}
-{% assign definition = site.data.data_mine.polygon_condition %}
+{% assign title = "Text" %}
+{% assign definition = site.data.data_mine.text %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The node is optional. When the node is not present in the definition of the polygon or when the condition validates ```true```, the polygon is rendered on screen. When the condition validates ```false``` the polygon is not rendered. As such, the node allows dynamically switching the rendering of the corresponding polygon on and off.
+The node's offspring control the different aspects of how, where, and when text shall be rendered over the charts.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +68,7 @@ The node is optional. When the node is not present in the definition of the poly
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a polygon condition, select *Add Polygon Condition* on a polygon node menu.
+To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -80,9 +80,7 @@ To add a polygon condition, select *Add Polygon Condition* on a polygon node men
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-Select *Edit Condition* on the menu to access the configuration.
-
-Polygon conditions work pretty much like conditions used on trading systems. The main difference is that the variables available are solely those provided by the bot product definition that reference the corresponding plotter module.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONFIGURING ends -->
 

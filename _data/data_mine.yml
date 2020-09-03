@@ -76,4 +76,18 @@ style_condition: "A style condition is a rule that allows applying an alternativ
 
 polygon_body: "A polygon body is the fill of a shape made out of at least three vertices."
 
-pending: "daily files, market files and so on, Multi-Period-Daily, Multi-Period-Market"
+image: "The image node allows overlaying an image over the charts, controlling its position, size, and when it shall be rendered."
+
+image_condition: "An image condition is a rule that allows establishing when an image shall be rendered and when not."
+
+image_position: "The image position node is a reference to a point defined in the chart points, and serves to determine the position in which the image shall be placed."
+
+text: "The text node allows overlaying text on the charts, controlling its position, size, appearance, and when it shall be rendered."
+
+text_condition: "A text condition is a rule that allows establishing when text shall be rendered and when not."
+
+text_position: "The text position node is a reference to a point defined in the chart points, and serves to determine the position in which text shall be rendered."
+
+text_formula: "The text formula determines the content that shall be rendered over the charts."
+
+text_style: "The text style is a definition of color, opacity, and font size that determines the appearance of the text to be rendered over the charts."

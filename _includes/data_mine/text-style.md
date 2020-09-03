@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Polygon Condition" %}
-{% assign definition = site.data.data_mine.polygon_condition %}
+{% assign title = "Text Style" %}
+{% assign definition = site.data.data_mine.text_style %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The node is optional. When the node is not present in the definition of the polygon or when the condition validates ```true```, the polygon is rendered on screen. When the condition validates ```false``` the polygon is not rendered. As such, the node allows dynamically switching the rendering of the corresponding polygon on and off.
+{% include note.html content="See the configuration for further details." %}
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +68,7 @@ The node is optional. When the node is not present in the definition of the poly
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a polygon condition, select *Add Polygon Condition* on a polygon node menu.
+To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu.  
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -80,9 +80,21 @@ To add a polygon condition, select *Add Polygon Condition* on a polygon node men
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-Select *Edit Condition* on the menu to access the configuration.
+Select *Configure* on the menu to access the configuration.
 
-Polygon conditions work pretty much like conditions used on trading systems. The main difference is that the variables available are solely those provided by the bot product definition that reference the corresponding plotter module.
+```json
+{
+        "paletteColor": "UI_COLOR.GREY",
+        "opacity": 0.5,
+        "fontSize": 10
+}
+```
+
+* ```paletteColor``` is one of the predefined colors available, as described in the configuration of the *Style* node.
+
+* ```opacity``` is probably self-explanatory, and may range from 0 for a fully transparent object to 1 for a solid object.
+
+* ```fontSize``` is self explanatory too; values above zero produce the expected results.
 
 <!--------------------------------------------- CONFIGURING ends -->
 

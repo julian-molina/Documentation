@@ -1,8 +1,8 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Polygon Condition" %}
-{% assign definition = site.data.data_mine.polygon_condition %}
-{% assign preposition = "a" %}
+{% assign title = "Image Position" %}
+{% assign definition = site.data.data_mine.image_position %}
+{% assign preposition = "an" %}
 {% assign plural = "s" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The node is optional. When the node is not present in the definition of the polygon or when the condition validates ```true```, the polygon is rendered on screen. When the condition validates ```false``` the polygon is not rendered. As such, the node allows dynamically switching the rendering of the corresponding polygon on and off.
+The image position node works similarly to the polygon vertex in the sense that it must establish a reference with a point in the charts point to acquire a defined coordinate that determines where the image shall be placed.
+
+{% include note.html content="See the configuration for further details." %}
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +70,7 @@ The node is optional. When the node is not present in the definition of the poly
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a polygon condition, select *Add Polygon Condition* on a polygon node menu.
+To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -80,9 +82,18 @@ To add a polygon condition, select *Add Polygon Condition* on a polygon node men
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-Select *Edit Condition* on the menu to access the configuration.
+Select *Configure* on the menu to access the configuration.
 
-Polygon conditions work pretty much like conditions used on trading systems. The main difference is that the variables available are solely those provided by the bot product definition that reference the corresponding plotter module.
+```json
+{ 
+   "offsetX": 0,
+   "offsetY": 10
+}
+```
+
+* ```offsetX``` is an offset in the X axis, in pixels, applied to displace the image in relation to the coordinate point defined by the reference of the node. Negative values displace the image to the left and positive values to the right.
+
+* ```offsetY``` is an offset in the Y axis. Negative values displace the image downwards and positive values displace the image upwards.
 
 <!--------------------------------------------- CONFIGURING ends -->
 

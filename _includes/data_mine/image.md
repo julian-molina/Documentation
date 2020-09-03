@@ -1,8 +1,8 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "XXXXXXXXXXXXXXXX" %}
-{% assign definition = site.data.data_mine.XXXXXXXXXXXXXXXX %}
-{% assign preposition = "XXXXXXXXXXXXXXXX" %}
+{% assign title = "Image" %}
+{% assign definition = site.data.data_mine.image %}
+{% assign preposition = "an" %}
 {% assign plural = "s" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
@@ -51,7 +51,13 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+The foremost requirement for images is that they are in the ```png``` format, 24 bits, with transparency, a low case extension, and are square.
+
+If you envision contributing your indicator so that the community may use it, then please follow the guidelines in the [contribute icons](contributing-icons.html#technical-requirements) page, in particular, the Technical Requirements.
+
+Images must the stored in the following path: ```\BackendServers\WebServer\Images\Icons\style-01```
+
+{% include note.html content="See the configuration for further details." %}
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +74,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu.  
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -80,7 +86,18 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Select *Configure* on the menu to access the configuration.
+
+```json
+{ 
+   "codeName": "imagename", 
+   "size": 15
+}
+```
+
+* ```codeName``` is the name of the image, without the ```.png``` extension.
+
+* ```size``` is the size at which the image shall be rendered, in pixels. 
 
 <!--------------------------------------------- CONFIGURING ends -->
 
