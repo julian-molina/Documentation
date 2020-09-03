@@ -68,7 +68,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
+To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -80,7 +80,11 @@ To add the {{ title | downcase }} node, select *Add Missing Items* on the parent
 
 <!--------------------------------------------- CONFIGURING starts -->
 
+Select *Configure* on the menu to access the configuration.
+
+```json
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
 
 <!--------------------------------------------- CONFIGURING ends -->
 

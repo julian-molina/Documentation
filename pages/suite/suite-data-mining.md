@@ -16,8 +16,10 @@ toc: false
 <tr><td></td><td></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#market-reference' data-toggle='tooltip' data-original-title='{{site.data.network.market_reference}}'><img src='images/icons/nodes/png50/market-reference.png' /><br />Market Reference</a></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td></td><td></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#key-instance' data-toggle='tooltip' data-original-title='{{site.data.trading_system.key_instance}}'><img src='images/icons/nodes/png50/key-instance.png' /><br />Key Instance</a></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#indicator-bot-instance' data-toggle='tooltip' data-original-title='{{site.data.network.indicator_bot_instance}}'><img src='images/icons/nodes/png50/indicator-bot-instance.png' /><br />Indicator Bot Instance</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#indicator-process-instance' data-toggle='tooltip' data-original-title='{{site.data.network.indicator_process_instance}}'><img src='images/icons/nodes/png50/indicator-process-instance.png' /><br />Indicator Process Instance</a></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#market-reference' data-toggle='tooltip' data-original-title='{{site.data.network.market_reference}}'><img src='images/icons/nodes/png50/market-reference.png' /><br />Market Reference</a></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<tr><td></td><td></td><td></td><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#indicator-process-instance' data-toggle='tooltip' data-original-title='{{site.data.network.indicator_process_instance}}'><img src='images/icons/nodes/png50/indicator-process-instance.png' /><br />Indicator Process Instance</a></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#market-reference' data-toggle='tooltip' data-original-title='{{site.data.network.market_reference}}'><img src='images/icons/nodes/png50/market-reference.png' /><br />Market Reference</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#time-frames-filter' data-toggle='tooltip' data-original-title='{{site.data.network.time_frames_filter}}'><img src='images/icons/nodes/png50/time-frames-filter.png' /><br />Time Frames Filter</a></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+
 
 
 {% include /network/task-manager.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="yes"%}
@@ -37,4 +39,6 @@ toc: false
 {% include /network/indicator-bot-instance.md heading="#####" icon="50" adding="#####" configuring="" starting="#####" content="yes" definition="yes" table="yes" more="yes"%}
 
 {% include /network/indicator-process-instance.md heading="######" icon="50" adding="######" configuring="" starting="######" content="yes" definition="yes" table="yes" more="yes"%}
+
+{% include /network/time-frames-filter.md heading="######" icon="50" adding="######" configuring="######" starting="" content="yes" definition="yes" table="yes" more="yes"%}
 

@@ -50,6 +50,8 @@ session_quoted_asset: "The quoted asset is the asset on which the price of the b
 
 time_frame: "The time frame determines the collection of candles to be analyzed during a backtesting session, and the frequency with which the trading bot runs on paper trading, forward testing, and live trading sessions."
 
+time_frames_filter: "The time frame filters node allows control over which time frames are to be calculated by each indicator bot instance running on the data mining operation."
+
 time_range: "The time range is the specific period between a starting and an ending date on which the session runs."
 
 slippage: "The slippage is an assumption on the difference between the simulated rate and the actual fill rate of an order, most relevant in the context of backtesting and paper-trading sessions. The parameter is a tool to make simulations more realistic."
