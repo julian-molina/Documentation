@@ -17,7 +17,7 @@ Superalgos backend is a collection of Node.js servers and the frontend is a web 
 
 ## Chrome is the Only Tested Browser
 
-when running the frontend, chrome is highly recommended so that you have a similar environment as the dev team in case you need help. We are not testing on any other browsers, and it is a well-known fact that browsers behave differently.
+When running the frontend, chrome is highly recommended so that you have a similar environment as the dev team in case you need help. We are not testing on any other browsers, and it is a well-known fact that browsers behave differently.
 
 ## Processing Power
 
