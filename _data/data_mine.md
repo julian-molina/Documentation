@@ -24,6 +24,8 @@ execution_started_event: "The execution started event is the event that triggers
 
 execution_finished_event: "The execution finished event is the event that processes trigger once they have finished an execution cycle. The event is broadcasted to whoever wants to listen, so that other bots may know when the process has finished its execution cycle."
 
+product_definition_folder: "A product definition folder is an organizational device used to create arrangements of product definitions, particularly useful when the bot has many products."
+
 product_definition: "The product definition node holds all definitions that make up a product, including how the product is calculated and the datasets the product is comprised of."
 
 dataset_definition: "A dataset definition contains a configuration file that defines many aspects of the dataset. There are two types of dataset definitions: Multi-Period-Market and Multi-Period-Daily."
