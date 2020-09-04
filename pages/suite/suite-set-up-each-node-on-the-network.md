@@ -6,7 +6,7 @@ permalink: suite-set-up-each-node-on-the-network.html
 toc: false
 ---
 
-Before you continue with the next steps, a quick explanation is in order. What you will do now involves installing markets in network manager node to later move the specific tasks to each node on the network.
+Before you continue with the next steps, a quick explanation is in order. What you will do now involves installing markets on the network manager node to later move the specific tasks to each node on the network.
 
 When you install a <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.market}}">market</a>, several <a data-toggle="tooltip" data-original-title="{{site.data.concepts.structure_of_nodes}}">structures of nodes</a> are created in each of the main sections of the network manager node: <a data-toggle="tooltip" data-original-title="{{site.data.network.data_storage}}">data storage</a>, <a data-toggle="tooltip" data-original-title="{{site.data.network.data_mining}}">data mining</a>, <a data-toggle="tooltip" data-original-title="{{site.data.network.testing_environment}}">testing environment</a>, and <a data-toggle="tooltip" data-original-title="{{site.data.network.production_environment}}">production environment</a>. Each set of tasks is grouped by exchange under the corresponding exchange tasks node.
 

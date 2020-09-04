@@ -14,9 +14,11 @@ Also, you may want to plan what your operation should look like. For example, wh
 
 ## Start Here
 
-**1. Set up Superalgos on each machine**. Once Superalgos is installed, run the system for the first time and stop the default <a data-toggle="tooltip" data-original-title="{{site.data.network.data_mining}}">data mining</a> operation before it starts processing data. Then close the browser and leave the machine online, with the backend running.
+**1. Set up Superalgos on each machine**. Once Superalgos is installed, run the system for the first time using the ```node run noBrowser``` command. The ```noBrowser``` parameter runs the backend without fireing up the front end. Leave the machine online, with the backend running.
 
-**2. Prepare a *network manager node***. You will use one of the nodes in the network to set up and manage the <a data-toggle="tooltip" data-original-title="{{site.data.network.network_of_nodes}}">network of nodes</a>. We call this your *network manager node*. For organizational purposes and to avoid confusion later on, it is recommended to clean up the local workspace of this node. That means that you may want to uninstall all the markets that you don't need.
+**2. Prepare a *network manager node***. You will use one of the nodes in the network to set up and manage the <a data-toggle="tooltip" data-original-title="{{site.data.network.network_of_nodes}}">network of nodes</a>. We call this your *network manager node*. This is the only machine on the network that needs to run the frontend.
+
+For organizational purposes and to avoid confusion later on, it is recommended to clean up the local workspace of this node. That means that you may want to uninstall all the markets that you don't need.
 
 {% include /how_to/uninstall-an-existing-market.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
 
