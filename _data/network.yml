@@ -52,7 +52,7 @@ time_frame: "The time frame determines the collection of candles to be analyzed 
 
 time_frames_filter: "The time frame filters node allows control over which time frames are to be calculated by each indicator bot instance running on the data mining operation."
 
-time_range: "The time range is the specific period between a starting and an ending date on which the session runs."
+time_range: "The time range parameter determines the period of time on which the trading session is run."
 
 slippage: "The slippage is an assumption on the difference between the simulated rate and the actual fill rate of an order, most relevant in the context of backtesting and paper-trading sessions. The parameter is a tool to make simulations more realistic."
 
