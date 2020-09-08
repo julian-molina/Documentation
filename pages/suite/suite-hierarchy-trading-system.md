@@ -121,7 +121,7 @@ toc: false
 
 
 
-{% include /trading_system/initial-targets.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
+{% include /trading_system/initial-targets.md more="no" heading="##" icon="150" definition="bold" table="yes" content="no" adding="####" configuring="" starting="" %}
 
 {% include /trading_system/target-rate.md more="no" heading="##" icon="150" definition="bold" table="yes" content="yes" adding="####" configuring="" starting="" %}
 
