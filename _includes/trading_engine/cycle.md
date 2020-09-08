@@ -1,9 +1,9 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "User Defined Counters" %}
-{% assign definition = site.data.trading_engine.user_defined_counters %}
+{% assign title = "Cycle" %}
+{% assign definition = site.data.trading_engine.cycle %}
 {% assign preposition = "a" %}
-{% assign plural = "" %}
+{% assign plural = "s" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
@@ -51,7 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+In the first cycle, it checks the status of orders at the exchange, synchronizes the accounts, and verifies if conditions to place new orders are met.
+
+In the second cycle, it creates the orders at the exchange, provided conditions where met on the previous cycle.
+
+The two possible values for the cycle node are ```First``` and ```Second```.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -80,7 +84,11 @@ To add the {{ title | downcase }} node, select *Add Missing Items* on the parent
 
 <!--------------------------------------------- CONFIGURING starts -->
 
+Select *Configure* on the menu to access the configuration.
+
+```json
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
 
 <!--------------------------------------------- CONFIGURING ends -->
 

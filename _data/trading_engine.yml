@@ -54,7 +54,7 @@ positions: "Positions counts the number of times positions have been opened, in 
 
 orders: "Orders counts the number of times orders have been placed, in the context of the parent node."
 
-user_defined_counters: ""
+user_defined_counter: ""
 
 episode_statistics: "Episode statistics keeps track of several metrics in the context of the episode."
 
@@ -75,6 +75,8 @@ min: "Min is the minimum rate registered by the exchange during the period betwe
 max: "Max is the maximum rate registered by the exchange during the period between the datetimes of the begin and end properties, as provided by the exchange."
 
 index: "Index is the position of the parent object in the corresponding data collection, as determined by the context."
+
+cycle: "The trading bot performs its duties in regards to exchange orders and accounts in two consecutive cycles for each candle."
 
 distance_to_event: "Distance to event features counters indicating how many periods (candles) have passed since the last occurrence of certain events, in the context of the episode."
 
