@@ -72,9 +72,17 @@ The image above shows data dependencies in one bot referencing dataset definitio
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a data dependency, select *Add Data Dependency* on the process dependencies node menu.
+To add a single data dependency, select *Add Data Dependency* on the process dependencies node menu.
 
-{% include tip.html content="Remember that a data dependency must establish a reference to the appropriate dataset definition." %}
+{% include tip.html content="Remember that a data dependency must establish a reference to the appropriate dataset definition. When adding data dependencies manually, you also need to manually establish the reference." %}
+
+In cases in which multiple data dependencies are established, you may use the options to create data dependencies in bulk:
+
+* The *Add All Data Mine Dependencies* option on the menu of the process dependencies node adds data mine dependencies for all existing data mines, each of which with the corresponding bot data dependencies mapping every bot in each data mine, and each bot data dependencies node with its data dependencies referencing each dataset definition of each product of each bot.
+
+* The *Add All Data Dependencies* option on the data mine data dependencies node menu performs the same operation as described above, but only for the given data mine. You may use this option after manually adding a single data mine data dependencies node, and manually establishing the reference with the desired data mine. As explained earlier, this action bot data dependencies mapping every bot in the referenced data mine, each bot data dependencies node featuring data dependencies referencing every dataset definition of each product of each bot.
+
+It is unlikely that a bot requires numerous data dependencies, thus, the most common scenario is setting up individual data dependencies and establishing references manually. However, if your bot requires multiple data dependencies, the bulk features may be quite useful, as you may create all data dependencies for any given data mine, and simply delete those that are not required.
 
 <!--------------------------------------------- ADDING ends -->
 

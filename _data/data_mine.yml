@@ -12,11 +12,17 @@ process_output: "The process output groups the definitions of which datasets are
 
 output_dataset: "The output dataset is a reference to a dataset definition. By establishing such reference, the process acquires the definitions as of how the dataset is to be constructed."
 
+output_dataset_folder: "An output dataset folder is an organizational device used to create arrangements of output datasets, particularly useful when the bot has many products."
+
 process_dependencies: "Process dependencies are references to various data structures on which the process depends to function."
 
 status_dependency: "Status dependencies are references to a status report that define which process the process establishing the reference depends on."
 
 data_dependency: "Data dependencies are references established with dataset definitions of other bots, determining which datasets the process establishing the reference uses as input."
+
+data_mine_data_dependencies: "Data mine data dependencies are references established with entire data mines to facilitate establishing data dependencies with multiple datasets in the given data mine."
+
+bot_data_dependecies: "A bot data dependencies node is an organizational device used to arrange data dependencies corresponding to a specific bot."
 
 status_report: "Status reports serve as temporal annotations that bots read every time they run to know what was done in the previous cycle and what the state of affairs is at present. Status reports are dynamic, and they change constantly, with updates after every cycle of the associated process."
 
