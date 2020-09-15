@@ -22,7 +22,9 @@ data_dependency: "Data dependencies are references established with dataset defi
 
 data_mine_data_dependencies: "Data mine data dependencies are references established with entire data mines to facilitate establishing data dependencies with multiple datasets in the given data mine."
 
-bot_data_dependecies: "A bot data dependencies node is an organizational device used to arrange data dependencies corresponding to a specific bot."
+bot_data_dependencies: "A bot data dependencies node is an organizational device used to arrange data dependencies corresponding to a specific bot."
+
+data_dependency_folder: "A data dependency folder node is an organizational device used to map the arrangement of product definition folders of a given bot."
 
 status_report: "Status reports serve as temporal annotations that bots read every time they run to know what was done in the previous cycle and what the state of affairs is at present. Status reports are dynamic, and they change constantly, with updates after every cycle of the associated process."
 

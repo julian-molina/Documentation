@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Data Dependency" %}
-{% assign definition = site.data.data_mine.data_dependency %}
+{% assign title = "Bot Products" %}
+{% assign definition = site.data.network.bot_products %}
 {% assign preposition = "a" %}
 {% assign plural = "" %}
 
@@ -43,7 +43,7 @@
 {% endif %}
 
 {% if include.more == "yes" and include.content == "more" and include.heading != "more" %}
-<details class='detailsCollapsible'><summary class='nobr'>Click to learn more about data dependencies
+<details class='detailsCollapsible'><summary class='nobr'>Click to learn more about {{ title | downcase }}{{plural}}
 </summary>
 {% endif %}
 
@@ -51,18 +51,14 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Most bots consume data other bots have produced. Because bots need the data as input for their calculations, processes establish a data dependency with the dataset definitions of other bots. The reference provides the process with all the information needed to decode the dataset, enabling it to perform the required calculations.
-
-[![Indicators-Process-Dependencies-02](https://user-images.githubusercontent.com/13994516/68993034-7840df00-0873-11ea-804d-d24e88ce25f7.gif)](https://user-images.githubusercontent.com/13994516/68993034-7840df00-0873-11ea-804d-d24e88ce25f7.gif)
-
-The image above shows data dependencies in one bot referencing dataset definitions of another bot.
+The device exists as an offspring of a data mine products node, and does not require a reference to a bot in the given data mine. 
 
 <!--------------------------------------------- CONTENT ends -->
 
 {% endif %}
 
 {% if include.more == "yes" and include.content != "more" and include.heading != "more" %}
-<details class='detailsCollapsible'><summary class='nobr'>Click to learn more about data dependencies
+<details class='detailsCollapsible'><summary class='nobr'>Click to learn more about {{ title | downcase }}{{plural}}
 </summary>
 {% endif %}
 
@@ -72,15 +68,11 @@ The image above shows data dependencies in one bot referencing dataset definitio
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a single data dependency, select *Add Data Dependency* on the process dependencies, bot data dependencies, or data dependency folder node menus.
+To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. When adding a bot products node in this manner, the node does not inherit any particular label. 
 
-{% include tip.html content="Remember that a data dependency must establish a reference to the appropriate dataset definition. When adding data dependencies manually, you also need to manually establish the reference." %}
+The bot products node may also be created automatically. When created using the *Add All Data Products* option on the data mine products node, the node inherits the label of the corresponding bot in the corresponding data mine. 
 
-In cases in which multiple data dependencies must be established, you may use the option to create data dependencies in bulk:
-
-* The *Add All Data Dependencies* option on the data mine data dependencies node menu adds a bot data dependency for each bot in the data mine, and a data dependency for each dataset definition or each product of each bot. You may use this option after manually adding a data mine data dependencies node and manually establishing the reference with the desired data mine, or after adding all data mine data dependencies, by which the references with data mines are established automatically.
-
-It is unlikely that a bot requires numerous data dependencies, thus, the most common scenario is setting up individual data dependencies and establishing references manually. However, if your bot requires multiple data dependencies, the bulk features may be quite useful, as you may create all data dependencies for any given data mine, and simply delete those that are not required.
+{% include note.html content="See the data product node definition and the *Adding a Data Product Node* section for all the details." %}
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -92,7 +84,11 @@ It is unlikely that a bot requires numerous data dependencies, thus, the most co
 
 <!--------------------------------------------- CONFIGURING starts -->
 
+Select *Configure* on the menu to access the configuration.
+
+```json
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
 
 <!--------------------------------------------- CONFIGURING ends -->
 

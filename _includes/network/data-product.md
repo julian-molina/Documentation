@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-A data product node must reference a product definition in the corresponding data mine.
+A data product node must reference a product definition in the corresponding bot.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,9 +68,15 @@ A data product node must reference a product definition in the corresponding dat
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a data product, select *Add Data Product* on the network node menu. 
+To add a single data product, select *Add Data Product* on the single market data, bot products, or data products folder node menus.
 
 {% include note.html content="Remember to establish a reference with a product definition of the corresponding bot in the corresponding data mine." %}
+
+In cases in which multiple data products must be added, you may use the option to create data products in bulk:
+
+* The *Add All Data Products* option on the data mine products node menu adds a bot products node for each bot in the data mine, and a data product for each product definition of each bot. You may use this option after manually adding a data mine products node and manually establishing the reference with the desired data mine, or after adding all data mine data products, by which the references with data mines are established automatically.
+
+It adding data products in bulk results in adding data products which are not required, you may easily delete those.
 
 <!--------------------------------------------- ADDING ends -->
 

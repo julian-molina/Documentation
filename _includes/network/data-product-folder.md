@@ -1,9 +1,9 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Bot Data Dependencies" %}
-{% assign definition = site.data.data_mine.bot_data_dependencies %}
+{% assign title = "Data Product Folder" %}
+{% assign definition = site.data.network.data_product_folder %}
 {% assign preposition = "a" %}
-{% assign plural = "" %}
+{% assign plural = "s" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The device exists as an offspring of a data mine data dependencies node, and does not require a reference to a bot in the given data mine. 
+The use of data product folders is optional, as data products may also exist outside of folders.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,11 +68,7 @@ The device exists as an offspring of a data mine data dependencies node, and doe
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. When adding a bot data dependency in this manner, the node does not inherit any particular label. In fact, it may even host data dependencies pointing to other data mines.
-
-The bot data dependencies node may also be created automatically. When created using the *Add All Data Dependencies* option on the data mine data dependencies node, the node inherits the label of the corresponding bot in the corresponding data mine. 
-
-{% include note.html content="See the data dependency node definition and the *Adding a Data Dependecy Node* section for all the details." %}
+To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

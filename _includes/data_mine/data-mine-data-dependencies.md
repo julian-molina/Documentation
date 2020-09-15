@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The node may be used as an organizational device, simply to hold bot data dependencies. However, the smart use of the node involves automating the deployment of mutliple data dependencies and it's references.
+The node may be used as an organizational device, simply to arrange bot data dependencies. However, the smart use of the node involves automating the deployment of multiple data dependencies and their references.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,9 +68,9 @@ The node may be used as an organizational device, simply to hold bot data depend
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. This action adds the node but does not establish a reference with any data mine. 
+To add a {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. This action adds the node but does not establish a reference with any data mine. 
 
-The smart use of the node involves using the *Add All Data Mine Dependencies* option on the parent node menu. This action creates a data mine data dependencies node for each data mine in the workspace, with mapping all bots and dataset definitions with corresponding bot data dependencies and data dependency nodes.
+The smarter use of the node involves using the *Add All Data Mine Dependencies* option on the parent node menu. This action creates a data mine data dependencies node for each data mine in the workspace, establishing a reference with the corresponding data mines. This is the first step in the direction of quickly setting up multiple data dependencies when needed.
 
 {% include note.html content="See the data dependency node definition and the *Adding a Data Dependecy Node* section for all the details." %}
 
