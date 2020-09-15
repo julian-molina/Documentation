@@ -1,9 +1,9 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Data Product Folder" %}
-{% assign definition = site.data.network.data_product_folder %}
+{% assign title = "Trading Mine Products" %}
+{% assign definition = site.data.network.trading_mine_products %}
 {% assign preposition = "a" %}
-{% assign plural = "s" %}
+{% assign plural = "" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
@@ -51,7 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The use of the {{ title | downcase }} node is optional, as data products may also exist outside of {{ title | downcase }}s.
+At this point, Superalgos ships with a single trading mine, featuring a single *low frequency* trading bot. However, developers may create their own trading bots or fork the existing one. 
+
+The node may be used as an organizational device, simply to arrange bot products. However, the smart use of the node involves automating the deployment of multiple data products.
+
+The use of the {{ title | downcase }} node is optional, as data products may also exist outside of {{ title | downcase }} nodes.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +72,11 @@ The use of the {{ title | downcase }} node is optional, as data products may als
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
+To add a {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. This action adds the node but does not establish a reference with any trading mine. 
+
+The smarter use of the node involves using the *Add All Trading Mine Products* option on the parent node menu. This action creates a trading mine products node for each trading mine in the workspace, establishing a reference with the corresponding trading mines. This is the first step in the direction of quickly setting up multiple data products when needed.
+
+{% include note.html content="See the data product node definition and the *Adding a Data Product Node* section for all the details." %}
 
 <!--------------------------------------------- ADDING ends -->
 

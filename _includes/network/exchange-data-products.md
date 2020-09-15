@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+The exchange data products node must reference the exchange of choice. This reference constraints the rest of the definitions to the context of the said exchange.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +68,12 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
+To add a specific {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
+
+{% include note.html content="Remember to establish a reference to the desired exchange in the Crypto Ecosystem hierarchy." %}
+
+You may also add exchange data products nodes in bulk for all exchanges that may have been previously defined in the Crypto Ecosystem hierarchy. To do that, select *Add Missing Exchanges* on the parent node menu. An exchange data products node is created for each defined exchange, each with the corresponding reference.
+
 
 <!--------------------------------------------- ADDING ends -->
 

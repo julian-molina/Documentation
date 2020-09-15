@@ -53,6 +53,8 @@
 
 The node may be used as an organizational device, simply to arrange bot products. However, the smart use of the node involves automating the deployment of multiple data products.
 
+The use of the {{ title | downcase }} node is optional, as data products may also exist outside of {{ title | downcase }} nodes.
+
 <!--------------------------------------------- CONTENT ends -->
 
 {% endif %}
@@ -70,7 +72,7 @@ The node may be used as an organizational device, simply to arrange bot products
 
 To add a {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. This action adds the node but does not establish a reference with any data mine. 
 
-The smarter use of the node involves using the *Add All Data Mine Products* option on the parent node menu. This action creates a data mine data products node for each data mine in the workspace, establishing a reference with the corresponding data mines. This is the first step in the direction of quickly setting up multiple data products when needed.
+The smarter use of the node involves using the *Add All Data Mine Products* option on the parent node menu. This action creates a data mine products node for each data mine in the workspace, establishing a reference with the corresponding data mines. This is the first step in the direction of quickly setting up multiple data products when needed.
 
 {% include note.html content="See the data product node definition and the *Adding a Data Product Node* section for all the details." %}
 

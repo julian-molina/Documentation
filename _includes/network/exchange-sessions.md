@@ -68,10 +68,11 @@ The exchange sessions node must reference the exchange of choice. This reference
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu.
+To add a specific {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
 
-{% include note.html content="Remember to establish a reference with the intended exchange." %}
+{% include note.html content="Remember to establish a reference to the desired exchange in the Crypto Ecosystem hierarchy." %}
 
+You may also add exchange sessions in bulk for all exchanges that may have been previously defined in the Crypto Ecosystem hierarchy. To do that, select *Add Missing Exchanges* on the session based data node menu. An exchange sessions node is created for each defined exchange, each with the corresponding reference.
 
 
 <!--------------------------------------------- ADDING ends -->

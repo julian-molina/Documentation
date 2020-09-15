@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The single market data node must establish a reference with a specific market defined in the Crypto Ecosystem hierarchy.
+The single market data node must reference a market defined in the Crypto Ecosystem hierarchy.
+
+This node may spawn individual data products or may deploy data products in bulk organized by data mine and by bots. See the data products node for the details.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +70,7 @@ The single market data node must establish a reference with a specific market de
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a single market data node, select *Add Single Market Data* on the network node menu. 
+To add a single market data node, select *Add Market Data* on the parent node menu. 
 
 {% include note.html content="Remember to establish a reference with a market defined in the Crypto Ecosystem hierarchy after adding the node." %}
 

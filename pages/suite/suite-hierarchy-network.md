@@ -94,6 +94,32 @@ toc: false
 
 {% include /network/network-node.md heading="##" icon="150" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
+{% include /network/data-storage.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+
+{% include /network/session-based-data.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+
+{% include /network/exchange-sessions.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+
+{% include /network/session-reference.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+
+{% include /network/single-market-trading-data.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+
+{% include /network/data-product.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+
+{% include /network/trading-mine-products.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+
+{% include /network/bot-products.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+
+{% include /network/data-product-folder.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+
+{% include /network/session-independent-data.md heading="##" icon="150" adding="####" configuring="" starting="" content="no" definition="bold" table="yes" more="no"%}
+
+{% include /network/exchange-data-products.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+
+{% include /network/single-market-data.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+
+{% include /network/data-mine-products.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+
 {% include /network/data-mining.md heading="##" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
 {% include /network/exchange-tasks.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
@@ -158,19 +184,7 @@ toc: false
 
 {% include /network/user-defined-parameters.md heading="##" icon="150" adding="###" configuring="###" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
-{% include /network/data-storage.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
-{% include /network/session-based-data.md heading="##" icon="150" adding="####" configuring="" starting="" content="no" definition="bold" table="yes" more="no"%}
-
-{% include /network/exchange-sessions.md heading="##" icon="150" adding="####" configuring="" starting="" content="no" definition="bold" table="yes" more="no"%}
-
-{% include /network/session-reference.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
-
-{% include /network/single-market-data.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
-
-{% include /network/data-product.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
-
-{% include /network/session-independent-data.md heading="##" icon="150" adding="####" configuring="" starting="" content="no" definition="bold" table="yes" more="no"%}
 
 
 

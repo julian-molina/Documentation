@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The device exists as an offspring of a data mine products node, and does not require a reference to a bot in the given data mine. 
+The device exists as an offspring of a data or trading mine products node, and does not require a reference to a bot in the given data or trading mine. 
+
+The use of the {{ title | downcase }} node is optional, as data products may also exist outside of {{ title | downcase }}.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +70,7 @@ The device exists as an offspring of a data mine products node, and does not req
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. When adding a bot products node in this manner, the node does not inherit any particular label. 
+To add a {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu.
 
 The bot products node may also be created automatically. When created using the *Add All Data Products* option on the data mine products node, the node inherits the label of the corresponding bot in the corresponding data mine. 
 

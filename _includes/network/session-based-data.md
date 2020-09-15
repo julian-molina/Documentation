@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Session-based data is organized by exchange, session, market, trading mine, and the particular trading bot products. This organization becomes apparent from the resulting structure of nodes under this node.
 
 <!--------------------------------------------- CONTENT ends -->
 

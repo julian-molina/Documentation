@@ -1,9 +1,9 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Data Product Folder" %}
-{% assign definition = site.data.network.data_product_folder %}
+{% assign title = "Single Market Trading Data" %}
+{% assign definition = site.data.network.single_market_trading_data %}
 {% assign preposition = "a" %}
-{% assign plural = "s" %}
+{% assign plural = "" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The use of the {{ title | downcase }} node is optional, as data products may also exist outside of {{ title | downcase }}s.
+The single market trading data node must reference a market defined in the Crypto Ecosystem hierarchy.
+
+This node may spawn individual data products or may deploy data products in bulk organized by trading mine and by trading bots. See the data products node for the details.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +70,9 @@ The use of the {{ title | downcase }} node is optional, as data products may als
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
+To add a single market trading data node, select *Add Market Trading Data* on the parent node menu. 
+
+{% include note.html content="Remember to establish a reference with a market defined in the Crypto Ecosystem hierarchy after adding the node." %}
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -80,11 +84,7 @@ To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent n
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-Select *Configure* on the menu to access the configuration.
-
-```json
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-```
 
 <!--------------------------------------------- CONFIGURING ends -->
 
