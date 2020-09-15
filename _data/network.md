@@ -1,10 +1,10 @@
-network: "The network hierarchy contains definitions regarding the physical location in which certain nodes live or function. For instance, a certain process my run and store data in your local machine or some other machine in the network."
+network: "The network hierarchy contains definitions regarding the physical location in which certain nodes live or function. It also provides the control functions for running data-mining and trading operations, either on a single machine or distributed over a network of machines."
 
 network_node: "A network node represents a machine running Superalgos, on which processes run or data is stored."
 
 network_of_nodes: "A network of nodes is an arrangement that allows distributing tasks among any number of network nodes, allowing for flexible and scalable trading operations."
 
-data_mining: "Data mining is the activity of processing data. You need to process data to feed charts, and so that the trading bot may make decisions based on quality information. In the context of the network hierarchy, the data-mining node groups the task managers handling sensor and indicator bots instances."
+data_mining: "Data mining is the activity of processing data. You need to process data to feed charts, and so that your trading systems may make decisions based on quality information."
 
 testing_environment: "The testing environment node organizes trading sessions involving testing of trading systems."
 
