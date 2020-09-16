@@ -1,8 +1,8 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Single Market Data" %}
-{% assign definition = site.data.network.single_market_data %}
-{% assign preposition = "a" %}
+{% assign title = "Exchange Trading Products" %}
+{% assign definition = site.data.network.exchange_trading_products %}
+{% assign preposition = "an" %}
 {% assign plural = "" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
@@ -51,9 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The single market data node must reference a market defined in the Crypto Ecosystem hierarchy.
+The exchange trading products node must reference the exchange of choice. This reference constraints the rest of the definitions to the context of the said exchange.
 
-This node may spawn individual data products or may deploy data products in bulk organized by data mine and by bots. See the data products node for the details.
+When representing an exchange featured in the system's icons library, the standard exchange trading products icon is replaced by the exchange's logo.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -70,9 +70,12 @@ This node may spawn individual data products or may deploy data products in bulk
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a single market data node, select *Add Market Data* on the parent node menu. 
+To add a specific {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
 
-{% include note.html content="Remember to establish a reference with a market defined in the Crypto Ecosystem hierarchy after adding the node." %}
+{% include note.html content="Remember to establish a reference to the desired exchange in the Crypto Ecosystem hierarchy." %}
+
+You may also add exchange trading products nodes in bulk for all exchanges that may have been previously defined in the Crypto Ecosystem hierarchy. To do that, select *Add Missing Exchanges* on the trading mines data node menu. An exchange trading products node is created for each defined exchange, each with the corresponding reference.
+
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -84,7 +87,11 @@ To add a single market data node, select *Add Market Data* on the parent node me
 
 <!--------------------------------------------- CONFIGURING starts -->
 
+Select *Configure* on the menu to access the configuration.
+
+```json
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
 
 <!--------------------------------------------- CONFIGURING ends -->
 

@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Key Instance" %}
-{% assign definition = site.data.network.key_instance %}
+{% assign title = "Key Reference" %}
+{% assign definition = site.data.network.key_reference %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
@@ -51,11 +51,13 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The key instance must be attached to market reference nodes that participate in forward testing and live trading sessions, as that is the scenario in which the user must validate the account with the exchange.
+Usually, exchanges require autentication via your exchange account key for monetary transactions only. However, some exchanges may require autentication in other contexts as well, for instance, to retrieve information above a certain quota, or to retrieve raw trades data instead of OHLCV data.
 
-Some exchanges&mdash;like Binance&mdash;require validating the user even when retrieving data from the exchange. For such reasons, the key instance must also be attached to the market reference of the sensor process instance that connects to such exchanges.
+For those reasons, exchange key references are available both in the context of data mining and trading operations, and are always attached to the corresponding task.
 
-In all cases, the key instance node must reference a valid exchange account key from an account with the exchange, as defined in the Crypto Ecosystem hierarchy.
+Forward testing and live trading sessions always require setting up key references, as that is the kind of scenario in which the user must validate with the exchange.
+
+In all cases, the key reference node must reference a valid exchange account key from an account with the exchange, as defined in the Crypto Ecosystem hierarchy.
 
 {% include important.html content="Most exchanges do not allow the same exchange account key to be used with multiple processes querying the exchange API. This means that if you are trading with multiple trading systems or multiple sessions on the same exchange, each session requires different exchange account keys." %}
 
@@ -74,9 +76,9 @@ In all cases, the key instance node must reference a valid exchange account key 
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a key instance, select *Add Key Instance* on the market reference node menu.
+To add a key reference, select *Add Key Reference* on the task node menu.
 
-{% include note.html content="Remember to establish a reference with a valid exchange account key after creating the key instance." %}
+{% include note.html content="Remember to establish a reference with a valid exchange account key after creating the key reference." %}
 
 <!--------------------------------------------- ADDING ends -->
 

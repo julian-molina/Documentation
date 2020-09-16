@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Session Based Data" %}
-{% assign definition = site.data.network.session_based_data %}
+{% assign title = "Data Mines Data" %}
+{% assign definition = site.data.network.data_mines_data %}
 {% assign preposition = "a" %}
 {% assign plural = "" %}
 
@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Session-based data is organized by exchange, session, market, trading mine, and the particular trading bot products. This organization becomes apparent from the resulting structure of nodes under this node.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,9 +68,9 @@ Session-based data is organized by exchange, session, market, trading mine, and 
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a session-based data node, select *Add Session-based Data* on the network node menu. 
+To add a session-independent data node, select *Add Session-independent Data* on the network node menu. 
 
-{% include note.html content="Only one session-based data node may exist on each data storage node." %}
+{% include note.html content="Only one session-independent data node may exist on each data storage node." %}
 
 <!--------------------------------------------- ADDING ends -->
 

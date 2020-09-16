@@ -1,8 +1,8 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Single Market Trading Data" %}
-{% assign definition = site.data.network.single_market_trading_data %}
-{% assign preposition = "a" %}
+{% assign title = "Exchange Data Tasks" %}
+{% assign definition = site.data.network.exchange_data_tasks %}
+{% assign preposition = "an" %}
 {% assign plural = "" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
@@ -51,9 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The single market trading data node must reference a market defined in the Crypto Ecosystem hierarchy.
+The exchange data tasks node must reference the exchange of choice. This reference constraints the rest of the definitions to the context of the said exchange.
 
-This node may spawn individual data products or may deploy data products in bulk organized by trading mine and by trading bots. See the data products node for the details.
+When representing an exchange featured in the system's icons library, the standard exchange data tasks icon is replaced by the exchange's logo.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -70,9 +70,11 @@ This node may spawn individual data products or may deploy data products in bulk
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a single market trading data node, select *Add Market Trading Data* on the parent node menu. 
+To add a specific {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
 
-{% include note.html content="Remember to establish a reference with a market defined in the Crypto Ecosystem hierarchy after adding the node." %}
+{% include note.html content="Remember to establish a reference to the desired exchange in the Crypto Ecosystem hierarchy." %}
+
+You may also add exchange data tasks node in bulk for all exchanges that may have been previously defined in the Crypto Ecosystem hierarchy. To do that, select *Add Missing Exchanges* on the parent node menu. An exchange data tasks node is created for each defined exchange, each with the corresponding reference.
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -92,11 +94,11 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 {% if include.starting != "" %}
 
-{{include.starting}} Starting {{preposition}} {{title}}
+{{include.starting}} Starting {{preposition}} {{title}} Node
 
 <!--------------------------------------------- STARTING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Select *Run All Market Data Tasks* or *Stop All Market Data Tasks* on the menu to start and stop all tasks under this node.
 
 <!--------------------------------------------- STARTING ends -->
 

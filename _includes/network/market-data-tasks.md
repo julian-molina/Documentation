@@ -1,8 +1,8 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Exchange Sessions" %}
-{% assign definition = site.data.network.exchange_sessions %}
-{% assign preposition = "an" %}
+{% assign title = "Market Data Tasks" %}
+{% assign definition = site.data.network.market_data_tasks %}
+{% assign preposition = "a" %}
 {% assign plural = "" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The exchange sessions node must reference the exchange of choice. This reference constraints the rest of the definitions to the context of the said exchange.
+The market data tasks node must reference a market defined in the Crypto Ecosystem hierarchy.
+
+This node may spawn individual data products or may deploy data products in bulk organized by data mine and by bots. See the data products node for the details.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,12 +70,11 @@ The exchange sessions node must reference the exchange of choice. This reference
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a specific {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
+To add a market data tasks node, select *Add Market Data* on the parent node menu. 
 
-{% include note.html content="Remember to establish a reference to the desired exchange in the Crypto Ecosystem hierarchy." %}
+{% include note.html content="Remember to establish a reference with a market defined in the Crypto Ecosystem hierarchy after adding the node." %}
 
-You may also add exchange sessions in bulk for all exchanges that may have been previously defined in the Crypto Ecosystem hierarchy. To do that, select *Add Missing Exchanges* on the session based data node menu. An exchange sessions node is created for each defined exchange, each with the corresponding reference.
-
+You may also add market data tasks nodes in bulk for all markets that may have been previously defined in the Crypto Ecosystem hierarchy. To do that, select *Add Missing Markets* on the parent node menu. A market data tasks node is created for each defined market, each with the corresponding reference.
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -85,11 +86,7 @@ You may also add exchange sessions in bulk for all exchanges that may have been 
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-Select *Configure* on the menu to access the configuration.
-
-```json
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-```
 
 <!--------------------------------------------- CONFIGURING ends -->
 
@@ -97,11 +94,11 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 {% if include.starting != "" %}
 
-{{include.starting}} Starting {{preposition}} {{title}}
+{{include.starting}} Starting {{preposition}} {{title}} Node
 
 <!--------------------------------------------- STARTING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Select *Run All Data Mine Tasks* or *Stop All Data Mine Tasks* on the menu to start and stop all tasks under this node.
 
 <!--------------------------------------------- STARTING ends -->
 

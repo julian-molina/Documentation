@@ -32,7 +32,7 @@ At this point, you are waiting for the Masters and Sparta bots to process all of
 
 {% include image.html file='how-to/data-mining-02.gif' url='yes' max-width='100' caption='To start all tasks on a task manager, click *Run All Tasks* on the menu.' %}
 
-**3. To start or stop all task managers of a specific exchange**, select the corresponding button on the exchange tasks node menu.
+**3. To start or stop all task managers of a specific exchange**, select the corresponding button on the exchange data tasks node menu.
 
 **4. To start or stop all task managers in all exchanges**, select the corresponding button on the data mining node menu.
 

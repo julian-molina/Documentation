@@ -53,6 +53,8 @@
 
 The exchange data products node must reference the exchange of choice. This reference constraints the rest of the definitions to the context of the said exchange.
 
+When representing an exchange featured in the system's icons library, the standard exchange data tasks icon is replaced by the exchange's logo.
+
 <!--------------------------------------------- CONTENT ends -->
 
 {% endif %}

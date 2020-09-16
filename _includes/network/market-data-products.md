@@ -1,8 +1,8 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Exchange Tasks" %}
-{% assign definition = site.data.network.exchange_tasks %}
-{% assign preposition = "an" %}
+{% assign title = "Market Data Products" %}
+{% assign definition = site.data.network.market_data_products %}
+{% assign preposition = "a" %}
 {% assign plural = "" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-When representing an exchange featured in the system's icons library, the standard exchange tasks icon is replaced by the exchange's logo.
+The market data products node must reference a market defined in the Crypto Ecosystem hierarchy.
+
+This node may spawn individual data products or may deploy data products in bulk organized by data mine and by bots. See the data products node for the details.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +70,11 @@ When representing an exchange featured in the system's icons library, the standa
 
 <!--------------------------------------------- ADDING starts -->
 
-Exchange tasks nodes are added automatically when the first market in the corresponding exchange is installed. To manually add an exchange tasks node, select *Add Exchange Tasks* on the data mining, testing environment or production environment nodes.
+To add a market data products node, select *Add Market Data* on the parent node menu. 
+
+{% include note.html content="Remember to establish a reference with a market defined in the Crypto Ecosystem hierarchy after adding the node." %}
+
+You may also add market data products nodes in bulk for all markets that may have been previously defined in the Crypto Ecosystem hierarchy. To do that, select *Add Missing Markets* on the parent node menu. A market data products node is created for each defined market, each with the corresponding reference.
 
 <!--------------------------------------------- ADDING ends -->
 

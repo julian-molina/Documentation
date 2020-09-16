@@ -8,7 +8,7 @@ toc: false
 
 {% include /network/testing-environment.md heading="" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
-{% include tip.html content="If you are familiar with the production environment, the testing environment works in the exact same way, only that it features backtesting and paper trading sessions instead of forward testing and live trading sessions. Testing sessions do not require the setup of key instances." %}
+{% include tip.html content="If you are familiar with the production environment, the testing environment works in the exact same way, only that it features backtesting and paper trading sessions instead of forward testing and live trading sessions. Testing sessions do not require the setup of key references." %}
 
 <table class='hierarchyTable'><thead><tr><th><a href='#testing-environment' data-toggle='tooltip' data-original-title='{{site.data.network.testing_environment}}'><img src='images/icons/nodes/png50/testing-environment.png' /><br />Testing Environment</a></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
 <tr><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#task-manager' data-toggle='tooltip' data-original-title='{{site.data.network.task_manager}}'><img src='images/icons/nodes/png50/task-manager.png' /><br />Task Manager</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -33,7 +33,7 @@ toc: false
 
 {% include /network/market-reference.md heading="######" icon="50" adding="######" configuring="" starting="" content="yes" definition="yes" table="yes" more="yes"%}
 
-{% include note.html content="Notice how testing sessions do not require a key instance, as these sessions do not connect with the exchange." %}
+{% include note.html content="Notice how testing sessions do not require a key reference, as these sessions do not connect with the exchange." %}
 
 {% include /data_mine/execution-started-event.md heading="######" icon="50" adding="######" configuring="" starting="" content="yes" definition="yes" table="yes" more="yes"%}
 

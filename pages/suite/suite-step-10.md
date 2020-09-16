@@ -61,7 +61,7 @@ Running a live trading session is very similar to running a backtesting session.
 
 {% include image.html file='how-to/run-a-live-session-02.gif' url='yes' max-width='100' caption='The image illustrates points 1 to 5 below.' %}
 
-**2. Find the *Fwd & Live Sessions Binance BTC/USDT*** task manager under the Binance exchange tasks node.
+**2. Find the *Fwd & Live Sessions Binance BTC/USDT*** task manager under the Binance exchange data tasks node.
 
 **3. Find the *Live Trading WHB*** task.
 

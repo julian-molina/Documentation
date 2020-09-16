@@ -72,7 +72,7 @@ To add a session reference node, select *Add Session Reference* on the network n
 
 {% include note.html content="Remember to establish a reference with a trading session after adding the node." %}
 
-You may also add session reference nodes in bulk for all sessions defined in the same network that are not yet defined. To do that, select *Add Missing Sessions* on the exchange sessions node menu. A session reference node is created for each defined trading session in the node, each with the corresponding reference.
+You may also add session reference nodes in bulk for all sessions defined in the same network that are not yet defined. To do that, select *Add Missing Sessions* on the exchange trading products node menu. A session reference node is created for each defined trading session in the node, each with the corresponding reference.
 
 <!--------------------------------------------- ADDING ends -->
 

@@ -595,25 +595,25 @@ entries:
       url: /suite-network.html
       output: web
 
-    - title: Data storage
-      url: /suite-data-storage.html
+    - title: Sorting of tasks
+      url: /suite-sorting-of-tasks.html
       output: web
-      class: childItem
 
     - title: Data mining
       url: /suite-data-mining.html
       output: web
-      class: childItem
 
     - title: Testing environment
       url: /suite-testing-environment.html
       output: web
-      class: childItem
 
     - title: Production environment
       url: /suite-production-environment.html
       output: web
-      class: childItem
+
+    - title: Data storage
+      url: /suite-data-storage.html
+      output: web
 
   - title: Data mines
     output: web

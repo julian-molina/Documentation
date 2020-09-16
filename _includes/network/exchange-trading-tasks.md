@@ -1,8 +1,8 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Session Independent Data" %}
-{% assign definition = site.data.network.session_independent_data %}
-{% assign preposition = "a" %}
+{% assign title = "Exchange Trading Tasks" %}
+{% assign definition = site.data.network.exchange_trading_tasks %}
+{% assign preposition = "an" %}
 {% assign plural = "" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
@@ -51,7 +51,9 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+The exchange trading tasks node must reference the exchange of choice. This reference constraints the rest of the definitions to the context of the said exchange.
+
+When representing an exchange featured in the system's icons library, the standard exchange trading tasks icon is replaced by the exchange's logo.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,9 +70,11 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a session-independent data node, select *Add Session-independent Data* on the network node menu. 
+To add a specific {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
 
-{% include note.html content="Only one session-independent data node may exist on each data storage node." %}
+{% include note.html content="Remember to establish a reference to the desired exchange in the Crypto Ecosystem hierarchy." %}
+
+You may also add exchange trading tasks node in bulk for all exchanges that may have been previously defined in the Crypto Ecosystem hierarchy. To do that, select *Add Missing Exchanges* on the parent node menu. An exchange trading tasks node is created for each defined exchange, each with the corresponding reference.
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -82,7 +86,7 @@ To add a session-independent data node, select *Add Session-independent Data* on
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Select *Run All Market Trading Tasks* or *Stop All Market Trading Tasks* on the menu to start and stop all tasks under this node.
 
 <!--------------------------------------------- CONFIGURING ends -->
 

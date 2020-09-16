@@ -1,9 +1,9 @@
-<!-- TITLE AND DEFINITION starts -->
+<!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Time Frames Filter" %}
-{% assign definition = site.data.network.time_frames_filter %}
+{% assign title = "Trading Mines Data" %}
+{% assign definition = site.data.network.trading_mines_data %}
 {% assign preposition = "a" %}
-{% assign plural = "s" %}
+{% assign plural = "" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
@@ -51,13 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Limiting the number of time frames calculated by any given indicator to the few that may be required by a particular trading system has a significant positive impact on performance: it reduces the load on the CPU, the memory requirements, and the requirements of storage space, in proportion with the time frames you remove.
-
-When a time frames filter is set up, a ```Time.Frames.json``` file is created by the indicator process in the corresponding output folder. This file is read by others&mdash;such as the charting system&mdash;to get the information regarding which time frames are available and which are not, to avoid reporting errors.
-
-{% include important.html content="Before applying a time frames filter or changing the configuration, that is, changing which time frames are produced and which are not, it is highly recommended to delete the data corresponding to the affected indicator, to avoid inconsistencies in the data that may later cause confusion." %}
-
-{% include note.html content="When no time frames filter is defined, the bot processes all time frames by default." %}
+Session-based data is organized by exchange, session, market, trading mine, and the particular trading bot products. This organization becomes apparent from the resulting structure of nodes under this node.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -74,9 +68,11 @@ When a time frames filter is set up, a ```Time.Frames.json``` file is created by
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
+To add a session-based data node, select *Add Session-based Data* on the network node menu. 
 
-<!-- ADDING ends -->
+{% include note.html content="Only one session-based data node may exist on each data storage node." %}
+
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -84,22 +80,9 @@ To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent n
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
-Select *Configure* on the menu to access the configuration.
-
-```json
-{ 
-"dailyTimeFrames": [ "45-min", "40-min", "30-min", "20-min", "15-min", "10-min", "05-min", "04-min", "03-min", "02-min", "01-min" ],
-"marketTimeFrames": [ "24-hs", "12-hs", "08-hs", "06-hs", "04-hs", "03-hs", "02-hs", "01-hs"]
-}
-```
-
-* ```dailyTimeFrames``` features the time frames corresponding to the *daily files* type of data structure; in practical terms, the time frames below one hour.
-
-* ```marketTimeFrames``` features the time frames corresponding to the *market files* type of data structure; in practical terms, the time frames of one hour and above.
-
-{% include tip.html content="Remove the time frames you are not interested in, making sure the JSON file is still valid." %}
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONFIGURING ends -->
 
@@ -120,4 +103,3 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 {% if include.more == "yes" %}
 </details>
 {% endif %}
-

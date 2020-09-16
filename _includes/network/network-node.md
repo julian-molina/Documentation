@@ -51,9 +51,13 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-By default, processes are set up to run locally in a network node representing your local machine. However, the system is prepared to run distributed on a network of nodes.
+By default, processes are set up to run locally in a network node representing your local machine. However, the system is prepared to run distributed on a network of nodes, or what we call a trading farm.
 
-You may create unlimited network nodes and map them with different machines on a network. Each machine in the network runs an instance of Superalgos. However, you may control the whole network operation from a single machine, or&mdash;in general&mdash;from any machine in the network.
+You may create unlimited network nodes and map them with different machines on a network. Each machine in the network runs an instance of the Superalgos backend, and you may control the whole network operation from a single machine, or&mdash;in general&mdash;from any machine in the network running the Superalgos frontend. To learn more about distributed setups, check the [trading farms](suite-fundamental-trading-farms-concepts.html) pages.
+
+The easiest and fastest way to set up a network node is using the *Install Market* function available on markets defined in the Crypto Ecosystem hierarchy, under the exchange markets node. This function adds data mining tasks for all sensor and indicator bots shipping with the system, backtesting and live trading tasks for trading systems shipping with the system, including the data storage definitions for both, and also creates the corresponding dashboards and charts in the Charting Space hierarchy. You may learn more about this function in the [how to install a new market](suite-how-to-install-a-new-market.html) page.
+
+If you need finer control over the operation you wish to deploy on the network, then you may use the individual functions available under each section of the hierarchy under the network node.
 
 <!--------------------------------------------- CONTENT ends -->
 

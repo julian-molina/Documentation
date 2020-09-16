@@ -16,7 +16,7 @@ The testing of strategies and trading ideas is at the core of successful trading
 
 {% include image.html file='how-to/run-a-backtesting-session-00.gif' url='yes' max-width='100' caption='The image illustrates points 1 to 5 below.' %}
 
-**2. Find the <a data-toggle="tooltip" data-original-title="{{site.data.network.testing_environment}}">testing environment</a> node along with the *Binance* exchange tasks node**.
+**2. Find the <a data-toggle="tooltip" data-original-title="{{site.data.network.testing_environment}}">testing environment</a> node along with the *Binance* exchange data tasks node**.
 
 **3. Find the *Paper & Backtesting Sessions Binance BTC/USDT* task manager**.
 
