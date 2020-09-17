@@ -17,14 +17,14 @@ toc: false
 <tr><td></td><td></td><td><img src='images/icons/various/png/tree-connector-line.png' /></td><td></td><td></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#data-product' data-toggle='tooltip' data-original-title='{{site.data.network.data_product}}'><img src='images/icons/nodes/png50/data-product.png' /><br />Data Product</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#data-product' data-toggle='tooltip' data-original-title='{{site.data.network.data_product}}'><img src='images/icons/nodes/png50/data-product.png' /><br />Data Product</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
-{% include /network/exchange-data-products.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/exchange-data-products.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /network/market-data-products.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/market-data-products.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /network/data-mine-products.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/data-mine-products.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /network/bot-products.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/bot-products.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /network/data-product-folder.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/data-product-folder.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /network/data-product.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/data-product.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
