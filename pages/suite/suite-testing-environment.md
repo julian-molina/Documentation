@@ -27,32 +27,30 @@ toc: false
 <tr><td></td><td></td><td></td><td></td><td></td><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#key-reference' data-toggle='tooltip' data-original-title='{{site.data.network.key_reference}}'><img src='images/icons/nodes/png50/key-reference.png' /><br />Key Reference</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 
-{% include /network/testing-environment.md heading="##" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/exchange-trading-tasks.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /network/exchange-trading-tasks.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/market-trading-tasks.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /network/market-trading-tasks.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/trading-mine-tasks.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /network/trading-mine-tasks.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/task-manager.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /network/task-manager.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/task.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /network/task.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/trading-bot-instance.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /network/trading-bot-instance.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/trading-process-instance.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /network/trading-process-instance.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/backtesting-session.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /network/backtesting-session.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/paper-trading-session.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /network/paper-trading-session.md heading="##" icon="150" adding="####" configuring="" starting="####" content="yes" definition="bold" table="yes" more="no"%}
-
-{% include /network/parameters.md heading="###" icon="50" adding="#####" configuring="" starting="" content="yes" definition="yes" table="yes" more="no"%}
+{% include /network/parameters.md heading="###" icon="50" adding="#####" configuring="" starting="" content="yes" definition="yes" table="yes" more="yes"%}
 
 {% include note.html content="For a description of each of the parameters defining a trading session, see the [parameters](suite-parameters.html) page. " %}
 
-{% include /network/trading-system-reference.md heading="###" icon="50" adding="#####" configuring="" starting="" content="yes" definition="yes" table="yes" more="no"%}
+{% include /network/trading-system-reference.md heading="###" icon="50" adding="#####" configuring="" starting="" content="yes" definition="yes" table="yes" more="yes"%}
 
-{% include /network/trading-engine-reference.md heading="###" icon="50" adding="#####" configuring="" starting="" content="yes" definition="yes" table="yes" more="no"%}
+{% include /network/trading-engine-reference.md heading="###" icon="50" adding="#####" configuring="" starting="" content="yes" definition="yes" table="yes" more="yes"%}
 
-{% include /data_mine/execution-started-event.md heading="##" icon="150" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /data_mine/execution-started-event.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
