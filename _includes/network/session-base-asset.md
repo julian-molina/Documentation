@@ -49,7 +49,7 @@
 
 {% if include.content != "no" %}
 
-<!-- CONTENT starts -->
+<!--------------------------------------------- CONTENT starts -->
 
 Among other things, the parameter allows defining an initial balance of the corresponding asset, which may be used for trading with the corresponding trading system and trading session. Please see the configuration.
 
