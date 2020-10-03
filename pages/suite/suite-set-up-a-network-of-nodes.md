@@ -14,7 +14,7 @@ Also, you may want to plan what your operation should look like. For example, wh
 
 ## Start Here
 
-**1. Set up Superalgos on each machine**. Once Superalgos is installed, run the system for the first time using the ```node run noBrowser``` command. The ```noBrowser``` parameter runs the backend without fireing up the front end. Leave the machine online, with the backend running.
+**1. Set up Superalgos on each machine**. Once Superalgos is installed, run the system for the first time using the ```node run noBrowser``` command. The ```noBrowser``` parameter runs the backend without fireing up the frontend. Leave the machine online, with the backend running.
 
 **2. Prepare a *network manager node***. You will use one of the nodes in the network to set up and manage the <a data-toggle="tooltip" data-original-title="{{site.data.network.network_of_nodes}}">network of nodes</a>. We call this your *network manager node*. This is the only machine on the network that needs to run the frontend.
 

@@ -98,7 +98,7 @@ slippage: "The slippage is an assumption on the difference between the simulated
 
 snapshots: "Snapshots are CSV files output by the trading bot listing every trade in a backtesting session. The snapshots parameter determines whether snapshots shall be produced, and how."
 
-heartbeats: "During a trading session, the backend communicates with the front end via heartbeats to inform the frontend about the status of the session. The parameter controls what information is made available to the user through the frontend."
+heartbeats: "During a trading session, the backend communicates with the frontend via heartbeats to inform the frontend about the status of the session. The parameter controls what information is made available to the user through the frontend."
 
 user_defined_parameters: "Users may define parameters to be used within the trading system during the trading session."
 

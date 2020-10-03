@@ -13,11 +13,11 @@ The system requirements depend entirely on how you use the system. As a rule of 
 
 ## Cross-Platform
 
-Superalgos backend is a collection of Node.js servers and the frontend is a web app, therefore, Superalgos is cross-platform. The dev team is testing mostly on Windows systems, but users are running the system on Mac OS and Linux systems as well. A machine running solely the backend does not need a visual environment, but at least one machine running the front end is required to control the application.
+Superalgos backend is a collection of Node.js servers and the frontend is a web app, therefore, Superalgos is cross-platform. The dev team is testing mostly on Windows systems, but users are running the system on Mac OS and Linux systems as well. A machine running solely the backend does not need a visual environment, but at least one machine running the frontend is required to control the application.
 
 ## Chrome is the Only Tested Browser
 
-When running the frontend, chrome is highly recommended so that you have a similar environment as the dev team in case you need help. We are not testing on any other browsers, and it is a well-known fact that browsers behave differently.
+When running the frontend, Chrome is highly recommended so that you have a similar environment as the dev team in case you need help. We are not testing on any other browsers, and it is a well-known fact that browsers behave differently.
 
 ## Processing Power
 
@@ -51,17 +51,15 @@ The frontend benefits from a powerful GPU, as all of the visual experience Super
 
 ## Storage
 
-The fresh system installation folder may take up to 50 MB of disk space. 
+The fresh system installation folder may take up to 500 MB of disk space, and another 500 MB are required for the data mining conducted during Welcome Tutorial getting started tour of the system.
 
-However, you will need plenty of storage space to store data downloaded from exchanges and processed by indicators. How much disk space you will need depends entirely on what data you chose to download and process. For example, if you intend to backtest strategies, you may want to download and process the entire history for the select market. For your reference, two-and-a-half years of the BTC/USDT Binance market, processed with currently available indicators, in all available time frames, weights around 6 GB.
+How much storage space you will need in the long run depends entirely on how you use the system. For example, if you intend to backtest strategies, you may want to download and process the entire history for the select market. For your reference, two-and-a-half years of the BTC/USDT Binance market, processed with all currently available indicators, in all available time frames, weights around 10 GB.
 
 The system requires only 48-hours of processed data to run a live trading session. However, the strategy may require a longer history to properly calculate the lagging indicators, such as moving averages. The Weak-hands Buster strategy requires at least one month of data, for example. 
 
 Bear in mind that live trading sessions require a live data feed, therefore, the storage space increments as the session runs, on a daily basis.
 
-{% include default-markets-note.html %}
-
-That said, you are free to stop the default data mining operation and work with the markets you wish, and with as little or as much historic data as best suits your needs. Also, you may limit the processing of data to the time frames you are interested in.
+The system allows full control over what data your process.
 
 ## Internet Connection
 

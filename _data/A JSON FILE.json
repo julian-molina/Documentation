@@ -1,0 +1,45 @@
+{
+    "title": " ",
+    "summary": "",
+    "subTitle": "Break On Through!",
+    "gif": "",
+    "image": "full-board",
+    "definition": "I'll get you up to speed with moving around the charting space. Let's deal with the slider first!",
+    "paragraph1": "",
+    "callOut": "Click and drag it down to close the design space and open the charting space. Do the opposite for the reversed effect. Now, hit <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>&#8593;</kbd> and try <kbd>&#8592;</kbd> <kbd>&#8594;</kbd> <kbd>&#8595;</kbd> too!",
+    "externalLink": [
+        "",
+        ""
+    ],
+    "paragraph2": "",
+    "note": "Unless you <i>need</i> both spaces to be partially open, it's always a good idea to close either of them fully, to save computing resources in your machine.",
+    "important": "",
+    "warning": "",
+    "position": "Left"
+}
+
+
+
+
+{
+    "title": " ",
+    "subTitle": "Time to Take Control!",
+    "gif": "",
+    "image": "key-ctrl",
+    "definition": "Yes! You may use your keyboard too! You are going to love this for long-distance travel on the design space!",
+    "paragraph1": "Here's the trick: regular folks may use the <kbd>Ctrl</kbd> key plus the arrow keys: <kbd>&#8592;</kbd> <kbd>&#8594;</kbd> <kbd>&#8593;</kbd> <kbd>&#8595;</kbd>",
+    "callOut": "Give it a shot!",
+    "externalLink": [
+        "",
+        ""
+    ],
+    "paragraph2": "",
+    "note": "",
+    "tip": "Of course Mac fanboys and fangirls must replace <kbd>Ctrl</kbd> with <kbd>Command</kbd>",
+    "important": "",
+    "warning": "",
+    "position": "Left",
+    "slider": "toTop",
+    "pressButton": "",
+    "documentationURL": ""
+}
