@@ -8,21 +8,30 @@ toc: false
 
 This page does not go through the process of setting up a computer network. Instead, it assumes the network is already set up. So, do verify the local area network setup and make sure your computer network is functioning properly before starting. 
 
-Make a quick list with the name you wish to give to each <a data-toggle="tooltip" data-original-title="{{site.data.network.network_node}}">node</a> and the corresponding IP address on the network. You will need those to configure each network node. For your information, the default web sockets port used by Superalgos is ```8080```.
+Make a quick list with the name you wish to give to each <a data-toggle="tooltip" data-original-title="{{site.data.network.network_node}}">node</a> and the corresponding IP address on the network. You will need those to configure each network node. 
 
-Also, you may want to plan what your operation should look like. For example, which nodes in the network should run which data-mining tasks, which nodes should run which trading sessions, and so on. As hinted in the fundamental concepts page, possibilities are endless, so we are not going to cover alternatives here. If you know exactly what you want to do, it should be easy to implement. That said, you are free to explore and experiment as well.
+{% include note.html content="For your information, the default web sockets port used by Superalgos is ```8081```." %}
+
+Also, you may want to plan what your operation should look like. For example, which nodes in the network should run which data-mining tasks, which nodes should run which trading sessions, and so on. As hinted in the [fundamental concepts](suite-fundamental-trading-farms-concepts.html) page, possibilities are endless, so we are not going to cover alternatives here. If you know exactly what you want to do, it should be easy to implement. That said, you are free to explore and experiment as well.
 
 ## Start Here
 
-**1. Set up Superalgos on each machine**. Once Superalgos is installed, run the system for the first time using the ```node run noBrowser``` command. The ```noBrowser``` parameter runs the backend without fireing up the frontend. Leave the machine online, with the backend running.
+**1. Set up Superalgos on each machine**. Once Superalgos is installed, run the system for the first time using the ```node run noBrowser``` command. The ```noBrowser``` parameter runs the backend without fireing up the frontend. 
 
-**2. Prepare a *network manager node***. You will use one of the nodes in the network to set up and manage the <a data-toggle="tooltip" data-original-title="{{site.data.network.network_of_nodes}}">network of nodes</a>. We call this your *network manager node*. This is the only machine on the network that needs to run the frontend.
+{% include tip.html content="For minicomputers or single-board computers such as the Raspberry Pi, use ```node run noBrowser minMemo```
+ to run the app. ```minMemo``` sets up the system to run with minimal RAM memory requirements." %}
+
+Leave the machine online, with the backend running.
+
+**2. Prepare a machine *network manager node***. 
+
+You may want to use one of the nodes in the network to set up and manage the <a data-toggle="tooltip" data-original-title="{{site.data.network.network_of_nodes}}">network of nodes</a>. We call this your *network manager node*. This is the only machine on the network that needs to run the frontend.
 
 For organizational purposes and to avoid confusion later on, it is recommended to clean up the local workspace of this node. That means that you may want to uninstall all the markets that you don't need.
 
 {% include /how_to/uninstall-an-existing-market.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
 
-You also need to configure the IP Address in the network manager node. By default, the ```host``` parameter in the node's configuration is set to ```localhost```. To be a part of a network of nodes, you need to change ```localhost``` for the IP address of the machine.
+You also need to configure the IP Address in the network manager node. By default, the ```host``` parameter in the node's configuration is set to ```localhost```. To be a part of a network of nodes, you need to change ```localhost``` to the IP address of the machine.
 
 **3. Add and configure a network node for each machine**.
 

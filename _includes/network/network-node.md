@@ -91,8 +91,8 @@ Select *Configure Network Node* on the menu to access the configuration.
 ```json
 { 
 "host": "0.0.0.0", 
-"webPort": "34247", 
-"webSocketsPort": "8080"
+"webPort": "34248", 
+"webSocketsPort": "8081"
 }
 ```
 

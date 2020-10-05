@@ -8,7 +8,7 @@ toc: false
 
 {% include /network/network.md heading="" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
-{% include /network/network-node.md heading="##" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/network-node.md heading="##" icon="150" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
 <table class='hierarchyTable'><thead><tr><th><a href='#network' data-toggle='tooltip' data-original-title='{{site.data.network.network}}'><img src='images/icons/nodes/png50/network.png' /><br />Network</a></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
 <tr><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#network-node' data-toggle='tooltip' data-original-title='{{site.data.network.network_node}}'><img src='images/icons/nodes/png50/network-node.png' /><br />Network Node</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
