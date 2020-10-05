@@ -110,4 +110,4 @@ key_reference: "The key reference is a reference to an exchange account key as d
 
 session: "A session, or trading session, is a specific mode in which the trading bot instance may be run. The trading bot is prepared to run three different types of testing sessions&mdash;backtesting, paper trading, and forward testing&mdash;and the live trading session mode."
 
-network_of_nodes: "A network of nodes is an arrangement that allows distributing tasks among any number of network nodes, allowing for flexible and scalable trading operations."
+network_of_nodes: "A network of nodes is an arrangement that allows distributing tasks among any number of network nodes, allowing for coordinated, flexible, and scalable trading operations."

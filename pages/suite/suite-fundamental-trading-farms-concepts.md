@@ -6,7 +6,7 @@ permalink: suite-fundamental-trading-farms-concepts.html
 toc: false
 ---
 
-Superalgos is designed for flexible and scalable trading operations. 
+Superalgos is designed for coordinated, flexible, and scalable trading operations. 
 
 In its current version, the system may be deployed in multiple machines&mdash;as many as desired&mdash;and each machine may constitute a <a data-toggle="tooltip" data-original-title="{{site.data.network.network_node}}">node</a> in a <a data-toggle="tooltip" data-original-title="{{site.data.network.network_of_nodes}}">network of nodes</a>. In fact, different networks of nodes may live within the same computer network.
 
@@ -24,6 +24,6 @@ What is unique about Superalgos is that the system keeps track of the network ar
 
 {% include callout.html type="success" content="On top of that, the operation may be managed entirely from any node on the network. In fact, it may be managed from a computer in the network not running Superalgos, by pointing the browser to any of the nodes in the network to run the frontend."%}
 
-The explanations following assume that you are familiar with the basic workings of Superalgos, and in particular, of the <a data-toggle="tooltip" data-original-title="{{site.data.network.network}}">Network hierarchy</a>. If that is not the case, then please read the [Network pages](suite-network.html) before diving into building a trading farm.
+The following explanations assume that you are familiar with the basic workings of Superalgos, and in particular, of the <a data-toggle="tooltip" data-original-title="{{site.data.network.network}}">Network hierarchy</a>. If that is not the case, then please read the [Network pages](suite-network.html) before diving into building a trading farm.
 
 {% include warning.html content="At this stage, Superalgos does not implement any form of security measures, therefore, the system is to be used in the context of a restricted Local Area Network only." %}

@@ -16,6 +16,8 @@ toc: true
 
 **3. Type ```node run```** and hit *Enter* to launch the system.
 
+{% include tip.html content="If your computer has less than 8 GB of RAM, use ```node run minMemo``` to run the system with minimal RAM memory requirements." %}
+
 {% include image.html file='how-to/run-the-system-00.gif' url='yes' max-width='100' caption='Type the ```node run``` command and hit Enter.' %}
 
 ## The Welcome Tutorial Takes Over

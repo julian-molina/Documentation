@@ -40,3 +40,4 @@ sparta_data_mine: "Sparta is a data mine shipping with the system. It features i
 
 pending: "balanceAssetA, balanceAssetB, overfitting, supported assets, supported exchanges, supported markets"
 
+home_node: "The home node is the node on a network of nodes on which the configuration of the said network is maintained."

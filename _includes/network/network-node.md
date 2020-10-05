@@ -98,9 +98,9 @@ Select *Configure Network Node* on the menu to access the configuration.
 
 * ```host``` is the machine or hardware represented by the network node, which must be identified by its IP address.
 
-* ```webPort``` is the port used by the Web Server, at this stage ```34247```.
+* ```webPort``` is the port used by the Web Server, at this stage ```34248```.
 
-* ```webSocketsPort``` is the port used by the system to communicate over the local area network, by default set at ```8080```.
+* ```webSocketsPort``` is the port used by the system to communicate over the local area network, by default set at ```8081```.
 
 <!--------------------------------------------- CONFIGURING ends -->
 
